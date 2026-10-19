@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "entry.stay",
+      "condition": {
+        "type": "tripDaysExceedsVisaFreeStay"
+      },
+      "item": {
+        "title": "비자 · 전자여행허가 확인",
+        "category": "서류"
+      },
+      "important": true
+    },
+    {
+      "id": "entry.visaRequired",
+      "condition": {
+        "type": "visaRequired"
+      },
+      "item": {
+        "title": "비자 신청",
+        "category": "서류"
+      },
+      "important": true
+    },
+    {
+      "id": "passport.validity",
+      "condition": {
+        "type": "passportExpiresWithinMonthsOfStart",
+        "months": 6
+      },
+      "item": {
+        "title": "여권 유효기간 확인 · 재발급 검토",
+        "category": "서류",
+        "note": "많은 나라가 6개월 이상 남아 있기를 요구합니다"
+      },
+      "important": true
+    },
+    {
+      "id": "power.plug",
+      "condition": {
+        "type": "plugMissing",
+        "plugs": [
+          "C",
+          "F"
+        ]
+      },
+      "item": {
+        "title": "멀티어댑터",
+        "category": "전자기기"
+      },
+      "important": false
+    },
+    {
+      "id": "power.voltage",
+      "condition": {
+        "type": "voltageOutside",
+        "min": 220,
+        "max": 240
+      },
+      "item": {
+        "title": "프리볼트 기기인지 확인",
+        "category": "전자기기"
+      },
+      "important": false
+    },
+    {
+      "id": "weather.rain",
+      "condition": {
+        "type": "rainProbabilityAtLeast",
+        "value": 0.5
+      },
+      "item": {
+        "title": "우산 · 우비",
+        "category": "의류"
+      },
+      "important": false
+    },
+    {
+      "id": "safety.advisory",
+      "condition": {
+        "type": "advisoryLevelAtLeast",
+        "level": 1
+      },
+      "item": {
+        "title": "해외안전여행 공지 확인",
+        "category": "서류"
+      },
+      "importantFromAdvisoryLevel": 2
+    },
+    {
+      "id": "always.consular",
+      "condition": {
+        "type": "international"
+      },
+      "item": {
+        "title": "영사콜센터 번호 저장",
+        "category": "기타",
+        "note": "+82-2-3210-0404"
+      },
+      "important": false
+    }
+  ]
+}

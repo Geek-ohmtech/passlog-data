@@ -1,0 +1,138 @@
+{
+ "_doc": "카탈로그 해외 여행지별 수동 판정 (advisories.py 가 읽는다). admin1/admin2 = 그 여행지가 속한 행정구역 영문 이름(지역 match 의 names 와 비교) · border = 국경 완충 지역 판정 {'<상대국><km>': true/false} · regions = 지역 이름(nameKo) → 덮는지 true/false · basis/confidence/since = 화면에 보일 근거를 직접 줄 때(basis 는 사용자가 읽는 문장 — '=' · '→' · '로 해석' 같은 메모 표기 금지, 판정 메모는 note 에). bbox 없는 행정구역형 지역이 있는 나라의 여행지가 여기 없으면 빌드가 실패한다.",
+ "bali": {
+  "basis": "발리는 1단계 지역이에요(파푸아·말루쿠·아체만 2단계)",
+  "note": "0404: 파푸아·말루쿠·아체 2단계, 그 밖 1단계"
+ },
+ "bangkok": {
+  "admin1": "Bangkok",
+  "border": {
+   "KH50": false
+  }
+ },
+ "bohol": {
+  "basis": "보홀섬은 1단계 지역이에요",
+  "note": "0404 하향 지역 목록에 보홀섬 1단계 명시"
+ },
+ "boracay": {
+  "basis": "보라카이섬은 1단계 지역이에요",
+  "note": "0404 하향 지역 목록에 보라카이섬 1단계 명시"
+ },
+ "cairo": {
+  "basis": "카이로·룩소르 같은 나일강 유역 도시는 1단계 지역이에요",
+  "border": {
+   "LY30": false
+  },
+  "note": "0404 하향 지역에 나일강 유역 도시 1단계 명시"
+ },
+ "cancun": {
+  "basis": "칸쿤이 있는 킨타나로오주는 멕시코 기본 단계인 2단계예요",
+  "admin1": "Quintana Roo",
+  "note": "킨타나로오주는 상향 지역 목록에 없음 → 기본 2단계"
+ },
+ "cappadocia": {
+  "basis": "카파도키아가 있는 네브셰히르주는 상향 지역이 아니라 튀르키예 기본 단계인 1단계예요",
+  "admin1": "Nevşehir",
+  "border": {
+   "SY10": false
+  },
+  "note": "네브셰히르주는 상향 지역 목록에 없음 → 1단계"
+ },
+ "cebu": {
+  "confidence": "medium"
+ },
+ "chiangmai": {
+  "basis": "치앙마이주는 1단계예요(딱 주 2단계 · 치앙라이 국경검문소 특별여행주의보 지역과 떨어져 있어요)",
+  "admin1": "Chiang Mai",
+  "border": {
+   "KH50": false
+  }
+ },
+ "cusco": {
+  "basis": "쿠스코 시와 마추픽추(우루밤바)는 페루 기본 단계인 2단계예요. 이웃한 라 콘벤시온 지역(산타테레사 경유 육로)은 3단계예요.",
+  "confidence": "medium",
+  "admin1": "Cusco",
+  "admin2": [
+   "Cusco",
+   "Urubamba"
+  ],
+  "note": "쿠스코 시·마추픽추(우루밤바) = 기본 2단계, 인접 라 콘벤시온 3단계"
+ },
+ "dubai": {
+  "basis": "아랍에미리트 전역이 3단계 출국권고예요(2026-03-08~)"
+ },
+ "guam": {
+  "basis": "괌은 미국령이라 외교부 미국 기준(하와이 제외 1단계)을 따라요",
+  "confidence": "medium",
+  "note": "미국령: 0404 미국 페이지(하와이 제외 1단계)로 해석"
+ },
+ "harbin": {
+  "admin1": "Heilongjiang"
+ },
+ "hawaii": {
+  "basis": "하와이는 미국 1단계 지역에서 빠져 있어 경보가 없어요",
+  "admin1": "Hawaii",
+  "note": "0404 미국 1단계 '하와이 제외'"
+ },
+ "istanbul": {
+  "admin1": "Istanbul",
+  "border": {
+   "SY10": false
+  }
+ },
+ "kotakinabalu": {
+  "basis": "코타키나발루가 있는 사바 서해안은 1단계예요(동부 해안만 2·3단계)",
+  "note": "사바 서해안 → 1단계(동부 해안만 2·3단계)"
+ },
+ "krakow": {
+  "regions": {
+   "우크라이나 접경 30KM지역": false
+  },
+  "note": "크라쿠프–우크라이나 국경 약 230km"
+ },
+ "marrakech": {
+  "basis": "서사하라 밖 지역은 1단계예요(메르주가 사하라 투어 포함)"
+ },
+ "mexicocity": {
+  "admin1": "Ciudad de México"
+ },
+ "phuket": {
+  "admin1": "Phuket",
+  "border": {
+   "KH50": false
+  }
+ },
+ "qingdao": {
+  "admin1": "Shandong"
+ },
+ "saipan": {
+  "basis": "사이판은 미국령이라 외교부 미국 기준(하와이 제외 1단계)을 따라요",
+  "confidence": "medium",
+  "note": "미국령: 0404 미국 페이지(하와이 제외 1단계)로 해석"
+ },
+ "serengeti-zanzibar": {
+  "regions": {
+   "음트와라(Mtwara) 주": false
+  },
+  "note": "세렝게티·잔지바르는 북부·섬, 음트와라는 남동부"
+ },
+ "shanghai": {
+  "admin1": "Shanghai"
+ },
+ "siemreap": {
+  "basis": "시엠립은 1단계예요(2025-12-04 하향)",
+  "admin1": "Siem Reap",
+  "border": {
+   "TH50": false
+  },
+  "note": "태국 국경에서 약 100km 이상 — 50km 3단계 밖(2026-10-19 확인)"
+ },
+ "uyuni": {
+  "basis": "우유니가 있는 포토시주는 볼리비아 전역에 내려진 특별여행주의보 지역이에요(2026-05-28 발령 · 09-04 연장, 라파스 주 · 태양의 섬은 3단계)",
+  "admin1": "Potosí",
+  "note": "포토시주 = 3단계 외 전역 특별여행주의보(2026-05-28~, 09-04 연장)"
+ },
+ "zhangjiajie": {
+  "admin1": "Hunan"
+ }
+}

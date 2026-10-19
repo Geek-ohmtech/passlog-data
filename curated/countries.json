@@ -1,0 +1,5888 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-13",
+  "sources": [
+    "IEC World Plugs (https://www.iec.ch/world-plugs)",
+    "외교부 해외안전여행 국가별 기본정보 (https://www.0404.go.kr)",
+    "Wikipedia: List of emergency telephone numbers",
+    "ISO 3166-1 alpha-2 / ISO 4217",
+    "IANA Time Zone Database"
+  ],
+  "countries": [
+    {
+      "code": "AD",
+      "nameKo": "안도라",
+      "nameEn": "Andorra",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "118",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "안도라라베야",
+        "nameEn": "Andorra la Vella",
+        "lat": 42.5063,
+        "lon": 1.5218
+      },
+      "timeZone": "Europe/Andorra"
+    },
+    {
+      "code": "AE",
+      "nameKo": "아랍에미리트",
+      "nameEn": "United Arab Emirates",
+      "currency": "AED",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "998",
+        "fire": "997"
+      },
+      "capital": {
+        "nameKo": "아부다비",
+        "nameEn": "Abu Dhabi",
+        "lat": 24.4539,
+        "lon": 54.3773
+      },
+      "timeZone": "Asia/Dubai"
+    },
+    {
+      "code": "AF",
+      "nameKo": "아프가니스탄",
+      "nameEn": "Afghanistan",
+      "currency": "AFN",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "119",
+        "ambulance": "102",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "카불",
+        "nameEn": "Kabul",
+        "lat": 34.5553,
+        "lon": 69.2075
+      },
+      "timeZone": "Asia/Kabul"
+    },
+    {
+      "code": "AG",
+      "nameKo": "앤티가 바부다",
+      "nameEn": "Antigua and Barbuda",
+      "currency": "XCD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "세인트존스",
+        "nameEn": "St. John's",
+        "lat": 17.1274,
+        "lon": -61.8468
+      },
+      "timeZone": "America/Antigua"
+    },
+    {
+      "code": "AL",
+      "nameKo": "알바니아",
+      "nameEn": "Albania",
+      "currency": "ALL",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "129",
+        "ambulance": "127",
+        "fire": "128"
+      },
+      "capital": {
+        "nameKo": "티라나",
+        "nameEn": "Tirana",
+        "lat": 41.3275,
+        "lon": 19.8187
+      },
+      "timeZone": "Europe/Tirane"
+    },
+    {
+      "code": "AM",
+      "nameKo": "아르메니아",
+      "nameEn": "Armenia",
+      "currency": "AMD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "예레반",
+        "nameEn": "Yerevan",
+        "lat": 40.1792,
+        "lon": 44.4991
+      },
+      "timeZone": "Asia/Yerevan"
+    },
+    {
+      "code": "AO",
+      "nameKo": "앙골라",
+      "nameEn": "Angola",
+      "currency": "AOA",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "112",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "루안다",
+        "nameEn": "Luanda",
+        "lat": -8.839,
+        "lon": 13.2894
+      },
+      "timeZone": "Africa/Luanda"
+    },
+    {
+      "code": "AR",
+      "nameKo": "아르헨티나",
+      "nameEn": "Argentina",
+      "currency": "ARS",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "I"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "107",
+        "fire": "100"
+      },
+      "capital": {
+        "nameKo": "부에노스아이레스",
+        "nameEn": "Buenos Aires",
+        "lat": -34.6037,
+        "lon": -58.3816
+      },
+      "timeZone": "America/Argentina/Buenos_Aires"
+    },
+    {
+      "code": "AT",
+      "nameKo": "오스트리아",
+      "nameEn": "Austria",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "133",
+        "ambulance": "144",
+        "fire": "122"
+      },
+      "capital": {
+        "nameKo": "빈",
+        "nameEn": "Vienna",
+        "lat": 48.2082,
+        "lon": 16.3738
+      },
+      "timeZone": "Europe/Vienna"
+    },
+    {
+      "code": "AU",
+      "nameKo": "호주",
+      "nameEn": "Australia",
+      "currency": "AUD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "000",
+        "ambulance": "000",
+        "fire": "000"
+      },
+      "capital": {
+        "nameKo": "캔버라",
+        "nameEn": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+      },
+      "timeZone": "Australia/Sydney"
+    },
+    {
+      "code": "AW",
+      "nameKo": "아루바",
+      "nameEn": "Aruba",
+      "currency": "AWG",
+      "voltage": [
+        127
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "F"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "오라녜스타트",
+        "nameEn": "Oranjestad",
+        "lat": 12.524,
+        "lon": -70.027
+      },
+      "timeZone": "America/Aruba"
+    },
+    {
+      "code": "AZ",
+      "nameKo": "아제르바이잔",
+      "nameEn": "Azerbaijan",
+      "currency": "AZN",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "바쿠",
+        "nameEn": "Baku",
+        "lat": 40.4093,
+        "lon": 49.8671
+      },
+      "timeZone": "Asia/Baku"
+    },
+    {
+      "code": "BA",
+      "nameKo": "보스니아 헤르체고비나",
+      "nameEn": "Bosnia and Herzegovina",
+      "currency": "BAM",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "122",
+        "ambulance": "124",
+        "fire": "123"
+      },
+      "capital": {
+        "nameKo": "사라예보",
+        "nameEn": "Sarajevo",
+        "lat": 43.8563,
+        "lon": 18.4131
+      },
+      "timeZone": "Europe/Sarajevo"
+    },
+    {
+      "code": "BB",
+      "nameKo": "바베이도스",
+      "nameEn": "Barbados",
+      "currency": "BBD",
+      "voltage": [
+        115
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "211",
+        "ambulance": "511",
+        "fire": "311"
+      },
+      "capital": {
+        "nameKo": "브리지타운",
+        "nameEn": "Bridgetown",
+        "lat": 13.0975,
+        "lon": -59.6167
+      },
+      "timeZone": "America/Barbados"
+    },
+    {
+      "code": "BD",
+      "nameKo": "방글라데시",
+      "nameEn": "Bangladesh",
+      "currency": "BDT",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C",
+        "D",
+        "G",
+        "K"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "다카",
+        "nameEn": "Dhaka",
+        "lat": 23.8103,
+        "lon": 90.4125
+      },
+      "timeZone": "Asia/Dhaka"
+    },
+    {
+      "code": "BE",
+      "nameKo": "벨기에",
+      "nameEn": "Belgium",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "101",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "브뤼셀",
+        "nameEn": "Brussels",
+        "lat": 50.8503,
+        "lon": 4.3517
+      },
+      "timeZone": "Europe/Brussels"
+    },
+    {
+      "code": "BF",
+      "nameKo": "부르키나파소",
+      "nameEn": "Burkina Faso",
+      "currency": "XOF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "112",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "와가두구",
+        "nameEn": "Ouagadougou",
+        "lat": 12.3714,
+        "lon": -1.5197
+      },
+      "timeZone": "Africa/Ouagadougou"
+    },
+    {
+      "code": "BG",
+      "nameKo": "불가리아",
+      "nameEn": "Bulgaria",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "소피아",
+        "nameEn": "Sofia",
+        "lat": 42.6977,
+        "lon": 23.3219
+      },
+      "timeZone": "Europe/Sofia"
+    },
+    {
+      "code": "BH",
+      "nameKo": "바레인",
+      "nameEn": "Bahrain",
+      "currency": "BHD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "마나마",
+        "nameEn": "Manama",
+        "lat": 26.2285,
+        "lon": 50.586
+      },
+      "timeZone": "Asia/Bahrain"
+    },
+    {
+      "code": "BI",
+      "nameKo": "부룬디",
+      "nameEn": "Burundi",
+      "currency": "BIF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "기테가",
+        "nameEn": "Gitega",
+        "lat": -3.4271,
+        "lon": 29.9246
+      },
+      "timeZone": "Africa/Bujumbura"
+    },
+    {
+      "code": "BJ",
+      "nameKo": "베냉",
+      "nameEn": "Benin",
+      "currency": "XOF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "112",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "포르토노보",
+        "nameEn": "Porto-Novo",
+        "lat": 6.4969,
+        "lon": 2.6289
+      },
+      "timeZone": "Africa/Porto-Novo"
+    },
+    {
+      "code": "BM",
+      "nameKo": "버뮤다",
+      "nameEn": "Bermuda",
+      "currency": "BMD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "해밀턴",
+        "nameEn": "Hamilton",
+        "lat": 32.2949,
+        "lon": -64.7814
+      },
+      "timeZone": "Atlantic/Bermuda"
+    },
+    {
+      "code": "BN",
+      "nameKo": "브루나이",
+      "nameEn": "Brunei",
+      "currency": "BND",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "993",
+        "ambulance": "991",
+        "fire": "995"
+      },
+      "capital": {
+        "nameKo": "반다르스리브가완",
+        "nameEn": "Bandar Seri Begawan",
+        "lat": 4.9031,
+        "lon": 114.9398
+      },
+      "timeZone": "Asia/Brunei"
+    },
+    {
+      "code": "BO",
+      "nameKo": "볼리비아",
+      "nameEn": "Bolivia",
+      "currency": "BOB",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "118",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "수크레",
+        "nameEn": "Sucre",
+        "lat": -19.0196,
+        "lon": -65.2619
+      },
+      "timeZone": "America/La_Paz"
+    },
+    {
+      "code": "BR",
+      "nameKo": "브라질",
+      "nameEn": "Brazil",
+      "currency": "BRL",
+      "voltage": [
+        127,
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "C",
+        "N"
+      ],
+      "emergency": {
+        "police": "190",
+        "ambulance": "192",
+        "fire": "193"
+      },
+      "capital": {
+        "nameKo": "브라질리아",
+        "nameEn": "Brasília",
+        "lat": -15.7975,
+        "lon": -47.8919
+      },
+      "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "code": "BS",
+      "nameKo": "바하마",
+      "nameEn": "Bahamas",
+      "currency": "BSD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "919",
+        "ambulance": "919",
+        "fire": "919"
+      },
+      "capital": {
+        "nameKo": "나소",
+        "nameEn": "Nassau",
+        "lat": 25.0443,
+        "lon": -77.3504
+      },
+      "timeZone": "America/Nassau"
+    },
+    {
+      "code": "BT",
+      "nameKo": "부탄",
+      "nameEn": "Bhutan",
+      "currency": "BTN",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "F",
+        "G",
+        "M"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "112",
+        "fire": "110"
+      },
+      "capital": {
+        "nameKo": "팀부",
+        "nameEn": "Thimphu",
+        "lat": 27.4728,
+        "lon": 89.639
+      },
+      "timeZone": "Asia/Thimphu"
+    },
+    {
+      "code": "BW",
+      "nameKo": "보츠와나",
+      "nameEn": "Botswana",
+      "currency": "BWP",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "997",
+        "fire": "998"
+      },
+      "capital": {
+        "nameKo": "가보로네",
+        "nameEn": "Gaborone",
+        "lat": -24.6282,
+        "lon": 25.9231
+      },
+      "timeZone": "Africa/Gaborone"
+    },
+    {
+      "code": "BY",
+      "nameKo": "벨라루스",
+      "nameEn": "Belarus",
+      "currency": "BYN",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "민스크",
+        "nameEn": "Minsk",
+        "lat": 53.9006,
+        "lon": 27.559
+      },
+      "timeZone": "Europe/Minsk"
+    },
+    {
+      "code": "BZ",
+      "nameKo": "벨리즈",
+      "nameEn": "Belize",
+      "currency": "BZD",
+      "voltage": [
+        110,
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "G"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "벨모판",
+        "nameEn": "Belmopan",
+        "lat": 17.251,
+        "lon": -88.759
+      },
+      "timeZone": "America/Belize"
+    },
+    {
+      "code": "CA",
+      "nameKo": "캐나다",
+      "nameEn": "Canada",
+      "currency": "CAD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "오타와",
+        "nameEn": "Ottawa",
+        "lat": 45.4215,
+        "lon": -75.6972
+      },
+      "timeZone": "America/Toronto"
+    },
+    {
+      "code": "CD",
+      "nameKo": "콩고민주공화국",
+      "nameEn": "Democratic Republic of the Congo",
+      "currency": "CDF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "E"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "킨샤사",
+        "nameEn": "Kinshasa",
+        "lat": -4.4419,
+        "lon": 15.2663
+      },
+      "timeZone": "Africa/Kinshasa"
+    },
+    {
+      "code": "CF",
+      "nameKo": "중앙아프리카공화국",
+      "nameEn": "Central African Republic",
+      "currency": "XAF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "117",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "방기",
+        "nameEn": "Bangui",
+        "lat": 4.3947,
+        "lon": 18.5582
+      },
+      "timeZone": "Africa/Bangui"
+    },
+    {
+      "code": "CG",
+      "nameKo": "콩고",
+      "nameEn": "Republic of the Congo",
+      "currency": "XAF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "117",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "브라자빌",
+        "nameEn": "Brazzaville",
+        "lat": -4.2634,
+        "lon": 15.2429
+      },
+      "timeZone": "Africa/Brazzaville"
+    },
+    {
+      "code": "CH",
+      "nameKo": "스위스",
+      "nameEn": "Switzerland",
+      "currency": "CHF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "J"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "144",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "베른",
+        "nameEn": "Bern",
+        "lat": 46.948,
+        "lon": 7.4474
+      },
+      "timeZone": "Europe/Zurich"
+    },
+    {
+      "code": "CI",
+      "nameKo": "코트디부아르",
+      "nameEn": "Côte d'Ivoire",
+      "currency": "XOF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "111",
+        "ambulance": "185",
+        "fire": "180"
+      },
+      "capital": {
+        "nameKo": "야무수크로",
+        "nameEn": "Yamoussoukro",
+        "lat": 6.8276,
+        "lon": -5.2893
+      },
+      "timeZone": "Africa/Abidjan"
+    },
+    {
+      "code": "CL",
+      "nameKo": "칠레",
+      "nameEn": "Chile",
+      "currency": "CLP",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "L"
+      ],
+      "emergency": {
+        "police": "133",
+        "ambulance": "131",
+        "fire": "132"
+      },
+      "capital": {
+        "nameKo": "산티아고",
+        "nameEn": "Santiago",
+        "lat": -33.4489,
+        "lon": -70.6693
+      },
+      "timeZone": "America/Santiago"
+    },
+    {
+      "code": "CM",
+      "nameKo": "카메룬",
+      "nameEn": "Cameroon",
+      "currency": "XAF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "119",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "야운데",
+        "nameEn": "Yaoundé",
+        "lat": 3.848,
+        "lon": 11.5021
+      },
+      "timeZone": "Africa/Douala"
+    },
+    {
+      "code": "CN",
+      "nameKo": "중국",
+      "nameEn": "China",
+      "currency": "CNY",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C",
+        "I"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "120",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "베이징",
+        "nameEn": "Beijing",
+        "lat": 39.9042,
+        "lon": 116.4074
+      },
+      "timeZone": "Asia/Shanghai"
+    },
+    {
+      "code": "CO",
+      "nameKo": "콜롬비아",
+      "nameEn": "Colombia",
+      "currency": "COP",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "123",
+        "ambulance": "123",
+        "fire": "123"
+      },
+      "capital": {
+        "nameKo": "보고타",
+        "nameEn": "Bogotá",
+        "lat": 4.711,
+        "lon": -74.0721
+      },
+      "timeZone": "America/Bogota"
+    },
+    {
+      "code": "CR",
+      "nameKo": "코스타리카",
+      "nameEn": "Costa Rica",
+      "currency": "CRC",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "산호세",
+        "nameEn": "San José",
+        "lat": 9.9281,
+        "lon": -84.0907
+      },
+      "timeZone": "America/Costa_Rica"
+    },
+    {
+      "code": "CU",
+      "nameKo": "쿠바",
+      "nameEn": "Cuba",
+      "currency": "CUP",
+      "voltage": [
+        110,
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C",
+        "L"
+      ],
+      "emergency": {
+        "police": "106",
+        "ambulance": "104",
+        "fire": "105"
+      },
+      "capital": {
+        "nameKo": "아바나",
+        "nameEn": "Havana",
+        "lat": 23.1136,
+        "lon": -82.3666
+      },
+      "timeZone": "America/Havana"
+    },
+    {
+      "code": "CV",
+      "nameKo": "카보베르데",
+      "nameEn": "Cabo Verde",
+      "currency": "CVE",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "132",
+        "ambulance": "130",
+        "fire": "131"
+      },
+      "capital": {
+        "nameKo": "프라이아",
+        "nameEn": "Praia",
+        "lat": 14.933,
+        "lon": -23.5133
+      },
+      "timeZone": "Atlantic/Cape_Verde"
+    },
+    {
+      "code": "CY",
+      "nameKo": "키프로스",
+      "nameEn": "Cyprus",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "니코시아",
+        "nameEn": "Nicosia",
+        "lat": 35.1856,
+        "lon": 33.3823
+      },
+      "timeZone": "Asia/Nicosia"
+    },
+    {
+      "code": "CZ",
+      "nameKo": "체코",
+      "nameEn": "Czechia",
+      "currency": "CZK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "158",
+        "ambulance": "155",
+        "fire": "150"
+      },
+      "capital": {
+        "nameKo": "프라하",
+        "nameEn": "Prague",
+        "lat": 50.0755,
+        "lon": 14.4378
+      },
+      "timeZone": "Europe/Prague"
+    },
+    {
+      "code": "DE",
+      "nameKo": "독일",
+      "nameEn": "Germany",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "베를린",
+        "nameEn": "Berlin",
+        "lat": 52.52,
+        "lon": 13.405
+      },
+      "timeZone": "Europe/Berlin"
+    },
+    {
+      "code": "DJ",
+      "nameKo": "지부티",
+      "nameEn": "Djibouti",
+      "currency": "DJF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "19",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "지부티",
+        "nameEn": "Djibouti",
+        "lat": 11.5721,
+        "lon": 43.1456
+      },
+      "timeZone": "Africa/Djibouti"
+    },
+    {
+      "code": "DK",
+      "nameKo": "덴마크",
+      "nameEn": "Denmark",
+      "currency": "DKK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E",
+        "F",
+        "K"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "코펜하겐",
+        "nameEn": "Copenhagen",
+        "lat": 55.6761,
+        "lon": 12.5683
+      },
+      "timeZone": "Europe/Copenhagen"
+    },
+    {
+      "code": "DM",
+      "nameKo": "도미니카 연방",
+      "nameEn": "Dominica",
+      "currency": "XCD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "로조",
+        "nameEn": "Roseau",
+        "lat": 15.301,
+        "lon": -61.387
+      },
+      "timeZone": "America/Dominica"
+    },
+    {
+      "code": "DO",
+      "nameKo": "도미니카 공화국",
+      "nameEn": "Dominican Republic",
+      "currency": "DOP",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "산토도밍고",
+        "nameEn": "Santo Domingo",
+        "lat": 18.4861,
+        "lon": -69.9312
+      },
+      "timeZone": "America/Santo_Domingo"
+    },
+    {
+      "code": "DZ",
+      "nameKo": "알제리",
+      "nameEn": "Algeria",
+      "currency": "DZD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "14",
+        "fire": "14"
+      },
+      "capital": {
+        "nameKo": "알제",
+        "nameEn": "Algiers",
+        "lat": 36.7538,
+        "lon": 3.0588
+      },
+      "timeZone": "Africa/Algiers"
+    },
+    {
+      "code": "EC",
+      "nameKo": "에콰도르",
+      "nameEn": "Ecuador",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "키토",
+        "nameEn": "Quito",
+        "lat": -0.1807,
+        "lon": -78.4678
+      },
+      "timeZone": "America/Guayaquil"
+    },
+    {
+      "code": "EE",
+      "nameKo": "에스토니아",
+      "nameEn": "Estonia",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "탈린",
+        "nameEn": "Tallinn",
+        "lat": 59.437,
+        "lon": 24.7536
+      },
+      "timeZone": "Europe/Tallinn"
+    },
+    {
+      "code": "EG",
+      "nameKo": "이집트",
+      "nameEn": "Egypt",
+      "currency": "EGP",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "122",
+        "ambulance": "123",
+        "fire": "180"
+      },
+      "capital": {
+        "nameKo": "카이로",
+        "nameEn": "Cairo",
+        "lat": 30.0444,
+        "lon": 31.2357
+      },
+      "timeZone": "Africa/Cairo"
+    },
+    {
+      "code": "ER",
+      "nameKo": "에리트레아",
+      "nameEn": "Eritrea",
+      "currency": "ERN",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "L"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "114",
+        "fire": "116"
+      },
+      "capital": {
+        "nameKo": "아스마라",
+        "nameEn": "Asmara",
+        "lat": 15.3229,
+        "lon": 38.9251
+      },
+      "timeZone": "Africa/Asmara"
+    },
+    {
+      "code": "ES",
+      "nameKo": "스페인",
+      "nameEn": "Spain",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "마드리드",
+        "nameEn": "Madrid",
+        "lat": 40.4168,
+        "lon": -3.7038
+      },
+      "timeZone": "Europe/Madrid"
+    },
+    {
+      "code": "ET",
+      "nameKo": "에티오피아",
+      "nameEn": "Ethiopia",
+      "currency": "ETB",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E",
+        "F",
+        "L"
+      ],
+      "emergency": {
+        "police": "991",
+        "ambulance": "907",
+        "fire": "939"
+      },
+      "capital": {
+        "nameKo": "아디스아바바",
+        "nameEn": "Addis Ababa",
+        "lat": 9.03,
+        "lon": 38.74
+      },
+      "timeZone": "Africa/Addis_Ababa"
+    },
+    {
+      "code": "FI",
+      "nameKo": "핀란드",
+      "nameEn": "Finland",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "헬싱키",
+        "nameEn": "Helsinki",
+        "lat": 60.1699,
+        "lon": 24.9384
+      },
+      "timeZone": "Europe/Helsinki"
+    },
+    {
+      "code": "FJ",
+      "nameKo": "피지",
+      "nameEn": "Fiji",
+      "currency": "FJD",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "917",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "수바",
+        "nameEn": "Suva",
+        "lat": -18.1248,
+        "lon": 178.4501
+      },
+      "timeZone": "Pacific/Fiji"
+    },
+    {
+      "code": "FM",
+      "nameKo": "미크로네시아",
+      "nameEn": "Micronesia",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "팔리키르",
+        "nameEn": "Palikir",
+        "lat": 6.9248,
+        "lon": 158.161
+      },
+      "timeZone": "Pacific/Pohnpei"
+    },
+    {
+      "code": "FR",
+      "nameKo": "프랑스",
+      "nameEn": "France",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "파리",
+        "nameEn": "Paris",
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "timeZone": "Europe/Paris"
+    },
+    {
+      "code": "GA",
+      "nameKo": "가봉",
+      "nameEn": "Gabon",
+      "currency": "XAF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "1730",
+        "ambulance": "1300",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "리브르빌",
+        "nameEn": "Libreville",
+        "lat": 0.4162,
+        "lon": 9.4673
+      },
+      "timeZone": "Africa/Libreville"
+    },
+    {
+      "code": "GB",
+      "nameKo": "영국",
+      "nameEn": "United Kingdom",
+      "currency": "GBP",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "런던",
+        "nameEn": "London",
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "timeZone": "Europe/London"
+    },
+    {
+      "code": "GD",
+      "nameKo": "그레나다",
+      "nameEn": "Grenada",
+      "currency": "XCD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "세인트조지스",
+        "nameEn": "St. George's",
+        "lat": 12.0561,
+        "lon": -61.7488
+      },
+      "timeZone": "America/Grenada"
+    },
+    {
+      "code": "GE",
+      "nameKo": "조지아",
+      "nameEn": "Georgia",
+      "currency": "GEL",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "트빌리시",
+        "nameEn": "Tbilisi",
+        "lat": 41.7151,
+        "lon": 44.8271
+      },
+      "timeZone": "Asia/Tbilisi"
+    },
+    {
+      "code": "GH",
+      "nameKo": "가나",
+      "nameEn": "Ghana",
+      "currency": "GHS",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "191",
+        "ambulance": "193",
+        "fire": "192"
+      },
+      "capital": {
+        "nameKo": "아크라",
+        "nameEn": "Accra",
+        "lat": 5.6037,
+        "lon": -0.187
+      },
+      "timeZone": "Africa/Accra"
+    },
+    {
+      "code": "GI",
+      "nameKo": "지브롤터",
+      "nameEn": "Gibraltar",
+      "currency": "GIP",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "지브롤터",
+        "nameEn": "Gibraltar",
+        "lat": 36.1408,
+        "lon": -5.3536
+      },
+      "timeZone": "Europe/Gibraltar"
+    },
+    {
+      "code": "GM",
+      "nameKo": "감비아",
+      "nameEn": "Gambia",
+      "currency": "GMD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "116",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "반줄",
+        "nameEn": "Banjul",
+        "lat": 13.4549,
+        "lon": -16.579
+      },
+      "timeZone": "Africa/Banjul"
+    },
+    {
+      "code": "GN",
+      "nameKo": "기니",
+      "nameEn": "Guinea",
+      "currency": "GNF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F",
+        "K"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "117",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "코나크리",
+        "nameEn": "Conakry",
+        "lat": 9.6412,
+        "lon": -13.5784
+      },
+      "timeZone": "Africa/Conakry"
+    },
+    {
+      "code": "GQ",
+      "nameKo": "적도기니",
+      "nameEn": "Equatorial Guinea",
+      "currency": "XAF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "114",
+        "ambulance": "115",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "말라보",
+        "nameEn": "Malabo",
+        "lat": 3.7504,
+        "lon": 8.7371
+      },
+      "timeZone": "Africa/Malabo"
+    },
+    {
+      "code": "GR",
+      "nameKo": "그리스",
+      "nameEn": "Greece",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "100",
+        "ambulance": "166",
+        "fire": "199"
+      },
+      "capital": {
+        "nameKo": "아테네",
+        "nameEn": "Athens",
+        "lat": 37.9838,
+        "lon": 23.7275
+      },
+      "timeZone": "Europe/Athens"
+    },
+    {
+      "code": "GT",
+      "nameKo": "과테말라",
+      "nameEn": "Guatemala",
+      "currency": "GTQ",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "128",
+        "fire": "122"
+      },
+      "capital": {
+        "nameKo": "과테말라시티",
+        "nameEn": "Guatemala City",
+        "lat": 14.6349,
+        "lon": -90.5069
+      },
+      "timeZone": "America/Guatemala"
+    },
+    {
+      "code": "GU",
+      "nameKo": "괌",
+      "nameEn": "Guam",
+      "currency": "USD",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "하갓냐",
+        "nameEn": "Hagåtña",
+        "lat": 13.4757,
+        "lon": 144.7489
+      },
+      "timeZone": "Pacific/Guam"
+    },
+    {
+      "code": "GW",
+      "nameKo": "기니비사우",
+      "nameEn": "Guinea-Bissau",
+      "currency": "XOF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "119",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "비사우",
+        "nameEn": "Bissau",
+        "lat": 11.8817,
+        "lon": -15.6178
+      },
+      "timeZone": "Africa/Bissau"
+    },
+    {
+      "code": "GY",
+      "nameKo": "가이아나",
+      "nameEn": "Guyana",
+      "currency": "GYD",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "913",
+        "fire": "912"
+      },
+      "capital": {
+        "nameKo": "조지타운",
+        "nameEn": "Georgetown",
+        "lat": 6.8013,
+        "lon": -58.1551
+      },
+      "timeZone": "America/Guyana"
+    },
+    {
+      "code": "HK",
+      "nameKo": "홍콩",
+      "nameEn": "Hong Kong",
+      "currency": "HKD",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "홍콩",
+        "nameEn": "Hong Kong",
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "timeZone": "Asia/Hong_Kong"
+    },
+    {
+      "code": "HN",
+      "nameKo": "온두라스",
+      "nameEn": "Honduras",
+      "currency": "HNL",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "테구시갈파",
+        "nameEn": "Tegucigalpa",
+        "lat": 14.0723,
+        "lon": -87.1921
+      },
+      "timeZone": "America/Tegucigalpa"
+    },
+    {
+      "code": "HR",
+      "nameKo": "크로아티아",
+      "nameEn": "Croatia",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "192",
+        "ambulance": "194",
+        "fire": "193"
+      },
+      "capital": {
+        "nameKo": "자그레브",
+        "nameEn": "Zagreb",
+        "lat": 45.815,
+        "lon": 15.9819
+      },
+      "timeZone": "Europe/Zagreb"
+    },
+    {
+      "code": "HT",
+      "nameKo": "아이티",
+      "nameEn": "Haiti",
+      "currency": "HTG",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "114",
+        "ambulance": "116",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "포르토프랭스",
+        "nameEn": "Port-au-Prince",
+        "lat": 18.5944,
+        "lon": -72.3074
+      },
+      "timeZone": "America/Port-au-Prince"
+    },
+    {
+      "code": "HU",
+      "nameKo": "헝가리",
+      "nameEn": "Hungary",
+      "currency": "HUF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "107",
+        "ambulance": "104",
+        "fire": "105"
+      },
+      "capital": {
+        "nameKo": "부다페스트",
+        "nameEn": "Budapest",
+        "lat": 47.4979,
+        "lon": 19.0402
+      },
+      "timeZone": "Europe/Budapest"
+    },
+    {
+      "code": "ID",
+      "nameKo": "인도네시아",
+      "nameEn": "Indonesia",
+      "currency": "IDR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "118",
+        "fire": "113"
+      },
+      "capital": {
+        "nameKo": "자카르타",
+        "nameEn": "Jakarta",
+        "lat": -6.2088,
+        "lon": 106.8456
+      },
+      "timeZone": "Asia/Jakarta"
+    },
+    {
+      "code": "IE",
+      "nameKo": "아일랜드",
+      "nameEn": "Ireland",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "더블린",
+        "nameEn": "Dublin",
+        "lat": 53.3498,
+        "lon": -6.2603
+      },
+      "timeZone": "Europe/Dublin"
+    },
+    {
+      "code": "IL",
+      "nameKo": "이스라엘",
+      "nameEn": "Israel",
+      "currency": "ILS",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "H"
+      ],
+      "emergency": {
+        "police": "100",
+        "ambulance": "101",
+        "fire": "102"
+      },
+      "capital": {
+        "nameKo": "예루살렘",
+        "nameEn": "Jerusalem",
+        "lat": 31.7683,
+        "lon": 35.2137
+      },
+      "timeZone": "Asia/Jerusalem"
+    },
+    {
+      "code": "IN",
+      "nameKo": "인도",
+      "nameEn": "India",
+      "currency": "INR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "M"
+      ],
+      "emergency": {
+        "police": "100",
+        "ambulance": "102",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "뉴델리",
+        "nameEn": "New Delhi",
+        "lat": 28.6139,
+        "lon": 77.209
+      },
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "code": "IQ",
+      "nameKo": "이라크",
+      "nameEn": "Iraq",
+      "currency": "IQD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "104",
+        "ambulance": "122",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "바그다드",
+        "nameEn": "Baghdad",
+        "lat": 33.3152,
+        "lon": 44.3661
+      },
+      "timeZone": "Asia/Baghdad"
+    },
+    {
+      "code": "IR",
+      "nameKo": "이란",
+      "nameEn": "Iran",
+      "currency": "IRR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "115",
+        "fire": "125"
+      },
+      "capital": {
+        "nameKo": "테헤란",
+        "nameEn": "Tehran",
+        "lat": 35.6892,
+        "lon": 51.389
+      },
+      "timeZone": "Asia/Tehran"
+    },
+    {
+      "code": "IS",
+      "nameKo": "아이슬란드",
+      "nameEn": "Iceland",
+      "currency": "ISK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "레이캬비크",
+        "nameEn": "Reykjavík",
+        "lat": 64.1466,
+        "lon": -21.9426
+      },
+      "timeZone": "Atlantic/Reykjavik"
+    },
+    {
+      "code": "IT",
+      "nameKo": "이탈리아",
+      "nameEn": "Italy",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F",
+        "L"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "118",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "로마",
+        "nameEn": "Rome",
+        "lat": 41.9028,
+        "lon": 12.4964
+      },
+      "timeZone": "Europe/Rome"
+    },
+    {
+      "code": "JM",
+      "nameKo": "자메이카",
+      "nameEn": "Jamaica",
+      "currency": "JMD",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "119",
+        "ambulance": "110",
+        "fire": "110"
+      },
+      "capital": {
+        "nameKo": "킹스턴",
+        "nameEn": "Kingston",
+        "lat": 17.9714,
+        "lon": -76.7936
+      },
+      "timeZone": "America/Jamaica"
+    },
+    {
+      "code": "JO",
+      "nameKo": "요르단",
+      "nameEn": "Jordan",
+      "currency": "JOD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "B",
+        "C",
+        "D",
+        "F",
+        "G",
+        "J"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "암만",
+        "nameEn": "Amman",
+        "lat": 31.9454,
+        "lon": 35.9284
+      },
+      "timeZone": "Asia/Amman"
+    },
+    {
+      "code": "JP",
+      "nameKo": "일본",
+      "nameEn": "Japan",
+      "currency": "JPY",
+      "voltage": [
+        100
+      ],
+      "frequencyHz": [
+        50,
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "119",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "도쿄",
+        "nameEn": "Tokyo",
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "timeZone": "Asia/Tokyo"
+    },
+    {
+      "code": "KE",
+      "nameKo": "케냐",
+      "nameEn": "Kenya",
+      "currency": "KES",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "나이로비",
+        "nameEn": "Nairobi",
+        "lat": -1.2921,
+        "lon": 36.8219
+      },
+      "timeZone": "Africa/Nairobi"
+    },
+    {
+      "code": "KG",
+      "nameKo": "키르기스스탄",
+      "nameEn": "Kyrgyzstan",
+      "currency": "KGS",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "비슈케크",
+        "nameEn": "Bishkek",
+        "lat": 42.8746,
+        "lon": 74.5698
+      },
+      "timeZone": "Asia/Bishkek"
+    },
+    {
+      "code": "KH",
+      "nameKo": "캄보디아",
+      "nameEn": "Cambodia",
+      "currency": "KHR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C",
+        "G"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "119",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "프놈펜",
+        "nameEn": "Phnom Penh",
+        "lat": 11.5564,
+        "lon": 104.9282
+      },
+      "timeZone": "Asia/Phnom_Penh"
+    },
+    {
+      "code": "KI",
+      "nameKo": "키리바시",
+      "nameEn": "Kiribati",
+      "currency": "AUD",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "192",
+        "ambulance": "994",
+        "fire": "193"
+      },
+      "capital": {
+        "nameKo": "타라와",
+        "nameEn": "Tarawa",
+        "lat": 1.329,
+        "lon": 172.979
+      },
+      "timeZone": "Pacific/Tarawa"
+    },
+    {
+      "code": "KM",
+      "nameKo": "코모로",
+      "nameEn": "Comoros",
+      "currency": "KMF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "17",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "모로니",
+        "nameEn": "Moroni",
+        "lat": -11.7172,
+        "lon": 43.2473
+      },
+      "timeZone": "Indian/Comoro"
+    },
+    {
+      "code": "KN",
+      "nameKo": "세인트키츠 네비스",
+      "nameEn": "Saint Kitts and Nevis",
+      "currency": "XCD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "바스테르",
+        "nameEn": "Basseterre",
+        "lat": 17.3026,
+        "lon": -62.7177
+      },
+      "timeZone": "America/St_Kitts"
+    },
+    {
+      "code": "KP",
+      "nameKo": "북한",
+      "nameEn": "North Korea",
+      "currency": "KPW",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C"
+      ],
+      "emergency": {
+        "police": "119",
+        "ambulance": "119",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "평양",
+        "nameEn": "Pyongyang",
+        "lat": 39.0392,
+        "lon": 125.7625
+      },
+      "timeZone": "Asia/Pyongyang"
+    },
+    {
+      "code": "KR",
+      "nameKo": "대한민국",
+      "nameEn": "South Korea",
+      "currency": "KRW",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "119",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "서울",
+        "nameEn": "Seoul",
+        "lat": 37.5665,
+        "lon": 126.978
+      },
+      "timeZone": "Asia/Seoul"
+    },
+    {
+      "code": "KW",
+      "nameKo": "쿠웨이트",
+      "nameEn": "Kuwait",
+      "currency": "KWD",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "쿠웨이트시티",
+        "nameEn": "Kuwait City",
+        "lat": 29.3759,
+        "lon": 47.9774
+      },
+      "timeZone": "Asia/Kuwait"
+    },
+    {
+      "code": "KY",
+      "nameKo": "케이맨 제도",
+      "nameEn": "Cayman Islands",
+      "currency": "KYD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "조지타운",
+        "nameEn": "George Town",
+        "lat": 19.2869,
+        "lon": -81.3674
+      },
+      "timeZone": "America/Cayman"
+    },
+    {
+      "code": "KZ",
+      "nameKo": "카자흐스탄",
+      "nameEn": "Kazakhstan",
+      "currency": "KZT",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "아스타나",
+        "nameEn": "Astana",
+        "lat": 51.1694,
+        "lon": 71.4491
+      },
+      "timeZone": "Asia/Almaty"
+    },
+    {
+      "code": "LA",
+      "nameKo": "라오스",
+      "nameEn": "Laos",
+      "currency": "LAK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F"
+      ],
+      "emergency": {
+        "police": "191",
+        "ambulance": "195",
+        "fire": "190"
+      },
+      "capital": {
+        "nameKo": "비엔티안",
+        "nameEn": "Vientiane",
+        "lat": 17.9757,
+        "lon": 102.6331
+      },
+      "timeZone": "Asia/Vientiane"
+    },
+    {
+      "code": "LB",
+      "nameKo": "레바논",
+      "nameEn": "Lebanon",
+      "currency": "LBP",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "140",
+        "fire": "175"
+      },
+      "capital": {
+        "nameKo": "베이루트",
+        "nameEn": "Beirut",
+        "lat": 33.8938,
+        "lon": 35.5018
+      },
+      "timeZone": "Asia/Beirut"
+    },
+    {
+      "code": "LC",
+      "nameKo": "세인트루시아",
+      "nameEn": "Saint Lucia",
+      "currency": "XCD",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "캐스트리스",
+        "nameEn": "Castries",
+        "lat": 14.0101,
+        "lon": -60.9875
+      },
+      "timeZone": "America/St_Lucia"
+    },
+    {
+      "code": "LI",
+      "nameKo": "리히텐슈타인",
+      "nameEn": "Liechtenstein",
+      "currency": "CHF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "J"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "144",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "파두츠",
+        "nameEn": "Vaduz",
+        "lat": 47.141,
+        "lon": 9.5209
+      },
+      "timeZone": "Europe/Vaduz"
+    },
+    {
+      "code": "LK",
+      "nameKo": "스리랑카",
+      "nameEn": "Sri Lanka",
+      "currency": "LKR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G",
+        "M"
+      ],
+      "emergency": {
+        "police": "119",
+        "ambulance": "110",
+        "fire": "110"
+      },
+      "capital": {
+        "nameKo": "스리자야와르데네푸라코테",
+        "nameEn": "Sri Jayawardenepura Kotte",
+        "lat": 6.8868,
+        "lon": 79.9187
+      },
+      "timeZone": "Asia/Colombo"
+    },
+    {
+      "code": "LR",
+      "nameKo": "라이베리아",
+      "nameEn": "Liberia",
+      "currency": "LRD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "몬로비아",
+        "nameEn": "Monrovia",
+        "lat": 6.3156,
+        "lon": -10.8074
+      },
+      "timeZone": "Africa/Monrovia"
+    },
+    {
+      "code": "LS",
+      "nameKo": "레소토",
+      "nameEn": "Lesotho",
+      "currency": "LSL",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "M"
+      ],
+      "emergency": {
+        "police": "123",
+        "ambulance": "121",
+        "fire": "122"
+      },
+      "capital": {
+        "nameKo": "마세루",
+        "nameEn": "Maseru",
+        "lat": -29.3151,
+        "lon": 27.4869
+      },
+      "timeZone": "Africa/Maseru"
+    },
+    {
+      "code": "LT",
+      "nameKo": "리투아니아",
+      "nameEn": "Lithuania",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "빌뉴스",
+        "nameEn": "Vilnius",
+        "lat": 54.6872,
+        "lon": 25.2797
+      },
+      "timeZone": "Europe/Vilnius"
+    },
+    {
+      "code": "LU",
+      "nameKo": "룩셈부르크",
+      "nameEn": "Luxembourg",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "룩셈부르크",
+        "nameEn": "Luxembourg",
+        "lat": 49.6116,
+        "lon": 6.1319
+      },
+      "timeZone": "Europe/Luxembourg"
+    },
+    {
+      "code": "LV",
+      "nameKo": "라트비아",
+      "nameEn": "Latvia",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "리가",
+        "nameEn": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+      },
+      "timeZone": "Europe/Riga"
+    },
+    {
+      "code": "LY",
+      "nameKo": "리비아",
+      "nameEn": "Libya",
+      "currency": "LYD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "L"
+      ],
+      "emergency": {
+        "police": "1515",
+        "ambulance": "1515",
+        "fire": "1515"
+      },
+      "capital": {
+        "nameKo": "트리폴리",
+        "nameEn": "Tripoli",
+        "lat": 32.8872,
+        "lon": 13.1913
+      },
+      "timeZone": "Africa/Tripoli"
+    },
+    {
+      "code": "MA",
+      "nameKo": "모로코",
+      "nameEn": "Morocco",
+      "currency": "MAD",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "19",
+        "ambulance": "15",
+        "fire": "15"
+      },
+      "capital": {
+        "nameKo": "라바트",
+        "nameEn": "Rabat",
+        "lat": 34.0209,
+        "lon": -6.8416
+      },
+      "timeZone": "Africa/Casablanca"
+    },
+    {
+      "code": "MC",
+      "nameKo": "모나코",
+      "nameEn": "Monaco",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "18",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "모나코",
+        "nameEn": "Monaco",
+        "lat": 43.7384,
+        "lon": 7.4246
+      },
+      "timeZone": "Europe/Monaco"
+    },
+    {
+      "code": "MD",
+      "nameKo": "몰도바",
+      "nameEn": "Moldova",
+      "currency": "MDL",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "키시너우",
+        "nameEn": "Chișinău",
+        "lat": 47.0105,
+        "lon": 28.8638
+      },
+      "timeZone": "Europe/Chisinau"
+    },
+    {
+      "code": "ME",
+      "nameKo": "몬테네그로",
+      "nameEn": "Montenegro",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "122",
+        "ambulance": "124",
+        "fire": "123"
+      },
+      "capital": {
+        "nameKo": "포드고리차",
+        "nameEn": "Podgorica",
+        "lat": 42.4304,
+        "lon": 19.2594
+      },
+      "timeZone": "Europe/Podgorica"
+    },
+    {
+      "code": "MG",
+      "nameKo": "마다가스카르",
+      "nameEn": "Madagascar",
+      "currency": "MGA",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "E",
+        "J",
+        "K"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "124",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "안타나나리보",
+        "nameEn": "Antananarivo",
+        "lat": -18.8792,
+        "lon": 47.5079
+      },
+      "timeZone": "Indian/Antananarivo"
+    },
+    {
+      "code": "MH",
+      "nameKo": "마셜 제도",
+      "nameEn": "Marshall Islands",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "마주로",
+        "nameEn": "Majuro",
+        "lat": 7.0897,
+        "lon": 171.3803
+      },
+      "timeZone": "Pacific/Majuro"
+    },
+    {
+      "code": "MK",
+      "nameKo": "북마케도니아",
+      "nameEn": "North Macedonia",
+      "currency": "MKD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "192",
+        "ambulance": "194",
+        "fire": "193"
+      },
+      "capital": {
+        "nameKo": "스코페",
+        "nameEn": "Skopje",
+        "lat": 41.9981,
+        "lon": 21.4254
+      },
+      "timeZone": "Europe/Skopje"
+    },
+    {
+      "code": "ML",
+      "nameKo": "말리",
+      "nameEn": "Mali",
+      "currency": "XOF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "바마코",
+        "nameEn": "Bamako",
+        "lat": 12.6392,
+        "lon": -8.0029
+      },
+      "timeZone": "Africa/Bamako"
+    },
+    {
+      "code": "MM",
+      "nameKo": "미얀마",
+      "nameEn": "Myanmar",
+      "currency": "MMK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "emergency": {
+        "police": "199",
+        "ambulance": "192",
+        "fire": "191"
+      },
+      "capital": {
+        "nameKo": "네피도",
+        "nameEn": "Naypyidaw",
+        "lat": 19.7633,
+        "lon": 96.0785
+      },
+      "timeZone": "Asia/Yangon"
+    },
+    {
+      "code": "MN",
+      "nameKo": "몽골",
+      "nameEn": "Mongolia",
+      "currency": "MNT",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "울란바토르",
+        "nameEn": "Ulaanbaatar",
+        "lat": 47.8864,
+        "lon": 106.9057
+      },
+      "timeZone": "Asia/Ulaanbaatar"
+    },
+    {
+      "code": "MO",
+      "nameKo": "마카오",
+      "nameEn": "Macao",
+      "currency": "MOP",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "F",
+        "G",
+        "M"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "마카오",
+        "nameEn": "Macao",
+        "lat": 22.1987,
+        "lon": 113.5439
+      },
+      "timeZone": "Asia/Macau"
+    },
+    {
+      "code": "MP",
+      "nameKo": "북마리아나 제도(사이판)",
+      "nameEn": "Northern Mariana Islands (Saipan)",
+      "currency": "USD",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "사이판",
+        "nameEn": "Saipan",
+        "lat": 15.185,
+        "lon": 145.7467
+      },
+      "timeZone": "Pacific/Saipan"
+    },
+    {
+      "code": "MR",
+      "nameKo": "모리타니",
+      "nameEn": "Mauritania",
+      "currency": "MRU",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "101",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "누악쇼트",
+        "nameEn": "Nouakchott",
+        "lat": 18.0735,
+        "lon": -15.9582
+      },
+      "timeZone": "Africa/Nouakchott"
+    },
+    {
+      "code": "MT",
+      "nameKo": "몰타",
+      "nameEn": "Malta",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "발레타",
+        "nameEn": "Valletta",
+        "lat": 35.8989,
+        "lon": 14.5146
+      },
+      "timeZone": "Europe/Malta"
+    },
+    {
+      "code": "MU",
+      "nameKo": "모리셔스",
+      "nameEn": "Mauritius",
+      "currency": "MUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "114",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "포트루이스",
+        "nameEn": "Port Louis",
+        "lat": -20.1609,
+        "lon": 57.5012
+      },
+      "timeZone": "Indian/Mauritius"
+    },
+    {
+      "code": "MV",
+      "nameKo": "몰디브",
+      "nameEn": "Maldives",
+      "currency": "MVR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "G",
+        "J",
+        "K",
+        "L"
+      ],
+      "emergency": {
+        "police": "119",
+        "ambulance": "102",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "말레",
+        "nameEn": "Malé",
+        "lat": 4.1755,
+        "lon": 73.5093
+      },
+      "timeZone": "Indian/Maldives"
+    },
+    {
+      "code": "MW",
+      "nameKo": "말라위",
+      "nameEn": "Malawi",
+      "currency": "MWK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "997",
+        "ambulance": "998",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "릴롱궤",
+        "nameEn": "Lilongwe",
+        "lat": -13.9626,
+        "lon": 33.7741
+      },
+      "timeZone": "Africa/Blantyre"
+    },
+    {
+      "code": "MX",
+      "nameKo": "멕시코",
+      "nameEn": "Mexico",
+      "currency": "MXN",
+      "voltage": [
+        127
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "멕시코시티",
+        "nameEn": "Mexico City",
+        "lat": 19.4326,
+        "lon": -99.1332
+      },
+      "timeZone": "America/Mexico_City"
+    },
+    {
+      "code": "MY",
+      "nameKo": "말레이시아",
+      "nameEn": "Malaysia",
+      "currency": "MYR",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "994"
+      },
+      "capital": {
+        "nameKo": "쿠알라룸푸르",
+        "nameEn": "Kuala Lumpur",
+        "lat": 3.139,
+        "lon": 101.6869
+      },
+      "timeZone": "Asia/Kuala_Lumpur"
+    },
+    {
+      "code": "MZ",
+      "nameKo": "모잠비크",
+      "nameEn": "Mozambique",
+      "currency": "MZN",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F",
+        "M"
+      ],
+      "emergency": {
+        "police": "119",
+        "ambulance": "117",
+        "fire": "198"
+      },
+      "capital": {
+        "nameKo": "마푸투",
+        "nameEn": "Maputo",
+        "lat": -25.9692,
+        "lon": 32.5732
+      },
+      "timeZone": "Africa/Maputo"
+    },
+    {
+      "code": "NA",
+      "nameKo": "나미비아",
+      "nameEn": "Namibia",
+      "currency": "NAD",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "M"
+      ],
+      "emergency": {
+        "police": "10111",
+        "ambulance": "10111",
+        "fire": "10111"
+      },
+      "capital": {
+        "nameKo": "빈트후크",
+        "nameEn": "Windhoek",
+        "lat": -22.5609,
+        "lon": 17.0658
+      },
+      "timeZone": "Africa/Windhoek"
+    },
+    {
+      "code": "NC",
+      "nameKo": "누벨칼레도니",
+      "nameEn": "New Caledonia",
+      "currency": "XPF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "누메아",
+        "nameEn": "Nouméa",
+        "lat": -22.2758,
+        "lon": 166.458
+      },
+      "timeZone": "Pacific/Noumea"
+    },
+    {
+      "code": "NE",
+      "nameKo": "니제르",
+      "nameEn": "Niger",
+      "currency": "XOF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "니아메",
+        "nameEn": "Niamey",
+        "lat": 13.5116,
+        "lon": 2.1254
+      },
+      "timeZone": "Africa/Niamey"
+    },
+    {
+      "code": "NG",
+      "nameKo": "나이지리아",
+      "nameEn": "Nigeria",
+      "currency": "NGN",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "아부자",
+        "nameEn": "Abuja",
+        "lat": 9.0765,
+        "lon": 7.3986
+      },
+      "timeZone": "Africa/Lagos"
+    },
+    {
+      "code": "NI",
+      "nameKo": "니카라과",
+      "nameEn": "Nicaragua",
+      "currency": "NIO",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "118",
+        "ambulance": "128",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "마나과",
+        "nameEn": "Managua",
+        "lat": 12.115,
+        "lon": -86.2362
+      },
+      "timeZone": "America/Managua"
+    },
+    {
+      "code": "NL",
+      "nameKo": "네덜란드",
+      "nameEn": "Netherlands",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "암스테르담",
+        "nameEn": "Amsterdam",
+        "lat": 52.3676,
+        "lon": 4.9041
+      },
+      "timeZone": "Europe/Amsterdam"
+    },
+    {
+      "code": "NO",
+      "nameKo": "노르웨이",
+      "nameEn": "Norway",
+      "currency": "NOK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "113",
+        "fire": "110"
+      },
+      "capital": {
+        "nameKo": "오슬로",
+        "nameEn": "Oslo",
+        "lat": 59.9139,
+        "lon": 10.7522
+      },
+      "timeZone": "Europe/Oslo"
+    },
+    {
+      "code": "NP",
+      "nameKo": "네팔",
+      "nameEn": "Nepal",
+      "currency": "NPR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "M"
+      ],
+      "emergency": {
+        "police": "100",
+        "ambulance": "102",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "카트만두",
+        "nameEn": "Kathmandu",
+        "lat": 27.7172,
+        "lon": 85.324
+      },
+      "timeZone": "Asia/Kathmandu"
+    },
+    {
+      "code": "NR",
+      "nameKo": "나우루",
+      "nameEn": "Nauru",
+      "currency": "AUD",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "111",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "야렌",
+        "nameEn": "Yaren",
+        "lat": -0.5466,
+        "lon": 166.9211
+      },
+      "timeZone": "Pacific/Nauru"
+    },
+    {
+      "code": "NZ",
+      "nameKo": "뉴질랜드",
+      "nameEn": "New Zealand",
+      "currency": "NZD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "111",
+        "ambulance": "111",
+        "fire": "111"
+      },
+      "capital": {
+        "nameKo": "웰링턴",
+        "nameEn": "Wellington",
+        "lat": -41.2865,
+        "lon": 174.7762
+      },
+      "timeZone": "Pacific/Auckland"
+    },
+    {
+      "code": "OM",
+      "nameKo": "오만",
+      "nameEn": "Oman",
+      "currency": "OMR",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "G"
+      ],
+      "emergency": {
+        "police": "9999",
+        "ambulance": "9999",
+        "fire": "9999"
+      },
+      "capital": {
+        "nameKo": "무스카트",
+        "nameEn": "Muscat",
+        "lat": 23.588,
+        "lon": 58.3829
+      },
+      "timeZone": "Asia/Muscat"
+    },
+    {
+      "code": "PA",
+      "nameKo": "파나마",
+      "nameEn": "Panama",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "104",
+        "ambulance": "911",
+        "fire": "103"
+      },
+      "capital": {
+        "nameKo": "파나마시티",
+        "nameEn": "Panama City",
+        "lat": 8.9824,
+        "lon": -79.5199
+      },
+      "timeZone": "America/Panama"
+    },
+    {
+      "code": "PE",
+      "nameKo": "페루",
+      "nameEn": "Peru",
+      "currency": "PEN",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C"
+      ],
+      "emergency": {
+        "police": "105",
+        "ambulance": "117",
+        "fire": "116"
+      },
+      "capital": {
+        "nameKo": "리마",
+        "nameEn": "Lima",
+        "lat": -12.0464,
+        "lon": -77.0428
+      },
+      "timeZone": "America/Lima"
+    },
+    {
+      "code": "PF",
+      "nameKo": "프랑스령 폴리네시아",
+      "nameEn": "French Polynesia",
+      "currency": "XPF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "파페에테",
+        "nameEn": "Papeete",
+        "lat": -17.5516,
+        "lon": -149.5585
+      },
+      "timeZone": "Pacific/Tahiti"
+    },
+    {
+      "code": "PG",
+      "nameKo": "파푸아뉴기니",
+      "nameEn": "Papua New Guinea",
+      "currency": "PGK",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "111",
+        "fire": "110"
+      },
+      "capital": {
+        "nameKo": "포트모르즈비",
+        "nameEn": "Port Moresby",
+        "lat": -9.4438,
+        "lon": 147.1803
+      },
+      "timeZone": "Pacific/Port_Moresby"
+    },
+    {
+      "code": "PH",
+      "nameKo": "필리핀",
+      "nameEn": "Philippines",
+      "currency": "PHP",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "마닐라",
+        "nameEn": "Manila",
+        "lat": 14.5995,
+        "lon": 120.9842
+      },
+      "timeZone": "Asia/Manila"
+    },
+    {
+      "code": "PK",
+      "nameKo": "파키스탄",
+      "nameEn": "Pakistan",
+      "currency": "PKR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D"
+      ],
+      "emergency": {
+        "police": "15",
+        "ambulance": "115",
+        "fire": "16"
+      },
+      "capital": {
+        "nameKo": "이슬라마바드",
+        "nameEn": "Islamabad",
+        "lat": 33.6844,
+        "lon": 73.0479
+      },
+      "timeZone": "Asia/Karachi"
+    },
+    {
+      "code": "PL",
+      "nameKo": "폴란드",
+      "nameEn": "Poland",
+      "currency": "PLN",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "997",
+        "ambulance": "999",
+        "fire": "998"
+      },
+      "capital": {
+        "nameKo": "바르샤바",
+        "nameEn": "Warsaw",
+        "lat": 52.2297,
+        "lon": 21.0122
+      },
+      "timeZone": "Europe/Warsaw"
+    },
+    {
+      "code": "PR",
+      "nameKo": "푸에르토리코",
+      "nameEn": "Puerto Rico",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "산후안",
+        "nameEn": "San Juan",
+        "lat": 18.4655,
+        "lon": -66.1057
+      },
+      "timeZone": "America/Puerto_Rico"
+    },
+    {
+      "code": "PT",
+      "nameKo": "포르투갈",
+      "nameEn": "Portugal",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "리스본",
+        "nameEn": "Lisbon",
+        "lat": 38.7223,
+        "lon": -9.1393
+      },
+      "timeZone": "Europe/Lisbon"
+    },
+    {
+      "code": "PW",
+      "nameKo": "팔라우",
+      "nameEn": "Palau",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "응게룰무드",
+        "nameEn": "Ngerulmud",
+        "lat": 7.5006,
+        "lon": 134.6242
+      },
+      "timeZone": "Pacific/Palau"
+    },
+    {
+      "code": "PY",
+      "nameKo": "파라과이",
+      "nameEn": "Paraguay",
+      "currency": "PYG",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "141",
+        "fire": "132"
+      },
+      "capital": {
+        "nameKo": "아순시온",
+        "nameEn": "Asunción",
+        "lat": -25.2637,
+        "lon": -57.5759
+      },
+      "timeZone": "America/Asuncion"
+    },
+    {
+      "code": "QA",
+      "nameKo": "카타르",
+      "nameEn": "Qatar",
+      "currency": "QAR",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "도하",
+        "nameEn": "Doha",
+        "lat": 25.2854,
+        "lon": 51.531
+      },
+      "timeZone": "Asia/Qatar"
+    },
+    {
+      "code": "RE",
+      "nameKo": "레위니옹",
+      "nameEn": "Réunion",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "생드니",
+        "nameEn": "Saint-Denis",
+        "lat": -20.8823,
+        "lon": 55.4504
+      },
+      "timeZone": "Indian/Reunion"
+    },
+    {
+      "code": "RO",
+      "nameKo": "루마니아",
+      "nameEn": "Romania",
+      "currency": "RON",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "부쿠레슈티",
+        "nameEn": "Bucharest",
+        "lat": 44.4268,
+        "lon": 26.1025
+      },
+      "timeZone": "Europe/Bucharest"
+    },
+    {
+      "code": "RS",
+      "nameKo": "세르비아",
+      "nameEn": "Serbia",
+      "currency": "RSD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "192",
+        "ambulance": "194",
+        "fire": "193"
+      },
+      "capital": {
+        "nameKo": "베오그라드",
+        "nameEn": "Belgrade",
+        "lat": 44.7866,
+        "lon": 20.4489
+      },
+      "timeZone": "Europe/Belgrade"
+    },
+    {
+      "code": "RU",
+      "nameKo": "러시아",
+      "nameEn": "Russia",
+      "currency": "RUB",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "모스크바",
+        "nameEn": "Moscow",
+        "lat": 55.7558,
+        "lon": 37.6173
+      },
+      "timeZone": "Europe/Moscow"
+    },
+    {
+      "code": "RW",
+      "nameKo": "르완다",
+      "nameEn": "Rwanda",
+      "currency": "RWF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "J"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "912",
+        "fire": "111"
+      },
+      "capital": {
+        "nameKo": "키갈리",
+        "nameEn": "Kigali",
+        "lat": -1.9441,
+        "lon": 30.0619
+      },
+      "timeZone": "Africa/Kigali"
+    },
+    {
+      "code": "SA",
+      "nameKo": "사우디아라비아",
+      "nameEn": "Saudi Arabia",
+      "currency": "SAR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "997",
+        "fire": "998"
+      },
+      "capital": {
+        "nameKo": "리야드",
+        "nameEn": "Riyadh",
+        "lat": 24.7136,
+        "lon": 46.6753
+      },
+      "timeZone": "Asia/Riyadh"
+    },
+    {
+      "code": "SB",
+      "nameKo": "솔로몬 제도",
+      "nameEn": "Solomon Islands",
+      "currency": "SBD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G",
+        "I"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "호니아라",
+        "nameEn": "Honiara",
+        "lat": -9.4456,
+        "lon": 159.9729
+      },
+      "timeZone": "Pacific/Guadalcanal"
+    },
+    {
+      "code": "SC",
+      "nameKo": "세이셸",
+      "nameEn": "Seychelles",
+      "currency": "SCR",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "빅토리아",
+        "nameEn": "Victoria",
+        "lat": -4.6191,
+        "lon": 55.4513
+      },
+      "timeZone": "Indian/Mahe"
+    },
+    {
+      "code": "SD",
+      "nameKo": "수단",
+      "nameEn": "Sudan",
+      "currency": "SDG",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "하르툼",
+        "nameEn": "Khartoum",
+        "lat": 15.5007,
+        "lon": 32.5599
+      },
+      "timeZone": "Africa/Khartoum"
+    },
+    {
+      "code": "SE",
+      "nameKo": "스웨덴",
+      "nameEn": "Sweden",
+      "currency": "SEK",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "스톡홀름",
+        "nameEn": "Stockholm",
+        "lat": 59.3293,
+        "lon": 18.0686
+      },
+      "timeZone": "Europe/Stockholm"
+    },
+    {
+      "code": "SG",
+      "nameKo": "싱가포르",
+      "nameEn": "Singapore",
+      "currency": "SGD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "995",
+        "fire": "995"
+      },
+      "capital": {
+        "nameKo": "싱가포르",
+        "nameEn": "Singapore",
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "timeZone": "Asia/Singapore"
+    },
+    {
+      "code": "SI",
+      "nameKo": "슬로베니아",
+      "nameEn": "Slovenia",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "류블랴나",
+        "nameEn": "Ljubljana",
+        "lat": 46.0569,
+        "lon": 14.5058
+      },
+      "timeZone": "Europe/Ljubljana"
+    },
+    {
+      "code": "SK",
+      "nameKo": "슬로바키아",
+      "nameEn": "Slovakia",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "158",
+        "ambulance": "155",
+        "fire": "150"
+      },
+      "capital": {
+        "nameKo": "브라티슬라바",
+        "nameEn": "Bratislava",
+        "lat": 48.1486,
+        "lon": 17.1077
+      },
+      "timeZone": "Europe/Bratislava"
+    },
+    {
+      "code": "SL",
+      "nameKo": "시에라리온",
+      "nameEn": "Sierra Leone",
+      "currency": "SLE",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "019"
+      },
+      "capital": {
+        "nameKo": "프리타운",
+        "nameEn": "Freetown",
+        "lat": 8.4657,
+        "lon": -13.2317
+      },
+      "timeZone": "Africa/Freetown"
+    },
+    {
+      "code": "SM",
+      "nameKo": "산마리노",
+      "nameEn": "San Marino",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F",
+        "L"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "118",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "산마리노",
+        "nameEn": "San Marino",
+        "lat": 43.9424,
+        "lon": 12.4578
+      },
+      "timeZone": "Europe/San_Marino"
+    },
+    {
+      "code": "SN",
+      "nameKo": "세네갈",
+      "nameEn": "Senegal",
+      "currency": "XOF",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "E",
+        "K"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "15",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "다카르",
+        "nameEn": "Dakar",
+        "lat": 14.7167,
+        "lon": -17.4677
+      },
+      "timeZone": "Africa/Dakar"
+    },
+    {
+      "code": "SO",
+      "nameKo": "소말리아",
+      "nameEn": "Somalia",
+      "currency": "SOS",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "888",
+        "ambulance": "888",
+        "fire": "555"
+      },
+      "capital": {
+        "nameKo": "모가디슈",
+        "nameEn": "Mogadishu",
+        "lat": 2.0469,
+        "lon": 45.3182
+      },
+      "timeZone": "Africa/Mogadishu"
+    },
+    {
+      "code": "SR",
+      "nameKo": "수리남",
+      "nameEn": "Suriname",
+      "currency": "SRD",
+      "voltage": [
+        127
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "115",
+        "ambulance": "115",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "파라마리보",
+        "nameEn": "Paramaribo",
+        "lat": 5.852,
+        "lon": -55.2038
+      },
+      "timeZone": "America/Paramaribo"
+    },
+    {
+      "code": "SS",
+      "nameKo": "남수단",
+      "nameEn": "South Sudan",
+      "currency": "SSP",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "주바",
+        "nameEn": "Juba",
+        "lat": 4.8594,
+        "lon": 31.5713
+      },
+      "timeZone": "Africa/Juba"
+    },
+    {
+      "code": "ST",
+      "nameKo": "상투메 프린시페",
+      "nameEn": "São Tomé and Príncipe",
+      "currency": "STN",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "상투메",
+        "nameEn": "São Tomé",
+        "lat": 0.3365,
+        "lon": 6.7273
+      },
+      "timeZone": "Africa/Sao_Tome"
+    },
+    {
+      "code": "SV",
+      "nameKo": "엘살바도르",
+      "nameEn": "El Salvador",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "산살바도르",
+        "nameEn": "San Salvador",
+        "lat": 13.6929,
+        "lon": -89.2182
+      },
+      "timeZone": "America/El_Salvador"
+    },
+    {
+      "code": "SY",
+      "nameKo": "시리아",
+      "nameEn": "Syria",
+      "currency": "SYP",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E",
+        "L"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "110",
+        "fire": "113"
+      },
+      "capital": {
+        "nameKo": "다마스쿠스",
+        "nameEn": "Damascus",
+        "lat": 33.5138,
+        "lon": 36.2765
+      },
+      "timeZone": "Asia/Damascus"
+    },
+    {
+      "code": "SZ",
+      "nameKo": "에스와티니",
+      "nameEn": "Eswatini",
+      "currency": "SZL",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "M"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "977",
+        "fire": "933"
+      },
+      "capital": {
+        "nameKo": "음바바네",
+        "nameEn": "Mbabane",
+        "lat": -26.3054,
+        "lon": 31.1367
+      },
+      "timeZone": "Africa/Mbabane"
+    },
+    {
+      "code": "TD",
+      "nameKo": "차드",
+      "nameEn": "Chad",
+      "currency": "XAF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "emergency": {
+        "police": "17",
+        "ambulance": "17",
+        "fire": "18"
+      },
+      "capital": {
+        "nameKo": "은자메나",
+        "nameEn": "N'Djamena",
+        "lat": 12.1348,
+        "lon": 15.0557
+      },
+      "timeZone": "Africa/Ndjamena"
+    },
+    {
+      "code": "TG",
+      "nameKo": "토고",
+      "nameEn": "Togo",
+      "currency": "XOF",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C"
+      ],
+      "emergency": {
+        "police": "117",
+        "ambulance": "117",
+        "fire": "118"
+      },
+      "capital": {
+        "nameKo": "로메",
+        "nameEn": "Lomé",
+        "lat": 6.1256,
+        "lon": 1.2254
+      },
+      "timeZone": "Africa/Lome"
+    },
+    {
+      "code": "TH",
+      "nameKo": "태국",
+      "nameEn": "Thailand",
+      "currency": "THB",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "B",
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "191",
+        "ambulance": "1669",
+        "fire": "199"
+      },
+      "capital": {
+        "nameKo": "방콕",
+        "nameEn": "Bangkok",
+        "lat": 13.7563,
+        "lon": 100.5018
+      },
+      "timeZone": "Asia/Bangkok"
+    },
+    {
+      "code": "TJ",
+      "nameKo": "타지키스탄",
+      "nameEn": "Tajikistan",
+      "currency": "TJS",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "두샨베",
+        "nameEn": "Dushanbe",
+        "lat": 38.5598,
+        "lon": 68.787
+      },
+      "timeZone": "Asia/Dushanbe"
+    },
+    {
+      "code": "TL",
+      "nameKo": "동티모르",
+      "nameEn": "Timor-Leste",
+      "currency": "USD",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E",
+        "F",
+        "I"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "110",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "딜리",
+        "nameEn": "Dili",
+        "lat": -8.5569,
+        "lon": 125.5603
+      },
+      "timeZone": "Asia/Dili"
+    },
+    {
+      "code": "TM",
+      "nameKo": "투르크메니스탄",
+      "nameEn": "Turkmenistan",
+      "currency": "TMT",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "B",
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "02",
+        "ambulance": "03",
+        "fire": "01"
+      },
+      "capital": {
+        "nameKo": "아시가바트",
+        "nameEn": "Ashgabat",
+        "lat": 37.9601,
+        "lon": 58.3261
+      },
+      "timeZone": "Asia/Ashgabat"
+    },
+    {
+      "code": "TN",
+      "nameKo": "튀니지",
+      "nameEn": "Tunisia",
+      "currency": "TND",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "E"
+      ],
+      "emergency": {
+        "police": "197",
+        "ambulance": "190",
+        "fire": "198"
+      },
+      "capital": {
+        "nameKo": "튀니스",
+        "nameEn": "Tunis",
+        "lat": 36.8065,
+        "lon": 10.1815
+      },
+      "timeZone": "Africa/Tunis"
+    },
+    {
+      "code": "TO",
+      "nameKo": "통가",
+      "nameEn": "Tonga",
+      "currency": "TOP",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "922",
+        "ambulance": "933",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "누쿠알로파",
+        "nameEn": "Nuku'alofa",
+        "lat": -21.1394,
+        "lon": -175.2049
+      },
+      "timeZone": "Pacific/Tongatapu"
+    },
+    {
+      "code": "TR",
+      "nameKo": "튀르키예",
+      "nameEn": "Türkiye",
+      "currency": "TRY",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "앙카라",
+        "nameEn": "Ankara",
+        "lat": 39.9334,
+        "lon": 32.8597
+      },
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "code": "TT",
+      "nameKo": "트리니다드 토바고",
+      "nameEn": "Trinidad and Tobago",
+      "currency": "TTD",
+      "voltage": [
+        115
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "990",
+        "fire": "990"
+      },
+      "capital": {
+        "nameKo": "포트오브스페인",
+        "nameEn": "Port of Spain",
+        "lat": 10.6603,
+        "lon": -61.5086
+      },
+      "timeZone": "America/Port_of_Spain"
+    },
+    {
+      "code": "TV",
+      "nameKo": "투발루",
+      "nameEn": "Tuvalu",
+      "currency": "AUD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "푸나푸티",
+        "nameEn": "Funafuti",
+        "lat": -8.5211,
+        "lon": 179.1983
+      },
+      "timeZone": "Pacific/Funafuti"
+    },
+    {
+      "code": "TW",
+      "nameKo": "대만",
+      "nameEn": "Taiwan",
+      "currency": "TWD",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "110",
+        "ambulance": "119",
+        "fire": "119"
+      },
+      "capital": {
+        "nameKo": "타이베이",
+        "nameEn": "Taipei",
+        "lat": 25.033,
+        "lon": 121.5654
+      },
+      "timeZone": "Asia/Taipei"
+    },
+    {
+      "code": "TZ",
+      "nameKo": "탄자니아",
+      "nameEn": "Tanzania",
+      "currency": "TZS",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "fire": "112"
+      },
+      "capital": {
+        "nameKo": "도도마",
+        "nameEn": "Dodoma",
+        "lat": -6.163,
+        "lon": 35.7516
+      },
+      "timeZone": "Africa/Dar_es_Salaam"
+    },
+    {
+      "code": "UA",
+      "nameKo": "우크라이나",
+      "nameEn": "Ukraine",
+      "currency": "UAH",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "키이우",
+        "nameEn": "Kyiv",
+        "lat": 50.4501,
+        "lon": 30.5234
+      },
+      "timeZone": "Europe/Kiev"
+    },
+    {
+      "code": "UG",
+      "nameKo": "우간다",
+      "nameEn": "Uganda",
+      "currency": "UGX",
+      "voltage": [
+        240
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "캄팔라",
+        "nameEn": "Kampala",
+        "lat": 0.3476,
+        "lon": 32.5825
+      },
+      "timeZone": "Africa/Kampala"
+    },
+    {
+      "code": "US",
+      "nameKo": "미국",
+      "nameEn": "United States",
+      "currency": "USD",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "워싱턴 D.C.",
+        "nameEn": "Washington, D.C.",
+        "lat": 38.9072,
+        "lon": -77.0369
+      },
+      "timeZone": "America/New_York"
+    },
+    {
+      "code": "UY",
+      "nameKo": "우루과이",
+      "nameEn": "Uruguay",
+      "currency": "UYU",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F",
+        "L"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "몬테비데오",
+        "nameEn": "Montevideo",
+        "lat": -34.9011,
+        "lon": -56.1645
+      },
+      "timeZone": "America/Montevideo"
+    },
+    {
+      "code": "UZ",
+      "nameKo": "우즈베키스탄",
+      "nameEn": "Uzbekistan",
+      "currency": "UZS",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101"
+      },
+      "capital": {
+        "nameKo": "타슈켄트",
+        "nameEn": "Tashkent",
+        "lat": 41.2995,
+        "lon": 69.2401
+      },
+      "timeZone": "Asia/Tashkent"
+    },
+    {
+      "code": "VA",
+      "nameKo": "바티칸",
+      "nameEn": "Vatican City",
+      "currency": "EUR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "F",
+        "L"
+      ],
+      "emergency": {
+        "police": "112",
+        "ambulance": "118",
+        "fire": "115"
+      },
+      "capital": {
+        "nameKo": "바티칸 시국",
+        "nameEn": "Vatican City",
+        "lat": 41.9029,
+        "lon": 12.4534
+      },
+      "timeZone": "Europe/Vatican"
+    },
+    {
+      "code": "VC",
+      "nameKo": "세인트빈센트 그레나딘",
+      "nameEn": "Saint Vincent and the Grenadines",
+      "currency": "XCD",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999"
+      },
+      "capital": {
+        "nameKo": "킹스타운",
+        "nameEn": "Kingstown",
+        "lat": 13.16,
+        "lon": -61.2248
+      },
+      "timeZone": "America/St_Vincent"
+    },
+    {
+      "code": "VE",
+      "nameKo": "베네수엘라",
+      "nameEn": "Venezuela",
+      "currency": "VES",
+      "voltage": [
+        120
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "카라카스",
+        "nameEn": "Caracas",
+        "lat": 10.4806,
+        "lon": -66.9036
+      },
+      "timeZone": "America/Caracas"
+    },
+    {
+      "code": "VI",
+      "nameKo": "미국령 버진아일랜드",
+      "nameEn": "U.S. Virgin Islands",
+      "currency": "USD",
+      "voltage": [
+        110
+      ],
+      "frequencyHz": [
+        60
+      ],
+      "plugs": [
+        "A",
+        "B"
+      ],
+      "emergency": {
+        "police": "911",
+        "ambulance": "911",
+        "fire": "911"
+      },
+      "capital": {
+        "nameKo": "샬럿아말리에",
+        "nameEn": "Charlotte Amalie",
+        "lat": 18.3419,
+        "lon": -64.9307
+      },
+      "timeZone": "America/St_Thomas"
+    },
+    {
+      "code": "VN",
+      "nameKo": "베트남",
+      "nameEn": "Vietnam",
+      "currency": "VND",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "C",
+        "F"
+      ],
+      "emergency": {
+        "police": "113",
+        "ambulance": "115",
+        "fire": "114"
+      },
+      "capital": {
+        "nameKo": "하노이",
+        "nameEn": "Hanoi",
+        "lat": 21.0278,
+        "lon": 105.8342
+      },
+      "timeZone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "code": "VU",
+      "nameKo": "바누아투",
+      "nameEn": "Vanuatu",
+      "currency": "VUV",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "111",
+        "ambulance": "112",
+        "fire": "113"
+      },
+      "capital": {
+        "nameKo": "포트빌라",
+        "nameEn": "Port Vila",
+        "lat": -17.7333,
+        "lon": 168.3273
+      },
+      "timeZone": "Pacific/Efate"
+    },
+    {
+      "code": "WS",
+      "nameKo": "사모아",
+      "nameEn": "Samoa",
+      "currency": "WST",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "I"
+      ],
+      "emergency": {
+        "police": "995",
+        "ambulance": "996",
+        "fire": "994"
+      },
+      "capital": {
+        "nameKo": "아피아",
+        "nameEn": "Apia",
+        "lat": -13.8507,
+        "lon": -171.7514
+      },
+      "timeZone": "Pacific/Apia"
+    },
+    {
+      "code": "YE",
+      "nameKo": "예멘",
+      "nameEn": "Yemen",
+      "currency": "YER",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "A",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "194",
+        "ambulance": "191",
+        "fire": "191"
+      },
+      "capital": {
+        "nameKo": "사나",
+        "nameEn": "Sanaa",
+        "lat": 15.3694,
+        "lon": 44.191
+      },
+      "timeZone": "Asia/Aden"
+    },
+    {
+      "code": "ZA",
+      "nameKo": "남아프리카공화국",
+      "nameEn": "South Africa",
+      "currency": "ZAR",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "M",
+        "N"
+      ],
+      "emergency": {
+        "police": "10111",
+        "ambulance": "10177",
+        "fire": "10177"
+      },
+      "capital": {
+        "nameKo": "프리토리아",
+        "nameEn": "Pretoria",
+        "lat": -25.7479,
+        "lon": 28.2293
+      },
+      "timeZone": "Africa/Johannesburg"
+    },
+    {
+      "code": "ZM",
+      "nameKo": "잠비아",
+      "nameEn": "Zambia",
+      "currency": "ZMW",
+      "voltage": [
+        230
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "C",
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "999",
+        "ambulance": "991",
+        "fire": "993"
+      },
+      "capital": {
+        "nameKo": "루사카",
+        "nameEn": "Lusaka",
+        "lat": -15.3875,
+        "lon": 28.3228
+      },
+      "timeZone": "Africa/Lusaka"
+    },
+    {
+      "code": "ZW",
+      "nameKo": "짐바브웨",
+      "nameEn": "Zimbabwe",
+      "currency": "USD",
+      "voltage": [
+        220
+      ],
+      "frequencyHz": [
+        50
+      ],
+      "plugs": [
+        "D",
+        "G"
+      ],
+      "emergency": {
+        "police": "995",
+        "ambulance": "994",
+        "fire": "993"
+      },
+      "capital": {
+        "nameKo": "하라레",
+        "nameEn": "Harare",
+        "lat": -17.8252,
+        "lon": 31.0335
+      },
+      "timeZone": "Africa/Harare"
+    }
+  ]
+}

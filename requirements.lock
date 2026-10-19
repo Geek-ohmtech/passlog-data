@@ -1,0 +1,12 @@
+# GitHub 러너 전용 (datapack.yml: pip install --require-hashes --no-deps -r requirements.lock).
+# 로컬에는 설치하지 않아도 된다 — 없으면 build_pack.py 와 테스트가 python-holidays 부분만 건너뛴다.
+# 해시는 PyPI 공개 값(2026-10-20 확인). 버전을 올릴 때: pip-compile --generate-hashes 또는 PyPI 의 sha256 으로 고친다.
+holidays==0.106 \
+    --hash=sha256:4be3fb5be6a88a232e92f96825e4fab9b80710caabde90b7c476e57ba0ed9f5d \
+    --hash=sha256:2e635a59102acb47e79a751c37fb04eff5ac77069a3b33d58cbfad66d243ffb3
+python-dateutil==2.9.0.post0 \
+    --hash=sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427 \
+    --hash=sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3
+six==1.17.0 \
+    --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274 \
+    --hash=sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81

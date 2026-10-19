@@ -1,0 +1,157 @@
+name: datapack
+
+# PASSLOG 데이터 팩 (packs/v2) + v1 호환 스냅샷 → GitHub Pages.
+# 배포 리포 passlog-data 루트 기준이다 (앱 리포의 scripts/publish-data.sh 가 info-pipeline 내용 · curated/ 를 채운다).
+#   - 키는 GitHub Secrets 에만: DATA_GO_KR_KEY(입국요건 · TourAPI · 특일), KOREAEXIM_KEY(환율). 없으면 그 데이터셋만 건너뛴다.
+#   - 산출물 public/ 은 바뀐 게 있을 때만 main 에 커밋한다(60일 비활성 규칙 대응 ①) → actions/deploy-pages.
+#   - Pages 설정: Settings → Pages → Build and deployment → Source: GitHub Actions.
+#   - 액션은 커밋 SHA 로 고정했다(태그는 주석). Node 20 액션은 2026-09-23 러너에서 제거됨 → 모두 Node 24 버전.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"     # 경보 · 입국요건 (KST 02:17 · 08:17 · 14:17 · 20:17)
+    - cron: "25 2,5 * * 1-5"   # 환율 (평일 KST 11:25 · 14:25)
+    - cron: "40 18 * * 0"      # 주간: 공휴일 · 현지 앱 · TourAPI 목록 (월 KST 03:40)
+    - cron: "50 21 * * *"      # 매일: TourAPI 증분 · 축제 · 공식 URL 감시 (KST 06:50)
+  push:
+    branches: [main]
+    paths: ["curated/**", "scripts/**", "data/**", "requirements.lock"]
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "데이터셋 id (쉼표로 구분, 비우면 전부) 예: rates,kr-festivals"
+        required: false
+        default: ""
+      refresh_climate:
+        description: "destination-climate 를 NASA POWER 로 다시 계산 (1년 1회)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: datapack
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write   # public/ 을 main 에 커밋
+      issues: write     # 연속 실패 · 검수 알림 이슈
+    outputs:
+      deploy: ${{ steps.flag.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned dependencies (python-holidays)
+        run: python -m pip install --disable-pip-version-check --require-hashes --no-deps -r requirements.lock
+
+      - name: Plan
+        id: plan
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          ONLY: ${{ inputs.only }}
+        run: python -I scripts/build_pack.py --plan --event "$EVENT" --schedule "$SCHEDULE" --only "$ONLY" --out public
+
+      # TourAPI 원응답 캐시(키 없음): 하루 1,000회 한도 안에서 증분으로 갱신하려면 실행 사이에 남아 있어야 한다
+      - name: Restore TourAPI cache
+        if: steps.plan.outputs.tourapi == 'true'
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/tourapi
+          key: tourapi-${{ github.run_id }}
+          restore-keys: tourapi-
+
+      - name: Build data pack
+        id: build
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          KOREAEXIM_KEY: ${{ secrets.KOREAEXIM_KEY }}
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          ONLY: ${{ inputs.only }}
+          CLIMATE: ${{ inputs.refresh_climate }}
+        run: |
+          args=(--event "$EVENT" --schedule "$SCHEDULE" --only "$ONLY" --out public --tourapi-cache .cache/tourapi)
+          if [ "$CLIMATE" = "true" ]; then args+=(--refresh-climate); fi
+          python -I scripts/build_pack.py "${args[@]}"
+
+      - name: Save TourAPI cache
+        if: always() && steps.plan.outputs.tourapi == 'true' && hashFiles('.cache/tourapi/usage.json') != ''
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/tourapi
+          key: tourapi-${{ github.run_id }}
+
+      - name: Commit data to main
+        id: commit
+        env:
+          SEQ: ${{ steps.build.outputs.sequence }}
+        run: |
+          git config user.name "passlog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public
+          if git diff --cached --quiet; then echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ) · sequence ${SEQ}"
+          for attempt in 1 2 3; do
+            if git push -q origin HEAD:main; then echo "pushed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+            git pull -q --rebase origin main
+          done
+          echo "::error::main 에 푸시하지 못함 (Settings → Actions → General → Workflow permissions 를 확인)"
+          exit 1
+
+      - name: Decide deploy
+        id: flag
+        env:
+          PUSHED: ${{ steps.commit.outputs.pushed }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$PUSHED" = "true" ] || { [ "$EVENT" != "schedule" ] && [ -f public/packs/v2/manifest.json ]; }; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload Pages artifact
+        if: steps.flag.outputs.deploy == 'true'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: public
+
+      - name: Report alerts as issues
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python -I scripts/report_issues.py --status public/packs/v2/status.json --run-url "$RUN_URL"
+
+      - name: Report workflow failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python -I scripts/report_issues.py --workflow-failed --run-url "$RUN_URL"
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

@@ -1,0 +1,712 @@
+{
+  "version": 1,
+  "updated": "2026-10-19",
+  "about": "여행 번역기 기본 문장집. 번역은 기기 안 Apple 번역으로 실행할 때 만들어 언어별로 캐시한다 (미리 번역한 문장 없음).",
+  "categories": [
+    {
+      "id": "basic",
+      "name": "기본 · 인사",
+      "symbol": "hand.wave"
+    },
+    {
+      "id": "restaurant",
+      "name": "식당 · 카페",
+      "symbol": "fork.knife"
+    },
+    {
+      "id": "shopping",
+      "name": "쇼핑 · 계산",
+      "symbol": "bag"
+    },
+    {
+      "id": "transport",
+      "name": "교통 · 길 찾기",
+      "symbol": "tram"
+    },
+    {
+      "id": "stay",
+      "name": "숙소",
+      "symbol": "bed.double"
+    },
+    {
+      "id": "sightseeing",
+      "name": "관광 · 사진",
+      "symbol": "camera"
+    },
+    {
+      "id": "emergency",
+      "name": "긴급 · 병원 · 약국",
+      "symbol": "cross.case"
+    },
+    {
+      "id": "allergy",
+      "name": "알레르기 · 식이",
+      "symbol": "allergens"
+    },
+    {
+      "id": "numbers",
+      "name": "숫자 · 시간",
+      "symbol": "clock"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "basic-01",
+      "category": "basic",
+      "ko": "안녕하세요.",
+      "note": "만날 때 언제든 쓰는 인사"
+    },
+    {
+      "id": "basic-02",
+      "category": "basic",
+      "ko": "감사합니다."
+    },
+    {
+      "id": "basic-03",
+      "category": "basic",
+      "ko": "죄송합니다.",
+      "note": "사과할 때"
+    },
+    {
+      "id": "basic-04",
+      "category": "basic",
+      "ko": "실례합니다.",
+      "note": "말을 걸거나 지나가야 할 때"
+    },
+    {
+      "id": "basic-05",
+      "category": "basic",
+      "ko": "네, 맞아요."
+    },
+    {
+      "id": "basic-06",
+      "category": "basic",
+      "ko": "아니요, 괜찮습니다.",
+      "note": "권유를 정중히 거절할 때"
+    },
+    {
+      "id": "basic-07",
+      "category": "basic",
+      "ko": "천천히 말씀해 주시겠어요?"
+    },
+    {
+      "id": "basic-08",
+      "category": "basic",
+      "ko": "다시 한번 말씀해 주시겠어요?"
+    },
+    {
+      "id": "basic-09",
+      "category": "basic",
+      "ko": "영어를 하실 수 있나요?"
+    },
+    {
+      "id": "basic-10",
+      "category": "basic",
+      "ko": "저는 한국에서 왔어요."
+    },
+    {
+      "id": "basic-11",
+      "category": "basic",
+      "ko": "여기에 적어 주시겠어요?",
+      "note": "숫자 · 주소를 글로 받고 싶을 때 화면과 함께"
+    },
+    {
+      "id": "basic-12",
+      "category": "basic",
+      "ko": "잘 이해하지 못했어요."
+    },
+    {
+      "id": "basic-13",
+      "category": "basic",
+      "ko": "화장실이 어디에 있나요?"
+    },
+    {
+      "id": "basic-14",
+      "category": "basic",
+      "ko": "잠시만 기다려 주세요."
+    },
+    {
+      "id": "basic-15",
+      "category": "basic",
+      "ko": "도와주셔서 정말 감사합니다."
+    },
+    {
+      "id": "basic-16",
+      "category": "basic",
+      "ko": "안녕히 계세요.",
+      "note": "가게를 나설 때"
+    },
+    {
+      "id": "food-01",
+      "category": "restaurant",
+      "ko": "두 명인데 자리가 있나요?",
+      "note": "인원수가 다르면 '내 문장'으로 고쳐 두세요"
+    },
+    {
+      "id": "food-02",
+      "category": "restaurant",
+      "ko": "예약했어요.",
+      "note": "예약 이름 화면과 함께 보여 주세요"
+    },
+    {
+      "id": "food-03",
+      "category": "restaurant",
+      "ko": "얼마나 기다려야 하나요?"
+    },
+    {
+      "id": "food-04",
+      "category": "restaurant",
+      "ko": "메뉴판 좀 주시겠어요?"
+    },
+    {
+      "id": "food-05",
+      "category": "restaurant",
+      "ko": "영어 메뉴판이 있나요?"
+    },
+    {
+      "id": "food-06",
+      "category": "restaurant",
+      "ko": "추천해 주실 메뉴가 있나요?"
+    },
+    {
+      "id": "food-07",
+      "category": "restaurant",
+      "ko": "이것으로 주세요.",
+      "note": "메뉴를 손가락으로 가리키며"
+    },
+    {
+      "id": "food-08",
+      "category": "restaurant",
+      "ko": "물 좀 주시겠어요?"
+    },
+    {
+      "id": "food-09",
+      "category": "restaurant",
+      "ko": "덜 맵게 해 주세요."
+    },
+    {
+      "id": "food-10",
+      "category": "restaurant",
+      "ko": "고수는 빼 주세요.",
+      "note": "동남아 · 중국 음식점에서 유용"
+    },
+    {
+      "id": "food-11",
+      "category": "restaurant",
+      "ko": "여기서 먹고 갈게요."
+    },
+    {
+      "id": "food-12",
+      "category": "restaurant",
+      "ko": "포장해 주세요."
+    },
+    {
+      "id": "food-13",
+      "category": "restaurant",
+      "ko": "아이스 아메리카노 한 잔 주세요."
+    },
+    {
+      "id": "food-14",
+      "category": "restaurant",
+      "ko": "계산서 주시겠어요?"
+    },
+    {
+      "id": "food-15",
+      "category": "restaurant",
+      "ko": "따로 계산해도 될까요?"
+    },
+    {
+      "id": "food-16",
+      "category": "restaurant",
+      "ko": "정말 맛있었어요."
+    },
+    {
+      "id": "shop-01",
+      "category": "shopping",
+      "ko": "이거 얼마예요?"
+    },
+    {
+      "id": "shop-02",
+      "category": "shopping",
+      "ko": "그냥 둘러보는 중이에요.",
+      "note": "점원이 말을 걸 때"
+    },
+    {
+      "id": "shop-03",
+      "category": "shopping",
+      "ko": "다른 색상도 있나요?"
+    },
+    {
+      "id": "shop-04",
+      "category": "shopping",
+      "ko": "더 큰 사이즈가 있나요?"
+    },
+    {
+      "id": "shop-05",
+      "category": "shopping",
+      "ko": "더 작은 사이즈가 있나요?"
+    },
+    {
+      "id": "shop-06",
+      "category": "shopping",
+      "ko": "입어 봐도 될까요?"
+    },
+    {
+      "id": "shop-07",
+      "category": "shopping",
+      "ko": "조금 깎아 주실 수 있나요?",
+      "note": "시장 · 노점에서"
+    },
+    {
+      "id": "shop-08",
+      "category": "shopping",
+      "ko": "카드로 결제할 수 있나요?"
+    },
+    {
+      "id": "shop-09",
+      "category": "shopping",
+      "ko": "현금만 받으시나요?"
+    },
+    {
+      "id": "shop-10",
+      "category": "shopping",
+      "ko": "이것으로 할게요."
+    },
+    {
+      "id": "shop-11",
+      "category": "shopping",
+      "ko": "영수증 주시겠어요?"
+    },
+    {
+      "id": "shop-12",
+      "category": "shopping",
+      "ko": "면세가 되나요?",
+      "note": "여권을 함께 보여 주세요"
+    },
+    {
+      "id": "shop-13",
+      "category": "shopping",
+      "ko": "봉투 하나 주시겠어요?"
+    },
+    {
+      "id": "shop-14",
+      "category": "shopping",
+      "ko": "선물 포장해 주실 수 있나요?"
+    },
+    {
+      "id": "shop-15",
+      "category": "shopping",
+      "ko": "환불하고 싶어요.",
+      "note": "영수증과 함께"
+    },
+    {
+      "id": "move-01",
+      "category": "transport",
+      "ko": "이 주소로 가 주세요.",
+      "note": "택시 기사에게 주소 화면과 함께"
+    },
+    {
+      "id": "move-02",
+      "category": "transport",
+      "ko": "가장 가까운 지하철역이 어디에 있나요?"
+    },
+    {
+      "id": "move-03",
+      "category": "transport",
+      "ko": "여기서 걸어갈 수 있나요?"
+    },
+    {
+      "id": "move-04",
+      "category": "transport",
+      "ko": "공항까지 얼마나 걸리나요?"
+    },
+    {
+      "id": "move-05",
+      "category": "transport",
+      "ko": "공항까지 요금이 얼마인가요?"
+    },
+    {
+      "id": "move-06",
+      "category": "transport",
+      "ko": "이 버스는 시내로 가나요?"
+    },
+    {
+      "id": "move-07",
+      "category": "transport",
+      "ko": "표는 어디에서 사나요?"
+    },
+    {
+      "id": "move-08",
+      "category": "transport",
+      "ko": "어른 두 장 주세요."
+    },
+    {
+      "id": "move-09",
+      "category": "transport",
+      "ko": "다음 정류장은 어디인가요?"
+    },
+    {
+      "id": "move-10",
+      "category": "transport",
+      "ko": "여기서 내려 주세요."
+    },
+    {
+      "id": "move-11",
+      "category": "transport",
+      "ko": "미터기를 켜 주세요.",
+      "note": "택시에서"
+    },
+    {
+      "id": "move-12",
+      "category": "transport",
+      "ko": "짐을 트렁크에 실어도 될까요?"
+    },
+    {
+      "id": "move-13",
+      "category": "transport",
+      "ko": "택시를 불러 주시겠어요?"
+    },
+    {
+      "id": "move-14",
+      "category": "transport",
+      "ko": "길을 잃었어요."
+    },
+    {
+      "id": "move-15",
+      "category": "transport",
+      "ko": "지도에서 여기가 어디인지 알려 주시겠어요?",
+      "note": "지도 앱을 보여 주며"
+    },
+    {
+      "id": "stay-01",
+      "category": "stay",
+      "ko": "체크인하고 싶어요."
+    },
+    {
+      "id": "stay-02",
+      "category": "stay",
+      "ko": "예약 확인서는 여기 있어요.",
+      "note": "예약 화면을 보여 주며"
+    },
+    {
+      "id": "stay-03",
+      "category": "stay",
+      "ko": "체크아웃은 몇 시인가요?"
+    },
+    {
+      "id": "stay-04",
+      "category": "stay",
+      "ko": "늦게 체크아웃할 수 있을까요?"
+    },
+    {
+      "id": "stay-05",
+      "category": "stay",
+      "ko": "짐을 맡길 수 있나요?",
+      "note": "체크인 전 · 체크아웃 뒤"
+    },
+    {
+      "id": "stay-06",
+      "category": "stay",
+      "ko": "와이파이 비밀번호가 무엇인가요?"
+    },
+    {
+      "id": "stay-07",
+      "category": "stay",
+      "ko": "수건을 더 주시겠어요?"
+    },
+    {
+      "id": "stay-08",
+      "category": "stay",
+      "ko": "에어컨이 작동하지 않아요."
+    },
+    {
+      "id": "stay-09",
+      "category": "stay",
+      "ko": "뜨거운 물이 나오지 않아요."
+    },
+    {
+      "id": "stay-10",
+      "category": "stay",
+      "ko": "방을 바꿀 수 있을까요?"
+    },
+    {
+      "id": "stay-11",
+      "category": "stay",
+      "ko": "조식은 몇 시부터인가요?"
+    },
+    {
+      "id": "stay-12",
+      "category": "stay",
+      "ko": "방 열쇠를 잃어버렸어요."
+    },
+    {
+      "id": "stay-13",
+      "category": "stay",
+      "ko": "근처에 편의점이 있나요?"
+    },
+    {
+      "id": "tour-01",
+      "category": "sightseeing",
+      "ko": "사진 좀 찍어 주시겠어요?"
+    },
+    {
+      "id": "tour-02",
+      "category": "sightseeing",
+      "ko": "여기를 누르시면 돼요.",
+      "note": "휴대폰을 건네며"
+    },
+    {
+      "id": "tour-03",
+      "category": "sightseeing",
+      "ko": "한 장만 더 부탁드려요."
+    },
+    {
+      "id": "tour-04",
+      "category": "sightseeing",
+      "ko": "여기서 사진을 찍어도 되나요?"
+    },
+    {
+      "id": "tour-05",
+      "category": "sightseeing",
+      "ko": "입장료는 얼마인가요?"
+    },
+    {
+      "id": "tour-06",
+      "category": "sightseeing",
+      "ko": "몇 시에 문을 닫나요?"
+    },
+    {
+      "id": "tour-07",
+      "category": "sightseeing",
+      "ko": "한국어 안내서가 있나요?"
+    },
+    {
+      "id": "tour-08",
+      "category": "sightseeing",
+      "ko": "이 근처에 가 볼 만한 곳이 있나요?"
+    },
+    {
+      "id": "tour-09",
+      "category": "sightseeing",
+      "ko": "줄은 어디에 서면 되나요?"
+    },
+    {
+      "id": "tour-10",
+      "category": "sightseeing",
+      "ko": "오늘 투어를 예약할 수 있나요?"
+    },
+    {
+      "id": "tour-11",
+      "category": "sightseeing",
+      "ko": "짐 보관소가 있나요?"
+    },
+    {
+      "id": "help-01",
+      "category": "emergency",
+      "ko": "도와주세요!"
+    },
+    {
+      "id": "help-02",
+      "category": "emergency",
+      "ko": "경찰을 불러 주세요."
+    },
+    {
+      "id": "help-03",
+      "category": "emergency",
+      "ko": "구급차를 불러 주세요."
+    },
+    {
+      "id": "help-04",
+      "category": "emergency",
+      "ko": "여권을 잃어버렸어요.",
+      "note": "대사관 연락이 필요해요"
+    },
+    {
+      "id": "help-05",
+      "category": "emergency",
+      "ko": "지갑을 도둑맞았어요."
+    },
+    {
+      "id": "help-06",
+      "category": "emergency",
+      "ko": "한국 대사관에 연락하고 싶어요."
+    },
+    {
+      "id": "help-07",
+      "category": "emergency",
+      "ko": "가장 가까운 병원이 어디에 있나요?"
+    },
+    {
+      "id": "help-08",
+      "category": "emergency",
+      "ko": "약국이 어디에 있나요?"
+    },
+    {
+      "id": "help-09",
+      "category": "emergency",
+      "ko": "몸이 좋지 않아요."
+    },
+    {
+      "id": "help-10",
+      "category": "emergency",
+      "ko": "다쳤어요."
+    },
+    {
+      "id": "help-11",
+      "category": "emergency",
+      "ko": "열이 나요."
+    },
+    {
+      "id": "help-12",
+      "category": "emergency",
+      "ko": "배가 아파요."
+    },
+    {
+      "id": "help-13",
+      "category": "emergency",
+      "ko": "머리가 아파요."
+    },
+    {
+      "id": "help-14",
+      "category": "emergency",
+      "ko": "진통제가 있나요?",
+      "note": "약국에서"
+    },
+    {
+      "id": "help-15",
+      "category": "emergency",
+      "ko": "저는 이 약을 먹고 있어요.",
+      "note": "약 봉투와 함께 보여 주세요"
+    },
+    {
+      "id": "help-16",
+      "category": "emergency",
+      "ko": "여행자 보험에 가입되어 있어요."
+    },
+    {
+      "id": "diet-01",
+      "category": "allergy",
+      "ko": "저는 땅콩 알레르기가 있어요."
+    },
+    {
+      "id": "diet-02",
+      "category": "allergy",
+      "ko": "저는 견과류 알레르기가 있어요."
+    },
+    {
+      "id": "diet-03",
+      "category": "allergy",
+      "ko": "저는 갑각류 알레르기가 있어요.",
+      "note": "새우 · 게 · 랍스터"
+    },
+    {
+      "id": "diet-04",
+      "category": "allergy",
+      "ko": "저는 달걀 알레르기가 있어요."
+    },
+    {
+      "id": "diet-05",
+      "category": "allergy",
+      "ko": "저는 글루텐을 먹을 수 없어요.",
+      "note": "밀 · 보리가 든 음식"
+    },
+    {
+      "id": "diet-06",
+      "category": "allergy",
+      "ko": "저는 유제품을 먹을 수 없어요."
+    },
+    {
+      "id": "diet-07",
+      "category": "allergy",
+      "ko": "저는 채식주의자예요. 고기와 생선을 먹지 않아요."
+    },
+    {
+      "id": "diet-08",
+      "category": "allergy",
+      "ko": "저는 비건이에요. 고기, 생선, 달걀, 유제품을 먹지 않아요."
+    },
+    {
+      "id": "diet-09",
+      "category": "allergy",
+      "ko": "할랄 음식이 있나요?"
+    },
+    {
+      "id": "diet-10",
+      "category": "allergy",
+      "ko": "이 음식에 돼지고기가 들어 있나요?"
+    },
+    {
+      "id": "diet-11",
+      "category": "allergy",
+      "ko": "이 음식에 무엇이 들어 있나요?"
+    },
+    {
+      "id": "diet-12",
+      "category": "allergy",
+      "ko": "아주 조금만 들어가도 위험해요.",
+      "note": "알레르기가 심할 때 함께 보여 주세요"
+    },
+    {
+      "id": "diet-13",
+      "category": "allergy",
+      "ko": "같은 기름이나 조리 도구를 쓰지 말아 주세요."
+    },
+    {
+      "id": "diet-14",
+      "category": "allergy",
+      "ko": "저는 술을 마시지 않아요."
+    },
+    {
+      "id": "num-01",
+      "category": "numbers",
+      "ko": "지금 몇 시인가요?"
+    },
+    {
+      "id": "num-02",
+      "category": "numbers",
+      "ko": "몇 시에 문을 여나요?"
+    },
+    {
+      "id": "num-03",
+      "category": "numbers",
+      "ko": "하나, 둘, 셋, 넷, 다섯"
+    },
+    {
+      "id": "num-04",
+      "category": "numbers",
+      "ko": "여섯, 일곱, 여덟, 아홉, 열"
+    },
+    {
+      "id": "num-05",
+      "category": "numbers",
+      "ko": "오늘, 내일, 어제"
+    },
+    {
+      "id": "num-06",
+      "category": "numbers",
+      "ko": "아침, 점심, 저녁"
+    },
+    {
+      "id": "num-07",
+      "category": "numbers",
+      "ko": "오전 9시에 만나요."
+    },
+    {
+      "id": "num-08",
+      "category": "numbers",
+      "ko": "10분 뒤에 다시 올게요."
+    },
+    {
+      "id": "num-09",
+      "category": "numbers",
+      "ko": "3박 묵을 예정이에요.",
+      "note": "숙소 · 입국 심사에서"
+    },
+    {
+      "id": "num-10",
+      "category": "numbers",
+      "ko": "가격을 숫자로 보여 주시겠어요?",
+      "note": "계산기 화면을 보여 달라고 할 때"
+    }
+  ]
+}

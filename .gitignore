@@ -1,0 +1,5 @@
+# 배포 리포 passlog-data 용 (publish-data.sh 가 복사)
+.cache/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,2316 @@
+{
+ "_doc": "사람이 확인한 보정. countries[ISO2].raw 가 지금 0404 원문(단계별 AllYn·SomeYn·Info)과 같을 때만 set 을 덮어쓴다. 원문이 바뀌면 자동 해석 + advisory-geo.json 좌표만 쓰고 경고한다(keepWhenStale 필드는 유지). synthetic = 0404 에 따로 없는 곳(괌·사이판 = 미국 페이지). meta 는 rawSnapshotSha256 이 forSha256 과 같을 때만 출력에 붙는다.",
+ "meta": {
+  "forSha256": "3e6ecdc1745acd5678f2e58d95e642ac8db278236bb804cf2224ea85e32074cd",
+  "asOf": "2026-10-19T04:11:15+09:00",
+  "verifiedAt": "2026-10-19T07:32+09:00",
+  "source": "외교부 해외안전여행(0404.go.kr) 여행경보 발령 현황 — 페이지가 쓰는 공개 JSON(POST /travelAlert/apntStatus/getAlertList, 로그인 불필요)을 2026-10-19 04:11 KST에 1회 수집 + 외교부 보도자료·0404 '여행경보 조정' 공지로 발령일·지역 상세를 보강",
+  "travelBanUntil": "2027-01-31 (10개국: 소말리아·아프가니스탄·이라크·예멘·리비아·우크라이나·수단·아이티·말리·이란 + 12개 지역, 2026-07-09 결정) / 파키스탄 발루치스탄은 2026-08-31 별도 지정",
+  "schema": {
+   "level": "국가 '나머지 전역' 기본 단계. 0 경보 없음 · 1 여행유의(남색) · 2 여행자제(황색) · 3 출국권고(적색, 외교부 문서에 '철수권고'로도 표기) · 4 여행금지(흑색)",
+   "baselineSpecial": "나머지 전역에 특별여행주의보가 걸려 있음",
+   "rank": "정렬·필터용 수치. 특별여행주의보 = 2.5 (외교부가 2026-03-02·05-20 공지에서 '특별여행주의보(2.5단계)'로 표기). max(단계, 2.5 if special)",
+   "maxLevel": "나라 안 어디든 가장 높은 단계",
+   "regions[].match": "대략 좌표/범위(approximate). point(lat,lon,radiusKm) · points · bbox[minLat,minLon,maxLat,maxLon] · admin1/admin2(names) · borderBuffer(with,km). borderBuffer는 국경선 데이터가 있어야 계산 가능",
+   "regions[].since": "현재 단계가 시작된 날(KST, 알 수 있는 경우)",
+   "mofaRecordUpdated": "0404 레코드 등록일(regDt). 2025-05-22는 0404 개편 때 일괄 이관된 날짜라 실제 발령일이 아님",
+   "confidence": "high = 0404 현황과 공지가 일치 · medium = 해석·불일치 있음 · low = 범위 좌표가 거칠거나 원문이 모호",
+   "destinations[].since": "그 여행지 단계가 시작된 날(알 수 있는 경우)",
+   "destinations[].needsReview": "덮는지 판단할 수 없는 3단계↑·특별여행주의보 지역이 있음(regionRefs). 카탈로그는 destination-areas.json 으로 모두 판정해 false 여야 한다"
+  },
+  "verification": {
+   "verifiedAt": "2026-10-19T07:32+09:00",
+   "by": "adversarial verifier (verify-log.md 참고)",
+   "rawRefetch": "POST getAlertList 재수집 07:32 KST — SHA-256 3e6ecdc1…74cd 로 04:11 수집본과 바이트 단위 동일(그 사이 변경 없음)",
+   "independentRederive": "원본 198행에서 단계·특별여행주의보 플래그를 다시 계산해 countries[]와 대조 — 불일치 없음(태국 특별여행주의보만 공지 기준으로 추가된 것, 아래 참고)",
+   "countryPages": "0404 국가별 페이지(/ntnSafetyInfo/{ntnCd}/detail) 152곳(2단계 이상·특별여행주의보 110개국 + 카탈로그 해외 나라 + 1단계 무작위 15개국: SI LI TM BT FJ MW NR KI GM AL LK BE NA ST SM)을 07:34 KST에 받아 단계 태그와 대조 — 단계 불일치 없음",
+   "notices": "0404 '여행경보 조정' 목록 최신 글은 2026-10-11 사우디 3단계(상단 고정 2026-07-09 정기조정). 2026-09-04(15개국 연장·해제), 08-28(네팔), 06-30(정기조정), 06-19(16개국 연장), 05-29(볼리비아) 본문을 다시 읽어 지역·날짜 확인",
+   "cambodia": "0404 캄보디아 국가 페이지(07:34 KST)와 안전공지 목록(최신 2026-10-19)을 확인 — 2026-07-10 '상반기 정기조정' 이후 여행경보 변경 공지 없음. 현재 3단계 5곳·2단계 1곳·나머지 1단계, 4단계 없음"
+  }
+ },
+ "countries": {
+  "AE": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "두바이·아부다비 포함 전역 3단계(출국권고). 2026-10-19 현재 하향 공지 없음(0404 레코드 갱신일 2026-03-08).",
+    "history": [
+     {
+      "date": "2026-03-02",
+      "change": "미발령 → 전역 특별여행주의보 (18:00 KST, 중동 정세 악화)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376944"
+     },
+     {
+      "date": "2026-03-08",
+      "change": "전역 3단계(철수권고) (19:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376944",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+    ],
+    "baselineSince": "2026-03-08"
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "AZ": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "3, 4단계 지정 지역을 제외한 지역"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "아르메니아와 인접한 아제르바이잔 서남부 지역(아그담(Aghdam), 피줄리(Fizuli), 자브라일(Jabrayil), 장길란(Zanglian), 구바들리(Guabadly), 라친(Lachin), 켈바자르(Kelbajar)), 나흐치반 아르메니아 접경지역"
+    ],
+    "trvlPrhb": [
+     "N",
+     "Y",
+     "아르메니아 접경 5km 구간"
+    ]
+   },
+   "set": {
+    "notes": "나흐치반 특별여행주의보(2026-03-07) → 2026-09-04 해제·1단계.",
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376961",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "BH": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2026-03-08",
+      "change": "전역 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "BO": {
+   "raw": {
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "라파스 주"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "3단계를 제외한 전지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "우유니(포토시)·수크레·산타크루스 등 3단계 외 전역 특별여행주의보(2026-05-28 발령, 2026-09-04 연장).",
+    "history": [
+     {
+      "date": "2025-12-19",
+      "change": "코차밤바 주 3→2단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376799"
+     },
+     {
+      "date": "2026-05-28",
+      "change": "라파스 주 3단계, 나머지 2단계 지역 특별여행주의보",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377257"
+     },
+     {
+      "date": "2026-09-04",
+      "change": "볼리비아 일부 지역 특별여행주의보 연장",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+     }
+    ],
+    "levelInferredNote": "0404에는 '3단계 외 전역 특별여행주의보'만 있음. 2026-05-28 발령 공지에 '기존 2단계 발령 지역에 특별여행주의보'라고 적혀 있어 2를 근거 있는 추정으로 둠",
+    "regions": [
+     {
+      "nameKo": "라파스 주",
+      "nameEn": "La Paz Department",
+      "level": 3,
+      "since": "2026-05-28",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "La Paz"
+       ],
+       "bbox": [
+        -17.8,
+        -69.7,
+        -12.4,
+        -67.1
+       ]
+      },
+      "note": "2026-05-28 19:00 시위·도로봉쇄로 3단계.",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "태양의 섬",
+      "nameEn": "Isla del Sol (Lake Titicaca)",
+      "level": 3,
+      "match": {
+       "type": "point",
+       "lat": -16.02,
+       "lon": -69.17,
+       "radiusKm": 8
+      },
+      "note": "2026-05-28 보도자료 기준 기존 3단계 유지. 0404 현황 JSON에는 라파스 주만 표기(라파스 주 안에 있음).",
+      "special": false,
+      "since": null,
+      "rank": 3.0
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377257",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ],
+    "baselineSince": "2026-05-28"
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "CD": {
+   "raw": {
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "중앙아프리카공화국과의 국경 50km 이내 지역/ 바우엘레주, 오트우엘레주, 마니에마주, 카사이주, 카사이상트랄주, 카사이오리앙탈주,탕가니카주,오트로마미주"
+    ],
+    "trvlPrhb": [
+     "N",
+     "Y",
+     "북키부주, 남키부주,이투리주"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "3,4단계 지정 지역을 제외한 지역"
+    ]
+   },
+   "set": {
+    "notes": "이투리주 2026-05-22 여행금지 추가(에볼라).",
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377237"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "CL": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "2단계 지정 지역을 제외한 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "발파라이소주(이스터섬 제외), 산티아고 수도주, 비오비오주"
+    ]
+   },
+   "set": {
+    "baselineNote": "산티아고 수도주·발파라이소주(이스터섬 제외)·비오비오주 2단계, 나머지(파타고니아·아타카마 등) 1단계."
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "CN": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "특별여행주의보 지정 지역을 제외한 지역"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "티베트 및 신장위구르자치구 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "상하이·베이징·칭다오·장자제·하얼빈 등 1단계.",
+    "regions": [
+     {
+      "nameKo": "티베트(시짱자치구) 및 신장위구르자치구",
+      "nameEn": "Tibet (Xizang) & Xinjiang Uyghur Autonomous Regions",
+      "level": null,
+      "special": true,
+      "since": "2025-06-13",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Xizang",
+        "Xinjiang"
+       ],
+       "bbox": [
+        [
+         29.0,
+         78.3,
+         36.0,
+         85.0
+        ],
+        [
+         26.8,
+         85.0,
+         33.0,
+         99.2
+        ],
+        [
+         32.5,
+         85.0,
+         34.5,
+         94.0
+        ],
+        [
+         35.0,
+         73.4,
+         49.2,
+         93.0
+        ],
+        [
+         40.8,
+         93.0,
+         45.4,
+         96.4
+        ]
+       ]
+      },
+      "note": "90일 단위 연장 중(2026-03-20, 2026-06-19, 2026-09-04 연장 공지).",
+      "rank": 2.5
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048635/detail"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "CU": {
+   "raw": {
+    "trvlRfran": [
+     "N",
+     "N",
+     "전 지역"
+    ],
+    "spclTrvlCutn": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2025-11-12",
+      "change": "전역 1단계(감염병)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376628"
+     },
+     {
+      "date": "2026-02-13",
+      "change": "전역 2단계(전력·연료난)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376905"
+     },
+     {
+      "date": "2026-05-19",
+      "change": "전역 특별여행주의보(2.5단계)",
+      "source": "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048514/detail"
+     },
+     {
+      "date": "2026-09-04",
+      "change": "특별여행주의보 연장",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376905",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048514/detail",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "EG": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "다합•샴엘셰이크지역, 카이로 등 나일강 유역 도시지역, 마르트루~지중해 유역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "서부사막, 시나이반도 남부 일부지역(성캐더린•타바)"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "중•북부 시나이 반도(1,2단계 지역 제외), 리비아 국경으로부터 30km까지"
+    ]
+   },
+   "set": {
+    "baselineNote": "1단계로 명시: 다합·샴엘셰이크, 카이로 등 나일강 유역 도시(룩소르·아스완 포함), 마르사마트루~지중해 연안. 후르가다 등 홍해 연안은 원문에 명시 없음(1단계로 추정).",
+    "confidence": "medium",
+    "regions": [
+     {
+      "nameKo": "서부사막, 시나이반도 남부 일부(성캐더린·타바)",
+      "nameEn": "Western Desert; parts of South Sinai (St Catherine, Taba)",
+      "level": 2,
+      "match": {
+       "type": "points",
+       "points": [
+        {
+         "lat": 28.56,
+         "lon": 33.95,
+         "radiusKm": 25
+        },
+        {
+         "lat": 29.49,
+         "lon": 34.9,
+         "radiusKm": 15
+        }
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "중·북부 시나이 반도(1·2단계 지역 제외), 리비아 국경 30km 이내",
+      "nameEn": "North & Central Sinai (excluding level-1/2 areas); within 30 km of Libyan border",
+      "level": 3,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        29.6,
+        32.6,
+        31.3,
+        34.9
+       ],
+       "borderBuffer": {
+        "with": "LY",
+        "km": 30,
+        "bbox": [
+         21.9,
+         24.9,
+         31.7,
+         25.45
+        ]
+       }
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ],
+    "level": 1,
+    "baselineRank": 1.0
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "ET": {
+   "raw": {
+    "trvlRfran": [
+     "N",
+     "Y",
+     "아디스아바바 시, 디레다와 시, 하라르 주, SNNPR 주, SWEPR 주, 시다마 주, 오로미아 주 일부(3단계 지역 제외), 아파르 주(3단계 지역 제외)"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "암하라 주, 티그라이 주, 소말리 주, 베니샹굴-구무즈 주, 감벨라 주, 오로미아 주 일부(East Welega, West Welega, Kelam Welega, Guji, Borena 지역), 수단 및 에리트리아 국경 10km 접경지역, 아파르주에서 티그라이주 10km 접경지역, △케냐 및 남수단 국경 10km 접경 지역"
+    ]
+   },
+   "set": {
+    "notes": "2026-05-27 에볼라 우려 특별여행주의보 → 2026-09-04 해제, 2단계 환원.",
+    "regions": [
+     {
+      "nameKo": "암하라 주, 티그라이 주, 소말리 주, 베니샹굴-구무즈 주, 감벨라 주, 오로미아 주 일부(East Welega, West Welega, Kelam Welega, Guji, Borena 지역), 수단 및 에리트리아 국경 10km 접경지역, 아파르주에서 티그라이주 10km 접경지역, △케냐 및 남수단 국경 10km 접경 지역",
+      "level": 3,
+      "special": false,
+      "since": null,
+      "nameEn": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ],
+    "level": 2,
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377249",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ],
+    "baselineRank": 2.0
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "GU": {
+   "synthetic": true,
+   "set": {
+    "nameKo": "괌",
+    "nameEn": "Guam",
+    "mofaNtnCd": "69(미국)",
+    "level": 1,
+    "baselineRank": 1.0,
+    "maxLevel": 1,
+    "special": false,
+    "banned": false,
+    "regions": [],
+    "notes": "0404에 별도 국가 없음. 미국 페이지(ntnCd 69)에서 괌을 함께 다루며 미국 경보는 '하와이 제외한 지역 1단계' → 1단계로 해석. 2026-10-17 괌 태풍(COR 1) 안전공지가 있었음(경보 단계와 별개).",
+    "sourceUrls": [
+     "https://www.0404.go.kr/ntnSafetyInfo/69/detail",
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert"
+    ],
+    "confidence": "medium"
+   }
+  },
+  "HN": {
+   "raw": {
+    "trvlRfran": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "notes": "2025-11-28 특별여행주의보 → 2026-02-26 해제, 전역 2단계.",
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048237/detail"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "ID": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "2단계 지정 지역을 제외한 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "서파루아, 파푸아, 말루쿠, 아체"
+    ]
+   },
+   "set": {
+    "baselineNote": "발리·자카르타·롬복 등 1단계.",
+    "regions": [
+     {
+      "nameKo": "서파푸아",
+      "nameEn": "West Papua (Papua Barat & split provinces)",
+      "level": 2,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        -4.5,
+        129.5,
+        0.5,
+        135.0
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "파푸아",
+      "nameEn": "Papua (incl. 2022 split provinces)",
+      "level": 2,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        -9.2,
+        134.0,
+        -0.8,
+        141.1
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "말루쿠",
+      "nameEn": "Maluku (& North Maluku?)",
+      "level": 2,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        -8.5,
+        124.0,
+        3.0,
+        135.0
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "아체",
+      "nameEn": "Aceh",
+      "level": 2,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        2.0,
+        95.0,
+        6.1,
+        98.3
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     }
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "IR": {
+   "raw": {
+    "trvlPrhb": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2025-06-17",
+      "change": "전역 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376159"
+     },
+     {
+      "date": "2026-03-05",
+      "change": "전역 4단계 여행금지 (18:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376953"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376953"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "JO": {
+   "raw": {
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "자르카 시 동편 경계선의 동부 지역"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "3단계를 제외한 전 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "암만·페트라·아카바 등 3단계 외 전역 특별여행주의보(2026-03-02 발령, 06-19·09-04 연장).",
+    "levelInferredNote": "0404에는 '3단계 외 전 지역 특별여행주의보'만 있고 그 아래 기본 단계 표시는 없음. 2026-03-02 발령 전에는 1·2단계 혼재(외교부 보도자료 26-127) → level 2는 추정값",
+    "regions": [
+     {
+      "nameKo": "자르카 시 동편 경계선의 동부 지역",
+      "nameEn": "Areas east of Zarqa city's eastern boundary",
+      "level": 3,
+      "since": "2026-03-08",
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        29.0,
+        36.2,
+        33.4,
+        39.3
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "note": null,
+      "rank": 3.0
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376944",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "JP": {
+   "raw": {
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "후쿠시마 원전 반경 30km 이내 및 일본 정부 지정 피난지시구역"
+    ]
+   },
+   "set": {
+    "baselineNote": "그 밖의 일본 전역은 여행경보 없음(0).",
+    "regions": [
+     {
+      "nameKo": "후쿠시마 원전 반경 30km 이내 및 일본 정부 지정 피난지시구역",
+      "nameEn": "Within 30 km of Fukushima Daiichi NPP & evacuation-order zones",
+      "level": 3,
+      "match": {
+       "type": "point",
+       "lat": 37.421,
+       "lon": 141.033,
+       "radiusKm": 30
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "KH": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "2·3 단계 발령 지역 외 전 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "시하누크빌 주"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "캄보디아-태국 국경 50km 이내,시하누크빌 시 ,캄폿 주 보코산 지역, 바벳 시, 포이펫 시"
+    ]
+   },
+   "set": {
+    "baselineNote": "프놈펜(2026-03-06 2→1단계), 시엠립·앙코르(2025-12-04 2→1단계) 포함 나머지 전역 1단계.",
+    "history": [
+     {
+      "date": "2025-07-25",
+      "change": "태-캄 무력충돌: 웃더민체이·프레아비히어 특별여행주의보, 반테이민체이·파일린·바탐방·푸르사트·코콩 2단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376260"
+     },
+     {
+      "date": "2025-09-16",
+      "change": "스캠 감금 피해: 프놈펜 2단계, 시하누크빌주·보코산·바벳 특별여행주의보 (17:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376420"
+     },
+     {
+      "date": "2025-10-10",
+      "change": "프놈펜 특별여행주의보로 상향 (21:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376515"
+     },
+     {
+      "date": "2025-10-16",
+      "change": "보코산·바벳·포이펫 4단계 여행금지, 시하누크빌주 3단계, 나머지 1→2단계 (00:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376523"
+     },
+     {
+      "date": "2025-12-04",
+      "change": "프놈펜 특별여행주의보 해제→2단계, 시엠립 등 2→1단계 (16:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376728"
+     },
+     {
+      "date": "2025-12-10",
+      "change": "캄-태 국경 50km 이내 3단계 (17:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376761"
+     },
+     {
+      "date": "2026-01-15",
+      "change": "보코산·바벳·포이펫 여행금지 기간 2026-07-31까지 연장",
+      "source": "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048217/detail"
+     },
+     {
+      "date": "2026-03-06",
+      "change": "프놈펜 2→1단계",
+      "source": "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048306/detail"
+     },
+     {
+      "date": "2026-06-30",
+      "change": "시하누크빌주 3→2단계(시는 3단계 유지), 태국 접경 7개 주 특별여행주의보 해제→1단계 (18:00 KST)",
+      "source": "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048565/detail"
+     },
+     {
+      "date": "2026-07-09",
+      "change": "보코산·바벳·포이펫 4→3단계 (피해 신고 전년 대비 94% 감소)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377409"
+     }
+    ],
+    "notes": "2026-10-19 현재 캄보디아에 여행금지(4단계) 지역은 없음. 3단계 5곳·2단계 1곳이 남아 있음. (추천 제외 여부는 앱의 사용자 설정 '추천에서 뺄 나라'가 정한다 — 기본값 KH)",
+    "regions": [
+     {
+      "nameKo": "캄보디아-태국 국경 50km 이내",
+      "nameEn": "Within 50 km of the Cambodia–Thailand border (parts of Koh Kong, Pursat, Battambang, Pailin, Banteay Meanchey, Oddar Meanchey, Preah Vihear)",
+      "level": 3,
+      "since": "2025-12-10",
+      "match": {
+       "type": "borderBuffer",
+       "with": "TH",
+       "km": 50,
+       "bbox": [
+        [
+         10.9,
+         102.3,
+         13.9,
+         103.5
+        ],
+        [
+         13.4,
+         102.3,
+         14.75,
+         105.25
+        ]
+       ]
+      },
+      "note": "2025-12-10 17:00 KST 태-캄 무력충돌 재발로 3단계. 2026-06-30 접경 7개 주 특별여행주의보는 해제됐지만 50km 이내 3단계는 유지.",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "시하누크빌 시",
+      "nameEn": "Sihanoukville City (Preah Sihanouk)",
+      "level": 3,
+      "since": "2025-10-16",
+      "match": {
+       "type": "point",
+       "lat": 10.627,
+       "lon": 103.522,
+       "radiusKm": 12
+      },
+      "note": "주 전체가 2025-10-16 3단계 → 2026-06-30 주는 2단계로 내렸지만 시는 3단계 유지.",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "캄폿 주 보코산 지역",
+      "nameEn": "Bokor Mountain area (Preah Monivong Bokor NP), Kampot",
+      "level": 3,
+      "since": "2026-07-09",
+      "match": {
+       "type": "point",
+       "lat": 10.627,
+       "lon": 104.026,
+       "radiusKm": 15
+      },
+      "note": "2025-09-16 특별여행주의보 → 2025-10-16 00:00 4단계(여행금지) → 2026-07-09 3단계로 하향(제55차 여권정책협의회).",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "바벳 시",
+      "nameEn": "Bavet City (Svay Rieng, Vietnam border)",
+      "level": 3,
+      "since": "2026-07-09",
+      "match": {
+       "type": "point",
+       "lat": 11.065,
+       "lon": 106.165,
+       "radiusKm": 12
+      },
+      "note": "2025-10-16 4단계 → 2026-07-09 3단계.",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "포이펫 시",
+      "nameEn": "Poipet City (Banteay Meanchey, Thai border)",
+      "level": 3,
+      "since": "2026-07-09",
+      "match": {
+       "type": "point",
+       "lat": 13.659,
+       "lon": 102.564,
+       "radiusKm": 12
+      },
+      "note": "2025-10-16 4단계 → 2026-07-09 3단계. 국경 50km 이내 3단계와도 겹침.",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "시하누크빌 주",
+      "nameEn": "Preah Sihanouk Province (KH-18)",
+      "level": 2,
+      "since": "2026-06-30",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Preah Sihanouk"
+       ],
+       "bbox": [
+        10.35,
+        103.25,
+        10.95,
+        104.0
+       ]
+      },
+      "note": "2025-10-16 3단계 → 2026-06-30 18:00 2단계(시하누크빌 시 제외).",
+      "special": false,
+      "rank": 2.0
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376523",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376728",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376761",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048306/detail",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048565/detail",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377409"
+    ],
+    "verifiedNote": "2026-10-19 07:34 KST 0404 국가 페이지: 여행유의 '2․3 단계 발령 지역 외 전 지역' / 여행자제 '시하누크빌 주' / 출국권고 '캄보디아-태국 국경 50km 이내, 시하누크빌 시, 캄폿 주 보코산 지역, 바벳 시, 포이펫 시'. 안전공지 목록상 07-10 이후 경보 변경 없음."
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "KW": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2026-03-08",
+      "change": "전역 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "LB": {
+   "raw": {
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "4단계 지정 지역을 제외한 지역"
+    ],
+    "trvlPrhb": [
+     "N",
+     "Y",
+     "남부 이스라엘 접경 지역(블루라인으로부터 5km 포함), 남부주, 나바티예주, 다히예의 일부 지역(베이루트 공항 및 M51 도로 제외),바알벡헤르멜주,베카주(서베카구,라샤야구)"
+    ]
+   },
+   "set": {
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376982",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377026"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "MA": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "서사하라 이외 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "서사하라 내 모래방어벽 서쪽"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "서사하라 내 모래방어벽 동쪽"
+    ]
+   },
+   "set": {
+    "baselineNote": "마라케시·페스·메르주가(사하라 투어) 등 서사하라 외 지역 1단계.",
+    "regions": [
+     {
+      "nameKo": "서사하라 내 모래방어벽 서쪽",
+      "nameEn": "Western Sahara, west of the Berm",
+      "level": 2,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        20.7,
+        -17.2,
+        27.7,
+        -11.5
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "서사하라 내 모래방어벽 동쪽",
+      "nameEn": "Western Sahara, east of the Berm",
+      "level": 3,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        21.3,
+        -13.5,
+        27.7,
+        -8.7
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "MP": {
+   "synthetic": true,
+   "set": {
+    "nameKo": "북마리아나 제도(사이판)",
+    "nameEn": "Northern Mariana Islands (Saipan)",
+    "mofaNtnCd": "69(미국)",
+    "level": 1,
+    "baselineRank": 1.0,
+    "maxLevel": 1,
+    "special": false,
+    "banned": false,
+    "regions": [],
+    "notes": "0404에 별도 국가 없음. 미국 페이지에서 북마리아나제도(사이판)를 함께 다룸 → 1단계로 해석. 2026-10-17 괌 태풍(COR 1) 안전공지가 있었음(경보 단계와 별개).",
+    "sourceUrls": [
+     "https://www.0404.go.kr/ntnSafetyInfo/69/detail",
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert"
+    ],
+    "confidence": "medium"
+   }
+  },
+  "MX": {
+   "raw": {
+    "trvlRfran": [
+     "N",
+     "Y",
+     "3단계 지정 지역을 제외한 지역"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "치아파스주, 시날로아주"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "과나후아토주"
+    ]
+   },
+   "set": {
+    "baselineNote": "멕시코시티·칸쿤(킨타나로오)·과달라하라(할리스코) 등 나머지 전역 2단계(여행자제).",
+    "regions": [
+     {
+      "nameKo": "과나후아토 주",
+      "nameEn": "Guanajuato State",
+      "level": null,
+      "special": true,
+      "since": "2026-02-24",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Guanajuato"
+       ],
+       "bbox": [
+        [
+         19.9,
+         -102.1,
+         21.85,
+         -100.45
+        ],
+        [
+         20.75,
+         -100.45,
+         21.85,
+         -99.65
+        ]
+       ]
+      },
+      "note": "2026-02-24 15:00 할리스코·과나후아토 특별여행주의보(카르텔 수장 사살 후 폭력) → 2026-05-22 할리스코 해제(2단계 환원), 과나후아토 연장 → 2026-09-04 연장.",
+      "rank": 2.5
+     },
+     {
+      "nameKo": "치아파스 주",
+      "nameEn": "Chiapas State",
+      "level": 3,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Chiapas"
+       ],
+       "bbox": [
+        14.5,
+        -94.15,
+        17.8,
+        -90.35
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "시날로아 주",
+      "nameEn": "Sinaloa State",
+      "level": 3,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Sinaloa"
+       ],
+       "bbox": [
+        22.45,
+        -109.5,
+        27.05,
+        -105.4
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376925",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048517/detail",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "MY": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "3단계 지정 지역을 제외한 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "사바주 동부 해안"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "사바주 동부도서 지역 및 동부해안"
+    ]
+   },
+   "set": {
+    "baselineNote": "쿠알라룸푸르·페낭·랑카위·코타키나발루(서해안) 등 1단계.",
+    "regions": [
+     {
+      "nameKo": "사바주 동부 해안",
+      "nameEn": "East coast of Sabah",
+      "level": 2,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        4.0,
+        117.5,
+        7.0,
+        119.3
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "사바주 동부도서 지역 및 동부해안",
+      "nameEn": "Eastern Sabah islands & coast (ESSZone: Sandakan–Lahad Datu–Semporna–Tawau)",
+      "level": 3,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        4.0,
+        118.0,
+        6.5,
+        119.3
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "NP": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "특별여행주의보를 제외한 전 지역"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "룸비니 주,코시 주,간다키 주,바그마티 주"
+    ]
+   },
+   "set": {
+    "notes": "2026-08-26 대규모 홍수 → 2026-08-28 22:00 4개 주 특별여행주의보(통상 90일 이내). 그 전 2026-06-30에 전역 1단계로 하향됐었음.",
+    "regions": [
+     {
+      "nameKo": "바그마티 주",
+      "nameEn": "Bagmati Province (Kathmandu)",
+      "level": null,
+      "special": true,
+      "since": "2026-08-28",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Bagmati"
+       ],
+       "bbox": [
+        27.2,
+        84.4,
+        28.4,
+        86.6
+       ]
+      },
+      "note": null,
+      "rank": 2.5
+     },
+     {
+      "nameKo": "간다키 주",
+      "nameEn": "Gandaki Province (Pokhara, Annapurna)",
+      "level": null,
+      "special": true,
+      "since": "2026-08-28",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Gandaki"
+       ],
+       "bbox": [
+        27.5,
+        83.3,
+        29.4,
+        84.9
+       ]
+      },
+      "note": null,
+      "rank": 2.5
+     },
+     {
+      "nameKo": "코시 주",
+      "nameEn": "Koshi Province (Everest region east)",
+      "level": null,
+      "special": true,
+      "since": "2026-08-28",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Koshi"
+       ],
+       "bbox": [
+        26.35,
+        86.1,
+        28.15,
+        88.2
+       ]
+      },
+      "note": null,
+      "rank": 2.5
+     },
+     {
+      "nameKo": "룸비니 주",
+      "nameEn": "Lumbini Province",
+      "level": null,
+      "special": true,
+      "since": "2026-08-28",
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Lumbini"
+       ],
+       "bbox": [
+        27.3,
+        81.6,
+        28.6,
+        83.8
+       ]
+      },
+      "note": null,
+      "rank": 2.5
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377528",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048628/detail"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "OM": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2026-03-08",
+      "change": "전역 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "PE": {
+   "raw": {
+    "trvlRfran": [
+     "N",
+     "Y",
+     "3단계 지정 지역을 제외한 지역"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "아야쿠초 주 : 라 마르, 우안타 지역/ 우앙카벨리카 주 : 츄르캄파, 타야카하 지역/ 쿠스코 주 : 라 콘벤시온 지역/ 후닌 주 : 사티포, 우안카요, 콘셉시온 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "리마·쿠스코 시·마추픽추 등 나머지 전역 2단계.",
+    "regions": [
+     {
+      "nameKo": "아야쿠초 주: 라마르, 우안타 지역",
+      "nameEn": "Ayacucho: La Mar, Huanta provinces",
+      "level": 3,
+      "match": {
+       "type": "admin2",
+       "names": [
+        "La Mar",
+        "Huanta"
+       ],
+       "bbox": [
+        -13.0,
+        -74.6,
+        -12.2,
+        -73.4
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "우앙카벨리카 주: 츄르캄파, 타야카하 지역",
+      "nameEn": "Huancavelica: Churcampa, Tayacaja provinces",
+      "level": 3,
+      "match": {
+       "type": "admin2",
+       "names": [
+        "Churcampa",
+        "Tayacaja"
+       ],
+       "bbox": [
+        -12.75,
+        -75.1,
+        -11.95,
+        -74.3
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "쿠스코 주: 라 콘벤시온 지역",
+      "nameEn": "Cusco: La Convención province (Quillabamba, Santa Teresa)",
+      "level": 3,
+      "match": {
+       "type": "admin2",
+       "names": [
+        "La Convención"
+       ],
+       "bbox": [
+        -13.3,
+        -74.0,
+        -11.2,
+        -72.58
+       ]
+      },
+      "note": "마추픽추(우루밤바주 마추픽추 지구)와 맞닿아 있음. 산타테레사 경유 육로는 라 콘벤시온을 지남.",
+      "special": false,
+      "since": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "후닌 주: 사티포, 우안카요, 콘셉시온 지역",
+      "nameEn": "Junín: Satipo, Huancayo, Concepción provinces",
+      "level": 3,
+      "match": {
+       "type": "admin2",
+       "names": [
+        "Satipo",
+        "Huancayo",
+        "Concepción"
+       ],
+       "bbox": [
+        [
+         -12.5,
+         -75.6,
+         -11.6,
+         -74.9
+        ],
+        [
+         -12.3,
+         -75.0,
+         -10.9,
+         -73.4
+        ]
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "PH": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "수빅시, 보라카이섬, 보홀섬, 세부막탄섬(라푸라푸시)"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "1, 3, 4단계 지역을 제외한 지역 , 시아르가오주 및 다바오 카가얀데오로시, 라귄딩안 공항 및 N9 도로 일부"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "팔라완섬 2단계 지역(아볼란, 나라, 케손) 이남, 민다나오섬 일부(2단계 및 4단계 지역 제외)"
+    ],
+    "trvlPrhb": [
+     "N",
+     "Y",
+     "민다나오의 잠보앙가, 술루‧바실란 타위타위 군도"
+    ]
+   },
+   "set": {
+    "baselineNote": "마닐라·세부시(본섬)·엘니도 등 1·3·4단계 지역 외 전역 2단계(여행자제).",
+    "regions": [
+     {
+      "nameKo": "수빅시",
+      "nameEn": "Subic (Olongapo/Subic Bay)",
+      "level": 1,
+      "match": {
+       "type": "point",
+       "lat": 14.88,
+       "lon": 120.28,
+       "radiusKm": 15
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 1.0
+     },
+     {
+      "nameKo": "보라카이섬",
+      "nameEn": "Boracay Island",
+      "level": 1,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        11.92,
+        121.9,
+        12.01,
+        121.97
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 1.0
+     },
+     {
+      "nameKo": "보홀섬",
+      "nameEn": "Bohol Island",
+      "level": 1,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        9.5,
+        123.7,
+        10.2,
+        124.65
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 1.0
+     },
+     {
+      "nameKo": "세부 막탄섬(라푸라푸시)",
+      "nameEn": "Mactan Island (Lapu-Lapu City), Cebu",
+      "level": 1,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        10.24,
+        123.93,
+        10.36,
+        124.06
+       ]
+      },
+      "note": "원문 '세부막탄섬(라푸라푸시)'. 세부시(본섬)는 1단계 목록에 없어 2단계로 해석됨.",
+      "confidence": "medium",
+      "special": false,
+      "since": null,
+      "rank": 1.0
+     },
+     {
+      "nameKo": "시아르가오주 및 다바오·카가얀데오로시, 라귄딩안 공항 및 N9 도로 일부",
+      "nameEn": "Siargao, Davao City, Cagayan de Oro, Laguindingan airport & part of N9 road (Mindanao exceptions)",
+      "level": 2,
+      "match": {
+       "type": "points",
+       "points": [
+        {
+         "lat": 9.85,
+         "lon": 126.05,
+         "radiusKm": 30
+        },
+        {
+         "lat": 7.07,
+         "lon": 125.61,
+         "radiusKm": 25
+        },
+        {
+         "lat": 8.48,
+         "lon": 124.65,
+         "radiusKm": 20
+        }
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "팔라완섬 2단계 지역(아볼란·나라·케손) 이남",
+      "nameEn": "Southern Palawan south of Aborlan/Narra/Quezon",
+      "level": 3,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        8.3,
+        116.9,
+        9.2,
+        118.4
+       ]
+      },
+      "confidence": "low",
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "민다나오섬 일부(2·4단계 지역 제외)",
+      "nameEn": "Mindanao (except listed level-2 and level-4 areas)",
+      "level": 3,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        5.5,
+        121.9,
+        9.3,
+        126.7
+       ]
+      },
+      "confidence": "low",
+      "note": "bbox는 민다나오 본섬 대략 범위(보홀·세부 남단과 겹치지 않게 북위 9.3도로 자름). 수리가오 등 북단은 누락될 수 있음.",
+      "special": false,
+      "since": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "민다나오의 잠보앙가(반도), 술루·바실란·타위타위 군도",
+      "nameEn": "Zamboanga Peninsula; Sulu, Basilan, Tawi-Tawi archipelagos",
+      "level": 4,
+      "since": null,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        4.5,
+        119.2,
+        8.8,
+        123.5
+       ]
+      },
+      "confidence": "medium",
+      "note": "잠보앙가 반도(델노르테·델수르·시부가이) + 술루·바실란·타위타위. bbox는 대략값.",
+      "special": false,
+      "rank": 4.0,
+      "sinceRaw": "여행금지 지정기간 ~2027-01-31",
+      "banUntil": "2027-01-31"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377409"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "PK": {
+   "raw": {
+    "trvlRfran": [
+     "N",
+     "Y",
+     "이슬라마바드, 페이살라바드, 라왈핀디, 라호르, 훈자, 길깃, 스카르두"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "2단계(여행자제), 4단계(여행금지) 지역을 제외한 전 지역"
+    ],
+    "trvlPrhb": [
+     "N",
+     "Y",
+     "발루치스탄"
+    ]
+   },
+   "set": {
+    "baselineNote": "이슬라마바드·라호르·훈자·길깃·스카르두 등 2단계, 그 외 3단계, 발루치스탄 4단계.",
+    "history": [
+     {
+      "date": "2026-08-31",
+      "change": "발루치스탄州 4단계 여행금지 (23:00 KST)",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377533"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377533"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "QA": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2026-03-08",
+      "change": "전역 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "RU": {
+   "raw": {
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "북카프카즈 지역(체첸/다게스탄/세베로오세티아/카바르디노발카르/잉귀시/까라차예보체르케스카야/아디게이) 및 우크라이나 접경지역(4단계 제외 로스토프, 벨고로드, 보로네시, 브랸스크 주 및 오룔 주 일부(샤블리키노, 드미트롭스크, 사스코보, 크로믜, 트로스나 5개 지역))"
+    ],
+    "trvlPrhb": [
+     "N",
+     "Y",
+     "우크라이나 접경지역(쿠르스크주 전체 및 로스토프·벨고로드·보로네시·브랸스크 지역 내 우크라이나 국경에서 30km 구간)"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "3, 4단계 지정 지역을 제외한 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "블라디보스토크·모스크바 등 3·4단계 외 전역 특별여행주의보(90일 단위 연장 중, 2026-09-04 연장).",
+    "levelInferredNote": "0404에는 '3·4단계 외 전역 특별여행주의보'만 있고 그 아래 기본 단계 표시는 없음 → level 2는 추정값"
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "SA": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "history": [
+     {
+      "date": "2026-03-02",
+      "change": "2단계 지역 → 특별여행주의보",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376944"
+     },
+     {
+      "date": "2026-03-08",
+      "change": "라스타누라·샤이바·프린스술탄 공군기지 반경 3단계 추가",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376965"
+     },
+     {
+      "date": "2026-03-20",
+      "change": "얀부 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377026"
+     },
+     {
+      "date": "2026-04-08",
+      "change": "주베일 3단계",
+      "source": "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048453/detail"
+     },
+     {
+      "date": "2026-10-11",
+      "change": "전역 3단계(출국권고) (22:00 KST)",
+      "source": "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048657/detail"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048657/detail"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "SN": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "특별여행주의보를 제외한 전 지역"
+    ],
+    "spclTrvlCutn": [
+     "N",
+     "Y",
+     "바켈(Bakel) 시, 키다라(Kidara) 시,구드리(Goudri) 시,쟈부구(Diabougou) 시"
+    ]
+   },
+   "set": {
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "TH": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "2.3단계 및 특별여행주의보 발령 지역을 제외한 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "딱 주"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "송클라 주 남부 말레이시아 접경지역, 파타니 주, 나라티왓 주, 얄라 주, 태국-캄보디아 국경 50km 이내"
+    ]
+   },
+   "set": {
+    "baselineNote": "방콕·치앙마이·푸껫·파타야 등 나머지 전역 1단계.",
+    "history": [
+     {
+      "date": "2025-07-25",
+      "change": "캄보디아 접경 4개 주 특별여행주의보, 3개 주 2단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376260"
+     },
+     {
+      "date": "2025-12-10",
+      "change": "캄보디아 국경 50km 이내 3단계",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376761"
+     },
+     {
+      "date": "2026-09-04",
+      "change": "캄보디아 접경 7개 주 특별여행주의보 해제→1단계(50km 이내 3단계 유지), 치앙센·매싸이 특별여행주의보 연장",
+      "source": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+     }
+    ],
+    "confidenceNote": "치앙센·매싸이 특별여행주의보는 2026-09-04 공지(외교부)에 '그대로 유지'로 명시됐지만, 0404 현황 JSON과 0404 태국 국가 페이지(2026-10-19 07:34 KST)에는 특별여행주의보 태그가 없음. 앱에서는 보수적으로 특별여행주의보로 취급하고, 파이프라인은 공지와 JSON을 계속 교차 확인",
+    "special": true,
+    "confidence": "medium",
+    "regions": [
+     {
+      "nameKo": "딱 주",
+      "nameEn": "Tak Province (TH-63, Myanmar border; Mae Sot)",
+      "level": 2,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Tak"
+       ],
+       "bbox": [
+        15.1,
+        97.9,
+        17.7,
+        99.6
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "송클라 주 남부 말레이시아 접경지역",
+      "nameEn": "Southern Songkhla near Malaysia (Sadao, Saba Yoi, Thepha, Na Thawi districts)",
+      "level": 3,
+      "match": {
+       "type": "bbox",
+       "bbox": [
+        6.3,
+        100.1,
+        6.95,
+        101.1
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "파타니 주",
+      "nameEn": "Pattani Province (TH-94)",
+      "level": 3,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Pattani"
+       ],
+       "bbox": [
+        6.5,
+        101.0,
+        7.0,
+        101.75
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "나라티왓 주",
+      "nameEn": "Narathiwat Province (TH-96)",
+      "level": 3,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Narathiwat"
+       ],
+       "bbox": [
+        5.75,
+        101.4,
+        6.55,
+        102.1
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "얄라 주",
+      "nameEn": "Yala Province (TH-95)",
+      "level": 3,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Yala"
+       ],
+       "bbox": [
+        5.6,
+        100.9,
+        6.85,
+        101.6
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "태국-캄보디아 국경 50km 이내",
+      "nameEn": "Within 50 km of the Thailand–Cambodia border (Trat, Chanthaburi, Sa Kaeo, Buriram, Surin, Sisaket, Ubon Ratchathani)",
+      "level": 3,
+      "since": "2025-12-10",
+      "match": {
+       "type": "borderBuffer",
+       "with": "KH",
+       "km": 50,
+       "bbox": [
+        [
+         11.5,
+         101.8,
+         13.95,
+         103.0
+        ],
+        [
+         13.9,
+         102.3,
+         14.9,
+         105.65
+        ]
+       ]
+      },
+      "note": "접경 7개 주 특별여행주의보는 2026-09-04 해제(→1단계), 50km 이내 3단계는 유지.",
+      "special": false,
+      "rank": 3.0
+     },
+     {
+      "nameKo": "치앙센 국경검문소 및 매싸이 국경검문소",
+      "nameEn": "Chiang Saen & Mae Sai border checkpoints (Chiang Rai)",
+      "level": null,
+      "special": true,
+      "since": null,
+      "match": {
+       "type": "points",
+       "points": [
+        {
+         "lat": 20.27,
+         "lon": 100.09,
+         "radiusKm": 5
+        },
+        {
+         "lat": 20.43,
+         "lon": 99.88,
+         "radiusKm": 5
+        }
+       ]
+      },
+      "note": "2026-09-04 공지에서 취업사기 예방 차원으로 유지·연장. 단, 0404 현황 JSON(2026-10-19)에는 특별여행주의보 플래그가 비어 있음 → 확인 필요.",
+      "confidence": "medium",
+      "rank": 2.5,
+      "sinceRaw": "2025-07-25 이전"
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546",
+     "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048635/detail"
+    ],
+    "specialScope": "partial"
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "TR": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "2,3단계 및 특별여행주의보 지정 지역을 제외한 지역"
+    ],
+    "trvlRfran": [
+     "N",
+     "Y",
+     "가지안테프,샨르우르파,툰젤리,엘라지즈,디야르바키르,마르딘,반,비틀리스"
+    ],
+    "dptcnyAdvs": [
+     "N",
+     "Y",
+     "빙괼, 바트만, 시이르트, 시르나크, 하카리, 시리아의 국경 10km 이내 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "이스탄불·카파도키아(네브셰히르)·안탈리아 등 나머지 1단계. 아다나·말라티아·하타이·오스마니예는 2026-09-04 특별여행주의보 해제 후 1단계.",
+    "regions": [
+     {
+      "nameKo": "가지안테프·샨르우르파·툰젤리·엘라지즈·디야르바키르·마르딘·반·비틀리스",
+      "nameEn": "Gaziantep, Şanlıurfa, Tunceli, Elazığ, Diyarbakır, Mardin, Van, Bitlis provinces",
+      "level": 2,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Gaziantep",
+        "Şanlıurfa",
+        "Tunceli",
+        "Elazığ",
+        "Diyarbakır",
+        "Mardin",
+        "Van",
+        "Bitlis"
+       ],
+       "bbox": [
+        [
+         36.65,
+         36.45,
+         37.45,
+         38.05
+        ],
+        [
+         36.65,
+         37.85,
+         38.0,
+         40.2
+        ],
+        [
+         37.0,
+         39.85,
+         37.7,
+         41.6
+        ],
+        [
+         37.5,
+         39.4,
+         38.75,
+         41.25
+        ],
+        [
+         38.25,
+         38.65,
+         39.6,
+         40.5
+        ],
+        [
+         37.95,
+         42.55,
+         39.4,
+         44.5
+        ],
+        [
+         38.05,
+         41.6,
+         38.95,
+         43.1
+        ]
+       ]
+      },
+      "note": "9개 주는 2025-12-19 3→2단계, 가지안테프·킬리스 특별여행주의보 2026-09-04 해제(가지안테프 2단계).",
+      "special": false,
+      "since": null,
+      "rank": 2.0
+     },
+     {
+      "nameKo": "빙굘·바트만·시이르트·시르낙·하카리, 시리아 국경 10km 이내",
+      "nameEn": "Bingöl, Batman, Siirt, Şırnak, Hakkari provinces; within 10 km of Syrian border",
+      "level": 3,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Bingöl",
+        "Batman",
+        "Siirt",
+        "Şırnak",
+        "Hakkari"
+       ],
+       "borderBuffer": {
+        "with": "SY",
+        "km": 10,
+        "bbox": [
+         [
+          35.75,
+          35.75,
+          36.7,
+          36.75
+         ],
+         [
+          36.55,
+          36.5,
+          36.95,
+          40.0
+         ],
+         [
+          36.8,
+          40.0,
+          37.25,
+          42.4
+         ]
+        ]
+       },
+       "bbox": [
+        [
+         38.6,
+         39.9,
+         39.6,
+         41.4
+        ],
+        [
+         37.6,
+         40.7,
+         38.4,
+         41.7
+        ],
+        [
+         37.6,
+         41.4,
+         38.3,
+         42.6
+        ],
+        [
+         37.1,
+         41.85,
+         37.8,
+         43.4
+        ],
+        [
+         36.95,
+         43.1,
+         37.95,
+         44.85
+        ]
+       ]
+      },
+      "special": false,
+      "since": null,
+      "note": null,
+      "rank": 3.0
+     }
+    ],
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376993",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376799"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "UG": {
+   "raw": {
+    "spclTrvlCutn": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "notes": "2026-05-21 에볼라 확산으로 전역 특별여행주의보, 2026-09-04 연장.",
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377223",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "US": {
+   "raw": {
+    "trvlCutn": [
+     "N",
+     "Y",
+     "하와이 제외한 지역"
+    ]
+   },
+   "set": {
+    "baselineNote": "하와이를 제외한 미국 전역 1단계(괌·사이판도 0404 '미국' 페이지에서 함께 다룸).",
+    "regions": [
+     {
+      "nameKo": "하와이",
+      "nameEn": "Hawaii",
+      "level": 0,
+      "match": {
+       "type": "admin1",
+       "names": [
+        "Hawaii"
+       ],
+       "bbox": [
+        18.8,
+        -160.3,
+        22.3,
+        -154.7
+       ]
+      },
+      "note": "1단계 대상에서 제외 = 경보 없음.",
+      "special": false,
+      "since": null,
+      "rank": 0.0
+     }
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  },
+  "VE": {
+   "raw": {
+    "dptcnyAdvs": [
+     "Y",
+     "N",
+     "전 지역"
+    ]
+   },
+   "set": {
+    "notes": "2025-11-21 4개 주 여행금지 → 2026-07-09 해제, 전역 3단계.",
+    "sourceUrls": [
+     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+     "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377409"
+    ]
+   },
+   "keepWhenStale": [
+    "history"
+   ]
+  }
+ }
+}

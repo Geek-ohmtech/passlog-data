@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "updated": "2026-10",
+  "source": "PASSLOG 취향 설문 12문항 (taste-and-random-design.md §2.3 · hub/PLAN.md §4-2). 답은 선택지 id 로만 저장하고 신호는 이 표로 합산한다 — 표를 고쳐도 다시 묻지 않는다. 아이콘에 햇살 모양 기호는 쓰지 않는다.",
+  "fields": {
+    "kind": "single 하나 고르기 · multi 여러 개(max) · slider3 3단 슬라이더(하나) · chips 칩 여러 개(max, 없으면 제한 없음)",
+    "max": "multi · chips 최대 개수",
+    "multiScale": "여러 개를 고르면 각 선택지의 테마 신호에 곱하는 값 (Q1 두 개 → 0.75)",
+    "affectsLabel": "false 면 여행 유형 라벨 계산에서 뺀다 (Q9 동반자 — 맥락 정보)",
+    "since": "이 문항이 처음 들어간 설문 version (답한 version 보다 크면 '새 질문')",
+    "exclusive": "고르면 다른 선택지를 모두 끈다 (Q5 '날씨는 상관없어요')",
+    "toggle": "하나 고르기와 별개로 켜고 끄는 선택지 (Q3 카페·디저트)",
+    "signals": "themes: 테마 가감(합친 뒤 −1…+1), pace · move: 속도 · 활동량, flightCap: 해외 비행 상한(시간, 여러 문항이면 최솟값), climate · climateAvoid: 좋아하는 · 피하는 기후(warm · mild · cool · cold · snow), crowdTol: 붐빔 허용(0~1), crowdTolDelta: 붐빔 허용 가감, novelty: 새로움(0 · 0.5 · 1), budgetPref: 경비 선호(1~3), budgetSens: 경비 민감도(0~1), preferDirect: 직항 선호, domesticLean: 국내 선호(0~1), companion: 동반자(라벨에 쓰지 않음)"
+  },
+  "questions": [
+    {
+      "id": "wake", "kind": "multi", "max": 2, "multiScale": 0.75,
+      "title": "여행 첫날 아침, 눈을 떠 보니…",
+      "options": [
+        {"id": "sea", "copy": "창밖에 바다가 반짝여요", "symbol": "water.waves", "signals": {"themes": {"sea": 0.8, "resort": 0.4}}},
+        {"id": "city", "copy": "빌딩 숲 사이로 도시가 깨어나요", "symbol": "building.2", "signals": {"themes": {"city": 0.8, "nightview": 0.3, "shopping": 0.2}}},
+        {"id": "forest", "copy": "숲과 호수가 조용히 펼쳐져요", "symbol": "tree", "signals": {"themes": {"nature": 0.8, "hiking": 0.3}}},
+        {"id": "oldtown", "copy": "오래된 골목과 옛 건물이 이어져요", "symbol": "building.columns", "signals": {"themes": {"history": 0.8, "art": 0.3, "cafe": 0.2}}},
+        {"id": "snow", "copy": "온 세상이 하얗게 눈 덮였어요", "symbol": "snowflake", "signals": {"themes": {"winter": 0.8, "hotspring": 0.3}, "climate": ["snow"]}}
+      ]
+    },
+    {
+      "id": "pace", "kind": "slider3",
+      "title": "여행 일정표, 어떤 스타일이에요?",
+      "options": [
+        {"id": "slow", "copy": "하루 한두 곳, 느긋하게", "symbol": "tortoise", "signals": {"pace": "slow", "themes": {"resort": 0.3, "hotspring": 0.2, "cafe": 0.2, "activity": -0.2}}},
+        {"id": "balanced", "copy": "보고 싶은 건 보고, 쉴 땐 쉬고", "symbol": "figure.walk", "signals": {"pace": "balanced"}},
+        {"id": "packed", "copy": "아침부터 밤까지 꽉 채워서", "symbol": "hare", "signals": {"pace": "packed", "themes": {"city": 0.2, "nightview": 0.2, "activity": 0.1, "resort": -0.2}}}
+      ]
+    },
+    {
+      "id": "food", "kind": "single",
+      "title": "여행에서 '먹는 것'은…",
+      "options": [
+        {"id": "main", "copy": "여행의 이유! 맛집 목록부터 짜요", "symbol": "fork.knife", "signals": {"themes": {"food": 1.0, "cafe": 0.3}}},
+        {"id": "nice", "copy": "맛있으면 좋고, 아니어도 괜찮아요", "symbol": "takeoutbag.and.cup.and.straw", "signals": {"themes": {"food": 0.3}}},
+        {"id": "light", "copy": "끼니는 간단히, 볼거리가 먼저예요", "symbol": "binoculars", "signals": {"themes": {"food": -0.2}}},
+        {"id": "cafeToo", "copy": "☕ 카페·디저트도 꼭 들러요", "symbol": "cup.and.saucer", "toggle": true, "signals": {"themes": {"cafe": 0.7}}}
+      ]
+    },
+    {
+      "id": "move", "kind": "slider3",
+      "title": "몸은 얼마나 움직이고 싶어요?",
+      "options": [
+        {"id": "rest", "copy": "최대한 누워 있고 싶어요", "symbol": "bed.double", "signals": {"move": "rest", "themes": {"resort": 0.6, "hotspring": 0.4, "activity": -0.5, "hiking": -0.4}}},
+        {"id": "walk", "copy": "많이 걷는 정도면 좋아요", "symbol": "figure.walk", "signals": {"move": "walk", "themes": {"nature": 0.1}}},
+        {"id": "sweat", "copy": "땀 흘리는 액티비티가 좋아요", "symbol": "figure.hiking", "signals": {"move": "sweat", "themes": {"activity": 0.9, "hiking": 0.6, "resort": -0.2}}}
+      ]
+    },
+    {
+      "id": "weather", "kind": "multi", "max": 2,
+      "title": "가장 끌리는 날씨는?",
+      "options": [
+        {"id": "warm", "copy": "반팔 입는 따뜻한 날씨", "symbol": "thermometer.high", "signals": {"climate": ["warm"], "themes": {"sea": 0.2}}},
+        {"id": "mild", "copy": "걷기 좋은 선선한 날씨", "symbol": "leaf", "signals": {"climate": ["mild"]}},
+        {"id": "cold", "copy": "코끝 찡한 겨울, 눈이 좋아요", "symbol": "snowflake", "signals": {"climate": ["snow"], "themes": {"winter": 0.6}}},
+        {"id": "any", "copy": "날씨는 상관없어요", "exclusive": true, "signals": {}}
+      ]
+    },
+    {
+      "id": "flight", "kind": "single",
+      "title": "비행기, 몇 시간까지 괜찮아요?",
+      "options": [
+        {"id": "none", "copy": "국내가 제일 편해요", "symbol": "car", "signals": {"domesticLean": 0.8}},
+        {"id": "short", "copy": "3시간 안쪽 (일본·대만·중국)", "symbol": "airplane", "signals": {"flightCap": 3.5}},
+        {"id": "mid", "copy": "6시간 정도 (동남아까지)", "symbol": "airplane", "signals": {"flightCap": 6.5}},
+        {"id": "long", "copy": "10시간이 넘어도 괜찮아요", "symbol": "airplane.departure", "signals": {"flightCap": 15}},
+        {"id": "any", "copy": "경유도 OK, 어디든!", "symbol": "globe.asia.australia", "signals": {}}
+      ]
+    },
+    {
+      "id": "crowd", "kind": "single",
+      "title": "사람 많은 명소, 어때요?",
+      "options": [
+        {"id": "fine", "copy": "유명한 데는 이유가 있죠! 괜찮아요", "symbol": "person.3", "signals": {"crowdTol": 1.0}},
+        {"id": "some", "copy": "적당히 알려진 곳이 좋아요", "symbol": "person.2", "signals": {"crowdTol": 0.5}},
+        {"id": "quiet", "copy": "한적한 곳이 최고예요", "symbol": "person", "signals": {"crowdTol": 0.0, "themes": {"nature": 0.2}}}
+      ]
+    },
+    {
+      "id": "novelty", "kind": "single",
+      "title": "다음 여행지를 고른다면?",
+      "options": [
+        {"id": "new", "copy": "안 가 본 곳! 낯설수록 설레요", "symbol": "safari", "signals": {"novelty": 1.0}},
+        {"id": "mix", "copy": "새로운 곳 반, 익숙한 곳 반", "symbol": "circle.lefthalf.filled", "signals": {"novelty": 0.5}},
+        {"id": "again", "copy": "좋았던 곳에 또 가고 싶어요", "symbol": "arrow.uturn.backward", "signals": {"novelty": 0.0}}
+      ]
+    },
+    {
+      "id": "with", "kind": "single", "affectsLabel": false,
+      "title": "주로 누구와 떠나요?",
+      "options": [
+        {"id": "solo", "copy": "혼자", "symbol": "person", "signals": {"companion": "solo", "themes": {"cafe": 0.2, "city": 0.1, "art": 0.1}}},
+        {"id": "partner", "copy": "연인·배우자", "symbol": "heart", "signals": {"companion": "partner", "themes": {"romantic": 0.8, "nightview": 0.3, "resort": 0.2}}},
+        {"id": "friends", "copy": "친구", "symbol": "person.2", "signals": {"companion": "friends", "themes": {"food": 0.2, "nightview": 0.2, "activity": 0.2, "festival": 0.2, "shopping": 0.1}}},
+        {"id": "kids", "copy": "아이와 가족", "symbol": "figure.2.and.child.holdinghands", "signals": {"companion": "kids", "themes": {"family": 1.0, "resort": 0.3, "sea": 0.2}, "flightCap": 7, "preferDirect": true}},
+        {"id": "parents", "copy": "부모님과", "symbol": "person.3", "signals": {"companion": "parents", "themes": {"family": 0.6, "hotspring": 0.4, "nature": 0.2, "history": 0.2, "hiking": -0.2}, "preferDirect": true}},
+        {"id": "varies", "copy": "그때그때 달라요", "symbol": "shuffle", "signals": {}}
+      ]
+    },
+    {
+      "id": "budget", "kind": "single",
+      "title": "여행 경비, 어떤 편이에요?",
+      "options": [
+        {"id": "save", "copy": "가성비가 최고예요", "symbol": "wonsign.circle", "signals": {"budgetPref": 1, "budgetSens": 1.0}},
+        {"id": "balance", "copy": "쓸 땐 쓰고, 아낄 땐 아껴요", "symbol": "scalemass", "signals": {"budgetPref": 2, "budgetSens": 0.5}},
+        {"id": "splurge", "copy": "이번만큼은 아낌없이!", "symbol": "gift", "signals": {"budgetPref": 3, "budgetSens": 0.0, "themes": {"resort": 0.1}}}
+      ]
+    },
+    {
+      "id": "must", "kind": "chips", "max": 3,
+      "title": "여행에서 꼭 하고 싶은 걸 골라 주세요 (최대 3개)",
+      "options": [
+        {"id": "shopping", "copy": "쇼핑", "symbol": "bag", "signals": {"themes": {"shopping": 0.7}}},
+        {"id": "nightview", "copy": "야경", "symbol": "moon.stars", "signals": {"themes": {"nightview": 0.7}}},
+        {"id": "art", "copy": "미술관·건축", "symbol": "paintpalette", "signals": {"themes": {"art": 0.7}}},
+        {"id": "festival", "copy": "축제·공연", "symbol": "theatermasks", "signals": {"themes": {"festival": 0.7}}},
+        {"id": "hotspring", "copy": "온천", "symbol": "drop", "signals": {"themes": {"hotspring": 0.7}}},
+        {"id": "hiking", "copy": "트레킹", "symbol": "figure.hiking", "signals": {"themes": {"hiking": 0.7}}},
+        {"id": "activity", "copy": "서핑·다이빙", "symbol": "figure.surfing", "signals": {"themes": {"activity": 0.7}}},
+        {"id": "history", "copy": "역사 유적", "symbol": "building.columns", "signals": {"themes": {"history": 0.7}}},
+        {"id": "cafe", "copy": "카페 투어", "symbol": "cup.and.saucer", "signals": {"themes": {"cafe": 0.7}}},
+        {"id": "resort", "copy": "호캉스", "symbol": "beach.umbrella", "signals": {"themes": {"resort": 0.7}}},
+        {"id": "sea", "copy": "바다 수영", "symbol": "water.waves", "signals": {"themes": {"sea": 0.7}}},
+        {"id": "winter", "copy": "겨울 스포츠", "symbol": "snowflake", "signals": {"themes": {"winter": 0.7}}}
+      ]
+    },
+    {
+      "id": "avoid", "kind": "chips",
+      "title": "이건 빼 주세요",
+      "options": [
+        {"id": "longFlight", "copy": "긴 비행", "symbol": "airplane", "signals": {"flightCap": 6}},
+        {"id": "hot", "copy": "더운 날씨", "symbol": "thermometer.high", "signals": {"climateAvoid": ["warm"]}},
+        {"id": "cold", "copy": "추운 날씨", "symbol": "thermometer.snowflake", "signals": {"climateAvoid": ["cold", "snow"], "themes": {"winter": -0.8}}},
+        {"id": "crowdedCity", "copy": "북적이는 도시", "symbol": "building.2", "signals": {"themes": {"city": -0.6, "nightview": -0.2}, "crowdTolDelta": -0.3}},
+        {"id": "hiking", "copy": "등산·오래 걷기", "symbol": "figure.hiking", "signals": {"themes": {"hiking": -0.8}}},
+        {"id": "shopping", "copy": "쇼핑 위주 일정", "symbol": "bag", "signals": {"themes": {"shopping": -0.6}}},
+        {"id": "lateNight", "copy": "밤늦은 일정", "symbol": "moon.zzz", "signals": {"themes": {"nightview": -0.4, "festival": -0.2}}}
+      ]
+    }
+  ]
+}

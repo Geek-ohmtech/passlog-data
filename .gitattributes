@@ -1,0 +1,8 @@
+# 배포 리포 passlog-data 용 (publish-data.sh 가 복사).
+# 데이터 파일은 바이트 그대로 둔다 — 줄바꿈 정규화(autocrlf)로 바이트가 바뀌면 manifest 의 sha256 과 어긋나
+# 모든 앱이 그 데이터셋을 거부한다 (build_pack.py 는 이전 파일 sha 를 다시 확인해 고쳐 쓰지만, 처음부터 막는다).
+public/** -text
+curated/** -text
+data/** -text
+*.json -text
+*.json.gz binary

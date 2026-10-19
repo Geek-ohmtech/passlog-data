@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "categories": [
+    "서류",
+    "돈·결제",
+    "전자기기",
+    "의류",
+    "세면·건강",
+    "기타"
+  ],
+  "items": [
+    {
+      "id": "doc.passport",
+      "title": "여권",
+      "category": "서류",
+      "important": true
+    },
+    {
+      "id": "doc.passportCopy",
+      "title": "여권 사본 · 여권 사진 2매",
+      "category": "서류",
+      "important": false
+    },
+    {
+      "id": "doc.ticket",
+      "title": "항공권 · e-티켓",
+      "category": "서류",
+      "important": true
+    },
+    {
+      "id": "doc.accommodation",
+      "title": "숙소 예약 확인서",
+      "category": "서류",
+      "important": false
+    },
+    {
+      "id": "doc.insurance",
+      "title": "여행자 보험",
+      "category": "서류",
+      "important": false
+    },
+    {
+      "id": "doc.intlLicense",
+      "title": "국제운전면허증",
+      "category": "서류",
+      "important": false
+    },
+    {
+      "id": "doc.itinerary",
+      "title": "여행 일정표 · 비상 연락처",
+      "category": "서류",
+      "important": false
+    },
+    {
+      "id": "pay.card",
+      "title": "해외 결제 카드",
+      "category": "돈·결제",
+      "important": true
+    },
+    {
+      "id": "pay.cash",
+      "title": "현지 통화 소액",
+      "category": "돈·결제",
+      "important": false
+    },
+    {
+      "id": "pay.backupCard",
+      "title": "예비 카드 (다른 브랜드)",
+      "category": "돈·결제",
+      "important": false
+    },
+    {
+      "id": "pay.wallet",
+      "title": "지갑 · 동전 지갑",
+      "category": "돈·결제",
+      "important": false
+    },
+    {
+      "id": "elec.phone",
+      "title": "휴대폰",
+      "category": "전자기기",
+      "important": false
+    },
+    {
+      "id": "elec.charger",
+      "title": "충전기 · 보조배터리",
+      "category": "전자기기",
+      "important": false
+    },
+    {
+      "id": "elec.esim",
+      "title": "유심 · eSIM · 로밍",
+      "category": "전자기기",
+      "important": false
+    },
+    {
+      "id": "elec.cable",
+      "title": "충전 케이블",
+      "category": "전자기기",
+      "important": false
+    },
+    {
+      "id": "elec.earphones",
+      "title": "이어폰",
+      "category": "전자기기",
+      "important": false
+    },
+    {
+      "id": "elec.camera",
+      "title": "카메라 · 메모리카드",
+      "category": "전자기기",
+      "important": false
+    },
+    {
+      "id": "cloth.tops",
+      "title": "상의",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "cloth.bottoms",
+      "title": "하의",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "cloth.underwear",
+      "title": "속옷 · 양말",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "cloth.sleepwear",
+      "title": "잠옷",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "cloth.outer",
+      "title": "겉옷 · 카디건",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "cloth.shoes",
+      "title": "편한 신발",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "cloth.hat",
+      "title": "모자 · 선글라스",
+      "category": "의류",
+      "important": false
+    },
+    {
+      "id": "care.toiletries",
+      "title": "세면도구 · 칫솔",
+      "category": "세면·건강",
+      "important": false
+    },
+    {
+      "id": "care.skincare",
+      "title": "스킨케어 · 선크림",
+      "category": "세면·건강",
+      "important": false
+    },
+    {
+      "id": "care.medicine",
+      "title": "상비약 (소화제 · 진통제 · 밴드)",
+      "category": "세면·건강",
+      "important": false
+    },
+    {
+      "id": "care.prescription",
+      "title": "복용 중인 처방약",
+      "category": "세면·건강",
+      "important": false
+    },
+    {
+      "id": "care.mask",
+      "title": "마스크 · 손소독제",
+      "category": "세면·건강",
+      "important": false
+    },
+    {
+      "id": "etc.bag",
+      "title": "보조 가방 · 에코백",
+      "category": "기타",
+      "important": false
+    },
+    {
+      "id": "etc.pen",
+      "title": "볼펜 (입국신고서 작성용)",
+      "category": "기타",
+      "important": false
+    },
+    {
+      "id": "etc.lock",
+      "title": "여행용 자물쇠",
+      "category": "기타",
+      "important": false
+    },
+    {
+      "id": "etc.pillow",
+      "title": "목베개 · 안대",
+      "category": "기타",
+      "important": false
+    }
+  ]
+}
