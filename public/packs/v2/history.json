@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 2,
+ "lastSequence": 3,
  "files": {
   "airports.99b1551a.json": {
    "dataset": "airports",
@@ -70,6 +70,11 @@
    "dataset": "local-apps",
    "sha256": "ae232b4eaaea184ffbde84220b066b17bd6dfcccb18c375a166deec3fd153043",
    "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "rates.207548ae.json": {
+   "dataset": "rates",
+   "sha256": "207548ae2760e315d392307ed602c212991a2423bf7172be360bf46d241b31d3",
+   "firstPublished": "2026-10-20T16:47:39+09:00"
   },
   "taste-survey.a0470498.json": {
    "dataset": "taste-survey",

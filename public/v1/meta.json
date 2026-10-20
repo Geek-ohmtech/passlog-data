@@ -1,10 +1,14 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-20T11:02:22+09:00",
+ "generatedAt": "2026-10-20T16:47:39+09:00",
  "sources": [
   {
    "name": "외교부 해외안전여행",
    "url": "https://www.0404.go.kr"
+  },
+  {
+   "name": "Frankfurter",
+   "url": "https://frankfurter.dev"
   }
  ],
  "sample": false
