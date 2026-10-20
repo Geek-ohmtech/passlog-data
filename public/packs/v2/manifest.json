@@ -1,0 +1,123 @@
+{
+ "schemaVersion": 2,
+ "sequence": 1,
+ "packVersion": "2026.10.20-1102",
+ "publishedAt": "2026-10-20T11:02:22+09:00",
+ "minAppVersion": "1.0.0",
+ "baseURL": "datasets/",
+ "datasets": {
+  "checklist-rules": {
+   "path": "checklist-rules.006926c0.json",
+   "sha256": "006926c0fa005934bd48e464443d51e4505fb4926c4d7db6a6b4d1a3bec4890b",
+   "size": 2244,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "checklist-template": {
+   "path": "checklist-template.c2c55d52.json",
+   "sha256": "c2c55d52596cc235d3def04b40cb8cc33b770ba17f2ddf43e3f6be2ebca87537",
+   "size": 4664,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "countries": {
+   "path": "countries.69b66331.json",
+   "sha256": "69b6633176d60de14db3986bff596306eda6a491f3d6bcd738249965b995278e",
+   "size": 111425,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "destination-climate": {
+   "path": "destination-climate.3d9d80b1.json",
+   "sha256": "3d9d80b14efdb83426725c103b486c616b9833f25dd218c28df16f7491626d48",
+   "size": 34986,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "dining-links": {
+   "path": "dining-links.e7e7e92f.json",
+   "sha256": "e7e7e92fc9af200f1a22d8ba5a72250b14e408ad6b9b711450a903645b4919c9",
+   "size": 14073,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "dish-wiki": {
+   "path": "dish-wiki.083138f5.json",
+   "sha256": "083138f51248f3642b9917489761924a869332e7b79e9e48b4b5f09109c43855",
+   "size": 269922,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320,
+   "large": true
+  },
+  "kr-places": {
+   "path": "kr-places.492fe51d.json",
+   "sha256": "492fe51d21d4cd9bf524a6ca6a25c03f859e6315738c3a11832125e7b0a11dbb",
+   "size": 11218,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "local-apps": {
+   "path": "local-apps.ae232b4e.json",
+   "sha256": "ae232b4eaaea184ffbde84220b066b17bd6dfcccb18c375a166deec3fd153043",
+   "size": 388259,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320,
+   "large": true
+  },
+  "taste-survey": {
+   "path": "taste-survey.a0470498.json",
+   "sha256": "a0470498cc172239bc17d9794fce044af0a16e0e4bd003f795cb51ce5582d47e",
+   "size": 11571,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "travel-phrases": {
+   "path": "travel-phrases.363ffe17.json",
+   "sha256": "363ffe175c05bec6d0dc6e0a61e11dbe0c4c96fef55d7589e5512f1de72a13fb",
+   "size": 16742,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320
+  },
+  "airports": {
+   "path": "airports.99b1551a.json",
+   "sha256": "99b1551a093f1cf886aa460eece3146c7d9f3d564af7f93969bdadec768bd849",
+   "size": 301652,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320,
+   "large": true
+  },
+  "destinations": {
+   "path": "destinations.5a2e7c2b.json",
+   "sha256": "5a2e7c2ba8d34ec1ccdb13659857035e9144f333e696df53a6c0b83b3960ea58",
+   "size": 412577,
+   "schema": 1,
+   "dataAsOf": "2026-10-20T11:02:22+09:00",
+   "ttlHours": 24,
+   "staleAfterHours": 4320,
+   "large": true
+  }
+ },
+ "signature": null
+}

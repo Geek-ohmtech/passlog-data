@@ -1,0 +1,67 @@
+{
+ "schemaVersion": 1,
+ "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
+ "lastSequence": 1,
+ "files": {
+  "airports.99b1551a.json": {
+   "dataset": "airports",
+   "sha256": "99b1551a093f1cf886aa460eece3146c7d9f3d564af7f93969bdadec768bd849",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "checklist-rules.006926c0.json": {
+   "dataset": "checklist-rules",
+   "sha256": "006926c0fa005934bd48e464443d51e4505fb4926c4d7db6a6b4d1a3bec4890b",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "checklist-template.c2c55d52.json": {
+   "dataset": "checklist-template",
+   "sha256": "c2c55d52596cc235d3def04b40cb8cc33b770ba17f2ddf43e3f6be2ebca87537",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "countries.69b66331.json": {
+   "dataset": "countries",
+   "sha256": "69b6633176d60de14db3986bff596306eda6a491f3d6bcd738249965b995278e",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "destination-climate.3d9d80b1.json": {
+   "dataset": "destination-climate",
+   "sha256": "3d9d80b14efdb83426725c103b486c616b9833f25dd218c28df16f7491626d48",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "destinations.5a2e7c2b.json": {
+   "dataset": "destinations",
+   "sha256": "5a2e7c2ba8d34ec1ccdb13659857035e9144f333e696df53a6c0b83b3960ea58",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "dining-links.e7e7e92f.json": {
+   "dataset": "dining-links",
+   "sha256": "e7e7e92fc9af200f1a22d8ba5a72250b14e408ad6b9b711450a903645b4919c9",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "dish-wiki.083138f5.json": {
+   "dataset": "dish-wiki",
+   "sha256": "083138f51248f3642b9917489761924a869332e7b79e9e48b4b5f09109c43855",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "kr-places.492fe51d.json": {
+   "dataset": "kr-places",
+   "sha256": "492fe51d21d4cd9bf524a6ca6a25c03f859e6315738c3a11832125e7b0a11dbb",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "local-apps.ae232b4e.json": {
+   "dataset": "local-apps",
+   "sha256": "ae232b4eaaea184ffbde84220b066b17bd6dfcccb18c375a166deec3fd153043",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "taste-survey.a0470498.json": {
+   "dataset": "taste-survey",
+   "sha256": "a0470498cc172239bc17d9794fce044af0a16e0e4bd003f795cb51ce5582d47e",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  },
+  "travel-phrases.363ffe17.json": {
+   "dataset": "travel-phrases",
+   "sha256": "363ffe175c05bec6d0dc6e0a61e11dbe0c4c96fef55d7589e5512f1de72a13fb",
+   "firstPublished": "2026-10-20T11:02:22+09:00"
+  }
+ }
+}

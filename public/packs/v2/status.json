@@ -1,0 +1,110 @@
+{
+ "schemaVersion": 1,
+ "checkedAt": "2026-10-20T11:02:22+09:00",
+ "event": "push",
+ "schedule": null,
+ "offline": false,
+ "selected": [
+  "travel-guide",
+  "airline-baggage",
+  "checklist-rules",
+  "checklist-template",
+  "countries",
+  "destination-climate",
+  "dining-links",
+  "dish-wiki",
+  "kr-places",
+  "local-apps",
+  "taste-survey",
+  "travel-phrases",
+  "airports",
+  "destinations"
+ ],
+ "sequence": 1,
+ "publishedAt": "2026-10-20T11:02:22+09:00",
+ "datasets": {
+  "destinations": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "countries": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "checklist-rules": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "checklist-template": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "kr-places": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "travel-phrases": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "local-apps": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "dining-links": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "airports": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "dish-wiki": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "taste-survey": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "destination-climate": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-20T11:02:22+09:00"
+  },
+  "airline-baggage": {
+   "state": "skipped",
+   "message": "큐레이션 파일 없음",
+   "consecutiveFailures": 0
+  },
+  "travel-guide": {
+   "state": "skipped",
+   "message": "큐레이션 파일 없음",
+   "consecutiveFailures": 0
+  }
+ },
+ "alerts": []
+}

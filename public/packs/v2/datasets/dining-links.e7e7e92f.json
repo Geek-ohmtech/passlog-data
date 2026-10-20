@@ -1,0 +1,642 @@
+{
+ "version": 1,
+ "asOf": "2026-10-19",
+ "source": "키 없이 여는 맛집 서비스 바로가기. 주소는 2026-10-19 에 curl(iPhone Safari UA, ko-KR)로 열어 HTTP 200 과 페이지 제목 · 정식 주소가 그 지역인지 확인한 것만 넣었다(OpenRice 는 아래 notes 참고. rec2/PLAN.md §6-1, rec2/restaurant-apis.md §3).",
+ "notes": [
+  "타베로그: tabelog.com/kr/{현}/ 39곳 · 지역 A코드는 현 페이지의 지역 링크에서 모아 각 페이지 제목(\"…에서 추천 맛집 | Tabelog\")까지 확인. 키워드 ?sw= 는 가게 이름 검색이라 쓰지 않는다.",
+  "트립어드바이저: Restaurants-g{geoId}.html 을 열어 정식 주소의 도시 이름과 제목(\"… 맛집/음식점 추천 순위\")이 맞는 것만. 다른 도시로 가던 후보(다카마쓰 · 벳푸 · 마쓰야마 첫 후보, 타이난, 장자제, 몽골, 인터라켄, 우유니, 페어뱅크스, 울루루, 닛코, 가마쿠라, 히메지, 기타큐슈)는 빼거나 다시 찾았다.",
+  "미쉐린 가이드: guide.michelin.com/kr/ko/{지역}/{도시}/restaurants 가 200 인 slug 만(로스앤젤레스는 us-los-angeles 로 넘어가 최종 주소를 넣음).",
+  "OpenRice: 홍콩 · 마카오 · 싱가포르 · 방콕만(대만은 홍콩으로 넘어감). 조사(2026-10-19 오전, restaurant-apis.md §3)에서 /en/{도시}/restaurants 200 을 확인했고, 같은 날 저녁 재확인 때는 서버가 502 · 시간 초과를 돌려줘 출시 전 한 번 더 열어 본다. Wongnai: 태국 전체 순위 페이지(태국어, 제목 \"ร้านอาหารยอดนิยม จัดอันดับ ทั่วประเทศไทย\" 확인).",
+  "다중뎬핑(중국) · 타베로그 앱 같은 앱 설치 단추는 local-apps.json 의 food 앱을 쓴다. 국내는 카카오맵 · 네이버 지도 검색, 해외는 Google 지도 검색(중국 본토 제외) · Apple 지도를 코드가 만든다."
+ ],
+ "tabelogPrefectures": {
+  "tokyo": "도쿄",
+  "kanagawa": "가나가와",
+  "osaka": "오사카",
+  "kyoto": "교토",
+  "hyogo": "효고",
+  "nara": "나라",
+  "wakayama": "와카야마",
+  "mie": "미에",
+  "aichi": "아이치",
+  "gifu": "기후",
+  "shizuoka": "시즈오카",
+  "nagano": "나가노",
+  "niigata": "니가타",
+  "toyama": "도야마",
+  "ishikawa": "이시카와",
+  "yamanashi": "야마나시",
+  "gunma": "군마",
+  "tochigi": "도치기",
+  "ibaraki": "이바라키",
+  "miyagi": "미야기",
+  "yamagata": "야마가타",
+  "aomori": "아오모리",
+  "hokkaido": "홋카이도",
+  "fukuoka": "후쿠오카",
+  "saga": "사가",
+  "nagasaki": "나가사키",
+  "kumamoto": "구마모토",
+  "oita": "오이타",
+  "miyazaki": "미야자키",
+  "kagoshima": "가고시마",
+  "okinawa": "오키나와",
+  "hiroshima": "히로시마",
+  "okayama": "오카야마",
+  "tottori": "돗토리",
+  "shimane": "시마네",
+  "tokushima": "도쿠시마",
+  "kagawa": "가가와",
+  "ehime": "에히메",
+  "kochi": "고치"
+ },
+ "countries": {
+  "HK": {
+   "openrice": "hongkong"
+  },
+  "MO": {
+   "openrice": "macau"
+  },
+  "SG": {
+   "openrice": "singapore"
+  },
+  "TH": {
+   "wongnai": true
+  }
+ },
+ "destinations": {
+  "almaty": {
+   "tripadvisor": 298251
+  },
+  "amalfi-naples": {
+   "tripadvisor": 187785
+  },
+  "amanohashidate": {
+   "tabelog": "kyoto/A2609",
+   "label": "아마노하시다테·단고반도"
+  },
+  "amsterdam": {
+   "tripadvisor": 188590,
+   "michelin": "noord-holland/amsterdam"
+  },
+  "aomori": {
+   "tabelog": "aomori",
+   "label": "아오모리"
+  },
+  "athens": {
+   "tripadvisor": 189400
+  },
+  "auckland": {
+   "tripadvisor": 255106
+  },
+  "bali": {
+   "tripadvisor": 294226
+  },
+  "banff": {
+   "tripadvisor": 154911
+  },
+  "bangkok": {
+   "tripadvisor": 293916,
+   "michelin": "bangkok-region/bangkok",
+   "openrice": "bangkok"
+  },
+  "barcelona": {
+   "tripadvisor": 187497,
+   "michelin": "catalunya/barcelona"
+  },
+  "bergen-fjords": {
+   "tripadvisor": 190502
+  },
+  "berlin": {
+   "tripadvisor": 187323,
+   "michelin": "berlin-region/berlin"
+  },
+  "bled-ljubljana": {
+   "tripadvisor": 274873
+  },
+  "bohol": {
+   "tripadvisor": 294259
+  },
+  "boracay": {
+   "tripadvisor": 294260
+  },
+  "boston": {
+   "tripadvisor": 60745
+  },
+  "brussels-bruges": {
+   "tripadvisor": 188644
+  },
+  "budapest": {
+   "tripadvisor": 274887
+  },
+  "buenosaires": {
+   "tripadvisor": 312741
+  },
+  "cairns": {
+   "tripadvisor": 255069
+  },
+  "cairo": {
+   "tripadvisor": 294201
+  },
+  "cancun": {
+   "tripadvisor": 150807
+  },
+  "capetown": {
+   "tripadvisor": 1722390
+  },
+  "cappadocia": {
+   "tripadvisor": 297983
+  },
+  "cebu": {
+   "tripadvisor": 298460
+  },
+  "chiangmai": {
+   "tripadvisor": 293917
+  },
+  "chicago": {
+   "tripadvisor": 35805
+  },
+  "christchurch-tekapo": {
+   "tripadvisor": 255118
+  },
+  "copenhagen": {
+   "tripadvisor": 189541,
+   "michelin": "capital-region/copenhagen"
+  },
+  "cusco": {
+   "tripadvisor": 294314
+  },
+  "dalat": {
+   "tripadvisor": 293922
+  },
+  "danang": {
+   "tripadvisor": 298085
+  },
+  "dubai": {
+   "tripadvisor": 295424,
+   "michelin": "dubai-emirate/dubai"
+  },
+  "dublin": {
+   "tripadvisor": 186605
+  },
+  "dubrovnik": {
+   "tripadvisor": 295371
+  },
+  "edinburgh": {
+   "tripadvisor": 186525
+  },
+  "fiji": {
+   "tripadvisor": 294331
+  },
+  "florence": {
+   "tripadvisor": 187895,
+   "michelin": "toscana/firenze"
+  },
+  "fukuoka": {
+   "tabelog": "fukuoka/A4001",
+   "label": "후쿠오카 시",
+   "tripadvisor": 298207
+  },
+  "furano-biei": {
+   "tabelog": "hokkaido",
+   "label": "홋카이도"
+  },
+  "goldcoast-brisbane": {
+   "tripadvisor": 255337
+  },
+  "guam": {
+   "tripadvisor": 60668
+  },
+  "hakodate": {
+   "tabelog": "hokkaido/A0105",
+   "label": "하코다테",
+   "tripadvisor": 298151
+  },
+  "hakone": {
+   "tabelog": "kanagawa/A1410",
+   "label": "하코네·유가와라",
+   "tripadvisor": 298171
+  },
+  "hanoi-halong": {
+   "tripadvisor": 293924
+  },
+  "harbin": {
+   "tripadvisor": 297433
+  },
+  "hawaii": {
+   "tripadvisor": 60982
+  },
+  "helsinki": {
+   "tripadvisor": 189934
+  },
+  "himeji": {
+   "tabelog": "hyogo/A2805",
+   "label": "히메지"
+  },
+  "hiroshima": {
+   "tabelog": "hiroshima/A3401",
+   "label": "히로시마 시",
+   "tripadvisor": 298561
+  },
+  "hochiminh": {
+   "tripadvisor": 293925
+  },
+  "hongkong": {
+   "tripadvisor": 294217,
+   "michelin": "hong-kong-region/hong-kong"
+  },
+  "ibaraki-hitachi": {
+   "tabelog": "ibaraki",
+   "label": "이바라키"
+  },
+  "iceland": {
+   "tripadvisor": 189970
+  },
+  "ise-shima": {
+   "tabelog": "mie/A2403",
+   "label": "이세·시마·도바"
+  },
+  "ishigaki": {
+   "tabelog": "okinawa/A4705",
+   "label": "이시가키·미야코"
+  },
+  "istanbul": {
+   "tripadvisor": 293974
+  },
+  "izu": {
+   "tabelog": "shizuoka/A2205",
+   "label": "누마즈·이즈반도"
+  },
+  "kagoshima": {
+   "tabelog": "kagoshima/A4601",
+   "label": "가고시마·미나미사쓰마",
+   "tripadvisor": 298211
+  },
+  "kamakura-enoshima": {
+   "tabelog": "kanagawa/A1404",
+   "label": "가마쿠라·쇼난"
+  },
+  "kanazawa": {
+   "tabelog": "ishikawa/A1701",
+   "label": "가나자와 주변",
+   "tripadvisor": 298115
+  },
+  "kaohsiung": {
+   "tripadvisor": 297908
+  },
+  "karuizawa": {
+   "tabelog": "nagano/A2003",
+   "label": "가루이자와·사쿠"
+  },
+  "kawaguchiko": {
+   "tabelog": "yamanashi/A1903",
+   "label": "후지고코·후지요시다"
+  },
+  "kitakyushu": {
+   "tabelog": "fukuoka/A4004",
+   "label": "기타큐슈 시"
+  },
+  "kobe": {
+   "tabelog": "hyogo/A2801",
+   "label": "고베 시",
+   "tripadvisor": 298562
+  },
+  "kochi": {
+   "tabelog": "kochi/A3901",
+   "label": "고치",
+   "tripadvisor": 298234
+  },
+  "kotakinabalu": {
+   "tripadvisor": 298307
+  },
+  "koyasan": {
+   "tabelog": "wakayama/A3001/A300103",
+   "label": "고야산·하시모토"
+  },
+  "krakow": {
+   "tripadvisor": 274772
+  },
+  "kumamoto-aso": {
+   "tabelog": "kumamoto",
+   "label": "구마모토",
+   "tripadvisor": 298212
+  },
+  "kusatsu": {
+   "tabelog": "gunma/A1004",
+   "label": "구사쓰·이카호"
+  },
+  "kushiro-akan": {
+   "tabelog": "hokkaido",
+   "label": "홋카이도"
+  },
+  "kyoto": {
+   "tabelog": "kyoto/A2601",
+   "label": "교토 시",
+   "tripadvisor": 298564,
+   "michelin": "kyoto-region/kyoto"
+  },
+  "langkawi": {
+   "tripadvisor": 298283
+  },
+  "lasvegas-grandcanyon": {
+   "tripadvisor": 45963
+  },
+  "lisbon": {
+   "tripadvisor": 189158,
+   "michelin": "lisboa-region/lisboa"
+  },
+  "london": {
+   "tripadvisor": 186338,
+   "michelin": "greater-london/london"
+  },
+  "losangeles": {
+   "tripadvisor": 32655,
+   "michelin": "california/us-los-angeles"
+  },
+  "macau": {
+   "tripadvisor": 664891,
+   "michelin": "macau-region/macau"
+  },
+  "madrid": {
+   "tripadvisor": 187514,
+   "michelin": "comunidad-de-madrid/madrid"
+  },
+  "maldives": {
+   "tripadvisor": 293953
+  },
+  "malta": {
+   "tripadvisor": 190311
+  },
+  "marrakech": {
+   "tripadvisor": 293734
+  },
+  "matsumoto": {
+   "tabelog": "nagano/A2002",
+   "label": "마쓰모토·가미코치"
+  },
+  "matsuyama": {
+   "tabelog": "ehime/A3801",
+   "label": "마쓰야마·이요",
+   "tripadvisor": 298230
+  },
+  "mauritius": {
+   "tripadvisor": 293816
+  },
+  "melbourne": {
+   "tripadvisor": 255100
+  },
+  "mexicocity": {
+   "tripadvisor": 150800
+  },
+  "milan-como": {
+   "tripadvisor": 187849
+  },
+  "miyakojima": {
+   "tabelog": "okinawa/A4705",
+   "label": "미야코·이시가키"
+  },
+  "miyazaki": {
+   "tabelog": "miyazaki",
+   "label": "미야자키",
+   "tripadvisor": 298215
+  },
+  "munich": {
+   "tripadvisor": 187309
+  },
+  "nagasaki": {
+   "tabelog": "nagasaki/A4201",
+   "label": "나가사키",
+   "tripadvisor": 298568
+  },
+  "nagoya": {
+   "tabelog": "aichi/A2301",
+   "label": "나고야 시",
+   "tripadvisor": 298106
+  },
+  "nara": {
+   "tabelog": "nara/A2901",
+   "label": "나라 시",
+   "tripadvisor": 298198,
+   "michelin": "nara-region/nara"
+  },
+  "newyork": {
+   "tripadvisor": 60763,
+   "michelin": "new-york-state/new-york"
+  },
+  "nhatrang": {
+   "tripadvisor": 293928
+  },
+  "nice-provence": {
+   "tripadvisor": 187234
+  },
+  "niigata": {
+   "tabelog": "niigata",
+   "label": "니가타"
+  },
+  "nikko": {
+   "tabelog": "tochigi/A0903",
+   "label": "닛코·기누가와"
+  },
+  "noboribetsu-toya": {
+   "tabelog": "hokkaido",
+   "label": "홋카이도"
+  },
+  "oita-beppu": {
+   "tabelog": "oita/A4402",
+   "label": "유후인·벳푸",
+   "tripadvisor": 298219
+  },
+  "okayama-kurashiki": {
+   "tabelog": "okayama",
+   "label": "오카야마"
+  },
+  "okinawa": {
+   "tabelog": "okinawa",
+   "label": "오키나와",
+   "tripadvisor": 298221
+  },
+  "onomichi": {
+   "tabelog": "hiroshima/A3406",
+   "label": "오노미치 시"
+  },
+  "orlando": {
+   "tripadvisor": 34515
+  },
+  "osaka": {
+   "tabelog": "osaka",
+   "label": "오사카",
+   "tripadvisor": 298566,
+   "michelin": "osaka-region/osaka"
+  },
+  "paris": {
+   "tripadvisor": 187147,
+   "michelin": "ile-de-france/paris"
+  },
+  "patagonia": {
+   "tripadvisor": 312851
+  },
+  "perth": {
+   "tripadvisor": 255103
+  },
+  "phuket": {
+   "tripadvisor": 293920
+  },
+  "phuquoc": {
+   "tripadvisor": 469418
+  },
+  "porto": {
+   "tripadvisor": 189180,
+   "michelin": "porto-region/porto"
+  },
+  "prague": {
+   "tripadvisor": 274707,
+   "michelin": "prague/prague"
+  },
+  "qingdao": {
+   "tripadvisor": 297458
+  },
+  "quebec": {
+   "tripadvisor": 155033
+  },
+  "queenstown": {
+   "tripadvisor": 255122
+  },
+  "rio": {
+   "tripadvisor": 303506
+  },
+  "rome": {
+   "tripadvisor": 187791,
+   "michelin": "lazio/roma"
+  },
+  "rovaniemi": {
+   "tripadvisor": 189922
+  },
+  "saga": {
+   "tabelog": "saga",
+   "label": "사가"
+  },
+  "saipan": {
+   "tripadvisor": 60716
+  },
+  "salzburg-hallstatt": {
+   "tripadvisor": 190441
+  },
+  "samarkand": {
+   "tripadvisor": 298068
+  },
+  "sanfrancisco": {
+   "tripadvisor": 60713,
+   "michelin": "california/san-francisco"
+  },
+  "santorini": {
+   "tripadvisor": 189433
+  },
+  "sapporo": {
+   "tabelog": "hokkaido/A0101",
+   "label": "삿포로 시",
+   "tripadvisor": 298560
+  },
+  "seattle": {
+   "tripadvisor": 60878
+  },
+  "sendai-matsushima": {
+   "tabelog": "miyagi/A0401",
+   "label": "센다이 시",
+   "tripadvisor": 298249
+  },
+  "serengeti-zanzibar": {
+   "tripadvisor": 482884
+  },
+  "seville": {
+   "tripadvisor": 187443
+  },
+  "shanghai": {
+   "tripadvisor": 308272,
+   "michelin": "shanghai-municipality/shanghai"
+  },
+  "shirahama": {
+   "tabelog": "wakayama/A3004",
+   "label": "시라하마·다나베"
+  },
+  "shizuoka": {
+   "tabelog": "shizuoka/A2201",
+   "label": "시즈오카 시"
+  },
+  "sicily": {
+   "tripadvisor": 187886
+  },
+  "siemreap": {
+   "tripadvisor": 297390
+  },
+  "singapore": {
+   "tripadvisor": 294265,
+   "michelin": "singapore-region/singapore"
+  },
+  "split-plitvice": {
+   "tripadvisor": 295370
+  },
+  "stockholm": {
+   "tripadvisor": 189852,
+   "michelin": "stockholm-region/stockholm"
+  },
+  "sydney": {
+   "tripadvisor": 255060
+  },
+  "taipei": {
+   "tripadvisor": 293913,
+   "michelin": "taipei-region/taipei"
+  },
+  "takamatsu": {
+   "tabelog": "kagawa/A3701",
+   "label": "다카마쓰 주변",
+   "tripadvisor": 298232
+  },
+  "takayama-shirakawago": {
+   "tabelog": "gifu/A2104",
+   "label": "다카야마·히다·시라카와"
+  },
+  "tallinn": {
+   "tripadvisor": 274958
+  },
+  "tokushima": {
+   "tabelog": "tokushima/A3601",
+   "label": "도쿠시마·나루토",
+   "tripadvisor": 298236
+  },
+  "tokyo": {
+   "tabelog": "tokyo",
+   "label": "도쿄",
+   "tripadvisor": 298184,
+   "michelin": "tokyo-region/tokyo"
+  },
+  "toronto-niagara": {
+   "tripadvisor": 155019
+  },
+  "toyama-tateyama": {
+   "tabelog": "toyama",
+   "label": "도야마"
+  },
+  "vancouver": {
+   "tripadvisor": 154943
+  },
+  "venice": {
+   "tripadvisor": 187870,
+   "michelin": "veneto/venezia"
+  },
+  "vienna": {
+   "tripadvisor": 190454
+  },
+  "yakushima": {
+   "tabelog": "kagoshima",
+   "label": "가고시마"
+  },
+  "yamagata-ginzan": {
+   "tabelog": "yamagata",
+   "label": "야마가타"
+  },
+  "yonago-matsue": {
+   "tabelog": "shimane/A3201",
+   "label": "마쓰에·야스기"
+  }
+ }
+}
