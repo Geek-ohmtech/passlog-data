@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 1,
+ "lastSequence": 2,
  "files": {
   "airports.99b1551a.json": {
    "dataset": "airports",
@@ -26,12 +26,24 @@
   "destination-climate.3d9d80b1.json": {
    "dataset": "destination-climate",
    "sha256": "3d9d80b14efdb83426725c103b486c616b9833f25dd218c28df16f7491626d48",
-   "firstPublished": "2026-10-20T11:02:22+09:00"
+   "firstPublished": "2026-10-20T11:02:22+09:00",
+   "unreferencedSince": "2026-10-20T11:13:19+09:00"
+  },
+  "destination-climate.9ee9b83d.json": {
+   "dataset": "destination-climate",
+   "sha256": "9ee9b83dbfc039590c2e6b13b75f083cf63db61540c11356a08ac8c4ca717197",
+   "firstPublished": "2026-10-20T11:13:19+09:00"
   },
   "destinations.5a2e7c2b.json": {
    "dataset": "destinations",
    "sha256": "5a2e7c2ba8d34ec1ccdb13659857035e9144f333e696df53a6c0b83b3960ea58",
-   "firstPublished": "2026-10-20T11:02:22+09:00"
+   "firstPublished": "2026-10-20T11:02:22+09:00",
+   "unreferencedSince": "2026-10-20T11:13:19+09:00"
+  },
+  "destinations.c3382271.json": {
+   "dataset": "destinations",
+   "sha256": "c3382271e0f8cb3df28d238e4aaf8dd3f609b33b81bc95510f26c524421454b8",
+   "firstPublished": "2026-10-20T11:13:19+09:00"
   },
   "dining-links.e7e7e92f.json": {
    "dataset": "dining-links",
@@ -41,7 +53,13 @@
   "dish-wiki.083138f5.json": {
    "dataset": "dish-wiki",
    "sha256": "083138f51248f3642b9917489761924a869332e7b79e9e48b4b5f09109c43855",
-   "firstPublished": "2026-10-20T11:02:22+09:00"
+   "firstPublished": "2026-10-20T11:02:22+09:00",
+   "unreferencedSince": "2026-10-20T11:13:19+09:00"
+  },
+  "dish-wiki.223aef43.json": {
+   "dataset": "dish-wiki",
+   "sha256": "223aef432b2536561e25471998d73fda307ed5b5a6a4cad18f0d6a64382a8d56",
+   "firstPublished": "2026-10-20T11:13:19+09:00"
   },
   "kr-places.492fe51d.json": {
    "dataset": "kr-places",

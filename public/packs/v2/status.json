@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "checkedAt": "2026-10-20T11:02:22+09:00",
+ "checkedAt": "2026-10-20T11:13:19+09:00",
  "event": "push",
  "schedule": null,
  "offline": false,
@@ -20,80 +20,80 @@
   "airports",
   "destinations"
  ],
- "sequence": 1,
- "publishedAt": "2026-10-20T11:02:22+09:00",
+ "sequence": 2,
+ "publishedAt": "2026-10-20T11:13:19+09:00",
  "datasets": {
   "destinations": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-20T11:02:22+09:00"
+   "dataAsOf": "2026-10-20T11:13:19+09:00"
   },
   "countries": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-rules": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-template": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "kr-places": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "travel-phrases": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "local-apps": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dining-links": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "airports": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dish-wiki": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-20T11:02:22+09:00"
+   "dataAsOf": "2026-10-20T11:13:19+09:00"
   },
   "taste-survey": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "destination-climate": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-20T11:02:22+09:00",
+   "lastSuccessAt": "2026-10-20T11:13:19+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-20T11:02:22+09:00"
+   "dataAsOf": "2026-10-20T11:13:19+09:00"
   },
   "airline-baggage": {
    "state": "skipped",
