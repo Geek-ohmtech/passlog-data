@@ -1,0 +1,21 @@
+{
+ "code": "RO",
+ "nameKo": "루마니아",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 0,
+  "special": false,
+  "banned": false,
+  "note": "대부분 지역 경보 없음 · 일부 2단계 여행자제",
+  "maxLevel": 2,
+  "regionsSummary": "대부분 지역 경보 없음 · 일부 2단계 여행자제"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

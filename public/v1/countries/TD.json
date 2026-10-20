@@ -1,0 +1,21 @@
+{
+ "code": "TD",
+ "nameKo": "차드",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 3,
+  "special": false,
+  "banned": false,
+  "note": null,
+  "maxLevel": 3,
+  "regionsSummary": "3단계 출국권고"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "code": "PG",
+ "nameKo": "파푸아뉴기니",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 2,
+  "special": false,
+  "banned": false,
+  "note": "대부분 지역 2단계 여행자제 · 일부 3단계 출국권고",
+  "maxLevel": 3,
+  "regionsSummary": "대부분 지역 2단계 여행자제 · 일부 3단계 출국권고"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

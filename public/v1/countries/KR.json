@@ -1,0 +1,19 @@
+{
+ "code": "KR",
+ "nameKo": "대한민국",
+ "entry": {
+  "visaFree": true,
+  "maxStayDays": null,
+  "note": "대한민국 국민은 비자가 필요하지 않습니다."
+ },
+ "advisory": {
+  "level": 0,
+  "special": false,
+  "banned": false,
+  "note": null
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

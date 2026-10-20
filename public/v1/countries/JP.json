@@ -1,0 +1,21 @@
+{
+ "code": "JP",
+ "nameKo": "일본",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 0,
+  "special": false,
+  "banned": false,
+  "note": "대부분 지역 경보 없음 · 일부 3단계 출국권고",
+  "maxLevel": 3,
+  "regionsSummary": "대부분 지역 경보 없음 · 일부 3단계 출국권고"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

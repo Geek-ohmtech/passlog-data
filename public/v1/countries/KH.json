@@ -1,0 +1,21 @@
+{
+ "code": "KH",
+ "nameKo": "캄보디아",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 1,
+  "special": false,
+  "banned": false,
+  "note": "대부분 지역 1단계 여행유의 · 일부 3단계 출국권고 · 일부 2단계 여행자제",
+  "maxLevel": 3,
+  "regionsSummary": "대부분 지역 1단계 여행유의 · 일부 3단계 출국권고 · 일부 2단계 여행자제"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

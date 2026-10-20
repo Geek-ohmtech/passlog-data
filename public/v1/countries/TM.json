@@ -1,0 +1,21 @@
+{
+ "code": "TM",
+ "nameKo": "투르크메니스탄",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 1,
+  "special": false,
+  "banned": false,
+  "note": null,
+  "maxLevel": 1,
+  "regionsSummary": "1단계 여행유의"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "code": "GW",
+ "nameKo": "기니비사우",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 2,
+  "special": false,
+  "banned": false,
+  "note": null,
+  "maxLevel": 2,
+  "regionsSummary": "2단계 여행자제"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

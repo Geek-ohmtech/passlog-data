@@ -1,0 +1,21 @@
+{
+ "code": "NP",
+ "nameKo": "네팔",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 1,
+  "special": false,
+  "banned": false,
+  "note": "대부분 지역 1단계 여행유의 · 일부 특별여행주의보",
+  "maxLevel": 1,
+  "regionsSummary": "대부분 지역 1단계 여행유의 · 일부 특별여행주의보"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

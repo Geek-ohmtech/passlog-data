@@ -1,0 +1,21 @@
+{
+ "code": "RU",
+ "nameKo": "러시아",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 2,
+  "special": true,
+  "banned": false,
+  "note": "전역 특별여행주의보 · 일부 4단계 여행금지 · 일부 3단계 출국권고",
+  "maxLevel": 4,
+  "regionsSummary": "전역 특별여행주의보 · 일부 4단계 여행금지 · 일부 3단계 출국권고"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

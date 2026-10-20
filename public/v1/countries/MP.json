@@ -1,0 +1,21 @@
+{
+ "code": "MP",
+ "nameKo": "북마리아나 제도(사이판)",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 1,
+  "special": false,
+  "banned": false,
+  "note": null,
+  "maxLevel": 1,
+  "regionsSummary": null
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

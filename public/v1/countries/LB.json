@@ -1,0 +1,21 @@
+{
+ "code": "LB",
+ "nameKo": "레바논",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 3,
+  "special": false,
+  "banned": false,
+  "note": "대부분 지역 3단계 출국권고 · 일부 4단계 여행금지",
+  "maxLevel": 4,
+  "regionsSummary": "대부분 지역 3단계 출국권고 · 일부 4단계 여행금지"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}

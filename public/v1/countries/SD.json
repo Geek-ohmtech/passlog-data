@@ -1,0 +1,21 @@
+{
+ "code": "SD",
+ "nameKo": "수단",
+ "entry": {
+  "visaFree": null,
+  "maxStayDays": null,
+  "note": null
+ },
+ "advisory": {
+  "level": 4,
+  "special": false,
+  "banned": true,
+  "note": null,
+  "maxLevel": 4,
+  "regionsSummary": "4단계 여행금지"
+ },
+ "sources": [
+  "외교부 해외안전여행"
+ ],
+ "generatedAt": "2026-10-20T20:32:39+09:00"
+}
