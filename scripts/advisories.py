@@ -9,6 +9,7 @@
   mofa-country-codes.json   0404 나라 이름 → ISO2 별칭 (countries.json 과 표기가 다른 것)
   advisory-geo.json         'ISO2|지역 문구' → 대략 좌표/범위(match). 처음 보는 문구는 match null + 경고
   advisory-overrides.json   사람이 확인한 보정(지역 분리·발령일·근거·추정 단계). 0404 원문이 그대로일 때만 적용
+                            + restrictions(여행금지 법 문구 · 0404 밖 특수 지역 = 북한) → 출력 restrictions 로 늘 그대로
   destination-areas.json    카탈로그 여행지의 행정구역 이름 · 국경 거리 수동 판정 · 근거 문구
 
 출력: advisories.json (schemaVersion 1 — ios/Packages/PasslogKit/Sources/PasslogCore/Advisories.swift 가 읽는다)
@@ -470,6 +471,18 @@ def load_catalog(paths: list[Path]) -> list[dict]:
     return out
 
 
+def curated_restrictions(overrides: dict) -> dict | None:
+    """advisory-overrides.json 의 restrictions (밑줄로 시작하는 설명 키는 뺀다). 없으면 None (앱은 기본 문구를 쓴다)"""
+    def strip(v: Any) -> Any:
+        if isinstance(v, dict):
+            return {k: strip(x) for k, x in v.items() if not k.startswith("_")}
+        if isinstance(v, list):
+            return [strip(x) for x in v]
+        return v
+    r = overrides.get("restrictions")
+    return strip(r) if isinstance(r, dict) and r else None
+
+
 def changed_levels(prev: dict | None, new: dict) -> int:
     if not prev:
         return 0
@@ -551,6 +564,8 @@ def main(argv: list[str] | None = None) -> int:
         "rawSnapshotSha256": sha,
         "levelLabels": LEVEL_LABELS,
         "travelBanUntil": meta.get("travelBanUntil"),
+        # 여행금지 법 문구 · 북한(통일부 방문승인) — 0404 원문과 상관없는 큐레이션이라 스냅샷이 달라도 늘 싣는다
+        "restrictions": curated_restrictions(overrides),
         "parents": parents,
         "countries": countries,
         "destinations": dict(sorted(dests.items())),

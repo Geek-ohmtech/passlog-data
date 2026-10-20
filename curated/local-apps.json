@@ -1091,13 +1091,12 @@
      "tip": "",
      "appStoreId": 1440565902,
      "bundleId": "xyz.be.customer",
-     "kr": false,
+     "kr": true,
      "url": "https://be.com.vn",
-     "verified": "2026-10-19 itunes lookup (country=vn) — 한국 스토어에 없음",
-     "storeCountry": "vn",
-     "trackName": "be - Multi-Service Platform",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "be – Nền tảng đa dịch vụ",
      "sellerName": "be Group JSC",
-     "appStoreUrl": "https://apps.apple.com/vn/app/be-multi-service-platform/id1440565902"
+     "appStoreUrl": "https://apps.apple.com/kr/app/be-n%E1%BB%81n-t%E1%BA%A3ng-%C4%91a-d%E1%BB%8Bch-v%E1%BB%A5/id1440565902"
     },
     {
      "id": "xanhsm",
@@ -1824,7 +1823,7 @@
    "tips": [
     "라오스 골든트라이앵글 경제특구는 외교부 4단계(여행금지) 지역이에요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "MM": {
    "apps": [
@@ -2447,7 +2446,7 @@
    "tips": [
     "스리랑카는 입국 전 전자여행허가(ETA)가 필요한지 공식 사이트(eta.gov.lk)에서 확인하세요. 정책이 자주 바뀌어요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "NP": {
    "apps": [
@@ -4255,7 +4254,7 @@
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
     "독일 전국 지역교통 정기권 도이칠란트티켓은 2026-01부터 월 €63(구독형, 매월 해지 가능)이에요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "NL": {
@@ -4361,7 +4360,7 @@
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
     "네덜란드 기차·지하철·버스는 OVpay로 컨택리스 카드·애플페이를 찍고 탈 수 있어요(탈 때·내릴 때 모두)."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "BE": {
@@ -4450,7 +4449,7 @@
    "tips": [
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "DK": {
@@ -4466,10 +4465,10 @@
      "bundleId": "dk.dsb.nda",
      "kr": true,
      "url": "https://www.dsb.dk",
-     "verified": "2026-10-19 itunes lookup (country=kr)",
-     "trackName": "DSB",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "DSB: Tog, bus, metro, letbane",
      "sellerName": "DSB",
-     "appStoreUrl": "https://apps.apple.com/kr/app/dsb/id1438634111"
+     "appStoreUrl": "https://apps.apple.com/kr/app/dsb-tog-bus-metro-letbane/id1438634111"
     },
     {
      "id": "rejseplanen",
@@ -4539,7 +4538,7 @@
    "tips": [
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "NO": {
@@ -4645,7 +4644,7 @@
    "tips": [
     "노르웨이는 EU가 아니지만 솅겐 지역이에요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "SE": {
    "apps": [
@@ -4734,7 +4733,7 @@
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
     "스웨덴은 현금 없는 사회라 카드·애플페이만 받는 곳이 많아요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "FI": {
@@ -4823,7 +4822,7 @@
    "tips": [
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "EE": {
@@ -4914,7 +4913,7 @@
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
     "볼트(Bolt)는 에스토니아 기업이라 탈린에서 가장 잘 잡혀요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "IE": {
@@ -5019,7 +5018,7 @@
    "tips": [
     "아일랜드는 솅겐 지역이 아니라 EES·ETIAS가 적용되지 않아요(별도 입국심사)."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "SI": {
    "apps": [
@@ -5091,7 +5090,7 @@
    "tips": [
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "MT": {
@@ -5180,7 +5179,7 @@
    "tips": [
     "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요."
    ],
-   "inCatalog": false,
+   "inCatalog": true,
    "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
   },
   "US": {
@@ -5916,7 +5915,7 @@
     }
    ],
    "tips": [],
-   "inCatalog": false
+   "inCatalog": true
   },
   "AR": {
    "apps": [
@@ -6004,7 +6003,7 @@
    "tips": [
     "아르헨티나는 외국 카드 결제 시 적용 환율이 자주 바뀌어요. 결제 전 카드 환율을 확인하세요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "BR": {
    "apps": [
@@ -6092,7 +6091,7 @@
    "tips": [
     "외교부 기준 브라질 전역 2단계(여행자제)예요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "CO": {
    "apps": [
@@ -6180,7 +6179,7 @@
    "tips": [
     "외교부 기준 2단계(일부 3단계) 지역이에요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "AU": {
    "apps": [
@@ -6493,7 +6492,7 @@
    "tips": [
     "피지는 우버 같은 차량호출 앱이 없어 리조트 픽업·택시가 일반적이에요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "AE": {
    "apps": [
@@ -7049,7 +7048,7 @@
    "tips": [
     "외교부 기준 남아공 전역 2단계(여행자제). 밤에는 걷지 말고 앱 차량을 쓰세요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "KE": {
    "apps": [
@@ -7135,7 +7134,7 @@
    "tips": [
     "케냐 입국 전 eTA(공식 사이트)가 필요해요."
    ],
-   "inCatalog": false
+   "inCatalog": true
   },
   "TZ": {
    "apps": [
@@ -7203,7 +7202,7 @@
     }
    ],
    "tips": [],
-   "inCatalog": false
+   "inCatalog": true
   },
   "MU": {
    "apps": [
@@ -7271,7 +7270,1727 @@
     }
    ],
    "tips": [],
-   "inCatalog": false
+   "inCatalog": true
+  },
+  "LV": {
+   "apps": [
+    {
+     "id": "bolt",
+     "name": "볼트",
+     "nameLocal": "Bolt",
+     "category": "taxi",
+     "why": "유럽·아프리카·일부 동남아에서 우버보다 저렴한 경우가 많은 차량호출 앱",
+     "tip": "도시마다 우버와 가격을 비교해 보세요. 한국 카드 등록 가능.",
+     "appStoreId": 675033630,
+     "bundleId": "ee.mtakso.client",
+     "kr": true,
+     "url": "https://bolt.eu",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Bolt: Request a Ride",
+     "sellerName": "BOLT TECHNOLOGY OU",
+     "appStoreUrl": "https://apps.apple.com/kr/app/bolt-request-a-ride/id675033630"
+    },
+    {
+     "id": "rigas_satiksme",
+     "name": "리가 교통 승차권",
+     "nameLocal": "Rīgas satiksme",
+     "category": "transit",
+     "why": "리가 트램·버스·트롤리버스 승차권을 사서 검표 때 QR로 보여주는 리가 교통공사(Rīgas satiksme) 공식 앱",
+     "tip": "탈 때마다 앱에서 승차 등록을 하세요. 표는 산 날부터 3개월 안에 써야 해요.",
+     "appStoreId": 1584070455,
+     "bundleId": "lv.rigassatiksme.rspassenger",
+     "kr": true,
+     "url": "https://www.rigassatiksme.lv",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Rīgas satiksmes koda biļete",
+     "sellerName": "Rigas satiksme Ltd",
+     "appStoreUrl": "https://apps.apple.com/kr/app/r%C4%ABgas-satiksmes-koda-bi%C4%BCete/id1584070455"
+    },
+    {
+     "id": "vivi_lv",
+     "name": "비비 (라트비아 철도)",
+     "nameLocal": "Vivi Latvija",
+     "category": "transit",
+     "why": "리가~유르말라·시굴다 등 라트비아 국철 시간표·실시간 운행·전자 승차권 공식 앱(Pasažieru vilciens)",
+     "tip": "",
+     "appStoreId": 6448395529,
+     "bundleId": "pv.tst.vivi",
+     "kr": true,
+     "url": "https://www.vivi.lv",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Vivi Latvija",
+     "sellerName": "Pasazieru vilciens AS",
+     "appStoreUrl": "https://apps.apple.com/kr/app/vivi-latvija/id6448395529"
+    },
+    {
+     "id": "wolt",
+     "name": "월트",
+     "nameLocal": "Wolt",
+     "category": "food",
+     "why": "북유럽·동유럽·그리스 등 음식 배달",
+     "tip": "",
+     "appStoreId": 943905271,
+     "bundleId": "com.woltapp.wolt",
+     "kr": true,
+     "url": "https://wolt.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Wolt Delivery: Food and more",
+     "sellerName": "Wolt Oy",
+     "appStoreUrl": "https://apps.apple.com/kr/app/wolt-delivery-food-and-more/id943905271"
+    }
+   ],
+   "tips": [
+    "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
+    "리가에서는 볼트(Bolt)가 가장 널리 쓰이는 차량호출 앱이에요."
+   ],
+   "inCatalog": true,
+   "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
+  },
+  "LT": {
+   "apps": [
+    {
+     "id": "bolt",
+     "name": "볼트",
+     "nameLocal": "Bolt",
+     "category": "taxi",
+     "why": "유럽·아프리카·일부 동남아에서 우버보다 저렴한 경우가 많은 차량호출 앱",
+     "tip": "도시마다 우버와 가격을 비교해 보세요. 한국 카드 등록 가능.",
+     "appStoreId": 675033630,
+     "bundleId": "ee.mtakso.client",
+     "kr": true,
+     "url": "https://bolt.eu",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Bolt: Request a Ride",
+     "sellerName": "BOLT TECHNOLOGY OU",
+     "appStoreUrl": "https://apps.apple.com/kr/app/bolt-request-a-ride/id675033630"
+    },
+    {
+     "id": "judu",
+     "name": "주두 (빌뉴스 교통)",
+     "nameLocal": "JUDU",
+     "category": "transit",
+     "why": "빌뉴스 시내버스·트롤리버스 승차권 구매와 실시간 경로 검색을 한 앱에서(빌뉴스 시 교통기관 Susisiekimo paslaugos)",
+     "tip": "",
+     "appStoreId": 6477285112,
+     "bundleId": "com.judu",
+     "kr": true,
+     "url": "https://judu.lt",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "JUDU",
+     "sellerName": "SUSISIEKIMO PASLAUGOS SI",
+     "appStoreUrl": "https://apps.apple.com/kr/app/judu/id6477285112"
+    },
+    {
+     "id": "ltg_link",
+     "name": "LTG 링크 (리투아니아 철도)",
+     "nameLocal": "LTG Link",
+     "category": "transit",
+     "why": "빌뉴스~카우나스·트라카이 등 리투아니아 철도 승차권 공식 앱",
+     "tip": "",
+     "appStoreId": 1594730224,
+     "bundleId": "app.tunit.tunitFlutterMobile",
+     "kr": true,
+     "url": "https://ltglink.lt",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "LTG Link",
+     "sellerName": "UAB LTG Link",
+     "appStoreUrl": "https://apps.apple.com/kr/app/ltg-link/id1594730224"
+    },
+    {
+     "id": "wolt",
+     "name": "월트",
+     "nameLocal": "Wolt",
+     "category": "food",
+     "why": "북유럽·동유럽·그리스 등 음식 배달",
+     "tip": "",
+     "appStoreId": 943905271,
+     "bundleId": "com.woltapp.wolt",
+     "kr": true,
+     "url": "https://wolt.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Wolt Delivery: Food and more",
+     "sellerName": "Wolt Oy",
+     "appStoreUrl": "https://apps.apple.com/kr/app/wolt-delivery-food-and-more/id943905271"
+    }
+   ],
+   "tips": [
+    "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
+    "빌뉴스 시내는 볼트(Bolt) 호출이 편하고, 버스·트롤리버스 표는 JUDU 앱으로 살 수 있어요."
+   ],
+   "inCatalog": true,
+   "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
+  },
+  "PL": {
+   "apps": [
+    {
+     "id": "bolt",
+     "name": "볼트",
+     "nameLocal": "Bolt",
+     "category": "taxi",
+     "why": "유럽·아프리카·일부 동남아에서 우버보다 저렴한 경우가 많은 차량호출 앱",
+     "tip": "도시마다 우버와 가격을 비교해 보세요. 한국 카드 등록 가능.",
+     "appStoreId": 675033630,
+     "bundleId": "ee.mtakso.client",
+     "kr": true,
+     "url": "https://bolt.eu",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Bolt: Request a Ride",
+     "sellerName": "BOLT TECHNOLOGY OU",
+     "appStoreUrl": "https://apps.apple.com/kr/app/bolt-request-a-ride/id675033630"
+    },
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "jakdojade",
+     "name": "야크도야데",
+     "nameLocal": "Jakdojade",
+     "category": "transit",
+     "why": "크라쿠프·그단스크 등 폴란드 도시 대중교통 경로 검색과 시내 교통권·기차표 구매",
+     "tip": "",
+     "appStoreId": 506795511,
+     "bundleId": "com.citynav.jakdojade.pl.ios-lite",
+     "kr": true,
+     "url": "https://jakdojade.pl",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Jakdojade - Timetables",
+     "sellerName": "CITY-NAV sp. z o.o.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/jakdojade-timetables/id506795511"
+    },
+    {
+     "id": "pkp_intercity",
+     "name": "PKP 인터시티",
+     "nameLocal": "PKP Intercity",
+     "category": "transit",
+     "why": "바르샤바~크라쿠프·그단스크 등 폴란드 장거리 열차(EIP·EIC·IC·TLK) 공식 예매 앱",
+     "tip": "",
+     "appStoreId": 1500848669,
+     "bundleId": "icc.flutter.app",
+     "kr": true,
+     "url": "https://www.intercity.pl",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "PKP INTERCITY - Kupuj bilety",
+     "sellerName": "PKP Intercity S.A.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/pkp-intercity-kupuj-bilety/id1500848669"
+    }
+   ],
+   "tips": [
+    "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
+    "크라쿠프·그단스크 모두 볼트·우버가 잘 잡혀요. 시내 교통권은 Jakdojade 앱으로 살 수 있어요."
+   ],
+   "inCatalog": true,
+   "moreApps": [
+    {
+     "id": "koleo",
+     "name": "콜레오",
+     "nameLocal": "KOLEO",
+     "category": "transit",
+     "why": "PKP 인터시티·지역 열차 시간표와 표를 한 번에 사는 폴란드 기차 예매 앱(추가 수수료 없음)",
+     "tip": "",
+     "appStoreId": 1256462727,
+     "bundleId": "pl.koleo.app",
+     "kr": true,
+     "url": "https://koleo.pl",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "KOLEO",
+     "sellerName": "Astarium sp. z o.o.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/koleo/id1256462727"
+    }
+   ],
+   "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
+  },
+  "RO": {
+   "apps": [
+    {
+     "id": "bolt",
+     "name": "볼트",
+     "nameLocal": "Bolt",
+     "category": "taxi",
+     "why": "유럽·아프리카·일부 동남아에서 우버보다 저렴한 경우가 많은 차량호출 앱",
+     "tip": "도시마다 우버와 가격을 비교해 보세요. 한국 카드 등록 가능.",
+     "appStoreId": 675033630,
+     "bundleId": "ee.mtakso.client",
+     "kr": true,
+     "url": "https://bolt.eu",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Bolt: Request a Ride",
+     "sellerName": "BOLT TECHNOLOGY OU",
+     "appStoreUrl": "https://apps.apple.com/kr/app/bolt-request-a-ride/id675033630"
+    },
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "cfr_calatori",
+     "name": "CFR 철도 (루마니아)",
+     "nameLocal": "CFR Călători",
+     "category": "transit",
+     "why": "부쿠레슈티~브라쇼브 등 루마니아 국철 승차권 공식 예매 앱",
+     "tip": "",
+     "appStoreId": 1600030825,
+     "bundleId": "ro.cfrcalatori.bilete",
+     "kr": true,
+     "url": "https://www.cfrcalatori.ro",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "CFR Călători bilete online",
+     "sellerName": "Societatea Nationala de Transport Feroviar de Calatori CFR Calatori SA",
+     "appStoreUrl": "https://apps.apple.com/kr/app/cfr-c%C4%83l%C4%83tori-bilete-online/id1600030825"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    }
+   ],
+   "tips": [
+    "유럽 ETIAS(전자여행허가)는 2026년 10월 현재 아직 시행 전이에요. 출입국시스템(EES)이 2026년 4월부터 전면 시행돼 첫 입국 때 얼굴·지문을 등록해요.",
+    "루마니아는 2025년 1월부터 솅겐 지역이에요. 브라쇼브에서도 볼트·우버로 차량을 부를 수 있어요(우버 2025 기준 루마니아 27개 이상 도시)."
+   ],
+   "inCatalog": true,
+   "notes": "ETIAS: eu-LISA 공식 페이지 2026-10-19 확인 — 운영 전 · 신청 접수 없음, 시행일은 공식 발표 전(출발 전 travel-europe.europa.eu 확인)."
+  },
+  "ME": {
+   "apps": [
+    {
+     "id": "getbybus",
+     "name": "트래블링닷컴 (구 GetByBus)",
+     "nameLocal": "Traveling.com Bus & Ferry",
+     "category": "transit",
+     "why": "두브로브니크~코토르·모스타르 등 발칸반도 시외버스·페리 표를 비교·예매하는 앱(크로아티아 회사, 옛 이름 GetByBus)",
+     "tip": "",
+     "appStoreId": 973441890,
+     "bundleId": "com.getbybus.mobile.ios",
+     "kr": true,
+     "url": "https://traveling.com",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Traveling.com 버스 & 페리",
+     "sellerName": "SOL ITUM d.o.o.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/traveling-com-%EB%B2%84%EC%8A%A4-%ED%8E%98%EB%A6%AC/id973441890"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    }
+   ],
+   "tips": [
+    "한국 여권은 몬테네그로 무비자 90일이에요(솅겐 지역 아님).",
+    "볼트·우버 같은 국제 차량호출 앱은 쓰기 어려워요. 코토르·부드바에서는 콜택시나 숙소에서 불러 주는 택시를 이용하세요."
+   ],
+   "inCatalog": true
+  },
+  "BA": {
+   "apps": [
+    {
+     "id": "getbybus",
+     "name": "트래블링닷컴 (구 GetByBus)",
+     "nameLocal": "Traveling.com Bus & Ferry",
+     "category": "transit",
+     "why": "두브로브니크~코토르·모스타르 등 발칸반도 시외버스·페리 표를 비교·예매하는 앱(크로아티아 회사, 옛 이름 GetByBus)",
+     "tip": "",
+     "appStoreId": 973441890,
+     "bundleId": "com.getbybus.mobile.ios",
+     "kr": true,
+     "url": "https://traveling.com",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Traveling.com 버스 & 페리",
+     "sellerName": "SOL ITUM d.o.o.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/traveling-com-%EB%B2%84%EC%8A%A4-%ED%8E%98%EB%A6%AC/id973441890"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    }
+   ],
+   "tips": [
+    "한국 여권은 보스니아 헤르체고비나 무비자 90일(6개월 중)이에요.",
+    "볼트·우버 같은 국제 차량호출 앱은 쓰기 어려워요. 모스타르는 사라예보·두브로브니크와 시외버스로 이어져요."
+   ],
+   "inCatalog": true
+  },
+  "MK": {
+   "apps": [
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    },
+    {
+     "id": "google_translate",
+     "name": "구글 번역",
+     "nameLocal": "Google Translate",
+     "category": "translate",
+     "why": "카메라로 메뉴판·표지판을 비추면 바로 번역되고, 언어팩을 받으면 오프라인에서도 동작",
+     "tip": "현지어 언어팩(예: 일본어·태국어)을 와이파이에서 미리 받아두세요.",
+     "appStoreId": 414706506,
+     "bundleId": "com.google.Translate",
+     "kr": true,
+     "url": "https://translate.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google 번역",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-%EB%B2%88%EC%97%AD/id414706506"
+    }
+   ],
+   "tips": [
+    "한국 여권은 북마케도니아 무비자 90일(180일 중)이에요.",
+    "오흐리드 구시가는 걸어서 다닐 만해요. 스코페 공항에서는 차로 약 3시간이에요."
+   ],
+   "inCatalog": true
+  },
+  "GE": {
+   "apps": [
+    {
+     "id": "bolt",
+     "name": "볼트",
+     "nameLocal": "Bolt",
+     "category": "taxi",
+     "why": "유럽·아프리카·일부 동남아에서 우버보다 저렴한 경우가 많은 차량호출 앱",
+     "tip": "도시마다 우버와 가격을 비교해 보세요. 한국 카드 등록 가능.",
+     "appStoreId": 675033630,
+     "bundleId": "ee.mtakso.client",
+     "kr": true,
+     "url": "https://bolt.eu",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Bolt: Request a Ride",
+     "sellerName": "BOLT TECHNOLOGY OU",
+     "appStoreUrl": "https://apps.apple.com/kr/app/bolt-request-a-ride/id675033630"
+    },
+    {
+     "id": "yandex_go",
+     "name": "얀덱스 고",
+     "nameLocal": "Yandex Go",
+     "category": "taxi",
+     "why": "우즈베키스탄·카자흐스탄에서 가장 널리 쓰는 택시 호출 앱(러시아 얀덱스 계열)",
+     "tip": "한국 카드 결제가 안 되는 경우가 많아 현금 결제를 선택하세요. 기사에게 앱 화면의 목적지를 보여주면 됩니다.",
+     "appStoreId": 472650686,
+     "bundleId": "ru.yandex.ytaxi",
+     "kr": true,
+     "url": "https://go.yandex",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Yandex Go: Taxi Food Delivery",
+     "sellerName": "Mikromobilnost doo",
+     "appStoreUrl": "https://apps.apple.com/kr/app/yandex-go-taxi-food-delivery/id472650686"
+    },
+    {
+     "id": "tbilisi_transport",
+     "name": "트빌리시 교통",
+     "nameLocal": "Tbilisi Transport",
+     "category": "transit",
+     "why": "트빌리시 버스·지하철 노선·실시간 도착 정보와 경로 검색",
+     "tip": "",
+     "appStoreId": 1437141092,
+     "bundleId": "com.azry.wandio.ttc.ios",
+     "kr": true,
+     "url": "https://ttc.com.ge",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Tbilisi Transport",
+     "sellerName": "AzRy LTD",
+     "appStoreUrl": "https://apps.apple.com/kr/app/tbilisi-transport/id1437141092"
+    },
+    {
+     "id": "georgian_railway",
+     "name": "조지아 철도",
+     "nameLocal": "Georgian Railway",
+     "category": "transit",
+     "why": "트빌리시~바투미 등 조지아 철도 승차권 공식 앱",
+     "tip": "",
+     "appStoreId": 6746049057,
+     "bundleId": "ge.railway.mobile",
+     "kr": true,
+     "url": "https://www.railway.ge",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Georgian Railway",
+     "sellerName": "GEORGIAN RAILWAY, JSC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/georgian-railway/id6746049057"
+    },
+    {
+     "id": "wolt",
+     "name": "월트",
+     "nameLocal": "Wolt",
+     "category": "food",
+     "why": "북유럽·동유럽·그리스 등 음식 배달",
+     "tip": "",
+     "appStoreId": 943905271,
+     "bundleId": "com.woltapp.wolt",
+     "kr": true,
+     "url": "https://wolt.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Wolt Delivery: Food and more",
+     "sellerName": "Wolt Oy",
+     "appStoreUrl": "https://apps.apple.com/kr/app/wolt-delivery-food-and-more/id943905271"
+    }
+   ],
+   "tips": [
+    "한국 여권은 조지아 무비자 1년이에요. 2026년부터 입국 때 여행자보험(보장 3만 라리 이상) 증빙을 요구해요.",
+    "트빌리시에서는 볼트·얀덱스 고로 부르면 흥정 없이 탈 수 있어요."
+   ],
+   "inCatalog": true
+  },
+  "AM": {
+   "apps": [
+    {
+     "id": "yandex_go",
+     "name": "얀덱스 고",
+     "nameLocal": "Yandex Go",
+     "category": "taxi",
+     "why": "우즈베키스탄·카자흐스탄에서 가장 널리 쓰는 택시 호출 앱(러시아 얀덱스 계열)",
+     "tip": "한국 카드 결제가 안 되는 경우가 많아 현금 결제를 선택하세요. 기사에게 앱 화면의 목적지를 보여주면 됩니다.",
+     "appStoreId": 472650686,
+     "bundleId": "ru.yandex.ytaxi",
+     "kr": true,
+     "url": "https://go.yandex",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Yandex Go: Taxi Food Delivery",
+     "sellerName": "Mikromobilnost doo",
+     "appStoreUrl": "https://apps.apple.com/kr/app/yandex-go-taxi-food-delivery/id472650686"
+    },
+    {
+     "id": "gg_am",
+     "name": "지지 (gg)",
+     "nameLocal": "gg",
+     "category": "taxi",
+     "why": "예레반에서 얀덱스 고와 함께 널리 쓰는 아르메니아 차량호출 앱",
+     "tip": "",
+     "appStoreId": 852874923,
+     "bundleId": "com.ggLabs.ggTaxi",
+     "kr": true,
+     "url": "https://apps.apple.com/kr/app/gg-transportation-service/id852874923",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "gg - Transportation Service",
+     "sellerName": "gg CJSC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/gg-transportation-service/id852874923"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    }
+   ],
+   "tips": [
+    "한국 여권은 아르메니아 무비자 180일(1년 중)이에요.",
+    "예레반 시내는 얀덱스 고·gg 호출이 싸고 편해요. 한국 카드 결제가 안 되면 현금 결제를 고르세요."
+   ],
+   "inCatalog": true
+  },
+  "KG": {
+   "apps": [
+    {
+     "id": "yandex_go",
+     "name": "얀덱스 고",
+     "nameLocal": "Yandex Go",
+     "category": "taxi",
+     "why": "우즈베키스탄·카자흐스탄에서 가장 널리 쓰는 택시 호출 앱(러시아 얀덱스 계열)",
+     "tip": "한국 카드 결제가 안 되는 경우가 많아 현금 결제를 선택하세요. 기사에게 앱 화면의 목적지를 보여주면 됩니다.",
+     "appStoreId": 472650686,
+     "bundleId": "ru.yandex.ytaxi",
+     "kr": true,
+     "url": "https://go.yandex",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Yandex Go: Taxi Food Delivery",
+     "sellerName": "Mikromobilnost doo",
+     "appStoreUrl": "https://apps.apple.com/kr/app/yandex-go-taxi-food-delivery/id472650686"
+    },
+    {
+     "id": "indrive",
+     "name": "인드라이브",
+     "nameLocal": "inDrive",
+     "category": "taxi",
+     "why": "승객이 요금을 제안하는 방식의 차량호출 앱. 중남미·중앙아시아·아프리카·남아시아에서 널리 쓰임",
+     "tip": "현금 결제가 기본인 지역이 많아요. 기사 평점·차량 번호를 꼭 확인하세요.",
+     "appStoreId": 780125801,
+     "bundleId": "ru.inDriver-ru",
+     "kr": true,
+     "url": "https://indrive.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "inDrive: Book Comfortable Cars",
+     "sellerName": "SUOL INNOVATIONS LTD",
+     "appStoreUrl": "https://apps.apple.com/kr/app/indrive-book-comfortable-cars/id780125801"
+    },
+    {
+     "id": "twogis",
+     "name": "2GIS",
+     "nameLocal": "2GIS",
+     "category": "map",
+     "why": "카자흐스탄·우즈베키스탄 등에서 구글 지도보다 정확한 건물·상점·대중교통 정보(오프라인 지원)",
+     "tip": "",
+     "appStoreId": 481627348,
+     "bundleId": "ru.doublegis.grymmobile",
+     "kr": true,
+     "url": "https://2gis.kz",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "2GIS: Map, Navigation, Tracker",
+     "sellerName": "LLC \"DoubleGIS\"",
+     "appStoreUrl": "https://apps.apple.com/kr/app/2gis-map-navigation-tracker/id481627348"
+    },
+    {
+     "id": "google_translate",
+     "name": "구글 번역",
+     "nameLocal": "Google Translate",
+     "category": "translate",
+     "why": "카메라로 메뉴판·표지판을 비추면 바로 번역되고, 언어팩을 받으면 오프라인에서도 동작",
+     "tip": "현지어 언어팩(예: 일본어·태국어)을 와이파이에서 미리 받아두세요.",
+     "appStoreId": 414706506,
+     "bundleId": "com.google.Translate",
+     "kr": true,
+     "url": "https://translate.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google 번역",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-%EB%B2%88%EC%97%AD/id414706506"
+    }
+   ],
+   "tips": [
+    "한국 여권은 키르기스스탄 무비자 30일(60일 중)이에요.",
+    "비슈케크 시내는 얀덱스 고·인드라이브로 부르면 되고, 이식쿨·카라콜까지는 투어 차량이나 합승 미니버스(마르슈룻카)가 일반적이에요."
+   ],
+   "inCatalog": true
+  },
+  "TN": {
+   "apps": [
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    },
+    {
+     "id": "google_translate",
+     "name": "구글 번역",
+     "nameLocal": "Google Translate",
+     "category": "translate",
+     "why": "카메라로 메뉴판·표지판을 비추면 바로 번역되고, 언어팩을 받으면 오프라인에서도 동작",
+     "tip": "현지어 언어팩(예: 일본어·태국어)을 와이파이에서 미리 받아두세요.",
+     "appStoreId": 414706506,
+     "bundleId": "com.google.Translate",
+     "kr": true,
+     "url": "https://translate.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google 번역",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-%EB%B2%88%EC%97%AD/id414706506"
+    }
+   ],
+   "tips": [
+    "한국 여권은 튀니지 무비자 90일이에요.",
+    "튀니스 시내 노란 택시는 미터기 요금이에요. 차량호출 앱은 운영 상황이 자주 바뀌니 현지에서 확인하세요. 시디부사이드는 TGM 교외 전철로 갈 수 있어요."
+   ],
+   "inCatalog": true
+  },
+  "NA": {
+   "apps": [
+    {
+     "id": "namibia_evisa",
+     "name": "나미비아 e-비자",
+     "nameLocal": "Namibia e-Visa (MHAISS)",
+     "category": "entry",
+     "why": "나미비아 내무·이민부 공식 온라인 비자 신청(도착비자 사전 신청 포함)",
+     "tip": "공식 포털 외 대행 사이트는 수수료를 더 받아요. 승인서만으로 입국이 보장되지는 않아요(정부 안내).",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
+     "url": "https://eservices.mhaiss.gov.na",
+     "verified": "2026-10-20 웹 서비스 — 정부 비자 안내 PDF(eservices.mhaiss.gov.na)·2025 보도로 주소 확인, 자동 요청은 차단돼 응답 확인 못 함",
+     "web": true
+    },
+    {
+     "id": "lefa",
+     "name": "레파",
+     "nameLocal": "LEFA Namibia",
+     "category": "taxi",
+     "why": "빈트후크 시내·호세아 쿠타코 국제공항 이동에 쓰는 나미비아 차량호출(셔틀) 앱",
+     "tip": "빈트후크 밖(소서스블레이 등)은 렌터카·투어가 일반적이에요.",
+     "appStoreId": 1327371047,
+     "bundleId": "nm.com.lefa.shuttles.client",
+     "kr": true,
+     "url": "https://lefa.com.na",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "LEFA Namibia",
+     "sellerName": "LEFA Transportation Services",
+     "appStoreUrl": "https://apps.apple.com/kr/app/lefa-namibia/id1327371047"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    }
+   ],
+   "tips": [
+    "한국 여권은 2025-04-01부터 나미비아 비자가 필요해요. 공항 도착비자 또는 출발 전 공식 e-비자를 받으세요.",
+    "소서스블레이·에토샤 등은 대중교통이 없어 렌터카(4WD)나 투어가 사실상 필수예요."
+   ],
+   "inCatalog": true
+  },
+  "ZW": {
+   "apps": [
+    {
+     "id": "zw_evisa",
+     "name": "짐바브웨 e-비자",
+     "nameLocal": "Zimbabwe eVisa",
+     "category": "entry",
+     "why": "짐바브웨 정부 공식 온라인 비자 신청(도착비자 대신 미리 받을 때)",
+     "tip": "공식 사이트 외 대행 사이트 주의. 잠비아 쪽도 오갈 거면 KAZA 유니비자 조건을 확인하세요.",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
+     "url": "https://www.evisa.gov.zw",
+     "verified": "2026-10-20 웹 200 확인(evisa.gov.zw)",
+     "web": true
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    }
+   ],
+   "tips": [
+    "한국 여권은 짐바브웨 도착비자(30달러) 또는 e-비자로 입국해요. 잠비아 쪽 폭포도 볼 거면 KAZA 유니비자(50달러)를 확인하세요.",
+    "빅토리아폴스 마을에는 차량호출 앱이 사실상 없어 숙소 셔틀·택시를 이용해요."
+   ],
+   "inCatalog": true
+  },
+  "BW": {
+   "apps": [
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    },
+    {
+     "id": "google_translate",
+     "name": "구글 번역",
+     "nameLocal": "Google Translate",
+     "category": "translate",
+     "why": "카메라로 메뉴판·표지판을 비추면 바로 번역되고, 언어팩을 받으면 오프라인에서도 동작",
+     "tip": "현지어 언어팩(예: 일본어·태국어)을 와이파이에서 미리 받아두세요.",
+     "appStoreId": 414706506,
+     "bundleId": "com.google.Translate",
+     "kr": true,
+     "url": "https://translate.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google 번역",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-%EB%B2%88%EC%97%AD/id414706506"
+    }
+   ],
+   "tips": [
+    "한국 여권은 보츠와나 무비자 90일이에요. 황열 위험국을 거쳐 오면 접종 증명서를 확인하세요.",
+    "오카방고 델타·초베는 마운·카사네에서 경비행기·사파리 차량으로 들어가요. 롯지·투어 예약이 일반적이에요."
+   ],
+   "inCatalog": true
+  },
+  "SC": {
+   "apps": [
+    {
+     "id": "seychelles_eborder",
+     "name": "세이셸 e-보더 (여행허가)",
+     "nameLocal": "Seychelles E-Border",
+     "category": "entry",
+     "why": "세이셸 입국 전 필수인 여행허가(TA)와 입·출국 신고를 하는 정부 공식 앱(운영 위탁사 Travizory)",
+     "tip": "공식 웹은 seychelles.govtas.com이에요. 비슷한 이름의 대행 사이트는 수수료를 더 받아요.",
+     "appStoreId": 1491477020,
+     "bundleId": "com.travizory.evisa.sc",
+     "kr": true,
+     "url": "https://seychelles.govtas.com",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Seychelles E-Border",
+     "sellerName": "Travizory Border Security SA",
+     "appStoreUrl": "https://apps.apple.com/kr/app/seychelles-e-border/id1491477020"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    }
+   ],
+   "tips": [
+    "세이셸은 무비자(도착 때 방문 허가 무료)지만 출발 전 여행허가(TA)를 꼭 받아야 해요."
+   ],
+   "inCatalog": true
+  },
+  "IN": {
+   "apps": [
+    {
+     "id": "su_swagatam",
+     "name": "인디안 비자 수스와가탐",
+     "nameLocal": "Indian Visa Su-Swagatam",
+     "category": "entry",
+     "why": "인도 정부(NIC) 공식 앱: e-비자 신청·조회와 입국 72시간 전 작성하는 e-Arrival 카드",
+     "tip": "e-Arrival 카드는 웹(indianvisaonline.gov.in/earrival)에서도 작성할 수 있어요. 유료 대행 사이트 주의.",
+     "appStoreId": 1573902563,
+     "bundleId": "org.nic.ivfrt.visitindia",
+     "kr": true,
+     "url": "https://indianvisaonline.gov.in/earrival/",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Indian Visa Su-Swagatam",
+     "sellerName": "NATIONAL INFORMATICS CENTRE",
+     "appStoreUrl": "https://apps.apple.com/kr/app/indian-visa-su-swagatam/id1573902563"
+    },
+    {
+     "id": "in_evisa",
+     "name": "인도 e-비자 (공식 웹)",
+     "nameLocal": "Indian e-Visa",
+     "category": "entry",
+     "why": "인도 정부 공식 e-비자 신청 사이트(관광 e-비자)",
+     "tip": "도착비자는 델리·뭄바이 등 6개 공항에서만 받을 수 있어요. 고아·코치로 바로 들어가면 e-비자를 미리 받으세요.",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
+     "url": "https://indianvisaonline.gov.in/evisa/",
+     "verified": "2026-10-20 웹 200 확인(indianvisaonline.gov.in)",
+     "web": true
+    },
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "goamiles",
+     "name": "고아마일즈",
+     "nameLocal": "GoaMiles",
+     "category": "taxi",
+     "why": "고아 관광개발공사(GTDC)가 도입한 고아 앱 택시. 공항·시내 이동 요금이 앱에 표시돼 흥정이 줄어요",
+     "tip": "고아주는 우버·올라 영업을 허용하지 않아요(2025 주정부 방침).",
+     "appStoreId": 1414383690,
+     "bundleId": "com.frotamiles.goamiles",
+     "kr": true,
+     "url": "https://www.goamiles.com",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "GoaMiles",
+     "sellerName": "FROTAMILES PRIVATE LIMITED",
+     "appStoreUrl": "https://apps.apple.com/kr/app/goamiles/id1414383690"
+    },
+    {
+     "id": "irctc",
+     "name": "IRCTC 레일 커넥트",
+     "nameLocal": "IRCTC Rail Connect",
+     "category": "transit",
+     "why": "인도 철도 승차권 공식 예매 앱(인도철도 케이터링·관광공사)",
+     "tip": "",
+     "appStoreId": 1386197253,
+     "bundleId": "cris.org.in.prs.ima",
+     "kr": true,
+     "url": "https://www.irctc.co.in",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "IRCTC Rail Connect",
+     "sellerName": "Indian Railway Catering and Tourism Corporation Limited",
+     "appStoreUrl": "https://apps.apple.com/kr/app/irctc-rail-connect/id1386197253"
+    }
+   ],
+   "tips": [
+    "한국 여권은 인도 e-비자가 필요해요(델리·뭄바이 등 6개 공항은 도착비자도 가능). 2025-10-01부터 입국 72시간 전 e-Arrival 카드를 온라인으로 작성해요.",
+    "고아주는 우버·올라가 영업하지 않아 고아마일즈 같은 지역 앱 택시나 선불 택시를 이용해요. 케랄라(코치)는 우버를 쓸 수 있어요."
+   ],
+   "inCatalog": true
+  },
+  "PF": {
+   "apps": [
+    {
+     "id": "air_tahiti",
+     "name": "에어 타히티",
+     "nameLocal": "Air Tahiti",
+     "category": "transit",
+     "why": "타히티~보라보라·모레아 등 프랑스령 폴리네시아 섬 사이 국내선 예매·탑승 공식 앱",
+     "tip": "",
+     "appStoreId": 6758527357,
+     "bundleId": "com.airtahiti.mobile",
+     "kr": true,
+     "url": "https://www.airtahiti.com",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Air Tahiti",
+     "sellerName": "AIR TAHITI",
+     "appStoreUrl": "https://apps.apple.com/kr/app/air-tahiti/id6758527357"
+    },
+    {
+     "id": "terevau",
+     "name": "테레바우 (타히티~모레아 페리)",
+     "nameLocal": "Terevau",
+     "category": "transit",
+     "why": "타히티~모레아 고속 페리 운항 시간표·지연 알림",
+     "tip": "",
+     "appStoreId": 1305349996,
+     "bundleId": "pf.terevau.app",
+     "kr": true,
+     "url": "https://www.terevau.pf",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Terevau",
+     "sellerName": "SNGV 2 MOOREA",
+     "appStoreUrl": "https://apps.apple.com/kr/app/terevau/id1305349996"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    }
+   ],
+   "tips": [
+    "한국 여권은 프랑스령 폴리네시아 무비자 90일이에요(프랑스 해외 영토, 솅겐과 별도).",
+    "섬 사이 이동은 에어 타히티 국내선이 기본이에요. 차량호출 앱은 없어요."
+   ],
+   "inCatalog": true
+  },
+  "PW": {
+   "apps": [
+    {
+     "id": "palau_entry",
+     "name": "팔라우 입국신고서",
+     "nameLocal": "Palau Entry Form",
+     "category": "entry",
+     "why": "팔라우 출발 72시간 전부터 작성하는 공식 온라인 입국신고(QR을 체크인·도착 때 제시)",
+     "tip": "팔라우 정부 포털(palaugov.pw)에서 연결되는 공식 사이트예요. 가족은 한 번에 작성할 수 있어요.",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
+     "url": "https://palautravel.pw",
+     "verified": "2026-10-20 웹 200 확인(palautravel.pw, palaugov.pw 링크)",
+     "web": true
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    }
+   ],
+   "tips": [
+    "팔라우는 도착비자 30일(무료)이에요. 출발 72시간 전부터 온라인 입국신고서(Palau Entry Form)를 작성해 QR을 받아 두세요.",
+    "차량호출 앱이 없어 숙소 셔틀·택시·투어 픽업을 이용해요."
+   ],
+   "inCatalog": true
+  },
+  "NC": {
+   "apps": [
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    },
+    {
+     "id": "tripadvisor",
+     "name": "트립어드바이저",
+     "nameLocal": "Tripadvisor",
+     "category": "food",
+     "why": "유럽·중동·남미처럼 현지 맛집 앱이 약한 곳에서 여행자 리뷰로 식당·투어를 고를 때 유용",
+     "tip": "",
+     "appStoreId": 284876795,
+     "bundleId": "com.tripadvisor.LocalPicks",
+     "kr": true,
+     "url": "https://www.tripadvisor.co.kr",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "트립어드바이저: 여행 계획 및 예약하기",
+     "sellerName": "Tripadvisor",
+     "appStoreUrl": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795"
+    },
+    {
+     "id": "google_translate",
+     "name": "구글 번역",
+     "nameLocal": "Google Translate",
+     "category": "translate",
+     "why": "카메라로 메뉴판·표지판을 비추면 바로 번역되고, 언어팩을 받으면 오프라인에서도 동작",
+     "tip": "현지어 언어팩(예: 일본어·태국어)을 와이파이에서 미리 받아두세요.",
+     "appStoreId": 414706506,
+     "bundleId": "com.google.Translate",
+     "kr": true,
+     "url": "https://translate.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google 번역",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-%EB%B2%88%EC%97%AD/id414706506"
+    }
+   ],
+   "tips": [
+    "한국 여권은 누벨칼레도니 무비자 90일이에요(프랑스 해외 영토, 솅겐과 별도). 여행자 보험 가입이 필수예요.",
+    "누메아 밖은 대중교통이 적어 렌터카·투어가 편해요."
+   ],
+   "inCatalog": true
+  },
+  "GT": {
+   "apps": [
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "indrive",
+     "name": "인드라이브",
+     "nameLocal": "inDrive",
+     "category": "taxi",
+     "why": "승객이 요금을 제안하는 방식의 차량호출 앱. 중남미·중앙아시아·아프리카·남아시아에서 널리 쓰임",
+     "tip": "현금 결제가 기본인 지역이 많아요. 기사 평점·차량 번호를 꼭 확인하세요.",
+     "appStoreId": 780125801,
+     "bundleId": "ru.inDriver-ru",
+     "kr": true,
+     "url": "https://indrive.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "inDrive: Book Comfortable Cars",
+     "sellerName": "SUOL INNOVATIONS LTD",
+     "appStoreUrl": "https://apps.apple.com/kr/app/indrive-book-comfortable-cars/id780125801"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+     "id": "booking",
+     "name": "부킹닷컴",
+     "nameLocal": "Booking.com",
+     "category": "stay",
+     "why": "유럽·미주 숙소 선택지가 가장 넓은 예약 앱",
+     "tip": "",
+     "appStoreId": 367003839,
+     "bundleId": "com.booking.BookingApp",
+     "kr": true,
+     "url": "https://www.booking.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Booking.com 여행 특가",
+     "sellerName": "Booking.com B.V.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/booking-com-%EC%97%AC%ED%96%89-%ED%8A%B9%EA%B0%80/id367003839"
+    }
+   ],
+   "tips": [
+    "한국 여권은 과테말라 무비자 90일(과테말라·엘살바도르·온두라스·니카라과 합산)이에요. 미국을 거쳐 가면 ESTA가 필요해요.",
+    "과테말라시티 공항~안티구아는 셔틀이나 우버로 약 1시간이에요."
+   ],
+   "inCatalog": true
+  },
+  "CR": {
+   "apps": [
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "didi_global",
+     "name": "디디 (해외판)",
+     "nameLocal": "DiDi Rider",
+     "category": "taxi",
+     "why": "일본·호주·뉴질랜드·멕시코·중남미 등에서 쓰는 디디 해외판 차량호출 앱",
+     "tip": "중국 본토용 '滴滴出行(DiDi China)'과는 다른 앱입니다.",
+     "appStoreId": 1362398401,
+     "bundleId": "com.didi.global.passenger",
+     "kr": true,
+     "url": "https://web.didiglobal.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "DiDi Rider – 합리적인 가격의 택시 이용",
+     "sellerName": "DIDI MOBILITY INFORMATION TECHNOLOGY PTE. LTD.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/didi-rider-%ED%95%A9%EB%A6%AC%EC%A0%81%EC%9D%B8-%EA%B0%80%EA%B2%A9%EC%9D%98-%ED%83%9D%EC%8B%9C-%EC%9D%B4%EC%9A%A9/id1362398401"
+    },
+    {
+     "id": "waze",
+     "name": "웨이즈",
+     "nameLocal": "Waze",
+     "category": "map",
+     "why": "코스타리카 운전자들이 많이 쓰는 실시간 내비게이션. 렌터카로 아레날·몬테베르데를 다닐 때 유용",
+     "tip": "",
+     "appStoreId": 323229106,
+     "bundleId": "com.waze.iphone",
+     "kr": true,
+     "url": "https://www.waze.com",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Waze - 길안내 및 실시간 교통 상황",
+     "sellerName": "waze",
+     "appStoreUrl": "https://apps.apple.com/kr/app/waze-%EA%B8%B8%EC%95%88%EB%82%B4-%EB%B0%8F-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EA%B5%90%ED%86%B5-%EC%83%81%ED%99%A9/id323229106"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    }
+   ],
+   "tips": [
+    "한국 여권은 코스타리카 무비자 180일이에요. 미국을 거쳐 가면 ESTA가 필요해요.",
+    "산호세 등 중부 지역은 우버·디디로 부를 수 있고, 아레날·몬테베르데 이동은 렌터카나 셔틀 버스가 일반적이에요."
+   ],
+   "inCatalog": true
+  },
+  "EC": {
+   "apps": [
+    {
+     "id": "galapagos_tct",
+     "name": "갈라파고스 TCT (이동 통제 카드)",
+     "nameLocal": "Tarjeta de Control de Tránsito",
+     "category": "entry",
+     "why": "갈라파고스행 전 등록하는 이동 통제 카드(갈라파고스 특별행정청 공식, 홈페이지 TCT 메뉴)",
+     "tip": "TCT 비용과 국립공원 입장료는 따로 내요.",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
+     "url": "https://www.gobiernogalapagos.gob.ec",
+     "verified": "2026-10-20 웹 200 확인(gobiernogalapagos.gob.ec, TCT 링크)",
+     "web": true
+    },
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "indrive",
+     "name": "인드라이브",
+     "nameLocal": "inDrive",
+     "category": "taxi",
+     "why": "승객이 요금을 제안하는 방식의 차량호출 앱. 중남미·중앙아시아·아프리카·남아시아에서 널리 쓰임",
+     "tip": "현금 결제가 기본인 지역이 많아요. 기사 평점·차량 번호를 꼭 확인하세요.",
+     "appStoreId": 780125801,
+     "bundleId": "ru.inDriver-ru",
+     "kr": true,
+     "url": "https://indrive.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "inDrive: Book Comfortable Cars",
+     "sellerName": "SUOL INNOVATIONS LTD",
+     "appStoreUrl": "https://apps.apple.com/kr/app/indrive-book-comfortable-cars/id780125801"
+    },
+    {
+     "id": "google_maps",
+     "name": "구글 지도",
+     "nameLocal": "Google Maps",
+     "category": "map",
+     "why": "대부분 나라에서 대중교통 경로·실시간 도착·맛집 평점까지 한 번에 볼 수 있는 기본 지도",
+     "tip": "출발 전 '오프라인 지도'를 받아두면 데이터가 없어도 길찾기가 됩니다. 중국 본토에서는 지도가 어긋나고 서비스가 막혀 있으니 고덕지도를 쓰세요.",
+     "appStoreId": 585027354,
+     "bundleId": "com.google.Maps",
+     "kr": true,
+     "url": "https://maps.google.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Google Maps",
+     "sellerName": "Google LLC",
+     "appStoreUrl": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    }
+   ],
+   "tips": [
+    "한국 여권은 에콰도르 무비자 90일이에요. 갈라파고스는 출발 전 TCT(이동 통제 카드) 등록과 국립공원 입장료가 따로 필요해요. 미국을 거쳐 가면 ESTA가 필요해요.",
+    "키토·과야킬은 우버·인드라이브가 되지만 갈라파고스 섬 안에는 차량호출 앱이 없어 택시·투어를 이용해요."
+   ],
+   "inCatalog": true
+  },
+  "UY": {
+   "apps": [
+    {
+     "id": "uber",
+     "name": "우버",
+     "nameLocal": "Uber",
+     "category": "taxi",
+     "why": "한국 카드·한국어 앱 그대로 해외에서 차량 호출, 요금이 미리 확정돼 바가지 걱정이 적음",
+     "tip": "한국에서 가입·카드 등록을 마치고 가면 현지에서 바로 쓸 수 있어요. 도착 후 현지 유심/eSIM 번호로 바꿀 필요는 없습니다.",
+     "appStoreId": 368677368,
+     "bundleId": "com.ubercab.UberClient",
+     "kr": true,
+     "url": "https://www.uber.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Uber(우버) - 택시 호출 플랫폼",
+     "sellerName": "Uber Technologies, Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/uber-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368"
+    },
+    {
+     "id": "cabify",
+     "name": "카비파이",
+     "nameLocal": "Cabify",
+     "category": "taxi",
+     "why": "스페인·중남미(페루·칠레·아르헨티나·콜롬비아 등) 차량호출 앱",
+     "tip": "",
+     "appStoreId": 476087442,
+     "bundleId": "com.cabify.iosrider",
+     "kr": true,
+     "url": "https://cabify.com",
+     "verified": "2026-10-19 itunes lookup (country=kr)",
+     "trackName": "Cabify, viaja como te mereces",
+     "sellerName": "Cabify Inc.",
+     "appStoreUrl": "https://apps.apple.com/kr/app/cabify-viaja-como-te-mereces/id476087442"
+    },
+    {
+     "id": "como_ir",
+     "name": "코모 이르 (몬테비데오 버스)",
+     "nameLocal": "Cómo ir",
+     "category": "transit",
+     "why": "몬테비데오 시청 공식 대중교통 앱: 버스 노선·시간표·실시간 버스 위치",
+     "tip": "",
+     "appStoreId": 933271921,
+     "bundleId": "uy.gub.imm.stm.mobile.comoir",
+     "kr": true,
+     "url": "https://montevideo.gub.uy",
+     "verified": "2026-10-20 itunes lookup (country=kr)",
+     "trackName": "Cómo ir",
+     "sellerName": "Montevideo DTI",
+     "appStoreUrl": "https://apps.apple.com/kr/app/c%C3%B3mo-ir/id933271921"
+    },
+    {
+     "id": "buquebus",
+     "name": "부케부스 (페리)",
+     "nameLocal": "Buquebus",
+     "category": "transit",
+     "why": "부에노스아이레스~콜로니아·몬테비데오 페리 예매(웹)",
+     "tip": "",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
+     "url": "https://www.buquebus.com",
+     "verified": "2026-10-20 웹 200 확인(buquebus.com)",
+     "web": true
+    }
+   ],
+   "tips": [
+    "한국 여권은 우루과이 무비자 90일이에요. 미국을 거쳐 가면 ESTA가 필요해요.",
+    "부에노스아이레스에서 콜로니아·몬테비데오까지는 페리(부케부스 등)로 건너가요."
+   ],
+   "inCatalog": true
   }
  },
  "cities": {
@@ -7964,18 +9683,16 @@
     {
      "id": "libertas",
      "name": "리베르타스 (두브로브니크 버스)",
-     "nameLocal": "Libertas App",
+     "nameLocal": "Libertas Dubrovnik",
      "category": "transit",
-     "why": "두브로브니크 시내버스 승차권 앱",
-     "tip": "판매자는 개발사(ENUM SOFTWARE) 명의예요. 버스는 현금·정류장 키오스크로도 탈 수 있어요.",
-     "appStoreId": 6460891309,
-     "bundleId": "com.enumsoftware.libertasapp",
-     "kr": true,
+     "why": "두브로브니크 시내버스 노선·시간표·요금 안내(버스 회사 웹)",
+     "tip": "버스는 현금·정류장 키오스크로도 탈 수 있어요.",
+     "appStoreId": 0,
+     "bundleId": null,
+     "kr": false,
      "url": "https://www.libertasdubrovnik.hr",
-     "verified": "2026-10-19 itunes lookup (country=kr)",
-     "trackName": "Libertas App",
-     "sellerName": "ENUM SOFTWARE j.d.o.o.",
-     "appStoreUrl": "https://apps.apple.com/kr/app/libertas-app/id6460891309"
+     "verified": "2026-10-20 웹 200 확인 (기존 앱 6460891309 은 2023-11-21 이후 업데이트 없음 → 제외)",
+     "web": true
     }
    ],
    "tips": [
@@ -9196,6 +10913,31 @@
   {
    "fact": "Welcome Suica Mobile: iOS 17.2+, Apple Pay 결제만, 발급 180일 후 잔액 만료·환불 불가(App Store 설명, v1.2.1 2026-07-15)",
    "url": "https://apps.apple.com/kr/app/welcome-suica-mobile/id6738336566"
+  },
+  {
+   "fact": "인도 e-Arrival 카드: 2025-10-01부터 외국인 입국 72시간 전 온라인 작성(공식 경로: indianvisaonline.gov.in · 이민국 · Su-Swagatam 앱)",
+   "url": "https://business.lufthansagroup.com/us/en/program/experts/news/effective-1-october-2025--earrival-card-now-mandatory-for-entry-",
+   "url2": "https://indianvisaonline.gov.in/earrival/"
+  },
+  {
+   "fact": "고아주 우버·올라 불허(2025-06 주총리·교통장관 발언), GoaMiles 는 고아 관광개발공사(GTDC) 도입 앱 택시",
+   "url": "https://scroll.in/latest/1083509/ola-and-uber-will-not-come-to-goa-says-cm-pramod-sawant"
+  },
+  {
+   "fact": "나미비아 2025-04-01부터 한국 등 상호주의 국가에 비자 요구, 공식 e-비자 포털 eservices.mhaiss.gov.na(정부 팩트시트 v4, 2025-05)",
+   "url": "https://eservices.mhaiss.gov.na/form/FactSheetVisaRequirementstoNamibia.pdf"
+  },
+  {
+   "fact": "우버 루마니아 38개 지역(2026-03), 브라쇼브는 2025년 여름 27개 도시 목록에 포함",
+   "url": "https://www.romania-insider.com/uber-expansion-romania-march-2026"
+  },
+  {
+   "fact": "볼트 운영 도시 목록(2026-10-20 확인): 리가 · 빌뉴스 · 그단스크 · 크라쿠프 · 브라쇼브 · 트빌리시 · 하라레 있음 / 코토르 · 사라예보 · 스코페 · 예레반 · 비슈케크 · 튀니스 · 빈트후크 · 빅토리아폴스 없음",
+   "url": "https://bolt.eu/en/cities/"
+  },
+  {
+   "fact": "팔라우 입국신고서: 출발 72시간 전부터 palautravel.pw 에서 작성, QR 을 체크인·도착 때 제시(팔라우 정부 포털 palaugov.pw 링크)",
+   "url": "https://palautravel.pw/"
   }
  ],
  "verification": {
@@ -9206,7 +10948,8 @@
    "AR cuando_subo(1447379498, 마지막 업데이트 2019-12-09, KR 스토어 없음) 삭제",
    "IS vedur 앱(673177417, 마지막 업데이트 2020-03-31) → 기상청 웹(en.vedur.is)으로 전환",
    "BO mi_teleferico 1322097850(2022-03-01 이후 업데이트 없음) → 같은 공기업의 Yala Mi Teleférico 1557459355",
-   "okinawa busnavi_okinawa 앱(717989132, 마지막 업데이트 2017-06-26) → 웹으로 전환"
+   "okinawa busnavi_okinawa 앱(717989132, 마지막 업데이트 2017-06-26) → 웹으로 전환",
+   "cities.dubrovnik libertas 앱(6460891309, 마지막 업데이트 2023-11-21) → 버스 회사 웹(libertasdubrovnik.hr)으로 전환"
   ],
   "changes": [
    "AR ba_subte(702871385, 마지막 업데이트 2016-07-12) → emova(6736374395)로 교체",
@@ -9219,7 +10962,10 @@
    "HK octopus_tourist tip: 공식 FAQ 재확인, 최소 충전 HK$100·수수료 없음 추가",
    "GB tips: TfL 2026 요금표(PDF)로 상한 재확인, 문구 출처 교체",
    "ETIAS 팁 18곳: 근거 없는 '2026년 4분기 목표 철회·2027년 이후' 문구를 eu-LISA 공식 상태(운영 전, 시행일 미발표)로 교체",
-   "2026-10-19 추천 v2 반영: BO 입국 팁을 무비자(2025-12-01 시행)로 정정, KH 앱 정책 문구를 사용자 설정(추천에서 뺄 나라 기본값) 안내로 교체, KH e-Arrival 팁 · ID All Indonesia 전자 입국카드 팁 추가(rec-prep-findings F02 · F05 · F06)"
+   "2026-10-19 추천 v2 반영: BO 입국 팁을 무비자(2025-12-01 시행)로 정정, KH 앱 정책 문구를 사용자 설정(추천에서 뺄 나라 기본값) 안내로 교체, KH e-Arrival 팁 · ID All Indonesia 전자 입국카드 팁 추가(rec-prep-findings F02 · F05 · F06)",
+   "2026-10-20 OS 확장(해외 100곳) 반영: 새 나라 23곳 추가(LV 4, LT 4, PL 4+1, RO 4, ME 4, BA 4, MK 4, GE 5, AM 4, KG 4, TN 4, NA 4, ZW 4, BW 4, SC 4, IN 5, PF 4, PW 4, NC 4, GT 4, CR 4, EC 4, UY 4). 새 앱은 itunes lookup(country=kr, 없으면 현지 스토어)으로 id·이름·판매자·번들 확인, 웹 서비스는 공식 주소 응답 확인. inCatalog 를 destinations.json(365곳) 기준으로 다시 맞춤(LA→true LK→true DE→true NL→true BE→true DK→true NO→true SE→true FI→true EE→true IE→true SI→true MT→true CL→true AR→true BR→true CO→true FJ→true ZA→true KE→true TZ→true MU→true)",
+   "cities.dubrovnik libertas 앱(6460891309, 마지막 업데이트 2023-11-21) → 버스 회사 웹(libertasdubrovnik.hr)으로 전환",
+   "2026-10-20 재조회 반영: VN be_vn 이 한국 스토어에 생겨 kr=true · 한국 스토어 주소로, DK dsb trackName 'DSB: Tog, bus, metro, letbane' 로 갱신"
   ]
  }
 }
