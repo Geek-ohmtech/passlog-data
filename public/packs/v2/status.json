@@ -1,14 +1,16 @@
 {
  "schemaVersion": 1,
- "checkedAt": "2026-10-21T06:35:27+09:00",
+ "checkedAt": "2026-10-21T09:11:10+09:00",
  "event": "schedule",
- "schedule": "17 */6 * * *",
+ "schedule": "50 21 * * *",
  "offline": false,
  "selected": [
-  "advisories",
-  "entry",
   "travel-guide",
   "airline-baggage",
+  "kr-festivals",
+  "source-status",
+  "kr-restaurants",
+  "kr-attractions",
   "checklist-rules",
   "checklist-template",
   "countries",
@@ -22,8 +24,8 @@
   "airports",
   "destinations"
  ],
- "sequence": 6,
- "publishedAt": "2026-10-21T02:00:32+09:00",
+ "sequence": 7,
+ "publishedAt": "2026-10-21T09:11:10+09:00",
  "datasets": {
   "advisories": {
    "state": "unchanged",
@@ -44,75 +46,122 @@
   },
   "destinations": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "countries": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-rules": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-template": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "kr-places": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "travel-phrases": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "local-apps": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "dining-links": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "airports": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dish-wiki": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "taste-survey": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "destination-climate": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T06:35:27+09:00",
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
+  },
+  "kr-restaurants": {
+   "state": "updated",
+   "warnings": [
+    "cheonan-asan: 이전 블록 유지",
+    "yesan: 이번에 못 만들어 이전 블록 유지",
+    "seosan-dangjin: 이번에 못 만들어 이전 블록 유지",
+    "boeun-songnisan: 이번에 못 만들어 이전 블록 유지",
+    "seocheon: 이번에 못 만들어 이전 블록 유지",
+    "nonsan: 이번에 못 만들어 이전 블록 유지",
+    "goesan: 이번에 못 만들어 이전 블록 유지"
+   ],
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-21T09:31:05+09:00"
+  },
+  "kr-attractions": {
+   "state": "updated",
+   "warnings": [
+    "jeju-east: 이전 블록 유지",
+    "jeju-west: 이전 블록 유지",
+    "seogwipo: 이전 블록 유지",
+    "gangneung: 이전 블록 유지",
+    "jeonju: 이전 블록 유지",
+    "tongyeong-geoje: 이전 블록 유지",
+    "danyang: 이전 블록 유지",
+    "ulleungdo: 이전 블록 유지"
+   ],
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-21T09:31:05+09:00"
+  },
+  "kr-festivals": {
+   "state": "updated",
+   "warnings": [
+    "jeju-east: 이번에 못 만들어 이전 블록 유지",
+    "jeju-west: 이번에 못 만들어 이전 블록 유지",
+    "seogwipo: 이번에 못 만들어 이전 블록 유지",
+    "busan: 이번에 못 만들어 이전 블록 유지",
+    "gangneung: 이번에 못 만들어 이전 블록 유지",
+    "sokcho-yangyang: 이번에 못 만들어 이전 블록 유지",
+    "gyeongju: 이번에 못 만들어 이전 블록 유지",
+    "yeosu: 이번에 못 만들어 이전 블록 유지"
+   ],
+   "lastSuccessAt": "2026-10-21T09:11:10+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-21T09:31:05+09:00"
   },
   "airline-baggage": {
    "state": "skipped",
@@ -122,6 +171,11 @@
   "travel-guide": {
    "state": "skipped",
    "message": "큐레이션 파일 없음",
+   "consecutiveFailures": 0
+  },
+  "source-status": {
+   "state": "skipped",
+   "message": "감시할 큐레이션 파일(airline-baggage · travel-guide)이 아직 없음",
    "consecutiveFailures": 0
   }
  },
