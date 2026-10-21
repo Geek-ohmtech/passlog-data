@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "checkedAt": "2026-10-21T20:45:03+09:00",
+ "checkedAt": "2026-10-22T02:09:56+09:00",
  "event": "schedule",
  "schedule": "17 */6 * * *",
  "offline": false,
@@ -26,15 +26,15 @@
  "publishedAt": "2026-10-21T20:45:03+09:00",
  "datasets": {
   "advisories": {
-   "state": "updated",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "state": "unchanged",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-21T20:45:08+09:00"
   },
   "entry": {
    "state": "failed",
    "message": "RuntimeError: GET 실패: https://apis.data.go.kr/1262000/EntranceVisaService2/getEntranceVisaList2 (HTTP Error 403: Forbidden)",
-   "consecutiveFailures": 5
+   "consecutiveFailures": 6
   },
   "rates": {
    "state": "updated",
@@ -44,73 +44,73 @@
   },
   "destinations": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "countries": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-rules": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-template": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "kr-places": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "travel-phrases": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "local-apps": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "dining-links": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "airports": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dish-wiki": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "taste-survey": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "destination-climate": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-21T20:45:03+09:00",
+   "lastSuccessAt": "2026-10-22T02:09:56+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
@@ -181,7 +181,7 @@
   {
    "dataset": "entry",
    "kind": "failed",
-   "message": "entry 5회 연속 실패: RuntimeError: GET 실패: https://apis.data.go.kr/1262000/EntranceVisaService2/getEntranceVisaList2 (HTTP Error 403: Forbidden)"
+   "message": "entry 6회 연속 실패: RuntimeError: GET 실패: https://apis.data.go.kr/1262000/EntranceVisaService2/getEntranceVisaList2 (HTTP Error 403: Forbidden)"
   }
  ]
 }
