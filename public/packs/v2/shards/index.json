@@ -1,0 +1,16 @@
+{
+ "publishedAt": "2026-10-21T20:06:56+09:00",
+ "schemaVersion": 1,
+ "sequence": 5,
+ "sets": {
+  "photos": {
+   "bytes": 62037118,
+   "count": 730,
+   "dataAsOf": "2026-10-21",
+   "index": "../../../photos/v1/index.d2d515a0.json",
+   "schema": 1,
+   "sha256": "d2d515a00d11d3511c5e2baf763ef23ea75d5dc550b4316568dbf3d26510a8c1",
+   "size": 135967
+  }
+ }
+}
