@@ -2,9 +2,9 @@
  "code": "BO",
  "nameKo": "볼리비아",
  "entry": {
-  "visaFree": null,
+  "visaFree": true,
   "maxStayDays": null,
-  "note": null
+  "note": "X / 외교관여권 소지자 : 협정 \\n 관용여권 소지자 : 협정"
  },
  "advisory": {
   "level": 2,
@@ -17,5 +17,5 @@
  "sources": [
   "외교부 해외안전여행"
  ],
- "generatedAt": "2026-10-20T20:32:39+09:00"
+ "generatedAt": "2026-10-22T13:40:25+09:00"
 }

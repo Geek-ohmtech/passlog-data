@@ -2,9 +2,9 @@
  "code": "MA",
  "nameKo": "모로코",
  "entry": {
-  "visaFree": null,
-  "maxStayDays": null,
-  "note": null
+  "visaFree": true,
+  "maxStayDays": 90,
+  "note": "90일 / 외교관여권 소지자 : 협정 \\n 관용여권 소지자 : 협정 \\n 일반여권 소지자 : 협정"
  },
  "advisory": {
   "level": 1,
@@ -17,5 +17,5 @@
  "sources": [
   "외교부 해외안전여행"
  ],
- "generatedAt": "2026-10-20T20:32:39+09:00"
+ "generatedAt": "2026-10-22T13:40:25+09:00"
 }

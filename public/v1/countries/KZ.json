@@ -2,9 +2,9 @@
  "code": "KZ",
  "nameKo": "카자흐스탄",
  "entry": {
-  "visaFree": null,
-  "maxStayDays": null,
-  "note": null
+  "visaFree": true,
+  "maxStayDays": 30,
+  "note": "30일 / 외교관여권 소지자 : 협정 \\n 관용여권 소지자 : 협정 \\n 일반여권 소지자 : 협정 / 일반여권 소지자 : * 최초 입국일 기준 180일 중 60일 초과 불가 \\n 2026.1월부터 카자흐스탄 전자여행허가제(QazETA) 시범운영 개시"
  },
  "advisory": {
   "level": 0,
@@ -17,5 +17,5 @@
  "sources": [
   "외교부 해외안전여행"
  ],
- "generatedAt": "2026-10-20T20:32:39+09:00"
+ "generatedAt": "2026-10-22T13:40:25+09:00"
 }

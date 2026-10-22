@@ -2,9 +2,9 @@
  "code": "MW",
  "nameKo": "말라위",
  "entry": {
-  "visaFree": null,
+  "visaFree": true,
   "maxStayDays": null,
-  "note": null
+  "note": "X"
  },
  "advisory": {
   "level": 1,
@@ -17,5 +17,5 @@
  "sources": [
   "외교부 해외안전여행"
  ],
- "generatedAt": "2026-10-20T20:32:39+09:00"
+ "generatedAt": "2026-10-22T13:40:25+09:00"
 }
