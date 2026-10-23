@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-23T20:35:05+09:00",
+ "asOf": "2026-10-24T02:04:26+09:00",
  "countries": {
   "AD": {
    "banned": false,
@@ -2244,25 +2244,24 @@
   },
   "ID": {
    "banned": false,
-   "baselineNote": "발리·자카르타·롬복 등 1단계.",
    "baselineRank": 1.0,
    "baselineSpecial": false,
    "confidence": "high",
    "level": 1,
    "maxLevel": 2,
    "mofaContinent": "동남아시아",
-   "mofaHistSeq": 1,
+   "mofaHistSeq": 4,
    "mofaNtnCd": "181",
    "mofaRaw": {
-    "1": "2단계 지정 지역을 제외한 지역",
-    "2": "서파루아, 파푸아, 말루쿠, 아체"
+    "1": "특별여행주의보 및 2단계 지정 지역을 제외한 지역",
+    "2": "서파푸아, 파푸아, 말루쿠, 아체",
+    "special": "중앙칼리만탄"
    },
-   "mofaRecordUpdated": "2025-06-19",
+   "mofaRecordUpdated": "2026-10-23",
    "nameEn": "Indonesia",
    "nameKo": "인도네시아",
    "regions": [
     {
-     "confidence": "low",
      "level": 2,
      "match": {
       "bbox": [
@@ -2273,7 +2272,7 @@
       ],
       "type": "bbox"
      },
-     "nameEn": "West Papua (Papua Barat & split provinces)",
+     "nameEn": null,
      "nameKo": "서파푸아",
      "note": null,
      "rank": 2.0,
@@ -2281,7 +2280,6 @@
      "special": false
     },
     {
-     "confidence": "low",
      "level": 2,
      "match": {
       "bbox": [
@@ -2292,7 +2290,7 @@
       ],
       "type": "bbox"
      },
-     "nameEn": "Papua (incl. 2022 split provinces)",
+     "nameEn": null,
      "nameKo": "파푸아",
      "note": null,
      "rank": 2.0,
@@ -2300,7 +2298,6 @@
      "special": false
     },
     {
-     "confidence": "low",
      "level": 2,
      "match": {
       "bbox": [
@@ -2311,7 +2308,7 @@
       ],
       "type": "bbox"
      },
-     "nameEn": "Maluku (& North Maluku?)",
+     "nameEn": null,
      "nameKo": "말루쿠",
      "note": null,
      "rank": 2.0,
@@ -2329,19 +2326,30 @@
       ],
       "type": "bbox"
      },
-     "nameEn": "Aceh",
+     "nameEn": null,
      "nameKo": "아체",
      "note": null,
      "rank": 2.0,
      "since": null,
      "special": false
+    },
+    {
+     "level": null,
+     "nameEn": null,
+     "nameKo": "중앙칼리만탄",
+     "note": null,
+     "rank": 2.5,
+     "since": null,
+     "special": true
     }
    ],
    "sourceUrls": [
-    "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert"
+    "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
+    "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn"
    ],
-   "special": false,
-   "summaryKo": "대부분 지역 1단계 여행유의 · 일부 2단계 여행자제"
+   "special": true,
+   "specialScope": "partial",
+   "summaryKo": "대부분 지역 1단계 여행유의 · 일부 2단계 여행자제 · 일부 특별여행주의보"
   },
   "IE": {
    "banned": false,
@@ -6829,9 +6837,11 @@
    "level": 1,
    "lon": 115.2167,
    "nameKo": "발리",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "중앙칼리만탄"
+   ],
    "since": null,
    "special": false
   },
@@ -8357,9 +8367,11 @@
    "level": 1,
    "lon": 119.8833,
    "nameKo": "라부안바조(코모도섬)",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "중앙칼리만탄"
+   ],
    "since": null,
    "special": false
   },
@@ -10261,9 +10273,11 @@
    "level": 1,
    "lon": 110.3644,
    "nameKo": "족자카르타",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "중앙칼리만탄"
+   ],
    "since": null,
    "special": false
   },
@@ -10315,7 +10329,7 @@
   "RE": "FR",
   "VI": "US"
  },
- "rawSnapshotSha256": "72b10afc9f3c1440365b0f1fa4a4f09f251521253c329c0a173cd378585356dd",
+ "rawSnapshotSha256": "529cdad8aaa88f2a874828ddef940e196d9f5d749a6dce10b50f01b38057bba3",
  "restrictions": {
   "reviewedAt": "2026-10-20",
   "special": {
