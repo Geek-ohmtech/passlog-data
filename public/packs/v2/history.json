@@ -1,12 +1,18 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 15,
+ "lastSequence": 16,
  "files": {
   "advisories.742a89cf.json": {
    "dataset": "advisories",
    "sha256": "742a89cf6d1207ee2b26609226d5a01454f814dd3ffae21452e5378625093401",
-   "firstPublished": "2026-10-23T02:08:10+09:00"
+   "firstPublished": "2026-10-23T02:08:10+09:00",
+   "unreferencedSince": "2026-10-23T20:35:02+09:00"
+  },
+  "advisories.7a769ce6.json": {
+   "dataset": "advisories",
+   "sha256": "7a769ce68b9c4f95a8f4f2ea2e56881934ddf379abd325ee7eba971a1cd3b2c3",
+   "firstPublished": "2026-10-23T20:35:02+09:00"
   },
   "advisories.7d4072e2.json": {
    "dataset": "advisories",
