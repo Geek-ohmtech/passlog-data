@@ -1,14 +1,19 @@
 {
  "schemaVersion": 1,
- "checkedAt": "2026-10-26T05:48:23+09:00",
+ "checkedAt": "2026-10-26T06:13:59+09:00",
  "event": "schedule",
- "schedule": "17 */6 * * *",
+ "schedule": "40 18 * * 0",
  "offline": false,
  "selected": [
-  "advisories",
-  "entry",
   "travel-guide",
   "airline-baggage",
+  "holidays-kr",
+  "holidays-world",
+  "kr-festivals",
+  "local-apps-status",
+  "flights-icn",
+  "kr-restaurants",
+  "kr-attractions",
   "checklist-rules",
   "checklist-template",
   "countries",
@@ -22,8 +27,8 @@
   "airports",
   "destinations"
  ],
- "sequence": 23,
- "publishedAt": "2026-10-26T05:48:23+09:00",
+ "sequence": 24,
+ "publishedAt": "2026-10-26T06:13:59+09:00",
  "datasets": {
   "advisories": {
    "state": "updated",
@@ -46,95 +51,113 @@
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-23"
   },
+  "holidays-kr": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-01"
+  },
+  "holidays-world": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-26"
+  },
   "destinations": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "countries": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-rules": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-template": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "kr-places": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "travel-phrases": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "local-apps": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
+  "local-apps-status": {
+   "state": "updated",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
+   "consecutiveFailures": 0,
+   "dataAsOf": "2026-10-26T06:13:59+09:00"
+  },
   "dining-links": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "airports": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dish-wiki": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "taste-survey": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "destination-climate": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-26T05:48:23+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "kr-restaurants": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-25T08:48:48+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-24T09:14:01+09:00"
   },
   "kr-attractions": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-25T08:48:48+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-24T09:14:01+09:00"
   },
   "kr-festivals": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-25T08:48:48+09:00",
+   "lastSuccessAt": "2026-10-26T06:13:59+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-25T08:48:58+09:00"
+   "dataAsOf": "2026-10-26T06:14:27+09:00"
   },
   "airline-baggage": {
    "state": "skipped",
@@ -149,6 +172,11 @@
   "source-status": {
    "state": "skipped",
    "message": "감시할 큐레이션 파일(airline-baggage · travel-guide)이 아직 없음",
+   "consecutiveFailures": 0
+  },
+  "flights-icn": {
+   "state": "skipped",
+   "message": "아직 만드는 곳 없음 (3단계: 인천공항 정기운항편 활용신청 후)",
    "consecutiveFailures": 0
   }
  },

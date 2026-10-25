@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 23,
+ "lastSequence": 24,
  "files": {
   "advisories.2198f510.json": {
    "dataset": "advisories",
@@ -155,6 +155,16 @@
    "firstPublished": "2026-10-22T13:40:25+09:00",
    "unreferencedSince": "2026-10-25T20:22:26+09:00"
   },
+  "holidays-kr.1679a227.json": {
+   "dataset": "holidays-kr",
+   "sha256": "1679a227d92115e825f6e0ab77e7068405cbc248e2dbc37a9f39c92cc713abb8",
+   "firstPublished": "2026-10-26T06:13:59+09:00"
+  },
+  "holidays-world.2abebb0c.json": {
+   "dataset": "holidays-world",
+   "sha256": "2abebb0c3a64609d3ce6bb7640e017d0d2aed9f7e6990de3ad01ef860c7804fe",
+   "firstPublished": "2026-10-26T06:13:59+09:00"
+  },
   "kr-attractions.082617ad.json": {
    "dataset": "kr-attractions",
    "sha256": "082617ad9d8b23915036a42392101da826507ed6a53b7b43b17c4c52b939381b",
@@ -181,7 +191,13 @@
   "kr-festivals.1fa6a8df.json": {
    "dataset": "kr-festivals",
    "sha256": "1fa6a8dfe211a3d1d2bb8eb9d02300343159d40a25630e006b033aab26c817f1",
-   "firstPublished": "2026-10-25T08:48:48+09:00"
+   "firstPublished": "2026-10-25T08:48:48+09:00",
+   "unreferencedSince": "2026-10-26T06:13:59+09:00"
+  },
+  "kr-festivals.28604d6e.json": {
+   "dataset": "kr-festivals",
+   "sha256": "28604d6e13ca975f5ad71522fbba5e3ac6fddfc8a79a8c0aec057311cf66d6b5",
+   "firstPublished": "2026-10-26T06:13:59+09:00"
   },
   "kr-festivals.b40133bf.json": {
    "dataset": "kr-festivals",
@@ -234,6 +250,11 @@
    "dataset": "kr-restaurants",
    "sha256": "f8944617878700b968f84344da52698568e38ba41c754edd8971d7eee6f86afc",
    "firstPublished": "2026-10-24T09:05:26+09:00"
+  },
+  "local-apps-status.f14ac0ea.json": {
+   "dataset": "local-apps-status",
+   "sha256": "f14ac0ea37965f240a592edcfe56477975e5b1819021acecf3a3f457b5764c72",
+   "firstPublished": "2026-10-26T06:13:59+09:00"
   },
   "local-apps.ae232b4e.json": {
    "dataset": "local-apps",
