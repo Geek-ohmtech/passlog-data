@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 29,
+ "lastSequence": 30,
  "files": {
   "advisories.2198f510.json": {
    "dataset": "advisories",
@@ -14,6 +14,11 @@
    "sha256": "48b73c8e587577e1f277252d4f6d5bb7492deafc40950e3a343215c95564b710",
    "firstPublished": "2026-10-26T05:48:23+09:00",
    "unreferencedSince": "2026-10-26T21:56:49+09:00"
+  },
+  "advisories.5e4fee83.json": {
+   "dataset": "advisories",
+   "sha256": "5e4fee832045d276f4519afea335f5394ef84ab5c0800e3af2e431a3a18e0bf1",
+   "firstPublished": "2026-10-28T02:58:50+09:00"
   },
   "advisories.742a89cf.json": {
    "dataset": "advisories",
@@ -33,16 +38,11 @@
    "firstPublished": "2026-10-21T20:45:03+09:00",
    "unreferencedSince": "2026-10-22T13:40:25+09:00"
   },
-  "advisories.84224436.json": {
-   "dataset": "advisories",
-   "sha256": "842244369a33cda3ac460097f97857f8066fa869da69a026b660ca69008ca792",
-   "firstPublished": "2026-10-20T20:32:39+09:00",
-   "unreferencedSince": "2026-10-21T02:00:32+09:00"
-  },
   "advisories.84c2d437.json": {
    "dataset": "advisories",
    "sha256": "84c2d43700c01b4e2dcf179d5f0774d6ae6cfef112edecb1b5661baa26371878",
-   "firstPublished": "2026-10-27T13:59:49+09:00"
+   "firstPublished": "2026-10-27T13:59:49+09:00",
+   "unreferencedSince": "2026-10-28T02:58:50+09:00"
   },
   "advisories.9184ecf3.json": {
    "dataset": "advisories",
@@ -94,12 +94,6 @@
    "sha256": "69b6633176d60de14db3986bff596306eda6a491f3d6bcd738249965b995278e",
    "firstPublished": "2026-10-20T11:02:22+09:00"
   },
-  "destination-climate.9ee9b83d.json": {
-   "dataset": "destination-climate",
-   "sha256": "9ee9b83dbfc039590c2e6b13b75f083cf63db61540c11356a08ac8c4ca717197",
-   "firstPublished": "2026-10-20T11:13:19+09:00",
-   "unreferencedSince": "2026-10-20T21:59:33+09:00"
-  },
   "destination-climate.cdaabb29.json": {
    "dataset": "destination-climate",
    "sha256": "cdaabb297f81dbebbed10dbbd2c285919c8358c4bea30d9262737d77f8a51934",
@@ -110,28 +104,10 @@
    "sha256": "65c8f77fdb241c0c4e3fcc3d20a981f8a14bd36c886cebea0c6ca030bbc8336c",
    "firstPublished": "2026-10-20T21:59:33+09:00"
   },
-  "destinations.c3382271.json": {
-   "dataset": "destinations",
-   "sha256": "c3382271e0f8cb3df28d238e4aaf8dd3f609b33b81bc95510f26c524421454b8",
-   "firstPublished": "2026-10-20T11:13:19+09:00",
-   "unreferencedSince": "2026-10-20T21:59:33+09:00"
-  },
   "dining-links.3040dc17.json": {
    "dataset": "dining-links",
    "sha256": "3040dc1786baf650a66ac2777dea822ba0b04952948bc2eae4a986ca0c9c0879",
    "firstPublished": "2026-10-20T21:59:33+09:00"
-  },
-  "dining-links.e7e7e92f.json": {
-   "dataset": "dining-links",
-   "sha256": "e7e7e92fc9af200f1a22d8ba5a72250b14e408ad6b9b711450a903645b4919c9",
-   "firstPublished": "2026-10-20T11:02:22+09:00",
-   "unreferencedSince": "2026-10-20T21:59:33+09:00"
-  },
-  "dish-wiki.223aef43.json": {
-   "dataset": "dish-wiki",
-   "sha256": "223aef432b2536561e25471998d73fda307ed5b5a6a4cad18f0d6a64382a8d56",
-   "firstPublished": "2026-10-20T11:13:19+09:00",
-   "unreferencedSince": "2026-10-20T21:59:33+09:00"
   },
   "dish-wiki.d7cae393.json": {
    "dataset": "dish-wiki",
@@ -267,12 +243,6 @@
    "dataset": "local-apps-status",
    "sha256": "f14ac0ea37965f240a592edcfe56477975e5b1819021acecf3a3f457b5764c72",
    "firstPublished": "2026-10-26T06:13:59+09:00"
-  },
-  "local-apps.ae232b4e.json": {
-   "dataset": "local-apps",
-   "sha256": "ae232b4eaaea184ffbde84220b066b17bd6dfcccb18c375a166deec3fd153043",
-   "firstPublished": "2026-10-20T11:02:22+09:00",
-   "unreferencedSince": "2026-10-20T21:59:33+09:00"
   },
   "local-apps.ce6406f1.json": {
    "dataset": "local-apps",
