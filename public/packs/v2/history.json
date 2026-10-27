@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 27,
+ "lastSequence": 28,
  "files": {
   "advisories.2198f510.json": {
    "dataset": "advisories",
@@ -39,6 +39,11 @@
    "firstPublished": "2026-10-20T20:32:39+09:00",
    "unreferencedSince": "2026-10-21T02:00:32+09:00"
   },
+  "advisories.84c2d437.json": {
+   "dataset": "advisories",
+   "sha256": "84c2d43700c01b4e2dcf179d5f0774d6ae6cfef112edecb1b5661baa26371878",
+   "firstPublished": "2026-10-27T13:59:49+09:00"
+  },
   "advisories.9184ecf3.json": {
    "dataset": "advisories",
    "sha256": "9184ecf39ecf39945a312b8a8748c3d88a8175a572fc9b6d828ad41c3011e658",
@@ -60,7 +65,8 @@
   "advisories.b9ae022f.json": {
    "dataset": "advisories",
    "sha256": "b9ae022fb8638d17dd0602ba8d505e20bdd0218b74dca0fd4dde022ad422739c",
-   "firstPublished": "2026-10-26T21:56:49+09:00"
+   "firstPublished": "2026-10-26T21:56:49+09:00",
+   "unreferencedSince": "2026-10-27T13:59:49+09:00"
   },
   "advisories.fd737741.json": {
    "dataset": "advisories",
@@ -88,12 +94,6 @@
    "sha256": "69b6633176d60de14db3986bff596306eda6a491f3d6bcd738249965b995278e",
    "firstPublished": "2026-10-20T11:02:22+09:00"
   },
-  "destination-climate.3d9d80b1.json": {
-   "dataset": "destination-climate",
-   "sha256": "3d9d80b14efdb83426725c103b486c616b9833f25dd218c28df16f7491626d48",
-   "firstPublished": "2026-10-20T11:02:22+09:00",
-   "unreferencedSince": "2026-10-20T11:13:19+09:00"
-  },
   "destination-climate.9ee9b83d.json": {
    "dataset": "destination-climate",
    "sha256": "9ee9b83dbfc039590c2e6b13b75f083cf63db61540c11356a08ac8c4ca717197",
@@ -104,12 +104,6 @@
    "dataset": "destination-climate",
    "sha256": "cdaabb297f81dbebbed10dbbd2c285919c8358c4bea30d9262737d77f8a51934",
    "firstPublished": "2026-10-20T21:59:33+09:00"
-  },
-  "destinations.5a2e7c2b.json": {
-   "dataset": "destinations",
-   "sha256": "5a2e7c2ba8d34ec1ccdb13659857035e9144f333e696df53a6c0b83b3960ea58",
-   "firstPublished": "2026-10-20T11:02:22+09:00",
-   "unreferencedSince": "2026-10-20T11:13:19+09:00"
   },
   "destinations.65c8f77f.json": {
    "dataset": "destinations",
@@ -132,12 +126,6 @@
    "sha256": "e7e7e92fc9af200f1a22d8ba5a72250b14e408ad6b9b711450a903645b4919c9",
    "firstPublished": "2026-10-20T11:02:22+09:00",
    "unreferencedSince": "2026-10-20T21:59:33+09:00"
-  },
-  "dish-wiki.083138f5.json": {
-   "dataset": "dish-wiki",
-   "sha256": "083138f51248f3642b9917489761924a869332e7b79e9e48b4b5f09109c43855",
-   "firstPublished": "2026-10-20T11:02:22+09:00",
-   "unreferencedSince": "2026-10-20T11:13:19+09:00"
   },
   "dish-wiki.223aef43.json": {
    "dataset": "dish-wiki",
