@@ -1,13 +1,18 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 32,
+ "lastSequence": 33,
  "files": {
   "advisories.2198f510.json": {
    "dataset": "advisories",
    "sha256": "2198f510824b6eab7941fd1b5add284f658d7c1e37a2d08486fd0f6fe3fe8032",
    "firstPublished": "2026-10-24T19:55:04+09:00",
    "unreferencedSince": "2026-10-25T13:37:39+09:00"
+  },
+  "advisories.2d3e9b84.json": {
+   "dataset": "advisories",
+   "sha256": "2d3e9b84556550e5a4bfcf1b2208dd25df5b061433aab7ac1de96c5311781bcd",
+   "firstPublished": "2026-10-28T21:49:41+09:00"
   },
   "advisories.48b73c8e.json": {
    "dataset": "advisories",
@@ -18,7 +23,8 @@
   "advisories.5e4fee83.json": {
    "dataset": "advisories",
    "sha256": "5e4fee832045d276f4519afea335f5394ef84ab5c0800e3af2e431a3a18e0bf1",
-   "firstPublished": "2026-10-28T02:58:50+09:00"
+   "firstPublished": "2026-10-28T02:58:50+09:00",
+   "unreferencedSince": "2026-10-28T21:49:41+09:00"
   },
   "advisories.742a89cf.json": {
    "dataset": "advisories",
@@ -68,12 +74,6 @@
    "firstPublished": "2026-10-26T21:56:49+09:00",
    "unreferencedSince": "2026-10-27T13:59:49+09:00"
   },
-  "advisories.fd737741.json": {
-   "dataset": "advisories",
-   "sha256": "fd737741e995dfe896d6056623d1d724ed15c4c9ff3d2b54a503857e27fa3482",
-   "firstPublished": "2026-10-21T02:00:32+09:00",
-   "unreferencedSince": "2026-10-21T20:45:03+09:00"
-  },
   "airports.99b1551a.json": {
    "dataset": "airports",
    "sha256": "99b1551a093f1cf886aa460eece3146c7d9f3d564af7f93969bdadec768bd849",
@@ -117,13 +117,19 @@
   "entry.3e051581.json": {
    "dataset": "entry",
    "sha256": "3e05158156f5ac0faa800d2a21f5782ea3c032c6ee1a312bfba91415f4c9d087",
-   "firstPublished": "2026-10-25T20:22:26+09:00"
+   "firstPublished": "2026-10-25T20:22:26+09:00",
+   "unreferencedSince": "2026-10-28T21:49:41+09:00"
   },
   "entry.74ab2126.json": {
    "dataset": "entry",
    "sha256": "74ab2126fda374c0835f1604b25cb981a2b4769f7ff5cffc099da8cefe1941ec",
    "firstPublished": "2026-10-22T13:40:25+09:00",
    "unreferencedSince": "2026-10-25T20:22:26+09:00"
+  },
+  "entry.d18fb64f.json": {
+   "dataset": "entry",
+   "sha256": "d18fb64f6649cecd1b5664d834fed0f4aebc9a8f22b4113e0725456dc3294fd8",
+   "firstPublished": "2026-10-28T21:49:41+09:00"
   },
   "holidays-kr.1679a227.json": {
    "dataset": "holidays-kr",
