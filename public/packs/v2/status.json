@@ -1,14 +1,16 @@
 {
  "schemaVersion": 1,
- "checkedAt": "2026-10-28T02:58:50+09:00",
+ "checkedAt": "2026-10-28T09:46:37+09:00",
  "event": "schedule",
- "schedule": "17 */6 * * *",
+ "schedule": "50 21 * * *",
  "offline": false,
  "selected": [
-  "advisories",
-  "entry",
   "travel-guide",
   "airline-baggage",
+  "kr-festivals",
+  "source-status",
+  "kr-restaurants",
+  "kr-attractions",
   "checklist-rules",
   "checklist-template",
   "countries",
@@ -22,8 +24,8 @@
   "airports",
   "destinations"
  ],
- "sequence": 30,
- "publishedAt": "2026-10-28T02:58:50+09:00",
+ "sequence": 31,
+ "publishedAt": "2026-10-28T09:46:37+09:00",
  "datasets": {
   "advisories": {
    "state": "updated",
@@ -57,43 +59,43 @@
   },
   "destinations": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "countries": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-rules": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-template": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "kr-places": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "travel-phrases": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "local-apps": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
@@ -105,51 +107,51 @@
   },
   "dining-links": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "airports": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dish-wiki": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "taste-survey": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "destination-climate": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-10-28T02:58:50+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "kr-restaurants": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-27T09:54:55+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-27T09:56:51+09:00"
+   "dataAsOf": "2026-10-28T09:50:38+09:00"
   },
   "kr-attractions": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-27T09:54:55+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-27T09:56:51+09:00"
+   "dataAsOf": "2026-10-28T09:50:38+09:00"
   },
   "kr-festivals": {
    "state": "updated",
-   "lastSuccessAt": "2026-10-27T09:54:55+09:00",
+   "lastSuccessAt": "2026-10-28T09:46:37+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-10-27T09:56:51+09:00"
+   "dataAsOf": "2026-10-28T09:50:38+09:00"
   },
   "airline-baggage": {
    "state": "skipped",
