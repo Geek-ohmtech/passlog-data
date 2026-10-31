@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 40,
+ "lastSequence": 41,
  "files": {
   "advisories.09a56e02.json": {
    "dataset": "advisories",
@@ -147,17 +147,16 @@
    "firstPublished": "2026-10-27T09:54:55+09:00",
    "unreferencedSince": "2026-10-28T09:46:37+09:00"
   },
+  "kr-attractions.22e73e50.json": {
+   "dataset": "kr-attractions",
+   "sha256": "22e73e509b2049ea6e3aee550c87d3810e310ecb421696c9fbaf4bd9b52c2e4e",
+   "firstPublished": "2026-10-31T10:07:31+09:00"
+  },
   "kr-attractions.6849b249.json": {
    "dataset": "kr-attractions",
    "sha256": "6849b2499fdec3a9d79a90e86f5f8bcf0206f7949d41f5f9531882fbf93373f0",
    "firstPublished": "2026-10-24T09:05:26+09:00",
    "unreferencedSince": "2026-10-27T09:54:55+09:00"
-  },
-  "kr-attractions.7d4d7d4c.json": {
-   "dataset": "kr-attractions",
-   "sha256": "7d4d7d4ce1f8ae0c529e59e281128818e3b6c1eb09758b4e9f7c8e5241cd2b5b",
-   "firstPublished": "2026-10-23T09:13:12+09:00",
-   "unreferencedSince": "2026-10-24T09:05:26+09:00"
   },
   "kr-attractions.a6efeaa7.json": {
    "dataset": "kr-attractions",
@@ -168,7 +167,8 @@
   "kr-attractions.e4a28ac0.json": {
    "dataset": "kr-attractions",
    "sha256": "e4a28ac0372ede16b24725d2ee16a7d1d633676425efe9fde70f73035dd1bf07",
-   "firstPublished": "2026-10-30T10:22:43+09:00"
+   "firstPublished": "2026-10-30T10:22:43+09:00",
+   "unreferencedSince": "2026-10-31T10:07:31+09:00"
   },
   "kr-festivals.05a446a5.json": {
    "dataset": "kr-festivals",
@@ -188,6 +188,11 @@
    "firstPublished": "2026-10-26T06:13:59+09:00",
    "unreferencedSince": "2026-10-27T09:54:55+09:00"
   },
+  "kr-festivals.2a8c6663.json": {
+   "dataset": "kr-festivals",
+   "sha256": "2a8c666383ce51450195a2e3bf9b8eef43cb4873c2671a6965f006391fc3c2e1",
+   "firstPublished": "2026-10-31T10:07:31+09:00"
+  },
   "kr-festivals.4e8301d4.json": {
    "dataset": "kr-festivals",
    "sha256": "4e8301d4ae6afe8ff01c197029e1d0b8d132e1fdb6a01470b0a5c5e1fb199372",
@@ -203,13 +208,8 @@
   "kr-festivals.a4500dad.json": {
    "dataset": "kr-festivals",
    "sha256": "a4500dad1085ac3b66b42711414459e0052899bb6f78dc0372a7cbb70302a204",
-   "firstPublished": "2026-10-30T10:22:43+09:00"
-  },
-  "kr-festivals.c1a81e83.json": {
-   "dataset": "kr-festivals",
-   "sha256": "c1a81e833a722d282daa6ec083bdc7406d3fc6c80636d67d2e351964769bd019",
-   "firstPublished": "2026-10-23T09:13:12+09:00",
-   "unreferencedSince": "2026-10-24T09:05:26+09:00"
+   "firstPublished": "2026-10-30T10:22:43+09:00",
+   "unreferencedSince": "2026-10-31T10:07:31+09:00"
   },
   "kr-festivals.e509cd7a.json": {
    "dataset": "kr-festivals",
@@ -228,16 +228,16 @@
    "firstPublished": "2026-10-28T09:46:37+09:00",
    "unreferencedSince": "2026-10-29T10:18:39+09:00"
   },
+  "kr-restaurants.4340314f.json": {
+   "dataset": "kr-restaurants",
+   "sha256": "4340314fdf6494942711001b2e04755cf2182c725f4d20f3527a4428e3fceb48",
+   "firstPublished": "2026-10-31T10:07:31+09:00"
+  },
   "kr-restaurants.482dff66.json": {
    "dataset": "kr-restaurants",
    "sha256": "482dff6651af4091f39b9a396e13372385c09f4b066b92d4f796b80668683068",
-   "firstPublished": "2026-10-30T10:22:43+09:00"
-  },
-  "kr-restaurants.4c63ca80.json": {
-   "dataset": "kr-restaurants",
-   "sha256": "4c63ca80a3d4f60a29dd5e425cf14162920dc86d88963e0063880ecb56a68334",
-   "firstPublished": "2026-10-23T09:13:12+09:00",
-   "unreferencedSince": "2026-10-24T09:05:26+09:00"
+   "firstPublished": "2026-10-30T10:22:43+09:00",
+   "unreferencedSince": "2026-10-31T10:07:31+09:00"
   },
   "kr-restaurants.ab6c37c4.json": {
    "dataset": "kr-restaurants",
