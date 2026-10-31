@@ -56,12 +56,6 @@
    "firstPublished": "2026-10-27T13:59:49+09:00",
    "unreferencedSince": "2026-10-28T02:58:50+09:00"
   },
-  "advisories.9184ecf3.json": {
-   "dataset": "advisories",
-   "sha256": "9184ecf39ecf39945a312b8a8748c3d88a8175a572fc9b6d828ad41c3011e658",
-   "firstPublished": "2026-10-24T02:04:23+09:00",
-   "unreferencedSince": "2026-10-24T19:55:04+09:00"
-  },
   "advisories.b4bb65ad.json": {
    "dataset": "advisories",
    "sha256": "b4bb65ad2658484b55f652d711633891e15666c2b2f87006c3ce79b172b33f59",
