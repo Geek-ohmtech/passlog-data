@@ -62,12 +62,6 @@
    "firstPublished": "2026-10-27T13:59:49+09:00",
    "unreferencedSince": "2026-10-28T02:58:50+09:00"
   },
-  "advisories.b4bb65ad.json": {
-   "dataset": "advisories",
-   "sha256": "b4bb65ad2658484b55f652d711633891e15666c2b2f87006c3ce79b172b33f59",
-   "firstPublished": "2026-10-25T13:37:39+09:00",
-   "unreferencedSince": "2026-10-26T05:48:23+09:00"
-  },
   "advisories.b9ae022f.json": {
    "dataset": "advisories",
    "sha256": "b9ae022fb8638d17dd0602ba8d505e20bdd0218b74dca0fd4dde022ad422739c",
@@ -181,12 +175,6 @@
    "sha256": "05a446a508671186850677f26dadd9554eddcde68fe0703b4755c9311b9a4024",
    "firstPublished": "2026-10-28T09:46:37+09:00",
    "unreferencedSince": "2026-10-29T10:18:39+09:00"
-  },
-  "kr-festivals.1fa6a8df.json": {
-   "dataset": "kr-festivals",
-   "sha256": "1fa6a8dfe211a3d1d2bb8eb9d02300343159d40a25630e006b033aab26c817f1",
-   "firstPublished": "2026-10-25T08:48:48+09:00",
-   "unreferencedSince": "2026-10-26T06:13:59+09:00"
   },
   "kr-festivals.28604d6e.json": {
    "dataset": "kr-festivals",
