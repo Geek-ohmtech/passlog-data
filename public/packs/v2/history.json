@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 45,
+ "lastSequence": 46,
  "files": {
   "advisories.09a56e02.json": {
    "dataset": "advisories",
@@ -150,13 +150,19 @@
   "kr-attractions.22e73e50.json": {
    "dataset": "kr-attractions",
    "sha256": "22e73e509b2049ea6e3aee550c87d3810e310ecb421696c9fbaf4bd9b52c2e4e",
-   "firstPublished": "2026-10-31T10:07:31+09:00"
+   "firstPublished": "2026-10-31T10:07:31+09:00",
+   "unreferencedSince": "2026-11-02T07:25:53+09:00"
   },
   "kr-attractions.6849b249.json": {
    "dataset": "kr-attractions",
    "sha256": "6849b2499fdec3a9d79a90e86f5f8bcf0206f7949d41f5f9531882fbf93373f0",
    "firstPublished": "2026-10-24T09:05:26+09:00",
    "unreferencedSince": "2026-10-27T09:54:55+09:00"
+  },
+  "kr-attractions.a1bf63f3.json": {
+   "dataset": "kr-attractions",
+   "sha256": "a1bf63f389898d546974a2f99c95ee3a57e447f076c25da1245afa3de2f4584f",
+   "firstPublished": "2026-11-02T07:25:53+09:00"
   },
   "kr-attractions.a6efeaa7.json": {
    "dataset": "kr-attractions",
@@ -194,6 +200,11 @@
    "firstPublished": "2026-10-27T09:54:55+09:00",
    "unreferencedSince": "2026-10-28T09:46:37+09:00"
   },
+  "kr-festivals.76e8eeb3.json": {
+   "dataset": "kr-festivals",
+   "sha256": "76e8eeb3a9bb13fbcb63636ddfb8ca51191124bdbdd005fab7b62f57e1018988",
+   "firstPublished": "2026-11-02T07:25:53+09:00"
+  },
   "kr-festivals.7e7f6fb8.json": {
    "dataset": "kr-festivals",
    "sha256": "7e7f6fb8ffcb9b718d5d13a6f72498b47fd520a1e5aa7e4d0e17aab3346cd895",
@@ -209,7 +220,8 @@
   "kr-festivals.fa253f13.json": {
    "dataset": "kr-festivals",
    "sha256": "fa253f13951764afcacfb6cab457a113ae907f1de62e12ca5d259e784c3244ea",
-   "firstPublished": "2026-11-01T09:28:47+09:00"
+   "firstPublished": "2026-11-01T09:28:47+09:00",
+   "unreferencedSince": "2026-11-02T07:25:53+09:00"
   },
   "kr-places.492fe51d.json": {
    "dataset": "kr-places",
@@ -251,10 +263,16 @@
    "firstPublished": "2026-10-24T09:05:26+09:00",
    "unreferencedSince": "2026-10-27T09:54:55+09:00"
   },
+  "local-apps-status.1c92a90f.json": {
+   "dataset": "local-apps-status",
+   "sha256": "1c92a90f2cf8bf7c069570ae58a4bafdf3c45d3dbc68ea37ceca2eab60e9271f",
+   "firstPublished": "2026-11-02T07:25:53+09:00"
+  },
   "local-apps-status.f14ac0ea.json": {
    "dataset": "local-apps-status",
    "sha256": "f14ac0ea37965f240a592edcfe56477975e5b1819021acecf3a3f457b5764c72",
-   "firstPublished": "2026-10-26T06:13:59+09:00"
+   "firstPublished": "2026-10-26T06:13:59+09:00",
+   "unreferencedSince": "2026-11-02T07:25:53+09:00"
   },
   "local-apps.ce6406f1.json": {
    "dataset": "local-apps",
