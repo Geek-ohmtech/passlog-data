@@ -26,12 +26,6 @@
    "sha256": "44c410861bccfea539fb0c509e558aa238f8459b9d530ab10c2b0f3c4357f4be",
    "firstPublished": "2026-11-02T14:57:45+09:00"
   },
-  "advisories.48b73c8e.json": {
-   "dataset": "advisories",
-   "sha256": "48b73c8e587577e1f277252d4f6d5bb7492deafc40950e3a343215c95564b710",
-   "firstPublished": "2026-10-26T05:48:23+09:00",
-   "unreferencedSince": "2026-10-26T21:56:49+09:00"
-  },
   "advisories.4cbe4da7.json": {
    "dataset": "advisories",
    "sha256": "4cbe4da7bf1bed4448843313f85d347bc22c941a767d441cf004d766214b9a29",
