@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20",
+ "updated": "2026-11-04",
  "source": "scripts/dish-wiki.py — 위키백과 문서 제목(사람이 검토) + 문서 대표 사진(위키미디어 공용, 자유 라이선스만)",
  "license": "설명 글은 앱이 위키백과 REST 요약으로 받아 CC BY-SA 4.0 표시와 함께 보여 준다. 사진은 파일마다 저작자 · 라이선스를 함께 둔다.",
  "dishes": {
@@ -364,6 +364,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Rock-oyster.jpg"
+   },
+   "local": {
+    "JP": "牡蠣"
    }
   },
   "꿀빵": null,
@@ -640,14 +643,14 @@
    "ko": "막국수",
    "en": "Mak-guksu",
    "image": {
-    "file": "File:Korean.food-Makguksu-01.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Korean.food-Makguksu-01.jpg/330px-Korean.food-Makguksu-01.jpg",
+    "file": "File:Mulmakguksu 20220430 001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Mulmakguksu_20220430_001.jpg/330px-Mulmakguksu_20220430_001.jpg",
     "width": 330,
-    "height": 248,
-    "artist": "pcamp (a flickr user)",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Makguksu-01.jpg"
+    "height": 220,
+    "artist": "Mobius6",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mulmakguksu_20220430_001.jpg"
    }
   },
   "감자빵": null,
@@ -1377,14 +1380,14 @@
    "ko": "막국수",
    "en": "Mak-guksu",
    "image": {
-    "file": "File:Korean.food-Makguksu-01.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Korean.food-Makguksu-01.jpg/330px-Korean.food-Makguksu-01.jpg",
+    "file": "File:Mulmakguksu 20220430 001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Mulmakguksu_20220430_001.jpg/330px-Mulmakguksu_20220430_001.jpg",
     "width": 330,
-    "height": 248,
-    "artist": "pcamp (a flickr user)",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Makguksu-01.jpg"
+    "height": 220,
+    "artist": "Mobius6",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mulmakguksu_20220430_001.jpg"
    }
   },
   "이동갈비": {
@@ -2485,6 +2488,20 @@
     "page": "https://commons.wikimedia.org/wiki/File:Mucep_u0.gif"
    }
   },
+  "장성 한우": {
+   "ko": "한우",
+   "en": "Hanwoo",
+   "image": {
+    "file": "File:Hanu.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Hanu.jpg/330px-Hanu.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "mycrefun",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Hanu.jpg"
+   }
+  },
   "진주냉면": {
    "ko": "진주냉면",
    "image": {
@@ -2952,6 +2969,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg"
+   },
+   "local": {
+    "JP": "寿司"
    }
   },
   "라멘": {
@@ -2966,6 +2986,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "ラーメン"
    }
   },
   "몬자야키": {
@@ -2980,6 +3003,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Monjayaki_Before.JPG"
+   },
+   "local": {
+    "JP": "もんじゃ焼き"
    }
   },
   "타코야키": {
@@ -2994,6 +3020,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Takoyaki_by_yomi955.jpg"
+   },
+   "local": {
+    "JP": "たこ焼き"
    }
   },
   "오코노미야키": {
@@ -3008,6 +3037,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg"
+   },
+   "local": {
+    "JP": "お好み焼き"
    }
   },
   "쿠시카쓰": {
@@ -3022,6 +3054,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Miso_katsu_by_OiMax.jpg"
+   },
+   "local": {
+    "JP": "串カツ"
    }
   },
   "유도후": {
@@ -3036,6 +3071,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yudofu_in_the_morning.jpg"
+   },
+   "local": {
+    "JP": "湯豆腐"
    }
   },
   "말차 디저트": {
@@ -3050,6 +3088,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Matcha_tea.jpg"
+   },
+   "local": {
+    "JP": "抹茶スイーツ"
    }
   },
   "니신소바": {
@@ -3064,6 +3105,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg"
+   },
+   "local": {
+    "JP": "にしんそば"
    }
   },
   "돈코쓰 라멘": {
@@ -3078,6 +3122,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen.jpg"
+   },
+   "local": {
+    "JP": "豚骨ラーメン"
    }
   },
   "모쓰나베": {
@@ -3092,6 +3139,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Motsunabe.jpg"
+   },
+   "local": {
+    "JP": "もつ鍋"
    }
   },
   "멘타이코": {
@@ -3106,6 +3156,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Myeongnanjeot_(pollock_roe).jpg"
+   },
+   "local": {
+    "JP": "明太子"
    }
   },
   "징기스칸": {
@@ -3120,6 +3173,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Zingisukannama.jpg"
+   },
+   "local": {
+    "JP": "ジンギスカン"
    }
   },
   "수프카레": {
@@ -3134,6 +3190,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Goryokaku_Tower_Hakodate_Hokkaido_Japan16s.jpg"
+   },
+   "local": {
+    "JP": "スープカレー"
    }
   },
   "털게·성게덮밥": {
@@ -3148,6 +3207,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Donburi-Bachi_by_ayustety_in_Tsukiji,_Tokyo.jpg"
+   },
+   "local": {
+    "JP": "うに丼"
    }
   },
   "오키나와 소바": {
@@ -3162,6 +3224,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%E3%82%BD%E3%83%BC%E3%82%AD%E3%81%9D%E3%81%B0%EF%BC%88%E6%B2%96%E7%B8%84%E3%81%9D%E3%81%B0%E5%B0%82%E9%96%80%E3%82%84%E3%82%93%E3%81%B0%E3%82%8B%E3%83%BB%E6%9C%89%E6%A5%BD%E7%94%BA%E4%BA%A4%E9%80%9A%E4%BC%9A%E9%A4%A8%EF%BC%8920240608-P1043176.jpg"
+   },
+   "local": {
+    "JP": "沖縄そば"
    }
   },
   "타코라이스": {
@@ -3176,6 +3241,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Taco_rice_-_Tokyo_area_-_November_9_2016_-_002.jpg"
+   },
+   "local": {
+    "JP": "タコライス"
    }
   },
   "고야 찬푸루": {
@@ -3190,6 +3258,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Goya_Champuru_at_Yumenoya.jpg"
+   },
+   "local": {
+    "JP": "ゴーヤーチャンプルー"
    }
   },
   "히쓰마부시": {
@@ -3204,6 +3275,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Hitsumabushi1.jpg"
+   },
+   "local": {
+    "JP": "ひつまぶし"
    }
   },
   "미소카쓰": {
@@ -3218,6 +3292,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Tonkatsu_of_Kimukatsu.jpg"
+   },
+   "local": {
+    "JP": "味噌カツ"
    }
   },
   "데바사키": {
@@ -3231,6 +3308,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:NIBITASHI.jpg"
+   },
+   "local": {
+    "JP": "手羽先"
    }
   },
   "노도구로": {
@@ -3245,9 +3325,16 @@
     "license": "No restrictions",
     "licenseUrl": "https://www.flickr.com/commons/usage/",
     "page": "https://commons.wikimedia.org/wiki/File:Bulletin_-_United_States_National_Museum_(1940)_(14781302421).jpg"
+   },
+   "local": {
+    "JP": "のどぐろ"
    }
   },
-  "가가 요리": null,
+  "가가 요리": {
+   "local": {
+    "JP": "加賀料理"
+   }
+  },
   "금박 소프트아이스크림": {
    "ko": "소프트 아이스크림",
    "en": "Soft serve",
@@ -3260,6 +3347,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Soft_Ice_cream.jpg"
+   },
+   "local": {
+    "JP": "金箔ソフトクリーム"
    }
   },
   "사누키 우동": {
@@ -3274,9 +3364,16 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kama-age_sanuki_udon_by_sekido_in_Takamatsu,_Kagawa.jpg"
+   },
+   "local": {
+    "JP": "讃岐うどん"
    }
   },
-  "호네쓰키도리": null,
+  "호네쓰키도리": {
+   "local": {
+    "JP": "骨付鳥"
+   }
+  },
   "올리브 소고기": {
    "ko": "와규",
    "en": "Wagyu",
@@ -3289,6 +3386,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "オリーブ牛"
    }
   },
   "분고규": {
@@ -3303,9 +3403,16 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "豊後牛"
    }
   },
-  "지옥찜 요리": null,
+  "지옥찜 요리": {
+   "local": {
+    "JP": "地獄蒸し"
+   }
+  },
   "도리텐": {
    "ko": "도리텐",
    "en": "Toriten",
@@ -3318,6 +3425,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Toriten_Sengokuya_ac_(1).jpg"
+   },
+   "local": {
+    "JP": "とり天"
    }
   },
   "도미밥(다이메시)": {
@@ -3332,6 +3442,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Pagrus_major_Red_seabream_ja01.jpg"
+   },
+   "local": {
+    "JP": "鯛めし"
    }
   },
   "에히메 귤 주스": {
@@ -3346,6 +3459,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Starr_061105-1370_Citrus_reticulata.jpg"
+   },
+   "local": {
+    "JP": "みかんジュース"
    }
   },
   "잔기": {
@@ -3360,6 +3476,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Chicken_karaage_20080129.jpg"
+   },
+   "local": {
+    "JP": "ザンギ"
    }
   },
   "야키카레": {
@@ -3374,6 +3493,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Goryokaku_Tower_Hakodate_Hokkaido_Japan16s.jpg"
+   },
+   "local": {
+    "JP": "焼きカレー"
    }
   },
   "고쿠라 야키우동": {
@@ -3388,6 +3510,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yakiudon-tako.jpg"
+   },
+   "local": {
+    "JP": "焼うどん"
    }
   },
   "시모노세키 복어(가라토 시장)": {
@@ -3402,6 +3527,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Fugu_in_Tank.jpg"
+   },
+   "local": {
+    "JP": "ふぐ"
    }
   },
   "사가규": {
@@ -3416,6 +3544,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "佐賀牛"
    }
   },
   "우레시노 온천 유도후": {
@@ -3429,6 +3560,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yudofu_in_the_morning.jpg"
+   },
+   "local": {
+    "JP": "温泉湯どうふ"
    }
   },
   "요부코 오징어회": {
@@ -3443,6 +3577,9 @@
     "license": "CC BY-SA 3.0 de",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Trockenfisch_pulau_pangkor_malaysia_1.jpg"
+   },
+   "local": {
+    "JP": "イカの活き造り"
    }
   },
   "나가사키 짬뽕": {
@@ -3457,6 +3594,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Shikairo_Nagasaki_Japan05s.jpg"
+   },
+   "local": {
+    "JP": "ちゃんぽん"
    }
   },
   "사라우동": {
@@ -3471,6 +3611,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sara_udon_in_Nagasaki.jpg"
+   },
+   "local": {
+    "JP": "皿うどん"
    }
   },
   "카스텔라": {
@@ -3485,6 +3628,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Castella,made_in_nagasaki-city,japan.JPG"
+   },
+   "local": {
+    "JP": "カステラ"
    }
   },
   "바사시(말고기회)": {
@@ -3499,6 +3645,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Basashi.jpg"
+   },
+   "local": {
+    "JP": "馬刺し"
    }
   },
   "구마모토 라멘": {
@@ -3513,6 +3662,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "熊本ラーメン"
    }
   },
   "아카우시 덮밥": {
@@ -3527,6 +3679,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Donburi-Bachi_by_ayustety_in_Tsukiji,_Tokyo.jpg"
+   },
+   "local": {
+    "JP": "あか牛丼"
    }
   },
   "치킨난반": {
@@ -3540,6 +3695,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Chicken_nanban_jetalone_in_Tsukishima,_Tokyo.jpg"
+   },
+   "local": {
+    "JP": "チキン南蛮"
    }
   },
   "미야자키규": {
@@ -3554,6 +3712,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "宮崎牛"
    }
   },
   "완숙 망고": {
@@ -3568,6 +3729,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Starr_080417-4175_Mangifera_indica.jpg"
+   },
+   "local": {
+    "JP": "完熟マンゴー"
    }
   },
   "흑돼지 샤부샤부": {
@@ -3582,6 +3746,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shabu-shabu-01.jpg"
+   },
+   "local": {
+    "JP": "黒豚しゃぶしゃぶ"
    }
   },
   "시로쿠마 빙수": {
@@ -3596,6 +3763,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Macha_kakigori_snow_cone.jpg"
+   },
+   "local": {
+    "JP": "しろくま"
    }
   },
   "사쓰마아게": {
@@ -3610,6 +3780,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Satsumaage.jpg"
+   },
+   "local": {
+    "JP": "さつま揚げ"
    }
   },
   "날치 튀김": {
@@ -3624,6 +3797,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Pink-wing_flying_fish.jpg"
+   },
+   "local": {
+    "JP": "トビウオ"
    }
   },
   "고등어회(구비오레 사바)": {
@@ -3638,6 +3814,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Scomber_japonicus.png"
+   },
+   "local": {
+    "JP": "首折れサバ"
    }
   },
   "탄칸 귤": {
@@ -3652,6 +3831,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Starr_061105-1370_Citrus_reticulata.jpg"
+   },
+   "local": {
+    "JP": "たんかん"
    }
   },
   "히로시마식 오코노미야키": {
@@ -3666,6 +3848,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg"
+   },
+   "local": {
+    "JP": "お好み焼き"
    }
   },
   "아나고메시": {
@@ -3680,6 +3865,9 @@
     "license": "CC BY-SA 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Conger_myriaster.jpg"
+   },
+   "local": {
+    "JP": "あなごめし"
    }
   },
   "백도 파르페": {
@@ -3694,6 +3882,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Parfait_samples_by_pinguino_in_Osaka,_Japan.jpg"
+   },
+   "local": {
+    "JP": "白桃パフェ"
    }
   },
   "데미카쓰동": {
@@ -3708,6 +3899,9 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Katsudon_001.jpg"
+   },
+   "local": {
+    "JP": "デミカツ丼"
    }
   },
   "바라즈시": {
@@ -3722,6 +3916,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Chirashi-zushi.jpg"
+   },
+   "local": {
+    "JP": "ばら寿司"
    }
   },
   "오노미치 라멘": {
@@ -3736,9 +3933,16 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "尾道ラーメン"
    }
   },
-  "세토다 레몬 케이크": null,
+  "세토다 레몬 케이크": {
+   "local": {
+    "JP": "レモンケーキ"
+   }
+  },
   "생선 덮밥": {
    "ko": "가이센돈",
    "image": {
@@ -3750,6 +3954,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kaisen-don_in_Busan.jpg"
+   },
+   "local": {
+    "JP": "海鮮丼"
    }
   },
   "마쓰바가니": {
@@ -3764,6 +3971,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Chionoecetes_opilio_Kanikkokan.jpg"
+   },
+   "local": {
+    "JP": "松葉ガニ"
    }
   },
   "이즈모 소바": {
@@ -3778,6 +3988,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg"
+   },
+   "local": {
+    "JP": "出雲そば"
    }
   },
   "신지호 재첩국": {
@@ -3792,6 +4005,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Korean_clam_soup-Jaecheopguk-01.jpg"
+   },
+   "local": {
+    "JP": "しじみ汁"
    }
   },
   "도쿠시마 라멘": {
@@ -3806,6 +4022,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "徳島ラーメン"
    }
   },
   "나루토 긴토키 고구마": {
@@ -3820,6 +4039,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ipomoea_batatasL_ja01.jpg"
+   },
+   "local": {
+    "JP": "なると金時"
    }
   },
   "스다치 요리": {
@@ -3834,6 +4056,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Citrus_sudachi.jpg"
+   },
+   "local": {
+    "JP": "すだち"
    }
   },
   "가쓰오 다타키": {
@@ -3848,6 +4073,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:KatsuoTataki.jpg"
+   },
+   "local": {
+    "JP": "カツオのたたき"
    }
   },
   "유자 요리": {
@@ -3862,9 +4090,16 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yuzu_oranges_(6459456959).jpg"
+   },
+   "local": {
+    "JP": "ゆず"
    }
   },
-  "아이스크린": null,
+  "아이스크린": {
+   "local": {
+    "JP": "アイスクリン"
+   }
+  },
   "고베규 스테이크": {
    "ko": "고베 비프",
    "en": "Kobe beef",
@@ -3877,6 +4112,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:4_Kobe_Beef,_Kobe_Japan.jpg"
+   },
+   "local": {
+    "JP": "神戸牛ステーキ"
    }
   },
   "아카시야키": {
@@ -3891,6 +4129,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Akashi-yaki_at_Akashi01s.jpg"
+   },
+   "local": {
+    "JP": "明石焼"
    }
   },
   "소바메시": {
@@ -3905,6 +4146,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yakisoba_in_Kyoto.jpg"
+   },
+   "local": {
+    "JP": "そばめし"
    }
   },
   "감잎 초밥(가키노하즈시)": {
@@ -3919,6 +4163,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg"
+   },
+   "local": {
+    "JP": "柿の葉寿司"
    }
   },
   "미와 소면": {
@@ -3933,6 +4180,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Somen_001.jpg"
+   },
+   "local": {
+    "JP": "三輪素麺"
    }
   },
   "구즈모치": {
@@ -3946,6 +4196,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:140614_Yagyu_Iris_Garden_Nara_Japan07s.jpg"
+   },
+   "local": {
+    "JP": "くず餅"
    }
   },
   "히메지 오뎅(생강간장)": {
@@ -3960,6 +4213,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Oden_by_Mori_Chan.jpg"
+   },
+   "local": {
+    "JP": "姫路おでん"
    }
   },
   "아나고 요리": {
@@ -3974,9 +4230,16 @@
     "license": "CC BY-SA 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Conger_myriaster.jpg"
+   },
+   "local": {
+    "JP": "穴子"
    }
   },
-  "아몬드 토스트": null,
+  "아몬드 토스트": {
+   "local": {
+    "JP": "アーモンドトースト"
+   }
+  },
   "기슈 우메보시": {
    "ko": "우메보시",
    "en": "Umeboshi",
@@ -3989,6 +4252,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Umeboshi2.JPG"
+   },
+   "local": {
+    "JP": "梅干し"
    }
   },
   "가쓰우라 생참치": {
@@ -4003,6 +4269,9 @@
     "license": "CC BY 2.1 jp",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.1/jp/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Pacific_bluefin_tuna.jpg"
+   },
+   "local": {
+    "JP": "生まぐろ"
    }
   },
   "와카야마 라멘": {
@@ -4017,6 +4286,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "和歌山ラーメン"
    }
   },
   "쇼진 요리(사찰 음식)": {
@@ -4031,9 +4303,16 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Insadong-Sanchon-02.jpg"
+   },
+   "local": {
+    "JP": "精進料理"
    }
   },
-  "참깨 두부(고마도후)": null,
+  "참깨 두부(고마도후)": {
+   "local": {
+    "JP": "ごま豆腐"
+   }
+  },
   "고야 두부": {
    "en": "Koya-dofu",
    "image": {
@@ -4045,6 +4324,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Koya-dofu_(2012.07.31).jpg"
+   },
+   "local": {
+    "JP": "高野豆腐"
    }
   },
   "다이자 대게": {
@@ -4059,6 +4341,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Chionoecetes_opilio_Kanikkokan.jpg"
+   },
+   "local": {
+    "JP": "間人ガニ"
    }
   },
   "이네 방어 요리": {
@@ -4073,6 +4358,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata_(200810).jpg"
+   },
+   "local": {
+    "JP": "ぶり"
    }
   },
   "해산물 덮밥": {
@@ -4086,6 +4374,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kaisen-don_in_Busan.jpg"
+   },
+   "local": {
+    "JP": "海鮮丼"
    }
   },
   "이세에비(닭새우)": {
@@ -4100,6 +4391,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Panulirus_japonicus3.jpg"
+   },
+   "local": {
+    "JP": "伊勢海老"
    }
   },
   "이세 우동": {
@@ -4114,6 +4408,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Kakeudon.jpg"
+   },
+   "local": {
+    "JP": "伊勢うどん"
    }
   },
   "아카후쿠 떡": {
@@ -4127,6 +4424,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Akafuku_01.JPG"
+   },
+   "local": {
+    "JP": "赤福"
    }
   },
   "히다규 스시": {
@@ -4141,6 +4441,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "飛騨牛寿司"
    }
   },
   "다카야마 라멘": {
@@ -4155,6 +4458,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "高山ラーメン"
    }
   },
   "고헤이모치": {
@@ -4169,6 +4475,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Goheimochie.jpg"
+   },
+   "local": {
+    "JP": "五平餅"
    }
   },
   "헤기소바": {
@@ -4183,6 +4492,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg"
+   },
+   "local": {
+    "JP": "へぎそば"
    }
   },
   "타레카쓰동": {
@@ -4197,6 +4509,9 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Katsudon_001.jpg"
+   },
+   "local": {
+    "JP": "タレカツ丼"
    }
   },
   "니가타 사케": {
@@ -4211,6 +4526,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Brasserie_de_sak%C3%A9_Takayama.jpg"
+   },
+   "local": {
+    "JP": "日本酒"
    }
   },
   "반딧불 오징어": {
@@ -4225,6 +4543,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Watasenia_scintillans.jpg"
+   },
+   "local": {
+    "JP": "ホタルイカ"
    }
   },
   "흰새우 덮밥": {
@@ -4239,6 +4560,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Donburi-Bachi_by_ayustety_in_Tsukiji,_Tokyo.jpg"
+   },
+   "local": {
+    "JP": "白えび丼"
    }
   },
   "도야마 블랙 라멘": {
@@ -4253,6 +4577,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "富山ブラック"
    }
   },
   "시즈오카 오뎅": {
@@ -4267,6 +4594,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Oden_by_Mori_Chan.jpg"
+   },
+   "local": {
+    "JP": "静岡おでん"
    }
   },
   "벚꽃새우 가키아게": {
@@ -4281,6 +4611,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Tempura_soba_by_shibainu_at_tachigui_in_Hatsudai,_Tokyo.jpg"
+   },
+   "local": {
+    "JP": "桜えびのかき揚げ"
    }
   },
   "녹차 디저트": {
@@ -4295,6 +4628,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Matcha_tea.jpg"
+   },
+   "local": {
+    "JP": "抹茶スイーツ"
    }
   },
   "금눈돔 조림(긴메다이)": {
@@ -4308,6 +4644,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Splendid_alfonsino_(_Beryx_splendens_).jpg"
+   },
+   "local": {
+    "JP": "金目鯛の煮付け"
    }
   },
   "와사비 덮밥": {
@@ -4322,6 +4661,9 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Wasabi_002.jpg"
+   },
+   "local": {
+    "JP": "わさび丼"
    }
   },
   "전갱이 다타키": {
@@ -4336,6 +4678,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:MaAji.jpg"
+   },
+   "local": {
+    "JP": "アジのたたき"
    }
   },
   "호토 우동": {
@@ -4350,6 +4695,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Houtou.jpg"
+   },
+   "local": {
+    "JP": "ほうとう"
    }
   },
   "요시다 우동": {
@@ -4364,6 +4712,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Kakeudon.jpg"
+   },
+   "local": {
+    "JP": "吉田うどん"
    }
   },
   "신겐모치": {
@@ -4378,6 +4729,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mochi_001.jpg"
+   },
+   "local": {
+    "JP": "信玄餅"
    }
   },
   "신슈 소바": {
@@ -4392,6 +4746,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg"
+   },
+   "local": {
+    "JP": "信州そば"
    }
   },
   "바사시": {
@@ -4406,11 +4763,22 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Basashi.jpg"
+   },
+   "local": {
+    "JP": "馬刺し"
    }
   },
-  "산조쿠야키": null,
+  "산조쿠야키": {
+   "local": {
+    "JP": "山賊焼"
+   }
+  },
   "가루이자와 베이커리 빵": null,
-  "신슈 사과 디저트": null,
+  "신슈 사과 디저트": {
+   "local": {
+    "JP": "アップルパイ"
+   }
+  },
   "마이타케 튀김 소바": {
    "ko": "소바",
    "en": "Soba",
@@ -4423,6 +4791,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg"
+   },
+   "local": {
+    "JP": "舞茸天そば"
    }
   },
   "온천 만주": {
@@ -4437,6 +4808,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Carinto_manjyu.JPG"
+   },
+   "local": {
+    "JP": "温泉まんじゅう"
    }
   },
   "조슈규": {
@@ -4451,6 +4825,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "上州牛"
    }
   },
   "시라스동(멸치 치어 덮밥)": {
@@ -4464,9 +4841,16 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Gianchetti_and_poutine.jpg"
+   },
+   "local": {
+    "JP": "しらす丼"
    }
   },
-  "하토 사블레": null,
+  "하토 사블레": {
+   "local": {
+    "JP": "鳩サブレー"
+   }
+  },
   "고마치도리 길거리 간식": null,
   "구로타마고(검은 달걀)": {
    "ko": "오와쿠다니",
@@ -4480,6 +4864,9 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:161223_Owakudani_Station_Hakone_Japan02s3.jpg"
+   },
+   "local": {
+    "JP": "黒たまご"
    }
   },
   "유바 요리": {
@@ -4494,6 +4881,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yuba_by_Abrilon.jpg"
+   },
+   "local": {
+    "JP": "湯葉"
    }
   },
   "하코네 소바": {
@@ -4508,6 +4898,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg"
+   },
+   "local": {
+    "JP": "そば"
    }
   },
   "천연 얼음 빙수": {
@@ -4522,6 +4915,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Macha_kakigori_snow_cone.jpg"
+   },
+   "local": {
+    "JP": "天然氷"
    }
   },
   "우쓰노미야 교자": {
@@ -4536,6 +4932,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:China_IMG_3150_(29736643975).jpg"
+   },
+   "local": {
+    "JP": "餃子"
    }
   },
   "안코나베(아귀 냄비)": {
@@ -4550,6 +4949,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Chaunax_stigmaeus_dorsal_view2.jpg"
+   },
+   "local": {
+    "JP": "あんこう鍋"
    }
   },
   "낫토 요리": {
@@ -4564,6 +4966,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Natto_mixed.jpg"
+   },
+   "local": {
+    "JP": "納豆"
    }
   },
   "호시이모(말린 고구마)": {
@@ -4577,6 +4982,9 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Hoshi-imo_001.jpg"
+   },
+   "local": {
+    "JP": "干し芋"
    }
   },
   "규탄(소 혀 구이)": {
@@ -4591,6 +4999,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Gyutan_teishoku.JPG"
+   },
+   "local": {
+    "JP": "牛タン"
    }
   },
   "즌다 모찌": {
@@ -4605,6 +5016,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mochi_001.jpg"
+   },
+   "local": {
+    "JP": "ずんだ餅"
    }
   },
   "마쓰시마 굴": {
@@ -4619,6 +5033,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Rock-oyster.jpg"
+   },
+   "local": {
+    "JP": "牡蠣"
    }
   },
   "이모니(토란 소고기 냄비)": {
@@ -4632,6 +5049,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Imoni.jpg"
+   },
+   "local": {
+    "JP": "芋煮"
    }
   },
   "야마가타규": {
@@ -4646,6 +5066,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "山形牛"
    }
   },
   "사쿠란보(체리)": {
@@ -4660,6 +5083,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Cherry_Stella444.jpg"
+   },
+   "local": {
+    "JP": "さくらんぼ"
    }
   },
   "가리비 된장구이(가이야키 미소)": {
@@ -4674,13 +5100,23 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Scallop_weathervane.jpg"
+   },
+   "local": {
+    "JP": "貝焼き味噌"
    }
   },
   "아오모리 사과": {
    "ko": "사과",
-   "en": "Apple"
+   "en": "Apple",
+   "local": {
+    "JP": "りんご"
+   }
   },
-  "센베이지루": null,
+  "센베이지루": {
+   "local": {
+    "JP": "せんべい汁"
+   }
+  },
   "오징어 회·이카메시": {
    "ko": "이카메시",
    "en": "Ikameshi",
@@ -4693,6 +5129,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ikameshi_tsukemono_haibaru.jpg"
+   },
+   "local": {
+    "JP": "いかめし"
    }
   },
   "시오 라멘": {
@@ -4707,6 +5146,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "塩ラーメン"
    }
   },
   "럭키 피에로 버거": {
@@ -4721,6 +5163,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Hakodate_LUCKY_PIERROT,_Hakodate,_Hokkaido,_Japan,_%E5%B9%B8%E9%81%8B%E5%B0%8F%E4%B8%91%E6%BC%A2%E5%A0%A1,_%E5%87%BD%E9%A4%A8,_%E5%8C%97%E6%B5%B7%E9%81%93,_%E6%97%A5%E6%9C%AC,_%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC%E3%83%94%E3%82%A8%E3%83%AD,_%E3%83%99%E3%82%A4%E3%82%A8%E3%83%AA%E3%82%A2%E6%9C%AC%E5%BA%97,_%E3%81%AF%E3%81%93%E3%81%A0%E3%81%A6%E3%81%97,_%E3%81%BB%E3%81%A3%E3%81%8B%E3%81%84%E3%81%A9%E3%81%86,_%E3%81%AB%E3%81%A3%E3%81%BD%E3%82%93,_%E3%81%AB%E3%81%BB%E3%82%93_(16535725909).jpg"
+   },
+   "local": {
+    "JP": "ラッキーピエロ"
    }
   },
   "후라노 멜론": {
@@ -4735,6 +5180,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Muskmelon.jpg"
+   },
+   "local": {
+    "JP": "メロン"
    }
   },
   "아사히카와 쇼유 라멘": {
@@ -4749,6 +5197,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "旭川ラーメン"
    }
   },
   "비에이 카레 우동": {
@@ -4763,6 +5214,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Kakeudon.jpg"
+   },
+   "local": {
+    "JP": "カレーうどん"
    }
   },
   "지옥 라멘": {
@@ -4777,6 +5231,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Shoyu_ramen,_at_Kasukabe_Station_(2014.05.05)_1.jpg"
+   },
+   "local": {
+    "JP": "地獄ラーメン"
    }
   },
   "홋카이도 우유 소프트아이스크림": {
@@ -4791,6 +5248,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Soft_Ice_cream.jpg"
+   },
+   "local": {
+    "JP": "ソフトクリーム"
    }
   },
   "갓테동(시장 덮밥)": {
@@ -4805,6 +5265,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kaisen-don_in_Busan.jpg"
+   },
+   "local": {
+    "JP": "勝手丼"
    }
   },
   "로바타야키": {
@@ -4819,6 +5282,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Robatayaki.jpg"
+   },
+   "local": {
+    "JP": "炉端焼き"
    }
   },
   "잔기(홋카이도식 닭튀김)": {
@@ -4833,6 +5299,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Chicken_karaage_20080129.jpg"
+   },
+   "local": {
+    "JP": "ザンギ"
    }
   },
   "이시가키규": {
@@ -4847,6 +5316,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wagyu.jpg"
+   },
+   "local": {
+    "JP": "石垣牛"
    }
   },
   "야에야마 소바": {
@@ -4861,6 +5333,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%E3%82%BD%E3%83%BC%E3%82%AD%E3%81%9D%E3%81%B0%EF%BC%88%E6%B2%96%E7%B8%84%E3%81%9D%E3%81%B0%E5%B0%82%E9%96%80%E3%82%84%E3%82%93%E3%81%B0%E3%82%8B%E3%83%BB%E6%9C%89%E6%A5%BD%E7%94%BA%E4%BA%A4%E9%80%9A%E4%BC%9A%E9%A4%A8%EF%BC%8920240608-P1043176.jpg"
+   },
+   "local": {
+    "JP": "八重山そば"
    }
   },
   "섬 파인애플": {
@@ -4875,6 +5350,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg"
+   },
+   "local": {
+    "JP": "パイナップル"
    }
   },
   "미야코 소바": {
@@ -4889,6 +5367,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%E3%82%BD%E3%83%BC%E3%82%AD%E3%81%9D%E3%81%B0%EF%BC%88%E6%B2%96%E7%B8%84%E3%81%9D%E3%81%B0%E5%B0%82%E9%96%80%E3%82%84%E3%82%93%E3%81%B0%E3%82%8B%E3%83%BB%E6%9C%89%E6%A5%BD%E7%94%BA%E4%BA%A4%E9%80%9A%E4%BC%9A%E9%A4%A8%EF%BC%8920240608-P1043176.jpg"
+   },
+   "local": {
+    "JP": "宮古そば"
    }
   },
   "애플망고": {
@@ -4903,6 +5384,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Starr_080417-4175_Mangifera_indica.jpg"
+   },
+   "local": {
+    "JP": "マンゴー"
    }
   },
   "유키시오 소프트아이스크림": {
@@ -4917,6 +5401,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Soft_Ice_cream.jpg"
+   },
+   "local": {
+    "JP": "雪塩ソフトクリーム"
    }
   },
   "우육면": {
@@ -4931,6 +5418,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Taiwanese_Beef_Noodle_Soup.jpg"
+   },
+   "local": {
+    "TW": "牛肉麵"
    }
   },
   "샤오롱바오": {
@@ -4945,6 +5435,10 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Soup_dumplings.jpg"
+   },
+   "local": {
+    "CN": "小笼包",
+    "TW": "小籠包"
    }
   },
   "망고빙수": {
@@ -4959,9 +5453,16 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Taipei_mangguobing.JPG"
+   },
+   "local": {
+    "TW": "芒果冰"
    }
   },
-  "해산물 요리": null,
+  "해산물 요리": {
+   "local": {
+    "TW": "海鮮"
+   }
+  },
   "파파야 우유": {
    "ko": "파파야 우유",
    "en": "Papaya milk",
@@ -4974,6 +5475,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Food_%E6%9C%A8%E7%93%9C%E7%89%9B%E5%A5%B6,_%E5%93%88%E5%AF%86%E7%93%9C%E7%89%9B%E5%A5%B6,_%E5%85%89%E8%8F%AF%E6%9C%A8%E7%93%9C%E7%89%9B%E5%A5%B6%E5%A4%A7%E7%8E%8B,_%E5%85%89%E8%8F%AF%E5%A4%9C%E5%B8%82,_%E9%AB%98%E9%9B%84_(15747947605).jpg"
+   },
+   "local": {
+    "TW": "木瓜牛奶"
    }
   },
   "바완(고기 만두)": {
@@ -4988,6 +5492,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:07.28_%E7%B8%BD%E7%B5%B1%E5%93%81%E5%98%97%E5%9C%A8%E5%9C%B0%E5%B0%8F%E5%90%83_(50161805162).jpg"
+   },
+   "local": {
+    "TW": "肉圓"
    }
   },
   "단짜이면": {
@@ -5002,10 +5509,21 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Tan_Tsai_Noodle_of_Tu_Hsiao_Yue_2015.jpg"
+   },
+   "local": {
+    "TW": "擔仔麵"
    }
   },
-  "우육탕": null,
-  "새우밥": null,
+  "우육탕": {
+   "local": {
+    "TW": "牛肉湯"
+   }
+  },
+  "새우밥": {
+   "local": {
+    "TW": "蝦仁飯"
+   }
+  },
   "딤섬": {
    "ko": "딤섬",
    "en": "Dim sum",
@@ -5018,6 +5536,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Dim_sum.jpg"
+   },
+   "local": {
+    "HK": "點心"
    }
   },
   "완탕면": {
@@ -5032,6 +5553,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Wanton_noodles.jpg"
+   },
+   "local": {
+    "HK": "雲吞麵"
    }
   },
   "에그타르트": {
@@ -5046,6 +5570,10 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Custard_tart_emerging_from_wrapper.jpg"
+   },
+   "local": {
+    "HK": "蛋撻",
+    "MO": "葡撻"
    }
   },
   "아프리칸 치킨": {
@@ -5060,6 +5588,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:African_chicken_macau.JPG"
+   },
+   "local": {
+    "MO": "非洲雞"
    }
   },
   "주빠빠오": {
@@ -5073,6 +5604,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Porkchopbun.jpg"
+   },
+   "local": {
+    "MO": "豬扒包"
    }
   },
   "성젠바오": {
@@ -5087,6 +5621,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sheng_Jian_Bao_on_a_pan.jpg"
+   },
+   "local": {
+    "CN": "生煎包"
    }
   },
   "털게": {
@@ -5101,6 +5638,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Hakodate.jpg"
+   },
+   "local": {
+    "CN": "大闸蟹"
    }
   },
   "칭다오 생맥주": {
@@ -5115,6 +5655,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Cerveza_China_(32366210444).jpg"
+   },
+   "local": {
+    "CN": "青岛啤酒"
    }
   },
   "바지락볶음": {
@@ -5129,6 +5672,9 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Ruditapes_philippinarum.jpg"
+   },
+   "local": {
+    "CN": "炒蛤蜊"
    }
   },
   "양꼬치": {
@@ -5143,6 +5689,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%EC%96%91%EA%BC%AC%EC%B9%98.jpg"
+   },
+   "local": {
+    "CN": "羊肉串"
    }
   },
   "후난 요리": {
@@ -5157,6 +5706,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:ChineseDishLogo.png"
+   },
+   "local": {
+    "CN": "湘菜"
    }
   },
   "장자제 미펀": {
@@ -5171,9 +5723,16 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Picture_286_w.jpg"
+   },
+   "local": {
+    "CN": "米粉"
    }
   },
-  "훈제 고기(라러우)": null,
+  "훈제 고기(라러우)": {
+   "local": {
+    "CN": "腊肉"
+   }
+  },
   "궈바오러우": {
    "ko": "궈바오러우",
    "en": "Sweet and sour",
@@ -5186,10 +5745,21 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Gu%C5%8Db%C4%81or%C3%B2u.jpg"
+   },
+   "local": {
+    "CN": "锅包肉"
    }
   },
-  "하얼빈 소시지": null,
-  "마디얼 아이스크림": null,
+  "하얼빈 소시지": {
+   "local": {
+    "CN": "红肠"
+   }
+  },
+  "마디얼 아이스크림": {
+   "local": {
+    "CN": "马迭尔冰棍"
+   }
+  },
   "베이징 카오야": {
    "ko": "베이징 카오야",
    "en": "Peking duck",
@@ -5202,6 +5772,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Peking_Duck,_2014_(02).jpg"
+   },
+   "local": {
+    "CN": "北京烤鸭"
    }
   },
   "솬양러우(양고기 샤부샤부)": {
@@ -5215,6 +5788,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Instant-boiled_mutton_hot_pot_at_Yangfang_Shengli_(20200111153612).jpg"
+   },
+   "local": {
+    "CN": "涮羊肉"
    }
   },
   "탕후루": {
@@ -5229,6 +5805,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Glazed_Tomatoes_and_Berries.jpg"
+   },
+   "local": {
+    "CN": "冰糖葫芦"
    }
   },
   "뱡뱡몐(넓적 국수)": {
@@ -5243,6 +5822,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Bi%C3%A1ng_Bi%C3%A1ng_Mi%C3%A0n_noodles_with_its_Hanzi.jpg"
+   },
+   "local": {
+    "CN": "biangbiang面"
    }
   },
   "러우자모(중국식 고기 버거)": {
@@ -5257,6 +5839,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Roujiamo.jpg"
+   },
+   "local": {
+    "CN": "肉夹馍"
    }
   },
   "양러우파오모(양고기 빵 수프)": {
@@ -5270,6 +5855,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Pita_Bread_Soaked_in_Lamb_Soup.jpg"
+   },
+   "local": {
+    "CN": "羊肉泡馍"
    }
   },
   "쓰촨 훠궈": {
@@ -5284,6 +5872,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Day177lilybday.JPG"
+   },
+   "local": {
+    "CN": "火锅"
    }
   },
   "마파두부": {
@@ -5298,6 +5889,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Billyfoodmabodofu3.jpg"
+   },
+   "local": {
+    "CN": "麻婆豆腐"
    }
   },
   "단단몐(매운 비빔국수)": {
@@ -5312,6 +5906,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dan-dan_noodles,_Shanghai.jpg"
+   },
+   "local": {
+    "CN": "担担面"
    }
   },
   "구이린 미펀(쌀국수)": {
@@ -5326,9 +5923,16 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Rice_vermicelli.jpg"
+   },
+   "local": {
+    "CN": "桂林米粉"
    }
   },
-  "피주위(맥주 생선 조림)": null,
+  "피주위(맥주 생선 조림)": {
+   "local": {
+    "CN": "啤酒鱼"
+   }
+  },
   "과교미선(윈난 쌀국수)": {
    "en": "Crossing-the-bridge noodles",
    "image": {
@@ -5340,9 +5944,293 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Crossing_the_Bridge_Rice_Noodles_full_ingredients_in_Mengzi_(20200126132053).jpg"
+   },
+   "local": {
+    "CN": "过桥米线"
    }
   },
-  "나시 바바(나시족 밀전병)": null,
+  "나시 바바(나시족 밀전병)": {
+   "local": {
+    "CN": "纳西粑粑"
+   }
+  },
+  "동파육": {
+   "ko": "동파육",
+   "en": "Dongpo pork",
+   "image": {
+    "file": "File:BCfood12.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/BCfood12.JPG/330px-BCfood12.JPG",
+    "width": 330,
+    "height": 495,
+    "artist": "Archon6812",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:BCfood12.JPG"
+   },
+   "local": {
+    "CN": "东坡肉"
+   }
+  },
+  "룽징 새우볶음": {
+   "en": "Longjing prawns",
+   "image": {
+    "file": "File:Longjing prawns in Hangzhou Restaurant 2015-07.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Longjing_prawns_in_Hangzhou_Restaurant_2015-07.JPG/330px-Longjing_prawns_in_Hangzhou_Restaurant_2015-07.JPG",
+    "width": 330,
+    "height": 219,
+    "artist": "猫猫的日记本",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Longjing_prawns_in_Hangzhou_Restaurant_2015-07.JPG"
+   },
+   "local": {
+    "CN": "龙井虾仁"
+   }
+  },
+  "시후 초어": {
+   "en": "West Lake Fish in Vinegar Gravy",
+   "image": {
+    "file": "File:West Lake Fish in Vinegar Gravy Feb 2026.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/West_Lake_Fish_in_Vinegar_Gravy_Feb_2026.jpg/330px-West_Lake_Fish_in_Vinegar_Gravy_Feb_2026.jpg",
+    "width": 330,
+    "height": 185,
+    "artist": "Vesekskiy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:West_Lake_Fish_in_Vinegar_Gravy_Feb_2026.jpg"
+   },
+   "local": {
+    "CN": "西湖醋鱼"
+   }
+  },
+  "쑤저우 탕면": {
+   "local": {
+    "CN": "苏式汤面"
+   }
+  },
+  "쑹수구이위(다람쥐 모양 생선 튀김)": {
+   "local": {
+    "CN": "松鼠桂鱼"
+   }
+  },
+  "후이저우 요리": {
+   "ko": "안후이 요리",
+   "en": "Anhui cuisine",
+   "image": {
+    "file": "File:ChineseDishLogo.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/ChineseDishLogo.png",
+    "width": 330,
+    "height": 194,
+    "artist": "Modiified by zh:User:mikepanhuOriginal photo by Theodoranian on zh.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:ChineseDishLogo.png"
+   },
+   "local": {
+    "CN": "徽菜"
+   }
+  },
+  "마오더우푸(털두부)": {
+   "en": "Mao tofu",
+   "image": {
+    "file": "File:方鑫玉毛豆腐 2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg/330px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg",
+    "width": 330,
+    "height": 440,
+    "artist": "EditQ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg"
+   },
+   "local": {
+    "CN": "毛豆腐"
+   }
+  },
+  "황산 사오빙": {
+   "ko": "사오빙",
+   "en": "Shaobing",
+   "image": {
+    "file": "File:Shaobing5.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Shaobing5.jpg/330px-Shaobing5.jpg",
+    "width": 330,
+    "height": 222,
+    "artist": "C C",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shaobing5.jpg"
+   },
+   "local": {
+    "CN": "黄山烧饼"
+   }
+  },
+  "연변 냉면": {
+   "ko": "냉면",
+   "en": "Naengmyeon",
+   "image": {
+    "file": "File:Dongmu Bapsang 02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Dongmu_Bapsang_02.jpg/330px-Dongmu_Bapsang_02.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "korea.net",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dongmu_Bapsang_02.jpg"
+   },
+   "local": {
+    "CN": "延吉冷面"
+   }
+  },
+  "자오쯔(물만두)": {
+   "ko": "자오쯔",
+   "en": "Jiaozi",
+   "image": {
+    "file": "File:China IMG 3150 (29736643975).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/China_IMG_3150_%2829736643975%29.jpg/330px-China_IMG_3150_%2829736643975%29.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Kuruman from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:China_IMG_3150_(29736643975).jpg"
+   },
+   "local": {
+    "CN": "饺子"
+   }
+  },
+  "샤차면": {
+   "en": "Shacha noodles",
+   "image": {
+    "file": "File:Shachamian.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Shachamian.JPG/330px-Shachamian.JPG",
+    "width": 330,
+    "height": 220,
+    "artist": "Xmhaoyu",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shachamian.JPG"
+   },
+   "local": {
+    "CN": "沙茶面"
+   }
+  },
+  "굴전(오아젠)": {
+   "ko": "어아찌안",
+   "en": "Oyster omelette",
+   "image": {
+    "file": "File:Oyster Omelette 2008-7-17.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Oyster_Omelette_2008-7-17.jpg/330px-Oyster_Omelette_2008-7-17.jpg",
+    "width": 330,
+    "height": 205,
+    "artist": "Flickr user 黃 zero.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oyster_Omelette_2008-7-17.jpg"
+   },
+   "local": {
+    "CN": "海蛎煎"
+   }
+  },
+  "원창 닭": {
+   "ko": "원창닭",
+   "en": "Wenchang chicken",
+   "image": {
+    "file": "File:Wenchang Chicken 1.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Wenchang_Chicken_1.JPG/330px-Wenchang_Chicken_1.JPG",
+    "width": 330,
+    "height": 248,
+    "artist": "Anna Frodesiak",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Wenchang_Chicken_1.JPG"
+   },
+   "local": {
+    "CN": "文昌鸡"
+   }
+  },
+  "칭부량(코코넛 디저트)": {
+   "en": "Ching bo leung",
+   "image": {
+    "file": "File:Sâm bổ lượng.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/S%C3%A2m_b%E1%BB%95_l%C6%B0%E1%BB%A3ng.jpg/330px-S%C3%A2m_b%E1%BB%95_l%C6%B0%E1%BB%A3ng.jpg",
+    "width": 330,
+    "height": 219,
+    "artist": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:S%C3%A2m_b%E1%BB%95_l%C6%B0%E1%BB%A3ng.jpg"
+   },
+   "local": {
+    "CN": "清补凉"
+   }
+  },
+  "버블티": {
+   "ko": "버블티",
+   "en": "Bubble tea",
+   "image": {
+    "file": "File:Classic bubble tea.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Classic_bubble_tea.jpg/330px-Classic_bubble_tea.jpg",
+    "width": 330,
+    "height": 440,
+    "artist": "Oqmilteashop",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Classic_bubble_tea.jpg"
+   },
+   "local": {
+    "TW": "珍珠奶茶"
+   }
+  },
+  "태양병": {
+   "ko": "타이양빙",
+   "en": "Suncake (Taiwan)",
+   "image": {
+    "file": "File:Taiwanese Suncake (flickr11069409046).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Taiwanese_Suncake_%28flickr11069409046%29.jpg/330px-Taiwanese_Suncake_%28flickr11069409046%29.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "Connie Ma (fickr user \"ironypoisoning\")",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taiwanese_Suncake_(flickr11069409046).jpg"
+   },
+   "local": {
+    "TW": "太陽餅"
+   }
+  },
+  "티베트식 야크 요리": {
+   "ko": "티베트 요리",
+   "en": "Tibetan cuisine",
+   "image": {
+    "file": "File:Tsampa being blended with yak butter tea.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tsampa_being_blended_with_yak_butter_tea.jpg/330px-Tsampa_being_blended_with_yak_butter_tea.jpg",
+    "width": 330,
+    "height": 330,
+    "artist": "Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsampa_being_blended_with_yak_butter_tea.jpg"
+   },
+   "local": {
+    "CN": "牦牛肉"
+   }
+  },
+  "쑤유차(버터차)": {
+   "ko": "수유차",
+   "en": "Butter tea",
+   "image": {
+    "file": "File:Monk churning butter tea.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Monk_churning_butter_tea.JPG/330px-Monk_churning_butter_tea.JPG",
+    "width": 330,
+    "height": 514,
+    "artist": "John Hill (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monk_churning_butter_tea.JPG"
+   },
+   "local": {
+    "CN": "酥油茶"
+   }
+  },
   "팟타이": {
    "ko": "팟 타이",
    "en": "Pad thai",
@@ -5355,6 +6243,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg"
+   },
+   "local": {
+    "TH": "ผัดไทย"
    }
   },
   "똠얌꿍": {
@@ -5369,6 +6260,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Tom_yam_kung_maenam.jpg"
+   },
+   "local": {
+    "TH": "ต้มยำกุ้ง"
    }
   },
   "망고 스티키 라이스": {
@@ -5383,6 +6277,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg"
+   },
+   "local": {
+    "TH": "ข้าวเหนียวมะม่วง"
    }
   },
   "카오소이": {
@@ -5397,6 +6294,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Khao_soi_nuea_Fueng_Fah.jpg"
+   },
+   "local": {
+    "TH": "ข้าวซอย"
    }
   },
   "사이우아": {
@@ -5411,6 +6311,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lao_Sai_Oua.png"
+   },
+   "local": {
+    "TH": "ไส้อั่ว"
    }
   },
   "깽항레": {
@@ -5424,9 +6327,16 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AE%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%A5_%E0%B8%97%E0%B8%B5%E0%B9%88_%E0%B8%AB%E0%B8%A5%E0%B8%B9%E0%B9%89%E0%B8%A5%E0%B8%B3.jpg"
+   },
+   "local": {
+    "TH": "แกงฮังเล"
    }
   },
-  "뿌팟퐁커리": null,
+  "뿌팟퐁커리": {
+   "local": {
+    "TH": "ปูผัดผงกะหรี่"
+   }
+  },
   "해산물 바비큐": null,
   "미끄롭": {
    "en": "Mi krop",
@@ -5439,6 +6349,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Mee_krob_(%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A).jpg"
+   },
+   "local": {
+    "TH": "หมี่กรอบ"
    }
   },
   "미꽝": {
@@ -5452,6 +6365,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng,_Da_Nang,_Vietnam.jpg"
+   },
+   "local": {
+    "VN": "Mì Quảng"
    }
   },
   "반쎄오": {
@@ -5466,6 +6382,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Banh_Xeo,_Eden_Center.jpg"
+   },
+   "local": {
+    "VN": "Bánh xèo"
    }
   },
   "까오러우": {
@@ -5479,6 +6398,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Cao_l%E1%BA%A7u_H%E1%BB%99i_An_(2024).jpg"
+   },
+   "local": {
+    "VN": "Cao lầu"
    }
   },
   "분짜까": {
@@ -5493,6 +6415,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Bun_cha.jpg"
+   },
+   "local": {
+    "VN": "Bún chả cá"
    }
   },
   "반깐": {
@@ -5507,6 +6432,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Banh-Canh-Noodle-Soup.jpg"
+   },
+   "local": {
+    "VN": "Bánh căn"
    }
   },
   "분짜": {
@@ -5521,6 +6449,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Bun_cha.jpg"
+   },
+   "local": {
+    "VN": "Bún chả"
    }
   },
   "쌀국수(퍼)": {
@@ -5535,6 +6466,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_b%C3%B2_(39425047901).jpg"
+   },
+   "local": {
+    "VN": "Phở"
    }
   },
   "에그커피": {
@@ -5549,6 +6483,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Vietnamese_Egg_Coffee_(8704422450).jpg"
+   },
+   "local": {
+    "VN": "Cà phê trứng"
    }
   },
   "게살 쌀국수": {
@@ -5577,6 +6514,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Echinometra_mathaei_MHNT_Philippines.jpg"
+   },
+   "local": {
+    "VN": "Nhum nướng"
    }
   },
   "반짱느엉(베트남 피자)": {
@@ -5590,10 +6530,21 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%A1ng_n%C6%B0%E1%BB%9Bng_TP._H%E1%BB%93_Ch%C3%AD_Minh_-_street_food_in_Ho_Chi_Minh_City,_Vietnam.jpg"
+   },
+   "local": {
+    "VN": "Bánh tráng nướng"
    }
   },
-  "아보카도 아이스크림": null,
-  "아티초크 차": null,
+  "아보카도 아이스크림": {
+   "local": {
+    "VN": "Kem bơ"
+   }
+  },
+  "아티초크 차": {
+   "local": {
+    "VN": "Trà atisô"
+   }
+  },
   "반미": {
    "ko": "바인 미",
    "en": "Bánh mì",
@@ -5606,6 +6557,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Banh_mi_-_vietnamese_bread_-_(cut_out_from_flickr5607479129).jpg"
+   },
+   "local": {
+    "VN": "Bánh mì"
    }
   },
   "껌땀": {
@@ -5620,6 +6574,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_T%E1%BA%A5m,_Da_Nang,_Vietnam.jpg"
+   },
+   "local": {
+    "VN": "Cơm tấm"
    }
   },
   "쌀국수": {
@@ -5634,6 +6591,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_b%C3%B2_(39425047901).jpg"
+   },
+   "local": {
+    "VN": "Phở"
    }
   },
   "레촌": {
@@ -5954,6 +6914,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kaeng_som-marum63.JPG"
+   },
+   "local": {
+    "TH": "แกงส้ม"
    }
   },
   "오람(라오식 고기 스튜)": {
@@ -6051,6 +7014,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_(2024)_-_img_02.jpg"
+   },
+   "local": {
+    "VN": "Bún bò Huế"
    }
   },
   "반코아이(후에식 바삭한 전병)": {
@@ -6065,6 +7031,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Banh_Xeo,_Eden_Center.jpg"
+   },
+   "local": {
+    "VN": "Bánh khoái"
    }
   },
   "껌헨(재첩 비빔밥)": {
@@ -6078,6 +7047,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:H%E1%BA%BFn_tr%E1%BB%99n.jpg"
+   },
+   "local": {
+    "VN": "Cơm hến"
    }
   },
   "구덱(잭프루트 조림)": {
@@ -6148,6 +7120,147 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kinilaw_of_Northern_Mindanao.jpg"
+   }
+  },
+  "사파 연어 핫팟": {
+   "local": {
+    "VN": "Lẩu cá hồi"
+   }
+  },
+  "껌람(대나무통 밥)": {
+   "en": "Sticky rice in bamboo",
+   "image": {
+    "file": "File:Paung din.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Paung_din.JPG/330px-Paung_din.JPG",
+    "width": 330,
+    "height": 248,
+    "artist": "Wagaung at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paung_din.JPG"
+   },
+   "local": {
+    "VN": "Cơm lam"
+   }
+  },
+  "닌빈 염소 고기 요리": {
+   "ko": "염소고기",
+   "en": "Goat meat",
+   "image": {
+    "file": "File:Goat Meat 5983.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Goat_Meat_5983.JPG/330px-Goat_Meat_5983.JPG",
+    "width": 330,
+    "height": 219,
+    "artist": "Biswarup Ganguly",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goat_Meat_5983.JPG"
+   },
+   "local": {
+    "VN": "Thịt dê núi"
+   }
+  },
+  "껌짜이(바삭한 누룽지)": {
+   "local": {
+    "VN": "Cơm cháy"
+   }
+  },
+  "시시그": {
+   "ko": "시시그",
+   "en": "Sisig",
+   "image": {
+    "file": "File:Sisig wikipedia.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Sisig_wikipedia.jpg/330px-Sisig_wikipedia.jpg",
+    "width": 330,
+    "height": 225,
+    "artist": "Prime Pacific",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sisig_wikipedia.jpg"
+   }
+  },
+  "할로할로": {
+   "ko": "할로할로",
+   "en": "Halo-halo",
+   "image": {
+    "file": "File:Halo halo1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Halo_halo1.jpg/330px-Halo_halo1.jpg",
+    "width": 330,
+    "height": 256,
+    "artist": "bingbing from Quezon City, Philippines",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Halo_halo1.jpg"
+   }
+  },
+  "아도보": {
+   "ko": "아도보 (필리핀 음식)",
+   "en": "Adobo (Filipino dish)",
+   "image": {
+    "file": "File:Chicken adobo.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Chicken_adobo.jpg/330px-Chicken_adobo.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "dbgg1979 on flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_adobo.jpg"
+   }
+  },
+  "오탁오탁(생선 어묵 구이)": {
+   "ko": "오탁오탁",
+   "en": "Otak-otak",
+   "image": {
+    "file": "File:Otak2 open.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Otak2_open.JPG/330px-Otak2_open.JPG",
+    "width": 330,
+    "height": 220,
+    "artist": "Lord Mountbatten",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Otak2_open.JPG"
+   }
+  },
+  "니오냐 요리": {
+   "ko": "페라나칸 요리",
+   "en": "Peranakan cuisine",
+   "image": {
+    "file": "File:Buahkeluak.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Buahkeluak.JPG/330px-Buahkeluak.JPG",
+    "width": 330,
+    "height": 248,
+    "artist": "Chensiyuan at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Buahkeluak.JPG"
+   }
+  },
+  "치킨라이스 볼": {
+   "ko": "하이난 치킨라이스",
+   "en": "Hainanese chicken rice",
+   "image": {
+    "file": "File:Hainanese Chicken Rice.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hainanese_Chicken_Rice.jpg/330px-Hainanese_Chicken_Rice.jpg",
+    "width": 330,
+    "height": 206,
+    "artist": "No machine-readable author provided. Terence assumed (based on copyright claims…",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_Rice.jpg"
+   }
+  },
+  "아얌 탈리왕(매운 닭구이)": {
+   "ko": "아얌 탈리왕",
+   "en": "Ayam Taliwang",
+   "image": {
+    "file": "File:Ayam bakar khas Taliwang 2.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ayam_bakar_khas_Taliwang_2.JPG/330px-Ayam_bakar_khas_Taliwang_2.JPG",
+    "width": 330,
+    "height": 248,
+    "artist": "Midori",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayam_bakar_khas_Taliwang_2.JPG"
    }
   },
   "차모로 바비큐": null,
@@ -6524,6 +7637,61 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sadhya_DSW.jpg"
+   }
+  },
+  "버터 치킨": {
+   "ko": "무르그 마카니",
+   "en": "Butter chicken",
+   "image": {
+    "file": "File:Chicken makhani.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/330px-Chicken_makhani.jpg",
+    "width": 330,
+    "height": 219,
+    "artist": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg"
+   }
+  },
+  "탄두리 치킨": {
+   "ko": "탄두리 치킨",
+   "en": "Tandoori chicken",
+   "image": {
+    "file": "File:Chickentandoori.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Chickentandoori.jpg/330px-Chickentandoori.jpg",
+    "width": 330,
+    "height": 440,
+    "artist": "kspoddar",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chickentandoori.jpg"
+   }
+  },
+  "라씨": {
+   "ko": "라시 (음료)",
+   "en": "Lassi",
+   "image": {
+    "file": "File:Fatfreelassi.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Fatfreelassi.jpg/330px-Fatfreelassi.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "Swami Stream",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fatfreelassi.jpg"
+   }
+  },
+  "달 바티 추르마": {
+   "en": "Dal bati",
+   "image": {
+    "file": "File:DalBati.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/DalBati.jpg/330px-DalBati.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Niranjan.gohane",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DalBati.jpg"
    }
   },
   "크루아상과 바게트": {
@@ -9279,6 +10447,107 @@
     "page": "https://commons.wikimedia.org/wiki/File:Pan_armenio_en_el_mercado_de_Yerevan.JPG"
    }
   },
+  "취겔리파스테테(루체른식 고기 파이)": null,
+  "수플레 오믈렛": {
+   "ko": "오믈렛",
+   "en": "Omelette",
+   "image": {
+    "file": "File:FoodOmelete.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/FoodOmelete.jpg/330px-FoodOmelete.jpg",
+    "width": 330,
+    "height": 312,
+    "artist": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:FoodOmelete.jpg"
+   }
+  },
+  "갈레트와 시드르": {
+   "ko": "갈레트",
+   "en": "Galette",
+   "image": {
+    "file": "File:Galette des Rois.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Galette_des_Rois.png/330px-Galette_des_Rois.png",
+    "width": 330,
+    "height": 244,
+    "artist": "Gorrk",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_des_Rois.png"
+   }
+  },
+  "프레 살레 양고기": {
+   "ko": "양고기",
+   "en": "Lamb and mutton",
+   "image": {
+    "file": "File:Schafhälfte.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Schafh%C3%A4lfte.jpg/330px-Schafh%C3%A4lfte.jpg",
+    "width": 330,
+    "height": 440,
+    "artist": "Jens Jäpel",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Schafh%C3%A4lfte.jpg"
+   }
+  },
+  "코파니스티 치즈": {
+   "en": "Kopanisti",
+   "image": {
+    "file": "File:Κοπανιστή 2844.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%CE%9A%CE%BF%CF%80%CE%B1%CE%BD%CE%B9%CF%83%CF%84%CE%AE_2844.jpg/330px-%CE%9A%CE%BF%CF%80%CE%B1%CE%BD%CE%B9%CF%83%CF%84%CE%AE_2844.jpg",
+    "width": 330,
+    "height": 253,
+    "artist": "C messier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%9A%CE%BF%CF%80%CE%B1%CE%BD%CE%B9%CF%83%CF%84%CE%AE_2844.jpg"
+   }
+  },
+  "폰치키(폴란드 도넛)": {
+   "ko": "파치키",
+   "en": "Pączki"
+  },
+  "슈트루클리(치즈 페이스트리)": {
+   "en": "Zagorski štrukli",
+   "image": {
+    "file": "File:Štrukli iz Okrugljaka.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%C5%A0trukli_iz_Okrugljaka.jpg/330px-%C5%A0trukli_iz_Okrugljaka.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Bonč",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C5%A0trukli_iz_Okrugljaka.jpg"
+   }
+  },
+  "쾰슈 맥주": {
+   "ko": "쾰슈",
+   "en": "Kölsch (beer)",
+   "image": {
+    "file": "File:Kranz Koelsch.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Kranz_Koelsch.jpg/330px-Kranz_Koelsch.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Tim 'Avatar' Bartel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kranz_Koelsch.jpg"
+   }
+  },
+  "트라베세이루(신트라 페이스트리)": {
+   "en": "Travesseiro",
+   "image": {
+    "file": "File:RioGrandedoSul Municip Travesseiro.svg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/RioGrandedoSul_Municip_Travesseiro.svg/330px-RioGrandedoSul_Municip_Travesseiro.svg.png",
+    "width": 330,
+    "height": 285,
+    "artist": "Raphael Lorenzeto de Abreu",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:RioGrandedoSul_Municip_Travesseiro.svg"
+   }
+  },
+  "케이자다(치즈 타르트)": null,
   "뉴욕 피자": {
    "ko": "뉴욕 피자",
    "en": "New York–style pizza",
@@ -10117,6 +11386,48 @@
     "page": "https://commons.wikimedia.org/wiki/File:Rock-oyster.jpg"
    }
   },
+  "피시 타코": {
+   "ko": "타코",
+   "en": "Taco",
+   "image": {
+    "file": "File:001 Tacos de carnitas, carne asada y al pastor.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/330px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Larry Miller",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg"
+   }
+  },
+  "캘리포니아 부리토": {
+   "ko": "부리토",
+   "en": "Burrito",
+   "image": {
+    "file": "File:Burrito with rice.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Burrito_with_rice.jpg/330px-Burrito_with_rice.jpg",
+    "width": 330,
+    "height": 219,
+    "artist": "Lauren Topor from Phoenix",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Burrito_with_rice.jpg"
+   }
+  },
+  "코나 커피": {
+   "ko": "코나 커피",
+   "en": "Kona coffee",
+   "image": {
+    "file": "File:Kona Coffee fruits(2).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Kona_Coffee_fruits%282%29.jpg/330px-Kona_Coffee_fruits%282%29.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "Ekrem Canli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kona_Coffee_fruits(2).jpg"
+   }
+  },
   "세비체": {
    "ko": "세비체",
    "en": "Ceviche",
@@ -10460,20 +11771,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Panucho3.jpg"
-   }
-  },
-  "피시 타코": {
-   "ko": "타코",
-   "en": "Taco",
-   "image": {
-    "file": "File:001 Tacos de carnitas, carne asada y al pastor.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/330px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
-    "width": 330,
-    "height": 248,
-    "artist": "Larry Miller",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg"
    }
   },
   "다미아나 리큐어": {
@@ -11379,6 +12676,20 @@
    }
   },
   "누메아 해산물": null,
+  "항이(마오리 지열 찜)": {
+   "ko": "항이",
+   "en": "Hāngī",
+   "image": {
+    "file": "File:Hangi prepare.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hangi_prepare.jpg/330px-Hangi_prepare.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Einalem",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hangi_prepare.jpg"
+   }
+  },
   "샤와르마": {
    "ko": "샤와르마",
    "en": "Shawarma",
