@@ -1,7 +1,7 @@
 {
- "publishedAt": "2026-11-04T06:57:59+09:00",
+ "publishedAt": "2026-11-04T12:25:24+09:00",
  "schemaVersion": 1,
- "sequence": 8,
+ "sequence": 9,
  "sets": {
   "photos": {
    "bytes": 69335978,
@@ -13,13 +13,13 @@
    "size": 152246
   },
   "stickers": {
-   "bytes": 126386059,
-   "count": 360,
+   "bytes": 133537931,
+   "count": 384,
    "dataAsOf": "2026-11-04",
-   "index": "../../../stickers/v1/index.a6f0a30d.json",
+   "index": "../../../stickers/v1/index.d0344f5b.json",
    "schema": 1,
-   "sha256": "a6f0a30d862dfaf36649d184f5d85bbabe0fe3bccfa97b1169ad320584325fc1",
-   "size": 62913
+   "sha256": "d0344f5b9a781592cb6b65a899b0d1b132c8fb03446a251c4ddcc378a9955a06",
+   "size": 67181
   }
  }
 }
