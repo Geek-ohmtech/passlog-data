@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 55,
+ "lastSequence": 56,
  "files": {
   "advisories.09a56e02.json": {
    "dataset": "advisories",
@@ -94,25 +94,43 @@
    "sha256": "69b6633176d60de14db3986bff596306eda6a491f3d6bcd738249965b995278e",
    "firstPublished": "2026-10-20T11:02:22+09:00"
   },
+  "destination-climate.7e49876b.json": {
+   "dataset": "destination-climate",
+   "sha256": "7e49876b01f13ed20c3b0699b2f0d1c55155a33b8602d532b4bc94f347116883",
+   "firstPublished": "2026-11-04T15:47:59+09:00"
+  },
   "destination-climate.cdaabb29.json": {
    "dataset": "destination-climate",
    "sha256": "cdaabb297f81dbebbed10dbbd2c285919c8358c4bea30d9262737d77f8a51934",
-   "firstPublished": "2026-10-20T21:59:33+09:00"
+   "firstPublished": "2026-10-20T21:59:33+09:00",
+   "unreferencedSince": "2026-11-04T15:47:59+09:00"
   },
   "destinations.65c8f77f.json": {
    "dataset": "destinations",
    "sha256": "65c8f77fdb241c0c4e3fcc3d20a981f8a14bd36c886cebea0c6ca030bbc8336c",
-   "firstPublished": "2026-10-20T21:59:33+09:00"
+   "firstPublished": "2026-10-20T21:59:33+09:00",
+   "unreferencedSince": "2026-11-04T15:47:59+09:00"
+  },
+  "destinations.d4d72746.json": {
+   "dataset": "destinations",
+   "sha256": "d4d7274663acaae85d0a169ef45d441f45790b2bd9b65f52407b8abe6c13e4e8",
+   "firstPublished": "2026-11-04T15:47:59+09:00"
   },
   "dining-links.3040dc17.json": {
    "dataset": "dining-links",
    "sha256": "3040dc1786baf650a66ac2777dea822ba0b04952948bc2eae4a986ca0c9c0879",
    "firstPublished": "2026-10-20T21:59:33+09:00"
   },
+  "dish-wiki.8bdc29e9.json": {
+   "dataset": "dish-wiki",
+   "sha256": "8bdc29e976548f474d317d314c0e349f23b55b3806c44c97f6c42317aaa23d46",
+   "firstPublished": "2026-11-04T15:47:59+09:00"
+  },
   "dish-wiki.d7cae393.json": {
    "dataset": "dish-wiki",
    "sha256": "d7cae39336307bc90f543bc98cadcaf3b21d219322bb6951533cb4518f581149",
-   "firstPublished": "2026-10-20T21:59:33+09:00"
+   "firstPublished": "2026-10-20T21:59:33+09:00",
+   "unreferencedSince": "2026-11-04T15:47:59+09:00"
   },
   "entry.1d7d97b0.json": {
    "dataset": "entry",

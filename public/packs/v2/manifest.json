@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "sequence": 55,
- "packVersion": "2026.11.04-1513",
- "publishedAt": "2026-11-04T15:13:57+09:00",
+ "sequence": 56,
+ "packVersion": "2026.11.04-1547",
+ "publishedAt": "2026-11-04T15:47:59+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
@@ -113,11 +113,11 @@
    "staleAfterHours": 4320
   },
   "destination-climate": {
-   "path": "destination-climate.cdaabb29.json",
-   "sha256": "cdaabb297f81dbebbed10dbbd2c285919c8358c4bea30d9262737d77f8a51934",
-   "size": 62514,
+   "path": "destination-climate.7e49876b.json",
+   "sha256": "7e49876b01f13ed20c3b0699b2f0d1c55155a33b8602d532b4bc94f347116883",
+   "size": 69858,
    "schema": 1,
-   "dataAsOf": "2026-10-20T21:59:33+09:00",
+   "dataAsOf": "2026-11-04T15:47:59+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320
   },
@@ -131,11 +131,11 @@
    "staleAfterHours": 4320
   },
   "dish-wiki": {
-   "path": "dish-wiki.d7cae393.json",
-   "sha256": "d7cae39336307bc90f543bc98cadcaf3b21d219322bb6951533cb4518f581149",
-   "size": 454282,
+   "path": "dish-wiki.8bdc29e9.json",
+   "sha256": "8bdc29e976548f474d317d314c0e349f23b55b3806c44c97f6c42317aaa23d46",
+   "size": 486362,
    "schema": 1,
-   "dataAsOf": "2026-10-20T21:59:33+09:00",
+   "dataAsOf": "2026-11-04T15:47:59+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320,
    "large": true
@@ -188,13 +188,14 @@
    "large": true
   },
   "destinations": {
-   "path": "destinations.65c8f77f.json",
-   "sha256": "65c8f77fdb241c0c4e3fcc3d20a981f8a14bd36c886cebea0c6ca030bbc8336c",
-   "size": 752367,
+   "path": "destinations.d4d72746.json",
+   "sha256": "d4d7274663acaae85d0a169ef45d441f45790b2bd9b65f52407b8abe6c13e4e8",
+   "size": 846282,
    "schema": 1,
-   "dataAsOf": "2026-10-20T21:59:33+09:00",
+   "dataAsOf": "2026-11-04T15:47:59+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320,
+   "minAppVersion": "1.1",
    "large": true
   }
  },
