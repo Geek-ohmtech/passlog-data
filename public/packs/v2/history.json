@@ -38,12 +38,6 @@
    "firstPublished": "2026-11-06T04:55:06+09:00",
    "unreferencedSince": "2026-11-07T04:22:00+09:00"
   },
-  "advisories.632ea4fd.json": {
-   "dataset": "advisories",
-   "sha256": "632ea4fdbe0a12ca3acd84bd40098fddf5c567b1af49c6e97a05ce562b3cd874",
-   "firstPublished": "2026-10-31T14:36:55+09:00",
-   "unreferencedSince": "2026-11-01T06:30:32+09:00"
-  },
   "advisories.71697350.json": {
    "dataset": "advisories",
    "sha256": "71697350e901e9b3c4671b6f692e1ca378788da796f4d1d0eb3bdca487910d4f",
@@ -142,12 +136,6 @@
    "sha256": "1d7d97b0d8aae1e602191481cafd628877f3e91ee954ab8b211157270d22bef1",
    "firstPublished": "2026-11-04T08:19:30+09:00",
    "unreferencedSince": "2026-11-07T14:54:44+09:00"
-  },
-  "entry.d18fb64f.json": {
-   "dataset": "entry",
-   "sha256": "d18fb64f6649cecd1b5664d834fed0f4aebc9a8f22b4113e0725456dc3294fd8",
-   "firstPublished": "2026-10-28T21:49:41+09:00",
-   "unreferencedSince": "2026-11-01T06:30:32+09:00"
   },
   "entry.d632e3a7.json": {
    "dataset": "entry",
