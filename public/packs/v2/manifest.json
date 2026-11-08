@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "sequence": 68,
- "packVersion": "2026.11.07-2156",
- "publishedAt": "2026-11-07T21:56:50+09:00",
+ "sequence": 69,
+ "packVersion": "2026.11.08-0955",
+ "publishedAt": "2026-11-08T09:55:58+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
@@ -50,11 +50,11 @@
    "ttlHours": 168.0
   },
   "kr-festivals": {
-   "path": "kr-festivals.873c0f88.json",
-   "sha256": "873c0f887b8faf051a266f56b9ddb13fa6e4452520bfc6716c5c52b0b777973c",
-   "size": 32328,
+   "path": "kr-festivals.a17e98b7.json",
+   "sha256": "a17e98b70a6898b43b950454853400af8f5e8ea59b9e6aec1c0803ff43fcbadb",
+   "size": 29571,
    "schema": 1,
-   "dataAsOf": "2026-11-07T10:23:22+09:00",
+   "dataAsOf": "2026-11-08T09:56:06+09:00",
    "ttlHours": 24,
    "staleAfterHours": 168.0
   },
