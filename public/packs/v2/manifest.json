@@ -1,17 +1,17 @@
 {
  "schemaVersion": 2,
- "sequence": 73,
- "packVersion": "2026.11.09-1858",
- "publishedAt": "2026-11-09T18:58:48+09:00",
+ "sequence": 74,
+ "packVersion": "2026.11.10-0718",
+ "publishedAt": "2026-11-10T07:18:41+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
   "advisories": {
-   "path": "advisories.332103b6.json",
-   "sha256": "332103b678eb95d7311ebb2ea7c52f17196f99b63f6fb357d8f4cb037b01e781",
+   "path": "advisories.1708c89d.json",
+   "sha256": "1708c89d5fb4ee6ae32edaefe0753eda5d7eb3bb881f73efc681ce88813ce9ad",
    "size": 225972,
    "schema": 1,
-   "dataAsOf": "2026-11-09T07:00:22+09:00",
+   "dataAsOf": "2026-11-10T07:18:44+09:00",
    "ttlHours": 3,
    "staleAfterHours": 48
   },

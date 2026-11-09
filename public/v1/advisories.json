@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-09T07:00:22+09:00",
+ "asOf": "2026-11-10T07:18:44+09:00",
  "countries": {
   "AD": {
    "banned": false,
@@ -107,18 +107,18 @@
   },
   "AL": {
    "banned": false,
-   "baselineRank": 1.0,
+   "baselineRank": 2.0,
    "baselineSpecial": false,
    "confidence": "high",
-   "level": 1,
-   "maxLevel": 1,
+   "level": 2,
+   "maxLevel": 2,
    "mofaContinent": "유럽",
-   "mofaHistSeq": 0,
+   "mofaHistSeq": 1,
    "mofaNtnCd": "300",
    "mofaRaw": {
-    "1": "전 지역"
+    "2": "전 지역"
    },
-   "mofaRecordUpdated": "2025-05-22",
+   "mofaRecordUpdated": "2026-11-09",
    "nameEn": "Albania",
    "nameKo": "알바니아",
    "regions": [],
@@ -126,7 +126,7 @@
     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert"
    ],
    "special": false,
-   "summaryKo": "1단계 여행유의"
+   "summaryKo": "2단계 여행자제"
   },
   "AM": {
    "banned": "partial",
@@ -10935,7 +10935,7 @@
   "RE": "FR",
   "VI": "US"
  },
- "rawSnapshotSha256": "529cdad8aaa88f2a874828ddef940e196d9f5d749a6dce10b50f01b38057bba3",
+ "rawSnapshotSha256": "aac7fc717db9ff59c3954a34aa832ab75e730350b88c62ab869d1a64d2836009",
  "restrictions": {
   "reviewedAt": "2026-10-20",
   "special": {
