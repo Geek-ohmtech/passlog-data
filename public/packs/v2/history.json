@@ -50,12 +50,6 @@
    "firstPublished": "2026-11-05T15:41:31+09:00",
    "unreferencedSince": "2026-11-06T04:55:06+09:00"
   },
-  "advisories.8066291d.json": {
-   "dataset": "advisories",
-   "sha256": "8066291d75c339f956c5ac5df8eef4c07fd75539055e8b51cbf83eaaa65fbc46",
-   "firstPublished": "2026-11-04T15:13:57+09:00",
-   "unreferencedSince": "2026-11-04T23:31:46+09:00"
-  },
   "advisories.8dc82157.json": {
    "dataset": "advisories",
    "sha256": "8dc821579aede886094f26ebc8c3145ba34b734e2135f9e749e987eb89f84899",
