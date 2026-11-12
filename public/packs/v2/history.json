@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 82,
+ "lastSequence": 83,
  "files": {
   "advisories.01deeae4.json": {
    "dataset": "advisories",
@@ -55,12 +55,6 @@
    "sha256": "8dc821579aede886094f26ebc8c3145ba34b734e2135f9e749e987eb89f84899",
    "firstPublished": "2026-11-08T14:57:06+09:00",
    "unreferencedSince": "2026-11-09T07:00:19+09:00"
-  },
-  "advisories.9affda5b.json": {
-   "dataset": "advisories",
-   "sha256": "9affda5be2dc1651b8c8e713e09d19092cab140b93c3632f92d87c3c2bd01f1c",
-   "firstPublished": "2026-11-04T23:31:46+09:00",
-   "unreferencedSince": "2026-11-05T15:41:31+09:00"
   },
   "airports.99b1551a.json": {
    "dataset": "airports",
@@ -282,7 +276,8 @@
   "rates.4e65fc54.json": {
    "dataset": "rates",
    "sha256": "4e65fc547cf767ed1f772318457710965ca2106d3b484c8eee3ca9aba389a75d",
-   "firstPublished": "2026-11-11T18:40:23+09:00"
+   "firstPublished": "2026-11-11T18:40:23+09:00",
+   "unreferencedSince": "2026-11-12T18:59:26+09:00"
   },
   "rates.8dab4570.json": {
    "dataset": "rates",
@@ -290,11 +285,10 @@
    "firstPublished": "2026-11-09T18:58:48+09:00",
    "unreferencedSince": "2026-11-10T19:08:28+09:00"
   },
-  "rates.b5b7aeca.json": {
+  "rates.afa3f462.json": {
    "dataset": "rates",
-   "sha256": "b5b7aecac685a1d258e353595ab7f7766226e47347f528e3843776a2a4c7a268",
-   "firstPublished": "2026-11-04T18:33:08+09:00",
-   "unreferencedSince": "2026-11-05T18:41:08+09:00"
+   "sha256": "afa3f4625ce598e2d22e82ad79e2a753ed00725b66895b004a38628bfce810c5",
+   "firstPublished": "2026-11-12T18:59:26+09:00"
   },
   "rates.bf2e7269.json": {
    "dataset": "rates",
