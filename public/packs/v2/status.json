@@ -1,11 +1,12 @@
 {
  "schemaVersion": 1,
- "checkedAt": "2026-11-13T18:47:37+09:00",
+ "checkedAt": "2026-11-14T04:38:30+09:00",
  "event": "schedule",
- "schedule": "25 2,5 * * 1-5",
+ "schedule": "17 */6 * * *",
  "offline": false,
  "selected": [
-  "rates",
+  "advisories",
+  "entry",
   "travel-guide",
   "airline-baggage",
   "checklist-rules",
@@ -21,19 +22,20 @@
   "airports",
   "destinations"
  ],
- "sequence": 87,
- "publishedAt": "2026-11-13T18:47:37+09:00",
+ "sequence": 88,
+ "publishedAt": "2026-11-14T04:38:30+09:00",
  "datasets": {
   "advisories": {
    "state": "updated",
-   "lastSuccessAt": "2026-11-13T15:39:49+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
-   "dataAsOf": "2026-11-13T15:39:53+09:00"
+   "dataAsOf": "2026-11-14T04:38:34+09:00"
   },
   "entry": {
-   "state": "unchanged",
+   "state": "failed",
+   "message": "RuntimeError: 입국허가요건: 결과 없음",
    "lastSuccessAt": "2026-11-13T15:39:49+09:00",
-   "consecutiveFailures": 0,
+   "consecutiveFailures": 1,
    "dataAsOf": "2026-11-13T00:08:55+09:00"
   },
   "rates": {
@@ -59,43 +61,43 @@
    "warnings": [
     "번들 사진이 1.1 부터 있어 minAppVersion=1.1"
    ],
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-11-04T15:47:59+09:00"
   },
   "countries": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-rules": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "checklist-template": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "kr-places": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "travel-phrases": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "local-apps": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
@@ -107,31 +109,31 @@
   },
   "dining-links": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T21:59:33+09:00"
   },
   "airports": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "dish-wiki": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-11-04T15:47:59+09:00"
   },
   "taste-survey": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-10-20T11:02:22+09:00"
   },
   "destination-climate": {
    "state": "unchanged",
-   "lastSuccessAt": "2026-11-13T18:47:37+09:00",
+   "lastSuccessAt": "2026-11-14T04:38:30+09:00",
    "consecutiveFailures": 0,
    "dataAsOf": "2026-11-04T15:47:59+09:00"
   },
