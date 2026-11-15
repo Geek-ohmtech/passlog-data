@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 92,
+ "lastSequence": 93,
  "files": {
   "advisories.01deeae4.json": {
    "dataset": "advisories",
@@ -48,7 +48,8 @@
   "advisories.86055cab.json": {
    "dataset": "advisories",
    "sha256": "86055cab61cc42147bec1a48899ccb9e52701433cb8b4aa3d5396a1c03d9618f",
-   "firstPublished": "2026-11-15T15:24:01+09:00"
+   "firstPublished": "2026-11-15T15:24:01+09:00",
+   "unreferencedSince": "2026-11-16T03:49:15+09:00"
   },
   "advisories.8a998aa7.json": {
    "dataset": "advisories",
@@ -61,6 +62,11 @@
    "sha256": "8dc821579aede886094f26ebc8c3145ba34b734e2135f9e749e987eb89f84899",
    "firstPublished": "2026-11-08T14:57:06+09:00",
    "unreferencedSince": "2026-11-09T07:00:19+09:00"
+  },
+  "advisories.d6b58cad.json": {
+   "dataset": "advisories",
+   "sha256": "d6b58cadc588afadc3370bd997a277421a240f04ac34c75efdc0049de702951a",
+   "firstPublished": "2026-11-16T03:49:15+09:00"
   },
   "airports.99b1551a.json": {
    "dataset": "airports",
