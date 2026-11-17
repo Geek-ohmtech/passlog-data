@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-17T05:58:01+09:00",
+ "asOf": "2026-11-18T05:52:52+09:00",
  "countries": {
   "AD": {
    "banned": false,
@@ -2250,14 +2250,14 @@
    "level": 1,
    "maxLevel": 2,
    "mofaContinent": "동남아시아",
-   "mofaHistSeq": 4,
+   "mofaHistSeq": 5,
    "mofaNtnCd": "181",
    "mofaRaw": {
-    "1": "특별여행주의보 및 2단계 지정 지역을 제외한 지역",
+    "1": "2단계 지정 지역을 제외한 지역",
     "2": "서파푸아, 파푸아, 말루쿠, 아체",
-    "special": "중앙칼리만탄"
+    "special": ""
    },
-   "mofaRecordUpdated": "2026-10-23",
+   "mofaRecordUpdated": "2026-11-17",
    "nameEn": "Indonesia",
    "nameKo": "인도네시아",
    "regions": [
@@ -2336,7 +2336,7 @@
     {
      "level": null,
      "nameEn": null,
-     "nameKo": "중앙칼리만탄",
+     "nameKo": "(지역 미기재)",
      "note": null,
      "rank": 2.5,
      "since": null,
@@ -6840,7 +6840,7 @@
    "needsReview": true,
    "rank": 1.0,
    "regionRefs": [
-    "중앙칼리만탄"
+    "(지역 미기재)"
    ],
    "since": null,
    "special": false
@@ -6982,7 +6982,7 @@
    "needsReview": true,
    "rank": 1.0,
    "regionRefs": [
-    "중앙칼리만탄"
+    "(지역 미기재)"
    ],
    "since": null,
    "special": false
@@ -8624,7 +8624,7 @@
    "needsReview": true,
    "rank": 1.0,
    "regionRefs": [
-    "중앙칼리만탄"
+    "(지역 미기재)"
    ],
    "since": null,
    "special": false
@@ -8724,7 +8724,7 @@
    "needsReview": true,
    "rank": 1.0,
    "regionRefs": [
-    "중앙칼리만탄"
+    "(지역 미기재)"
    ],
    "since": null,
    "special": false
@@ -10826,7 +10826,7 @@
    "needsReview": true,
    "rank": 1.0,
    "regionRefs": [
-    "중앙칼리만탄"
+    "(지역 미기재)"
    ],
    "since": null,
    "special": false
@@ -10935,7 +10935,7 @@
   "RE": "FR",
   "VI": "US"
  },
- "rawSnapshotSha256": "aac7fc717db9ff59c3954a34aa832ab75e730350b88c62ab869d1a64d2836009",
+ "rawSnapshotSha256": "1dad9d0c5bc863c3c0af7d8eab2dd6dbcfc3e8622fdf4ad8f83497a7f88de96b",
  "restrictions": {
   "reviewedAt": "2026-10-20",
   "special": {
