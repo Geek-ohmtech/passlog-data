@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 102,
+ "lastSequence": 103,
  "files": {
   "advisories.0a21884a.json": {
    "dataset": "advisories",
@@ -129,17 +129,16 @@
    "sha256": "2abebb0c3a64609d3ce6bb7640e017d0d2aed9f7e6990de3ad01ef860c7804fe",
    "firstPublished": "2026-10-26T06:13:59+09:00"
   },
-  "kr-attractions.05da94cc.json": {
-   "dataset": "kr-attractions",
-   "sha256": "05da94ccf0f004039739f83ed932c792804478c3c320a13dbeba245ea202e867",
-   "firstPublished": "2026-11-11T10:29:51+09:00",
-   "unreferencedSince": "2026-11-12T11:33:30+09:00"
-  },
   "kr-attractions.0ccd7b8a.json": {
    "dataset": "kr-attractions",
    "sha256": "0ccd7b8aec7a8800e044d9aec02fcbb319618ac8028840b069e0a589a42fc23f",
    "firstPublished": "2026-11-16T08:10:17+09:00",
    "unreferencedSince": "2026-11-17T05:57:57+09:00"
+  },
+  "kr-attractions.1313fc52.json": {
+   "dataset": "kr-attractions",
+   "sha256": "1313fc524dcd1ec5452ffee3bc5e5071bda1477174ef90ce8e75b85f72f648b4",
+   "firstPublished": "2026-11-19T11:51:07+09:00"
   },
   "kr-attractions.30b4bd0a.json": {
    "dataset": "kr-attractions",
@@ -162,7 +161,8 @@
   "kr-attractions.9f560380.json": {
    "dataset": "kr-attractions",
    "sha256": "9f56038076e5d7699123cb734e091464a77799641915a1fabeb46ea9c026f0df",
-   "firstPublished": "2026-11-18T12:10:26+09:00"
+   "firstPublished": "2026-11-18T12:10:26+09:00",
+   "unreferencedSince": "2026-11-19T11:51:07+09:00"
   },
   "kr-attractions.b6f907d4.json": {
    "dataset": "kr-attractions",
@@ -175,6 +175,11 @@
    "sha256": "d62633f4275a3f03ce97966f930ee117b950c1c033588fcefad28bcf675260fb",
    "firstPublished": "2026-11-13T11:10:34+09:00",
    "unreferencedSince": "2026-11-14T10:52:29+09:00"
+  },
+  "kr-festivals.12f52847.json": {
+   "dataset": "kr-festivals",
+   "sha256": "12f5284786ebe73c62be626151464dc5945abd188265acc026105419dcea4274",
+   "firstPublished": "2026-11-19T11:51:07+09:00"
   },
   "kr-festivals.1d0c0a02.json": {
    "dataset": "kr-festivals",
@@ -203,7 +208,8 @@
   "kr-festivals.45fbdb29.json": {
    "dataset": "kr-festivals",
    "sha256": "45fbdb2915292543a9f613269d5692da92a3a07dd60a8442131581b2c985e9db",
-   "firstPublished": "2026-11-18T12:10:26+09:00"
+   "firstPublished": "2026-11-18T12:10:26+09:00",
+   "unreferencedSince": "2026-11-19T11:51:07+09:00"
   },
   "kr-festivals.4b4940c8.json": {
    "dataset": "kr-festivals",
@@ -223,12 +229,6 @@
    "firstPublished": "2026-11-17T13:12:33+09:00",
    "unreferencedSince": "2026-11-18T12:10:26+09:00"
   },
-  "kr-festivals.666dab80.json": {
-   "dataset": "kr-festivals",
-   "sha256": "666dab8067527396196ae6ea60ab8abebe803d5e303c53b85fcde4e14da9e924",
-   "firstPublished": "2026-11-11T10:29:51+09:00",
-   "unreferencedSince": "2026-11-12T11:33:30+09:00"
-  },
   "kr-places.492fe51d.json": {
    "dataset": "kr-places",
    "sha256": "492fe51d21d4cd9bf524a6ca6a25c03f859e6315738c3a11832125e7b0a11dbb",
@@ -239,12 +239,6 @@
    "sha256": "117e3e7c3d0ee7926156db6e32d9f9c6acb500aa47a626542119a210905e4fd0",
    "firstPublished": "2026-11-16T08:10:17+09:00",
    "unreferencedSince": "2026-11-17T05:57:57+09:00"
-  },
-  "kr-restaurants.16f281c4.json": {
-   "dataset": "kr-restaurants",
-   "sha256": "16f281c487a8eff2c1a470428cddea83f8f3fafbcb7e89d826f8733af1dd9f4b",
-   "firstPublished": "2026-11-11T10:29:51+09:00",
-   "unreferencedSince": "2026-11-12T11:33:30+09:00"
   },
   "kr-restaurants.2ef64c3f.json": {
    "dataset": "kr-restaurants",
@@ -261,7 +255,13 @@
   "kr-restaurants.67517716.json": {
    "dataset": "kr-restaurants",
    "sha256": "67517716b692e3391c036826d44bba17304c6ed897538da5891d551ad0a33473",
-   "firstPublished": "2026-11-18T12:10:26+09:00"
+   "firstPublished": "2026-11-18T12:10:26+09:00",
+   "unreferencedSince": "2026-11-19T11:51:07+09:00"
+  },
+  "kr-restaurants.73832c03.json": {
+   "dataset": "kr-restaurants",
+   "sha256": "73832c03abfcc4865ceba90ad1f9c2a5be5fea458965e12fcf98a91b8ecc8566",
+   "firstPublished": "2026-11-19T11:51:07+09:00"
   },
   "kr-restaurants.82960235.json": {
    "dataset": "kr-restaurants",
