@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-19T05:28:02+09:00",
+ "asOf": "2026-11-20T05:32:13+09:00",
  "countries": {
   "AD": {
    "banned": false,
@@ -2250,14 +2250,13 @@
    "level": 1,
    "maxLevel": 2,
    "mofaContinent": "동남아시아",
-   "mofaHistSeq": 5,
+   "mofaHistSeq": 6,
    "mofaNtnCd": "181",
    "mofaRaw": {
     "1": "2단계 지정 지역을 제외한 지역",
-    "2": "서파푸아, 파푸아, 말루쿠, 아체",
-    "special": ""
+    "2": "서파푸아, 파푸아, 말루쿠, 아체"
    },
-   "mofaRecordUpdated": "2026-11-17",
+   "mofaRecordUpdated": "2026-11-19",
    "nameEn": "Indonesia",
    "nameKo": "인도네시아",
    "regions": [
@@ -2332,24 +2331,13 @@
      "rank": 2.0,
      "since": null,
      "special": false
-    },
-    {
-     "level": null,
-     "nameEn": null,
-     "nameKo": "(지역 미기재)",
-     "note": null,
-     "rank": 2.5,
-     "since": null,
-     "special": true
     }
    ],
    "sourceUrls": [
-    "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
-    "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn"
+    "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert"
    ],
-   "special": true,
-   "specialScope": "partial",
-   "summaryKo": "대부분 지역 1단계 여행유의 · 일부 2단계 여행자제 · 일부 특별여행주의보"
+   "special": false,
+   "summaryKo": "대부분 지역 1단계 여행유의 · 일부 2단계 여행자제"
   },
   "IE": {
    "banned": false,
@@ -5584,11 +5572,9 @@
   },
   "TH": {
    "banned": false,
-   "baselineNote": "방콕·치앙마이·푸껫·파타야 등 나머지 전역 1단계.",
    "baselineRank": 1.0,
    "baselineSpecial": false,
-   "confidence": "medium",
-   "confidenceNote": "치앙센·매싸이 특별여행주의보는 2026-09-04 공지(외교부)에 '그대로 유지'로 명시됐지만, 0404 현황 JSON과 0404 태국 국가 페이지(2026-10-19 07:34 KST)에는 특별여행주의보 태그가 없음. 앱에서는 보수적으로 특별여행주의보로 취급하고, 파이프라인은 공지와 JSON을 계속 교차 확인",
+   "confidence": "high",
    "history": [
     {
      "change": "캄보디아 접경 4개 주 특별여행주의보, 3개 주 2단계",
@@ -5609,14 +5595,15 @@
    "level": 1,
    "maxLevel": 3,
    "mofaContinent": "동남아시아",
-   "mofaHistSeq": 10,
+   "mofaHistSeq": 11,
    "mofaNtnCd": "260",
    "mofaRaw": {
     "1": "2.3단계 및 특별여행주의보 발령 지역을 제외한 지역",
     "2": "딱 주",
-    "3": "송클라 주 남부 말레이시아 접경지역, 파타니 주, 나라티왓 주, 얄라 주, 태국-캄보디아 국경 50km 이내"
+    "3": "송클라 주 남부 말레이시아 접경지역, 파타니 주, 나라티왓 주, 얄라 주, 태국-캄보디아 국경 50km 이내",
+    "special": "치앙센, 매싸이 국경검문소"
    },
-   "mofaRecordUpdated": "2026-09-04",
+   "mofaRecordUpdated": "2026-11-19",
    "nameEn": "Thailand",
    "nameKo": "태국",
    "regions": [
@@ -5634,7 +5621,7 @@
       ],
       "type": "admin1"
      },
-     "nameEn": "Tak Province (TH-63, Myanmar border; Mae Sot)",
+     "nameEn": null,
      "nameKo": "딱 주",
      "note": null,
      "rank": 2.0,
@@ -5652,7 +5639,7 @@
       ],
       "type": "bbox"
      },
-     "nameEn": "Southern Songkhla near Malaysia (Sadao, Saba Yoi, Thepha, Na Thawi districts)",
+     "nameEn": null,
      "nameKo": "송클라 주 남부 말레이시아 접경지역",
      "note": null,
      "rank": 3.0,
@@ -5673,7 +5660,7 @@
       ],
       "type": "admin1"
      },
-     "nameEn": "Pattani Province (TH-94)",
+     "nameEn": null,
      "nameKo": "파타니 주",
      "note": null,
      "rank": 3.0,
@@ -5694,7 +5681,7 @@
       ],
       "type": "admin1"
      },
-     "nameEn": "Narathiwat Province (TH-96)",
+     "nameEn": null,
      "nameKo": "나라티왓 주",
      "note": null,
      "rank": 3.0,
@@ -5715,7 +5702,7 @@
       ],
       "type": "admin1"
      },
-     "nameEn": "Yala Province (TH-95)",
+     "nameEn": null,
      "nameKo": "얄라 주",
      "note": null,
      "rank": 3.0,
@@ -5743,44 +5730,26 @@
       "type": "borderBuffer",
       "with": "KH"
      },
-     "nameEn": "Within 50 km of the Thailand–Cambodia border (Trat, Chanthaburi, Sa Kaeo, Buriram, Surin, Sisaket, Ubon Ratchathani)",
+     "nameEn": null,
      "nameKo": "태국-캄보디아 국경 50km 이내",
-     "note": "접경 7개 주 특별여행주의보는 2026-09-04 해제(→1단계), 50km 이내 3단계는 유지.",
+     "note": null,
      "rank": 3.0,
-     "since": "2025-12-10",
+     "since": null,
      "special": false
     },
     {
-     "confidence": "medium",
      "level": null,
-     "match": {
-      "points": [
-       {
-        "lat": 20.27,
-        "lon": 100.09,
-        "radiusKm": 5
-       },
-       {
-        "lat": 20.43,
-        "lon": 99.88,
-        "radiusKm": 5
-       }
-      ],
-      "type": "points"
-     },
-     "nameEn": "Chiang Saen & Mae Sai border checkpoints (Chiang Rai)",
-     "nameKo": "치앙센 국경검문소 및 매싸이 국경검문소",
-     "note": "2026-09-04 공지에서 취업사기 예방 차원으로 유지·연장. 단, 0404 현황 JSON(2026-10-19)에는 특별여행주의보 플래그가 비어 있음 → 확인 필요.",
+     "nameEn": null,
+     "nameKo": "치앙센, 매싸이 국경검문소",
+     "note": null,
      "rank": 2.5,
      "since": null,
-     "sinceRaw": "2025-07-25 이전",
      "special": true
     }
    ],
    "sourceUrls": [
     "https://www.0404.go.kr/travelAlert/apntStatus/stepTravelAlert",
-    "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377546",
-    "https://www.0404.go.kr/bbs/travelAlertAjmt/ATC0000000048635/detail"
+    "https://www.0404.go.kr/travelAlert/apntStatus/specialTravelCutn"
    ],
    "special": true,
    "specialScope": "partial",
@@ -6837,11 +6806,9 @@
    "level": 1,
    "lon": 115.2167,
    "nameKo": "발리",
-   "needsReview": true,
+   "needsReview": false,
    "rank": 1.0,
-   "regionRefs": [
-    "(지역 미기재)"
-   ],
+   "regionRefs": [],
    "since": null,
    "special": false
   },
@@ -6867,9 +6834,11 @@
    "level": 1,
    "lon": 100.5018,
    "nameKo": "방콕",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -6979,11 +6948,9 @@
    "level": 1,
    "lon": 104.37,
    "nameKo": "빈탄",
-   "needsReview": true,
+   "needsReview": false,
    "rank": 1.0,
-   "regionRefs": [
-    "(지역 미기재)"
-   ],
+   "regionRefs": [],
    "since": null,
    "special": false
   },
@@ -7305,9 +7272,11 @@
    "level": 1,
    "lon": 99.8406,
    "nameKo": "치앙라이",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -7319,9 +7288,11 @@
    "level": 1,
    "lon": 98.9853,
    "nameKo": "치앙마이",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -8061,9 +8032,11 @@
    "level": 1,
    "lon": 99.9577,
    "nameKo": "후아힌",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -8453,9 +8426,11 @@
    "level": 1,
    "lon": 100.061,
    "nameKo": "코사무이",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -8509,9 +8484,11 @@
    "level": 1,
    "lon": 98.8221,
    "nameKo": "끄라비",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -8621,11 +8598,9 @@
    "level": 1,
    "lon": 119.8833,
    "nameKo": "라부안바조(코모도섬)",
-   "needsReview": true,
+   "needsReview": false,
    "rank": 1.0,
-   "regionRefs": [
-    "(지역 미기재)"
-   ],
+   "regionRefs": [],
    "since": null,
    "special": false
   },
@@ -8721,11 +8696,9 @@
    "level": 1,
    "lon": 116.05,
    "nameKo": "롬복·길리",
-   "needsReview": true,
+   "needsReview": false,
    "rank": 1.0,
-   "regionRefs": [
-    "(지역 미기재)"
-   ],
+   "regionRefs": [],
    "since": null,
    "special": false
   },
@@ -9577,9 +9550,11 @@
    "level": 1,
    "lon": 100.8825,
    "nameKo": "파타야",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -9633,9 +9608,11 @@
    "level": 1,
    "lon": 98.3923,
    "nameKo": "푸껫",
-   "needsReview": false,
+   "needsReview": true,
    "rank": 1.0,
-   "regionRefs": [],
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
    "since": null,
    "special": false
   },
@@ -10823,11 +10800,9 @@
    "level": 1,
    "lon": 110.3644,
    "nameKo": "족자카르타",
-   "needsReview": true,
+   "needsReview": false,
    "rank": 1.0,
-   "regionRefs": [
-    "(지역 미기재)"
-   ],
+   "regionRefs": [],
    "since": null,
    "special": false
   },
@@ -10935,7 +10910,7 @@
   "RE": "FR",
   "VI": "US"
  },
- "rawSnapshotSha256": "1dad9d0c5bc863c3c0af7d8eab2dd6dbcfc3e8622fdf4ad8f83497a7f88de96b",
+ "rawSnapshotSha256": "f14facf4a55c2415d3911dc12690237dd6406ac2555470652ff4b5cfce77b3ab",
  "restrictions": {
   "reviewedAt": "2026-10-20",
   "special": {
