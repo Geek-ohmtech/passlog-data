@@ -3,12 +3,6 @@
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
  "lastSequence": 106,
  "files": {
-  "advisories.2ae6f255.json": {
-   "dataset": "advisories",
-   "sha256": "2ae6f2553f54844cae171484731fc0b84e07a839535177477d8c0215d0a5de60",
-   "firstPublished": "2026-11-13T00:08:55+09:00",
-   "unreferencedSince": "2026-11-13T15:39:49+09:00"
-  },
   "advisories.52e35b13.json": {
    "dataset": "advisories",
    "sha256": "52e35b13224746f5e4b430f69c9b7186e1f1f7ee7169b4a107b26dbe790d92e6",
