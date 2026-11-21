@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 109,
+ "lastSequence": 110,
  "files": {
   "advisories.52e35b13.json": {
    "dataset": "advisories",
@@ -14,12 +14,6 @@
    "sha256": "639c1a7b23467696670237538d8b0ebfcc93f54901eee7ddbb7287e7574054fd",
    "firstPublished": "2026-11-14T22:36:35+09:00",
    "unreferencedSince": "2026-11-15T15:24:01+09:00"
-  },
-  "advisories.64be23b0.json": {
-   "dataset": "advisories",
-   "sha256": "64be23b020586124c19409bf6c343d126ca6eed7d0167b16722c4a2b02fca623",
-   "firstPublished": "2026-11-14T04:38:30+09:00",
-   "unreferencedSince": "2026-11-14T22:36:35+09:00"
   },
   "advisories.86055cab.json": {
    "dataset": "advisories",
@@ -36,13 +30,19 @@
   "advisories.d3942fe1.json": {
    "dataset": "advisories",
    "sha256": "d3942fe16643817ea5914579c24181165cc51694029eacc14b357c61e5250df6",
-   "firstPublished": "2026-11-21T05:11:38+09:00"
+   "firstPublished": "2026-11-21T05:11:38+09:00",
+   "unreferencedSince": "2026-11-22T04:11:43+09:00"
   },
   "advisories.d6b58cad.json": {
    "dataset": "advisories",
    "sha256": "d6b58cadc588afadc3370bd997a277421a240f04ac34c75efdc0049de702951a",
    "firstPublished": "2026-11-16T03:49:15+09:00",
    "unreferencedSince": "2026-11-17T05:57:57+09:00"
+  },
+  "advisories.dba76bc4.json": {
+   "dataset": "advisories",
+   "sha256": "dba76bc463078f9a69fe9715b10d6ab95086a2ae3bcea3c48300e495b32704f3",
+   "firstPublished": "2026-11-22T04:11:43+09:00"
   },
   "advisories.e217e922.json": {
    "dataset": "advisories",
