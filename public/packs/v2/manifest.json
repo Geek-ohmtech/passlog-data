@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "sequence": 113,
- "packVersion": "2026.11.23-0433",
- "publishedAt": "2026-11-23T04:33:49+09:00",
+ "sequence": 114,
+ "packVersion": "2026.11.23-0848",
+ "publishedAt": "2026-11-23T08:48:56+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
@@ -50,38 +50,38 @@
    "ttlHours": 168.0
   },
   "kr-festivals": {
-   "path": "kr-festivals.833f10d8.json",
-   "sha256": "833f10d8c86c5d07f00b14a0393a3d978fa9426d46db412fef3cf7902dd26214",
-   "size": 20888,
+   "path": "kr-festivals.0490938b.json",
+   "sha256": "0490938b19c9fc6534cf78a5550e9c85f20654e16683a88b11784d1c41803db5",
+   "size": 18983,
    "schema": 1,
-   "dataAsOf": "2026-11-22T10:57:31+09:00",
+   "dataAsOf": "2026-11-23T08:53:00+09:00",
    "ttlHours": 24,
    "staleAfterHours": 168.0
   },
   "local-apps-status": {
-   "path": "local-apps-status.b23078f7.json",
-   "sha256": "b23078f73f183fc86b9096e692deab4f03e04b055dae9db1b00852947ebe5190",
-   "size": 37112,
+   "path": "local-apps-status.8e70b849.json",
+   "sha256": "8e70b849e3bcfd1c4c2a5e1d125b4d4d19c683a265800e33ce5db41209c1f86a",
+   "size": 37110,
    "schema": 1,
-   "dataAsOf": "2026-11-17T05:57:57+09:00",
+   "dataAsOf": "2026-11-23T08:48:56+09:00",
    "ttlHours": 168.0,
    "staleAfterHours": 504.0
   },
   "kr-restaurants": {
-   "path": "kr-restaurants.daba11d4.json",
-   "sha256": "daba11d4b7e855a1ce6145986df2113f97bc4009463383f5bef6126e5ed92a68",
-   "size": 581394,
+   "path": "kr-restaurants.849de6ef.json",
+   "sha256": "849de6ef58bb7628b1446757bdd4993da646070e31142e142291da042413907b",
+   "size": 580336,
    "schema": 1,
-   "dataAsOf": "2026-11-22T10:57:31+09:00",
+   "dataAsOf": "2026-11-23T08:53:00+09:00",
    "ttlHours": 24,
    "staleAfterHours": 720.0
   },
   "kr-attractions": {
-   "path": "kr-attractions.19d7c067.json",
-   "sha256": "19d7c067fcdab8af09cc82cf1a1bcce7b62364087bfa70a0d6f29d106902a387",
-   "size": 361598,
+   "path": "kr-attractions.af91ec46.json",
+   "sha256": "af91ec46be561dc09cd30ab2aacc9ffc5f7acebbe61c6ac81286d0714b784c75",
+   "size": 361513,
    "schema": 1,
-   "dataAsOf": "2026-11-22T10:57:31+09:00",
+   "dataAsOf": "2026-11-23T08:53:00+09:00",
    "ttlHours": 24,
    "staleAfterHours": 720.0
   },
