@@ -1,8 +1,13 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 116,
+ "lastSequence": 117,
  "files": {
+  "advisories.43900fb9.json": {
+   "dataset": "advisories",
+   "sha256": "43900fb9cd8dfd916a876e63399010f249cd26c856d8242c5d5aeb9850b2e215",
+   "firstPublished": "2026-11-24T08:50:29+09:00"
+  },
   "advisories.52e35b13.json": {
    "dataset": "advisories",
    "sha256": "52e35b13224746f5e4b430f69c9b7186e1f1f7ee7169b4a107b26dbe790d92e6",
@@ -12,7 +17,8 @@
   "advisories.ae3013de.json": {
    "dataset": "advisories",
    "sha256": "ae3013de678950e4ef0d206c7403a33df47deb88f167094961ea93df3ba44127",
-   "firstPublished": "2026-11-23T04:33:49+09:00"
+   "firstPublished": "2026-11-23T04:33:49+09:00",
+   "unreferencedSince": "2026-11-24T08:50:29+09:00"
   },
   "advisories.c88028f0.json": {
    "dataset": "advisories",
@@ -25,12 +31,6 @@
    "sha256": "d3942fe16643817ea5914579c24181165cc51694029eacc14b357c61e5250df6",
    "firstPublished": "2026-11-21T05:11:38+09:00",
    "unreferencedSince": "2026-11-22T04:11:43+09:00"
-  },
-  "advisories.d6b58cad.json": {
-   "dataset": "advisories",
-   "sha256": "d6b58cadc588afadc3370bd997a277421a240f04ac34c75efdc0049de702951a",
-   "firstPublished": "2026-11-16T03:49:15+09:00",
-   "unreferencedSince": "2026-11-17T05:57:57+09:00"
   },
   "advisories.dba76bc4.json": {
    "dataset": "advisories",
@@ -117,12 +117,6 @@
    "sha256": "2abebb0c3a64609d3ce6bb7640e017d0d2aed9f7e6990de3ad01ef860c7804fe",
    "firstPublished": "2026-10-26T06:13:59+09:00"
   },
-  "kr-attractions.0ccd7b8a.json": {
-   "dataset": "kr-attractions",
-   "sha256": "0ccd7b8aec7a8800e044d9aec02fcbb319618ac8028840b069e0a589a42fc23f",
-   "firstPublished": "2026-11-16T08:10:17+09:00",
-   "unreferencedSince": "2026-11-17T05:57:57+09:00"
-  },
   "kr-attractions.1313fc52.json": {
    "dataset": "kr-attractions",
    "sha256": "1313fc524dcd1ec5452ffee3bc5e5071bda1477174ef90ce8e75b85f72f648b4",
@@ -187,12 +181,6 @@
    "firstPublished": "2026-11-21T11:52:08+09:00",
    "unreferencedSince": "2026-11-22T10:41:57+09:00"
   },
-  "kr-festivals.3c729366.json": {
-   "dataset": "kr-festivals",
-   "sha256": "3c729366fef49034c28f620b530dd80bd6e66b6a3fe76b3007f8bad3d96c1dac",
-   "firstPublished": "2026-11-16T08:10:17+09:00",
-   "unreferencedSince": "2026-11-17T05:57:57+09:00"
-  },
   "kr-festivals.45fbdb29.json": {
    "dataset": "kr-festivals",
    "sha256": "45fbdb2915292543a9f613269d5692da92a3a07dd60a8442131581b2c985e9db",
@@ -227,12 +215,6 @@
    "dataset": "kr-places",
    "sha256": "492fe51d21d4cd9bf524a6ca6a25c03f859e6315738c3a11832125e7b0a11dbb",
    "firstPublished": "2026-10-20T11:02:22+09:00"
-  },
-  "kr-restaurants.117e3e7c.json": {
-   "dataset": "kr-restaurants",
-   "sha256": "117e3e7c3d0ee7926156db6e32d9f9c6acb500aa47a626542119a210905e4fd0",
-   "firstPublished": "2026-11-16T08:10:17+09:00",
-   "unreferencedSince": "2026-11-17T05:57:57+09:00"
   },
   "kr-restaurants.3ec113d4.json": {
    "dataset": "kr-restaurants",
@@ -287,12 +269,6 @@
    "firstPublished": "2026-11-21T11:52:08+09:00",
    "unreferencedSince": "2026-11-22T10:41:57+09:00"
   },
-  "local-apps-status.22127883.json": {
-   "dataset": "local-apps-status",
-   "sha256": "221278838c4f2182f17cafc2f1f5218b75d9e6a5061d5b639e6d268dcea526d7",
-   "firstPublished": "2026-11-16T08:10:17+09:00",
-   "unreferencedSince": "2026-11-17T05:57:57+09:00"
-  },
   "local-apps-status.8e70b849.json": {
    "dataset": "local-apps-status",
    "sha256": "8e70b849e3bcfd1c4c2a5e1d125b4d4d19c683a265800e33ce5db41209c1f86a",
@@ -320,12 +296,6 @@
    "sha256": "34487074537f0981a93a8509a170016ce674a0dc2a6f7776b84ecf07c8f5e237",
    "firstPublished": "2026-11-20T19:13:53+09:00",
    "unreferencedSince": "2026-11-23T19:57:48+09:00"
-  },
-  "rates.5b8db00f.json": {
-   "dataset": "rates",
-   "sha256": "5b8db00ffde6fa6b1674e825adb374b7ed1bf2d2ab1f9940bfe2a4a24c31c648",
-   "firstPublished": "2026-11-16T18:57:36+09:00",
-   "unreferencedSince": "2026-11-17T05:57:57+09:00"
   },
   "rates.821bcc93.json": {
    "dataset": "rates",
