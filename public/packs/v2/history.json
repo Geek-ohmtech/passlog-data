@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 114,
+ "lastSequence": 115,
  "files": {
   "advisories.52e35b13.json": {
    "dataset": "advisories",
@@ -240,6 +240,11 @@
    "firstPublished": "2026-11-17T05:57:57+09:00",
    "unreferencedSince": "2026-11-17T13:12:33+09:00"
   },
+  "kr-restaurants.594b3b74.json": {
+   "dataset": "kr-restaurants",
+   "sha256": "594b3b74d15673b7642b208c82bf1da7f098973d4ae19ff0209a4c464cd3ce2b",
+   "firstPublished": "2026-11-23T11:01:27+09:00"
+  },
   "kr-restaurants.67517716.json": {
    "dataset": "kr-restaurants",
    "sha256": "67517716b692e3391c036826d44bba17304c6ed897538da5891d551ad0a33473",
@@ -255,7 +260,8 @@
   "kr-restaurants.849de6ef.json": {
    "dataset": "kr-restaurants",
    "sha256": "849de6ef58bb7628b1446757bdd4993da646070e31142e142291da042413907b",
-   "firstPublished": "2026-11-23T08:48:56+09:00"
+   "firstPublished": "2026-11-23T08:48:56+09:00",
+   "unreferencedSince": "2026-11-23T11:01:27+09:00"
   },
   "kr-restaurants.a8194e3d.json": {
    "dataset": "kr-restaurants",

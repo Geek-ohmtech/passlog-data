@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "sequence": 114,
- "packVersion": "2026.11.23-0848",
- "publishedAt": "2026-11-23T08:48:56+09:00",
+ "sequence": 115,
+ "packVersion": "2026.11.23-1101",
+ "publishedAt": "2026-11-23T11:01:27+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
@@ -68,11 +68,11 @@
    "staleAfterHours": 504.0
   },
   "kr-restaurants": {
-   "path": "kr-restaurants.849de6ef.json",
-   "sha256": "849de6ef58bb7628b1446757bdd4993da646070e31142e142291da042413907b",
-   "size": 580336,
+   "path": "kr-restaurants.594b3b74.json",
+   "sha256": "594b3b74d15673b7642b208c82bf1da7f098973d4ae19ff0209a4c464cd3ce2b",
+   "size": 580343,
    "schema": 1,
-   "dataAsOf": "2026-11-23T08:53:00+09:00",
+   "dataAsOf": "2026-11-23T11:02:55+09:00",
    "ttlHours": 24,
    "staleAfterHours": 720.0
   },
