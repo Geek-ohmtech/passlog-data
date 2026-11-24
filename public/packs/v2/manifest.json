@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "sequence": 117,
- "packVersion": "2026.11.24-0850",
- "publishedAt": "2026-11-24T08:50:29+09:00",
+ "sequence": 118,
+ "packVersion": "2026.11.24-1436",
+ "publishedAt": "2026-11-24T14:36:57+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
@@ -50,11 +50,11 @@
    "ttlHours": 168.0
   },
   "kr-festivals": {
-   "path": "kr-festivals.0490938b.json",
-   "sha256": "0490938b19c9fc6534cf78a5550e9c85f20654e16683a88b11784d1c41803db5",
-   "size": 18983,
+   "path": "kr-festivals.e5445967.json",
+   "sha256": "e5445967f24a1189ba67e671dc5a5ae54ad49f4c85d109d0951dc57190fc2dc0",
+   "size": 18965,
    "schema": 1,
-   "dataAsOf": "2026-11-23T08:53:00+09:00",
+   "dataAsOf": "2026-11-24T14:47:00+09:00",
    "ttlHours": 24,
    "staleAfterHours": 168.0
   },
@@ -68,20 +68,20 @@
    "staleAfterHours": 504.0
   },
   "kr-restaurants": {
-   "path": "kr-restaurants.594b3b74.json",
-   "sha256": "594b3b74d15673b7642b208c82bf1da7f098973d4ae19ff0209a4c464cd3ce2b",
-   "size": 580343,
+   "path": "kr-restaurants.304fee78.json",
+   "sha256": "304fee7838e4732326fe652e693a1b1016da5a3052675eb532c6ebeb37b13e16",
+   "size": 580440,
    "schema": 1,
-   "dataAsOf": "2026-11-23T11:02:55+09:00",
+   "dataAsOf": "2026-11-24T14:47:00+09:00",
    "ttlHours": 24,
    "staleAfterHours": 720.0
   },
   "kr-attractions": {
-   "path": "kr-attractions.af91ec46.json",
-   "sha256": "af91ec46be561dc09cd30ab2aacc9ffc5f7acebbe61c6ac81286d0714b784c75",
-   "size": 361513,
+   "path": "kr-attractions.508ea7fa.json",
+   "sha256": "508ea7fa989cc2c856234336e25ae6e7590c959a92b1686bb5be867b96c19ebf",
+   "size": 361572,
    "schema": 1,
-   "dataAsOf": "2026-11-23T08:53:00+09:00",
+   "dataAsOf": "2026-11-24T14:47:00+09:00",
    "ttlHours": 24,
    "staleAfterHours": 720.0
   },
