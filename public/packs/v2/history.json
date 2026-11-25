@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 122,
+ "lastSequence": 123,
  "files": {
   "advisories.43900fb9.json": {
    "dataset": "advisories",
@@ -309,22 +309,22 @@
    "firstPublished": "2026-11-19T19:32:55+09:00",
    "unreferencedSince": "2026-11-20T19:13:53+09:00"
   },
-  "rates.ba436ba8.json": {
-   "dataset": "rates",
-   "sha256": "ba436ba8050e46422b486f753d6aeb70364c92f04929acae39883406c3d1ee1c",
-   "firstPublished": "2026-11-17T19:53:55+09:00",
-   "unreferencedSince": "2026-11-18T19:25:21+09:00"
-  },
   "rates.c02131d3.json": {
    "dataset": "rates",
    "sha256": "c02131d3c0a79564602c65dea2e4df2e0e1ccaa81a6de4c32dbac1a7df3c0955",
    "firstPublished": "2026-11-23T19:57:48+09:00",
    "unreferencedSince": "2026-11-24T21:43:28+09:00"
   },
+  "rates.c1e40320.json": {
+   "dataset": "rates",
+   "sha256": "c1e4032089c62101e329323843fb7d6f6a743ac30310be84ddd9f3b033b89ca9",
+   "firstPublished": "2026-11-25T20:30:24+09:00"
+  },
   "rates.dd672828.json": {
    "dataset": "rates",
    "sha256": "dd672828289d9ce33aa0b7b7bf66f0253dc0110864fd8343f0a18cf945cedb50",
-   "firstPublished": "2026-11-24T21:43:28+09:00"
+   "firstPublished": "2026-11-24T21:43:28+09:00",
+   "unreferencedSince": "2026-11-25T20:30:24+09:00"
   },
   "taste-survey.a0470498.json": {
    "dataset": "taste-survey",
