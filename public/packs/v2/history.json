@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "note": "참조가 끊긴 해시 파일은 unreferencedSince 7일 뒤 지운다 (build_pack.py)",
- "lastSequence": 126,
+ "lastSequence": 127,
  "files": {
   "advisories.43900fb9.json": {
    "dataset": "advisories",
@@ -73,22 +73,46 @@
   "destination-climate.7e49876b.json": {
    "dataset": "destination-climate",
    "sha256": "7e49876b01f13ed20c3b0699b2f0d1c55155a33b8602d532b4bc94f347116883",
-   "firstPublished": "2026-11-04T15:47:59+09:00"
+   "firstPublished": "2026-11-04T15:47:59+09:00",
+   "unreferencedSince": "2026-11-27T01:20:39+09:00"
+  },
+  "destination-climate.e8beb2cf.json": {
+   "dataset": "destination-climate",
+   "sha256": "e8beb2cfd0efd75887467debc3e96038ce3244c1c37a0df9dfd198ffff6ce810",
+   "firstPublished": "2026-11-27T01:20:39+09:00"
+  },
+  "destinations.b5b97095.json": {
+   "dataset": "destinations",
+   "sha256": "b5b97095dd78f9c0c6548d05e8916b704f84658f0a2f5014c93cbd2e93355a30",
+   "firstPublished": "2026-11-27T01:20:39+09:00"
   },
   "destinations.d4d72746.json": {
    "dataset": "destinations",
    "sha256": "d4d7274663acaae85d0a169ef45d441f45790b2bd9b65f52407b8abe6c13e4e8",
-   "firstPublished": "2026-11-04T15:47:59+09:00"
+   "firstPublished": "2026-11-04T15:47:59+09:00",
+   "unreferencedSince": "2026-11-27T01:20:39+09:00"
   },
   "dining-links.3040dc17.json": {
    "dataset": "dining-links",
    "sha256": "3040dc1786baf650a66ac2777dea822ba0b04952948bc2eae4a986ca0c9c0879",
-   "firstPublished": "2026-10-20T21:59:33+09:00"
+   "firstPublished": "2026-10-20T21:59:33+09:00",
+   "unreferencedSince": "2026-11-27T01:20:39+09:00"
+  },
+  "dining-links.dc93989f.json": {
+   "dataset": "dining-links",
+   "sha256": "dc93989f01b4911e5850af6f67c81191b0e5f8893ec04a7b3eee409fe9c0fe26",
+   "firstPublished": "2026-11-27T01:20:39+09:00"
+  },
+  "dish-wiki.002c66c9.json": {
+   "dataset": "dish-wiki",
+   "sha256": "002c66c9d545b04ff3e66984b52180a3db0c3160e18c2ec02816058420be1297",
+   "firstPublished": "2026-11-27T01:20:39+09:00"
   },
   "dish-wiki.8bdc29e9.json": {
    "dataset": "dish-wiki",
    "sha256": "8bdc29e976548f474d317d314c0e349f23b55b3806c44c97f6c42317aaa23d46",
-   "firstPublished": "2026-11-04T15:47:59+09:00"
+   "firstPublished": "2026-11-04T15:47:59+09:00",
+   "unreferencedSince": "2026-11-27T01:20:39+09:00"
   },
   "entry.4b5f3da1.json": {
    "dataset": "entry",

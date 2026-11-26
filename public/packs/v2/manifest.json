@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "sequence": 126,
- "packVersion": "2026.11.26-2011",
- "publishedAt": "2026-11-26T20:11:54+09:00",
+ "sequence": 127,
+ "packVersion": "2026.11.27-0120",
+ "publishedAt": "2026-11-27T01:20:39+09:00",
  "minAppVersion": "1.0.0",
  "baseURL": "datasets/",
  "datasets": {
@@ -113,29 +113,29 @@
    "staleAfterHours": 4320
   },
   "destination-climate": {
-   "path": "destination-climate.7e49876b.json",
-   "sha256": "7e49876b01f13ed20c3b0699b2f0d1c55155a33b8602d532b4bc94f347116883",
-   "size": 69858,
+   "path": "destination-climate.e8beb2cf.json",
+   "sha256": "e8beb2cfd0efd75887467debc3e96038ce3244c1c37a0df9dfd198ffff6ce810",
+   "size": 73876,
    "schema": 1,
-   "dataAsOf": "2026-11-04T15:47:59+09:00",
+   "dataAsOf": "2026-11-27T01:20:39+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320
   },
   "dining-links": {
-   "path": "dining-links.3040dc17.json",
-   "sha256": "3040dc1786baf650a66ac2777dea822ba0b04952948bc2eae4a986ca0c9c0879",
-   "size": 21503,
+   "path": "dining-links.dc93989f.json",
+   "sha256": "dc93989f01b4911e5850af6f67c81191b0e5f8893ec04a7b3eee409fe9c0fe26",
+   "size": 21964,
    "schema": 1,
-   "dataAsOf": "2026-10-20T21:59:33+09:00",
+   "dataAsOf": "2026-11-27T01:20:39+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320
   },
   "dish-wiki": {
-   "path": "dish-wiki.8bdc29e9.json",
-   "sha256": "8bdc29e976548f474d317d314c0e349f23b55b3806c44c97f6c42317aaa23d46",
-   "size": 486362,
+   "path": "dish-wiki.002c66c9.json",
+   "sha256": "002c66c9d545b04ff3e66984b52180a3db0c3160e18c2ec02816058420be1297",
+   "size": 505337,
    "schema": 1,
-   "dataAsOf": "2026-11-04T15:47:59+09:00",
+   "dataAsOf": "2026-11-27T01:20:39+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320,
    "large": true
@@ -188,14 +188,14 @@
    "large": true
   },
   "destinations": {
-   "path": "destinations.d4d72746.json",
-   "sha256": "d4d7274663acaae85d0a169ef45d441f45790b2bd9b65f52407b8abe6c13e4e8",
-   "size": 846282,
+   "path": "destinations.b5b97095.json",
+   "sha256": "b5b97095dd78f9c0c6548d05e8916b704f84658f0a2f5014c93cbd2e93355a30",
+   "size": 905217,
    "schema": 1,
-   "dataAsOf": "2026-11-04T15:47:59+09:00",
+   "dataAsOf": "2026-11-27T01:20:39+09:00",
    "ttlHours": 24,
    "staleAfterHours": 4320,
-   "minAppVersion": "1.1",
+   "minAppVersion": "1.2",
    "large": true
   }
  },
