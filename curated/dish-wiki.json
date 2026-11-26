@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-04",
+ "updated": "2026-11-26",
  "source": "scripts/dish-wiki.py — 위키백과 문서 제목(사람이 검토) + 문서 대표 사진(위키미디어 공용, 자유 라이선스만)",
  "license": "설명 글은 앱이 위키백과 REST 요약으로 받아 CC BY-SA 4.0 표시와 함께 보여 준다. 사진은 파일마다 저작자 · 라이선스를 함께 둔다.",
  "dishes": {
@@ -5304,6 +5304,120 @@
     "JP": "ザンギ"
    }
   },
+  "오타루 스시": {
+   "ko": "스시",
+   "en": "Sushi",
+   "image": {
+    "file": "File:Sushi platter.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/330px-Sushi_platter.jpg",
+    "width": 330,
+    "height": 330,
+    "artist": "chidorian from Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg"
+   }
+  },
+  "르타오 치즈케이크": null,
+  "산카쿠 시장 해산물 덮밥": null,
+  "니세코 감자·유제품": null,
+  "털게·임연수 등 오호츠크 해산물": null,
+  "연어알 덮밥": {
+   "en": "Red caviar",
+   "image": {
+    "file": "File:Ikura temaki zushi by Adonis Chen in Taipei.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Ikura_temaki_zushi_by_Adonis_Chen_in_Taipei.jpg/330px-Ikura_temaki_zushi_by_Adonis_Chen_in_Taipei.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Adonis Chen from Taipei",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ikura_temaki_zushi_by_Adonis_Chen_in_Taipei.jpg"
+   }
+  },
+  "유빙 맥주": null,
+  "오야키": {
+   "en": "Oyaki",
+   "image": {
+    "file": "File:Oyaki 001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Oyaki_001.jpg/330px-Oyaki_001.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Oyaki_001.jpg"
+   }
+  },
+  "노자와나 절임": {
+   "en": "Nozawana",
+   "image": {
+    "file": "File:Nozawana02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nozawana02.jpg/330px-Nozawana02.jpg",
+    "width": 330,
+    "height": 360,
+    "artist": "Togabi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nozawana02.jpg"
+   }
+  },
+  "기리탄포 나베": {
+   "ko": "기리탄포",
+   "en": "Kiritanpo",
+   "image": {
+    "file": "File:Kiritanpo.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Kiritanpo.jpg/330px-Kiritanpo.jpg",
+    "width": 330,
+    "height": 263,
+    "artist": "桜田守宏 at Japanese Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Kiritanpo.jpg"
+   }
+  },
+  "이나니와 우동": {
+   "en": "Inaniwa udon",
+   "image": {
+    "file": "File:稲庭うどん.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg/330px-%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg",
+    "width": 330,
+    "height": 266,
+    "artist": "Cal3135",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg"
+   }
+  },
+  "히나이 토종닭": null,
+  "다지마 소고기": {
+   "ko": "흑모화우",
+   "en": "Japanese Black",
+   "image": {
+    "file": "File:Tajimagyu2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Tajimagyu2.jpg/330px-Tajimagyu2.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "Japanexperterna.se",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tajimagyu2.jpg"
+   }
+  },
+  "온천 달걀": {
+   "ko": "온센타마고",
+   "en": "Onsen tamago",
+   "image": {
+    "file": "File:Onsen tamago at minshuku Korakuen, Nagano by Blue Lotus.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Onsen_tamago_at_minshuku_Korakuen%2C_Nagano_by_Blue_Lotus.jpg/330px-Onsen_tamago_at_minshuku_Korakuen%2C_Nagano_by_Blue_Lotus.jpg",
+    "width": 330,
+    "height": 241,
+    "artist": "Blue Lotus from Jigokudani Onsen, Nagano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Onsen_tamago_at_minshuku_Korakuen,_Nagano_by_Blue_Lotus.jpg"
+   }
+  },
   "이시가키규": {
    "ko": "와규",
    "en": "Wagyu",
@@ -6231,6 +6345,35 @@
     "CN": "酥油茶"
    }
   },
+  "해산물 볶음": null,
+  "야시장 꼬치·튀김": null,
+  "얼콰이(구운 쌀떡)": {
+   "en": "Erkuai",
+   "image": {
+    "file": "File:昆明英凤烧饵块.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E6%98%86%E6%98%8E%E8%8B%B1%E5%87%A4%E7%83%A7%E9%A5%B5%E5%9D%97.jpg/330px-%E6%98%86%E6%98%8E%E8%8B%B1%E5%87%A4%E7%83%A7%E9%A5%B5%E5%9D%97.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "瑞丽江的河水",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E8%8B%B1%E5%87%A4%E7%83%A7%E9%A5%B5%E5%9D%97.jpg"
+   }
+  },
+  "루산(구운 치즈 부채)": {
+   "en": "Rushan cheese",
+   "image": {
+    "file": "File:Xizhou Rushan.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Xizhou_Rushan.jpg/330px-Xizhou_Rushan.jpg",
+    "width": 330,
+    "height": 498,
+    "artist": "Chris DeLacy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xizhou_Rushan.jpg"
+   }
+  },
+  "쏸라위(매콤새콤 생선탕)": null,
   "팟타이": {
    "ko": "팟 타이",
    "en": "Pad thai",
@@ -7263,6 +7406,49 @@
     "page": "https://commons.wikimedia.org/wiki/File:Ayam_bakar_khas_Taliwang_2.JPG"
    }
   },
+  "쏨땀": {
+   "ko": "풋파파야 샐러드",
+   "en": "Green papaya salad",
+   "image": {
+    "file": "File:Lao papaya salad 3 (cropped).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lao_papaya_salad_3_%28cropped%29.jpg/330px-Lao_papaya_salad_3_%28cropped%29.jpg",
+    "width": 330,
+    "height": 206,
+    "artist": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lao_papaya_salad_3_(cropped).jpg"
+   }
+  },
+  "해산물 구이": null,
+  "마사만 커리": {
+   "ko": "맛사만 커리",
+   "en": "Massaman curry",
+   "image": {
+    "file": "File:Kaeng matsaman kai.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kaeng_matsaman_kai.JPG/330px-Kaeng_matsaman_kai.JPG",
+    "width": 330,
+    "height": 330,
+    "artist": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaeng_matsaman_kai.JPG"
+   }
+  },
+  "판티엣 느억맘 요리": {
+   "ko": "어장 (음식)",
+   "en": "Fish sauce",
+   "image": {
+    "file": "File:Fish sauce.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Fish_sauce.jpg/330px-Fish_sauce.jpg",
+    "width": 330,
+    "height": 186,
+    "artist": "kentnk2009",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_sauce.jpg"
+   }
+  },
   "차모로 바비큐": null,
   "레드라이스": null,
   "켈라구엔": {
@@ -7692,6 +7878,60 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:DalBati.jpg"
+   }
+  },
+  "카초리 사브지": {
+   "en": "Kachori",
+   "image": {
+    "file": "File:Rajasthani Raj Kachori.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Rajasthani_Raj_Kachori.jpg/330px-Rajasthani_Raj_Kachori.jpg",
+    "width": 330,
+    "height": 284,
+    "artist": "Jaipuriamanasi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rajasthani_Raj_Kachori.jpg"
+   }
+  },
+  "바나라시 판": {
+   "en": "Betel nut chewing",
+   "image": {
+    "file": "File:Betel 1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Betel_1.jpg/330px-Betel_1.jpg",
+    "width": 330,
+    "height": 259,
+    "artist": "Unknown artistUnknown artist",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Betel_1.jpg"
+   }
+  },
+  "라자스탄 탈리": {
+   "ko": "탈리",
+   "en": "Thali",
+   "image": {
+    "file": "File:Vegetarian Curry.jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Vegetarian_Curry.jpeg/330px-Vegetarian_Curry.jpeg",
+    "width": 330,
+    "height": 186,
+    "artist": "GracinhaMarco Abundo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vegetarian_Curry.jpeg"
+   }
+  },
+  "마살라 차이": {
+   "ko": "마살라 차이",
+   "en": "Masala chai",
+   "image": {
+    "file": "File:A cup of chai.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/A_cup_of_chai.JPG/330px-A_cup_of_chai.JPG",
+    "width": 330,
+    "height": 248,
+    "artist": "Original uploader was Pratheepps at en.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:A_cup_of_chai.JPG"
    }
   },
   "크루아상과 바게트": {
@@ -10548,6 +10788,197 @@
    }
   },
   "케이자다(치즈 타르트)": null,
+  "뉘른베르거 소시지": {
+   "en": "Nürnberger Rostbratwurst",
+   "image": {
+    "file": "File:Nürnberger Würstchen (10579337046).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/N%C3%BCrnberger_W%C3%BCrstchen_%2810579337046%29.jpg/330px-N%C3%BCrnberger_W%C3%BCrstchen_%2810579337046%29.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "Dirk Vorderstraße",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:N%C3%BCrnberger_W%C3%BCrstchen_(10579337046).jpg"
+   }
+  },
+  "레프쿠헨(생강 과자)": {
+   "ko": "레프쿠헨",
+   "en": "Lebkuchen",
+   "image": {
+    "file": "File:Lebkuchenherzen.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Lebkuchenherzen.jpg/330px-Lebkuchenherzen.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "위키미디어 공용 기여자",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Lebkuchenherzen.jpg"
+   }
+  },
+  "글뤼바인": {
+   "ko": "온포도주",
+   "en": "Mulled wine",
+   "image": {
+    "file": "File:Gluehwein201002.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Gluehwein201002.JPG/330px-Gluehwein201002.JPG",
+    "width": 330,
+    "height": 223,
+    "artist": "Anneke Wolf at German Wikipedia (Original text: Anneke Wolf)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gluehwein201002.JPG"
+   }
+  },
+  "드레스덴 슈톨렌": {
+   "ko": "슈톨렌",
+   "en": "Stollen",
+   "image": {
+    "file": "File:Stollen-Dresdner Christstollen.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Stollen-Dresdner_Christstollen.jpg/330px-Stollen-Dresdner_Christstollen.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Gürgi",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Stollen-Dresdner_Christstollen.jpg"
+   }
+  },
+  "아이어셰케(치즈 케이크)": {
+   "en": "Eierschecke",
+   "image": {
+    "file": "File:Dresdner Eierschecke 9.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Dresdner_Eierschecke_9.jpg/330px-Dresdner_Eierschecke_9.jpg",
+    "width": 330,
+    "height": 186,
+    "artist": "Brücke-Osteuropa",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Dresdner_Eierschecke_9.jpg"
+   }
+  },
+  "작센식 자우어브라텐": {
+   "ko": "자우어브라텐",
+   "en": "Sauerbraten",
+   "image": {
+    "file": "File:Köstritzer Schwarzbierbraten 2.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/K%C3%B6stritzer_Schwarzbierbraten_2.JPG/330px-K%C3%B6stritzer_Schwarzbierbraten_2.JPG",
+    "width": 330,
+    "height": 185,
+    "artist": "Dr. Bernd Gross",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6stritzer_Schwarzbierbraten_2.JPG"
+   }
+  },
+  "취리히식 송아지 크림 스튜와 뢰스티": {
+   "en": "Zürcher Geschnetzeltes",
+   "image": {
+    "file": "File:Zürcher Geschnetzeltes at Zur rote Buech.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Z%C3%BCrcher_Geschnetzeltes_at_Zur_rote_Buech.jpg/330px-Z%C3%BCrcher_Geschnetzeltes_at_Zur_rote_Buech.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Jpatokal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrcher_Geschnetzeltes_at_Zur_rote_Buech.jpg"
+   }
+  },
+  "룩셈부르게를리(마카롱)": {
+   "ko": "마카롱",
+   "en": "Macaron",
+   "image": {
+    "file": "File:VanillaMacaron.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/VanillaMacaron.jpg/330px-VanillaMacaron.jpg",
+    "width": 330,
+    "height": 291,
+    "artist": "Michelle Naherny",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VanillaMacaron.jpg"
+   }
+  },
+  "북극곤들매기 요리": {
+   "en": "Arctic char",
+   "image": {
+    "file": "File:Salvelinus alpinus 311639131.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Salvelinus_alpinus_311639131.jpg/330px-Salvelinus_alpinus_311639131.jpg",
+    "width": 330,
+    "height": 148,
+    "artist": "Alison Copeland",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_311639131.jpg"
+   }
+  },
+  "에스페타다(월계수 꼬치구이)": {
+   "en": "Espetada",
+   "image": {
+    "file": "File:Zum Grill umgebautes Fass mit Espetada-Spießen II.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Zum_Grill_umgebautes_Fass_mit_Espetada-Spie%C3%9Fen_II.jpg/330px-Zum_Grill_umgebautes_Fass_mit_Espetada-Spie%C3%9Fen_II.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "GerritR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zum_Grill_umgebautes_Fass_mit_Espetada-Spie%C3%9Fen_II.jpg"
+   }
+  },
+  "볼루 두 카쿠(마늘빵)": {
+   "en": "Bolo do caco",
+   "image": {
+    "file": "File:Bolo do caco acabadinhos de cozer.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bolo_do_caco_acabadinhos_de_cozer.jpg/330px-Bolo_do_caco_acabadinhos_de_cozer.jpg",
+    "width": 330,
+    "height": 330,
+    "artist": "Ana Cake Design",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bolo_do_caco_acabadinhos_de_cozer.jpg"
+   }
+  },
+  "마데이라 와인": {
+   "ko": "마데이라 포도주",
+   "en": "Madeira wine",
+   "image": {
+    "file": "File:Madeira Wine.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Madeira_Wine.jpg/330px-Madeira_Wine.jpg",
+    "width": 330,
+    "height": 495,
+    "artist": "y kawahara",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Madeira_Wine.jpg"
+   }
+  },
+  "파파스 아루가다스(주름 감자)와 모호 소스": {
+   "ko": "파파스 아루가다스",
+   "en": "Papas arrugadas",
+   "image": {
+    "file": "File:Papasarrugadas.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Papasarrugadas.jpg/330px-Papasarrugadas.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Fer..",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Papasarrugadas.jpg"
+   }
+  },
+  "생선 구이": null,
+  "고피오": {
+   "ko": "고피오",
+   "en": "Gofio",
+   "image": {
+    "file": "File:Gofioescaldado.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Gofioescaldado.jpg/330px-Gofioescaldado.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "barraquito",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gofioescaldado.jpg"
+   }
+  },
   "뉴욕 피자": {
    "ko": "뉴욕 피자",
    "en": "New York–style pizza",
@@ -11329,19 +11760,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Window_at_the_Whistlestop.760.jpg"
    }
   },
-  "북극곤들매기 요리": {
-   "en": "Arctic char",
-   "image": {
-    "file": "File:Salvelinus alpinus 311639131.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Salvelinus_alpinus_311639131.jpg/330px-Salvelinus_alpinus_311639131.jpg",
-    "width": 330,
-    "height": 148,
-    "artist": "Alison Copeland",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_311639131.jpg"
-   }
-  },
   "호수 생선 피시앤칩스": {
    "ko": "피시 앤드 칩스",
    "en": "Fish and chips",
@@ -11426,6 +11844,21 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kona_Coffee_fruits(2).jpg"
+   }
+  },
+  "BC 연어": null,
+  "비버테일(튀김 과자)": {
+   "ko": "비버테일즈",
+   "en": "BeaverTails",
+   "image": {
+    "file": "File:BeaverTails Bilingual Logo.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/BeaverTails_Bilingual_Logo.jpg/330px-BeaverTails_Bilingual_Logo.jpg",
+    "width": 330,
+    "height": 194,
+    "artist": "BeaverTails Canada Inc.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:BeaverTails_Bilingual_Logo.jpg"
    }
   },
   "세비체": {
@@ -12134,6 +12567,19 @@
     "page": "https://commons.wikimedia.org/wiki/File:Green_Mate_(as_tea_European_style).jpg"
    }
   },
+  "센토야(남극 킹크랩)": {
+   "en": "Lithodes santolla",
+   "image": {
+    "file": "File:Lithodes santolla female dorsal plate black background.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lithodes_santolla_female_dorsal_plate_black_background.jpg/330px-Lithodes_santolla_female_dorsal_plate_black_background.jpg",
+    "width": 330,
+    "height": 231,
+    "artist": "Gustavo A. Lovrich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lithodes_santolla_female_dorsal_plate_black_background.jpg"
+   }
+  },
   "미트 파이": {
    "ko": "미트 파이",
    "en": "Meat pie",
@@ -12690,6 +13136,20 @@
     "page": "https://commons.wikimedia.org/wiki/File:Hangi_prepare.jpg"
    }
   },
+  "크레이피시(닭새우)": {
+   "en": "Jasus edwardsii",
+   "image": {
+    "file": "File:Jasus edwardsii.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Jasus_edwardsii.jpg/330px-Jasus_edwardsii.jpg",
+    "width": 330,
+    "height": 248,
+    "artist": "Stemonitis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jasus_edwardsii.jpg"
+   }
+  },
+  "사슴 고기 파이": null,
   "샤와르마": {
    "ko": "샤와르마",
    "en": "Shawarma",
@@ -13110,6 +13570,34 @@
     "license": "Public domain",
     "licenseUrl": null,
     "page": "https://commons.wikimedia.org/wiki/File:Coffee_Plantation,_Kenya_from_Matson_Collection,_1936_(LOC).jpg"
+   }
+  },
+  "나일 농어 구이": {
+   "ko": "나일농어",
+   "en": "Nile perch",
+   "image": {
+    "file": "File:Lates niloticus by DaijuAzuma.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lates_niloticus_by_DaijuAzuma.jpg/330px-Lates_niloticus_by_DaijuAzuma.jpg",
+    "width": 330,
+    "height": 220,
+    "artist": "Daiju Azuma",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg"
+   }
+  },
+  "히비스커스 차(카르카데)": {
+   "ko": "히비스커스차",
+   "en": "Hibiscus tea",
+   "image": {
+    "file": "File:Hibiscus tea.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Hibiscus_tea.jpg/330px-Hibiscus_tea.jpg",
+    "width": 330,
+    "height": 297,
+    "artist": "Emna Mizouni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hibiscus_tea.jpg"
    }
   }
  }

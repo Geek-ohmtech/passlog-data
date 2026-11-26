@@ -49,7 +49,8 @@
   "tokushima": "도쿠시마",
   "kagawa": "가가와",
   "ehime": "에히메",
-  "kochi": "고치"
+  "kochi": "고치",
+  "akita": "아키타"
  },
  "countries": {
   "HK": {
@@ -66,8 +67,16 @@
   }
  },
  "destinations": {
+  "abashiri-shiretoko": {
+   "tabelog": "hokkaido",
+   "label": "홋카이도"
+  },
   "adelaide": {
    "tripadvisor": 255093
+  },
+  "akita-nyuto": {
+   "tabelog": "akita",
+   "label": "아키타"
   },
   "alberobello-matera": {
    "tripadvisor": 580227,
@@ -437,6 +446,10 @@
   "kerala": {
    "tripadvisor": 297631
   },
+  "kinosaki": {
+   "tabelog": "hyogo",
+   "label": "효고"
+  },
   "kitakyushu": {
    "tabelog": "fukuoka/A4004",
    "label": "기타큐슈 시"
@@ -612,6 +625,10 @@
   "munich": {
    "tripadvisor": 187309
   },
+  "nagano-hakuba": {
+   "tabelog": "nagano",
+   "label": "나가노"
+  },
   "nagasaki": {
    "tabelog": "nagasaki/A4201",
    "label": "나가사키",
@@ -660,6 +677,10 @@
    "tabelog": "tochigi/A0903",
    "label": "닛코·기누가와"
   },
+  "niseko": {
+   "tabelog": "hokkaido",
+   "label": "홋카이도"
+  },
   "noboribetsu-toya": {
    "tabelog": "hokkaido",
    "label": "홋카이도"
@@ -697,6 +718,10 @@
    "label": "오사카",
    "tripadvisor": 298566,
    "michelin": "osaka-region/osaka"
+  },
+  "otaru": {
+   "tabelog": "hokkaido",
+   "label": "홋카이도"
   },
   "palau": {
    "tripadvisor": 294135
