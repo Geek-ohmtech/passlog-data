@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-26T06:39:06+09:00",
+ "asOf": "2026-11-27T06:28:12+09:00",
  "countries": {
   "AD": {
    "banned": false,
@@ -6560,6 +6560,34 @@
   }
  },
  "destinations": {
+  "abashiri-shiretoko": {
+   "basis": "일본 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "JP",
+   "lat": 44.0206,
+   "level": 0,
+   "lon": 144.2733,
+   "nameKo": "아바시리·시레토코",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "abisko-kiruna": {
+   "basis": "스웨덴 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "SE",
+   "lat": 68.3495,
+   "level": 0,
+   "lon": 18.8312,
+   "nameKo": "아비스코·키루나",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "adelaide": {
    "basis": "호주 · 이 지역에 내려진 여행경보 없음",
    "confidence": "high",
@@ -6568,6 +6596,20 @@
    "level": 0,
    "lon": 138.6,
    "nameKo": "애들레이드",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "akita-nyuto": {
+   "basis": "일본 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "JP",
+   "lat": 39.599,
+   "level": 0,
+   "lon": 140.5611,
+   "nameKo": "아키타·뉴토온천",
    "needsReview": false,
    "rank": 0.0,
    "regionRefs": [],
@@ -6752,6 +6794,20 @@
    "nameKo": "아스타나",
    "needsReview": false,
    "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "aswan-abu-simbel": {
+   "basis": "아스완은 나일강 유역 도시로 1단계 지역이에요. 아부심벨을 오가는 길은 2단계인 서부사막과 가까우니 단체 차량이나 항공편을 이용하세요",
+   "confidence": "medium",
+   "countryCode": "EG",
+   "lat": 24.0889,
+   "level": 1,
+   "lon": 32.8998,
+   "nameKo": "아스완·아부심벨",
+   "needsReview": false,
+   "rank": 1.0,
    "regionRefs": [],
    "since": null,
    "special": false
@@ -7394,6 +7450,20 @@
    "since": null,
    "special": false
   },
+  "coron": {
+   "basis": "코론(부수앙가섬)은 팔라완 북쪽의 섬으로 필리핀 기본 단계인 2단계예요(팔라완 남부 일부는 3단계)",
+   "confidence": "high",
+   "countryCode": "PH",
+   "lat": 11.9986,
+   "level": 2,
+   "lon": 120.2043,
+   "nameKo": "코론",
+   "needsReview": false,
+   "rank": 2.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "costa-rica": {
    "basis": "코스타리카 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
    "confidence": "high",
@@ -7458,6 +7528,20 @@
    "level": 1,
    "lon": 108.4583,
    "nameKo": "달랏",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "dali": {
+   "basis": "중국 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "CN",
+   "lat": 25.6065,
+   "level": 1,
+   "lon": 100.2676,
+   "nameKo": "다리·쿤밍",
    "needsReview": false,
    "rank": 1.0,
    "regionRefs": [],
@@ -7530,6 +7614,20 @@
    "nameKo": "돌로미티",
    "needsReview": false,
    "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "dresden": {
+   "basis": "독일 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "DE",
+   "lat": 51.0504,
+   "level": 0,
+   "lon": 13.7373,
+   "nameKo": "드레스덴",
+   "needsReview": false,
+   "rank": 0.0,
    "regionRefs": [],
    "since": null,
    "special": false
@@ -8362,6 +8460,20 @@
    "since": null,
    "special": false
   },
+  "kenting": {
+   "basis": "대만 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "TW",
+   "lat": 21.9483,
+   "level": 0,
+   "lon": 120.7798,
+   "nameKo": "컨딩",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "kerala": {
    "basis": "케랄라는 인도 기본 단계인 1단계예요(카슈미르 · 카르길만 3단계)",
    "confidence": "high",
@@ -8372,6 +8484,36 @@
    "nameKo": "케랄라(코치·알레피)",
    "needsReview": false,
    "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "khao-lak": {
+   "basis": "태국 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "TH",
+   "lat": 8.685,
+   "level": 1,
+   "lon": 98.252,
+   "nameKo": "카오락",
+   "needsReview": true,
+   "rank": 1.0,
+   "regionRefs": [
+    "치앙센, 매싸이 국경검문소"
+   ],
+   "since": null,
+   "special": false
+  },
+  "kinosaki": {
+   "basis": "일본 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "JP",
+   "lat": 35.6262,
+   "level": 0,
+   "lon": 134.812,
+   "nameKo": "기노사키 온천",
+   "needsReview": false,
+   "rank": 0.0,
    "regionRefs": [],
    "since": null,
    "special": false
@@ -8618,6 +8760,20 @@
    "since": null,
    "special": false
   },
+  "lake-tahoe": {
+   "basis": "미국 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "US",
+   "lat": 38.9399,
+   "level": 1,
+   "lon": -119.9772,
+   "nameKo": "레이크 타호",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "langkawi": {
    "basis": "말레이시아 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
    "confidence": "high",
@@ -8796,6 +8952,20 @@
    "nameKo": "마카오",
    "needsReview": false,
    "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "madeira": {
+   "basis": "포르투갈 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "PT",
+   "lat": 32.6669,
+   "level": 0,
+   "lon": -16.9241,
+   "nameKo": "마데이라",
+   "needsReview": false,
+   "rank": 0.0,
    "regionRefs": [],
    "since": null,
    "special": false
@@ -9052,6 +9222,20 @@
    "since": null,
    "special": false
   },
+  "milford-sound": {
+   "basis": "뉴질랜드 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "NZ",
+   "lat": -45.4145,
+   "level": 0,
+   "lon": 167.718,
+   "nameKo": "밀퍼드 사운드·테아나우",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "miyakojima": {
    "basis": "일본 · 이 지역에 내려진 여행경보 없음",
    "confidence": "high",
@@ -9136,6 +9320,20 @@
    "since": null,
    "special": false
   },
+  "mui-ne": {
+   "basis": "베트남 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "VN",
+   "lat": 10.9333,
+   "level": 1,
+   "lon": 108.2833,
+   "nameKo": "무이네",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "munich": {
    "basis": "독일 · 이 지역에 내려진 여행경보 없음",
    "confidence": "high",
@@ -9160,6 +9358,20 @@
    "nameKo": "미코노스",
    "needsReview": false,
    "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "nagano-hakuba": {
+   "basis": "일본 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "JP",
+   "lat": 36.6486,
+   "level": 0,
+   "lon": 138.1948,
+   "nameKo": "나가노·하쿠바",
+   "needsReview": false,
+   "rank": 0.0,
    "regionRefs": [],
    "since": null,
    "special": false
@@ -9346,6 +9558,20 @@
    "since": null,
    "special": false
   },
+  "niseko": {
+   "basis": "일본 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "JP",
+   "lat": 42.861,
+   "level": 0,
+   "lon": 140.704,
+   "nameKo": "니세코",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "noboribetsu-toya": {
    "basis": "일본 · 이 지역에 내려진 여행경보 없음",
    "confidence": "high",
@@ -9354,6 +9580,20 @@
    "level": 0,
    "lon": 141.1475,
    "nameKo": "노보리베쓰·도야호",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "nuremberg": {
+   "basis": "독일 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "DE",
+   "lat": 49.4521,
+   "level": 0,
+   "lon": 11.0767,
+   "nameKo": "뉘른베르크",
    "needsReview": false,
    "rank": 0.0,
    "regionRefs": [],
@@ -9480,6 +9720,20 @@
    "level": 0,
    "lon": 10.7522,
    "nameKo": "오슬로",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "otaru": {
+   "basis": "일본 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "JP",
+   "lat": 43.1907,
+   "level": 0,
+   "lon": 140.9947,
+   "nameKo": "오타루",
    "needsReview": false,
    "rank": 0.0,
    "regionRefs": [],
@@ -10372,6 +10626,20 @@
    "since": null,
    "special": false
   },
+  "tenerife": {
+   "basis": "스페인 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "ES",
+   "lat": 28.0997,
+   "level": 1,
+   "lon": -16.725,
+   "nameKo": "테네리페(카나리아 제도)",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "tokushima": {
    "basis": "일본 · 이 지역에 내려진 여행경보 없음",
    "confidence": "high",
@@ -10470,6 +10738,20 @@
    "since": null,
    "special": false
   },
+  "udaipur": {
+   "basis": "우다이푸르는 인도 기본 단계인 1단계예요(카슈미르 · 카르길만 3단계)",
+   "confidence": "high",
+   "countryCode": "IN",
+   "lat": 24.5854,
+   "level": 1,
+   "lon": 73.7125,
+   "nameKo": "우다이푸르",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
   "uluru": {
    "basis": "호주 · 이 지역에 내려진 여행경보 없음",
    "confidence": "high",
@@ -10480,6 +10762,20 @@
    "nameKo": "울루루",
    "needsReview": false,
    "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "ushuaia": {
+   "basis": "아르헨티나 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "AR",
+   "lat": -54.8019,
+   "level": 2,
+   "lon": -68.303,
+   "nameKo": "우수아이아",
+   "needsReview": false,
+   "rank": 2.0,
    "regionRefs": [],
    "since": null,
    "special": false
@@ -10534,6 +10830,20 @@
    "level": 1,
    "lon": 102.4494,
    "nameKo": "방비엥",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "varanasi": {
+   "basis": "바라나시는 인도 기본 단계인 1단계예요(카슈미르 · 카르길만 3단계)",
+   "confidence": "high",
+   "countryCode": "IN",
+   "lat": 25.3176,
+   "level": 1,
+   "lon": 82.9739,
+   "nameKo": "바라나시",
    "needsReview": false,
    "rank": 1.0,
    "regionRefs": [],
@@ -10660,6 +10970,20 @@
    "level": 0,
    "lon": 174.7772,
    "nameKo": "웰링턴",
+   "needsReview": false,
+   "rank": 0.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "whistler": {
+   "basis": "캐나다 · 이 지역에 내려진 여행경보 없음",
+   "confidence": "high",
+   "countryCode": "CA",
+   "lat": 50.1163,
+   "level": 0,
+   "lon": -122.9574,
+   "nameKo": "휘슬러",
    "needsReview": false,
    "rank": 0.0,
    "regionRefs": [],
@@ -10884,6 +11208,20 @@
    "level": 1,
    "lon": -112.9867,
    "nameKo": "자이언·브라이스 캐니언",
+   "needsReview": false,
+   "rank": 1.0,
+   "regionRefs": [],
+   "since": null,
+   "special": false
+  },
+  "zurich": {
+   "basis": "스위스 기본 단계 · 이 지역에 따로 내려진 상향 경보 없음",
+   "confidence": "high",
+   "countryCode": "CH",
+   "lat": 47.3769,
+   "level": 1,
+   "lon": 8.5417,
+   "nameKo": "취리히",
    "needsReview": false,
    "rank": 1.0,
    "regionRefs": [],
